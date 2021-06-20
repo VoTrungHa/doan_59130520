@@ -1,0 +1,68 @@
+.mod-docs-box{
+  border-radius: 3px;
+  background: #fff;
+  box-shadow: 1px 2px 3px rgb(204, 202, 202);
+  &-nd{
+    border-radius: 3px;
+    border:1px solid #f0f0f0;
+    box-shadow: 1px 1px 1px rgb(204, 202, 202);
+  }
+}
+.clo2{
+  position: absolute;
+  top: 5px;
+  right: 10px;
+  font-size: 22px;
+  cursor: pointer;
+  transition: all 0.4s;
+  &:hover{
+    opacity: 0.5;
+  }
+}
+.clo{
+  position: absolute;
+  top: 30px;
+  right: 10px;
+  font-size: 22px;
+  cursor: pointer;
+  transition: all 0.4s;
+  &:hover{
+    opacity: 0.5;
+  }
+}
+.clo1{
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 22px;
+  cursor: pointer;
+  transition: all 0.4s;
+  &:hover{
+    opacity: 0.5;
+  }
+}
+ .btn-add {
+    border-radius: 50px;
+    background: #4a90e2;
+    box-shadow: 1px 2px 13px rgb(117, 115, 115);
+    cursor: pointer;
+    &:hover {
+      box-shadow: none;
+      opacity: 0.8;
+    }
+    transition: all 0.4s ease-in-out;
+  }
+  .btn-cancel {
+    border-radius: 50px;
+    background: rgb(243, 47, 47);
+    box-shadow: 1px 2px 13px rgb(97, 96, 96);
+    cursor: pointer;
+    &:hover {
+      box-shadow: none;
+      opacity: 0.8;
+    }
+    transition: all 0.4s ease-in-out;
+  }
+  .textError{
+    color: red;
+  }

@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Dethi>
+  <createBy>
+    <name>Quốc Lưu</name>
+    <id>60b5b57db79f9f3d34fe0845</id>
+  </createBy>
+  <kyThi>Năm học 2020-2021 - học kỳ I</kyThi>
+  <confirmationBy>Tôn Tùng</confirmationBy>
+  <password>123</password>
+  <note>Sinh viên không được sử dụng tài liệu. đánh dấu vào ô đúng nhất</note>
+  <content>Ngân hàng câu hỏi đề thi học kỳ I năm học 2020 - 2021</content>
+  <avatar>text0.png</avatar>
+  <_id>60bca251e8db5a10c07c49f7</_id>
+  <Class>
+    <_id>60c362d39dea6452a4d375aa</_id>
+    <name>59CNTT-3</name>
+  </Class>
+  <id>MMT005</id>
+  <createDate>2021-06-06T17:24:17+07:00</createDate>
+  <timeStart>11-06-2021,     15:20</timeStart>
+  <timeEnd>11-06-2021, 20:50</timeEnd>
+  <detailTest>
+    <question>Thiết bị router có bao nhiêu Broadcast domain</question>
+    <status>true</status>
+    <soLanSuDung>0</soLanSuDung>
+    <soLanTraLoiDung>0</soLanTraLoiDung>
+    <_id>60c362d39dea6452a4d375ab</_id>
+    <theme>Động vật</theme>
+    <level>2</level>
+    <answers>
+      <_id>60c362d39dea6452a4d375ac</_id>
+      <answer>1 broadcast/1port</answer>
+      <bio>false</bio>
+    </answers>
+    <answers>
+      <_id>60c362d39dea6452a4d375ad</_id>
+      <answer>2 broadcast/1port</answer>
+      <bio>true</bio>
+    </answers>
+    <answers>
+      <_id>60c362d39dea6452a4d375ae</_id>
+      <answer>3 broadcast/1port</answer>
+      <bio>false</bio>
+    </answers>
+    <answers>
+      <_id>60c362d39dea6452a4d375af</_id>
+      <answer>4 broadcast/1port</answer>
+      <bio>false</bio>
+    </answers>
+  </detailTest>
+  <detailTest>
+    <question>Thiết bị Switch có bao nhiêu Broadcast domain?</question>
+    <status>true</status>
+    <soLanSuDung>0</soLanSuDung>
+    <soLanTraLoiDung>0</soLanTraLoiDung>
+    <_id>60c362d39dea6452a4d375b0</_id>
+    <theme>Switch</theme>
+    <level>1</level>
+    <answers>
+      <_id>60c362d39dea6452a4d375b1</_id>
+      <answer>1</answer>
+      <bio>false</bio>
+    </answers>
+    <answers>
+      <_id>60c362d39dea6452a4d375b2</_id>
+      <answer>2</answer>
+      <bio>false</bio>
+    </answers>
+    <answers>
+      <_id>60c362d39dea6452a4d375b3</_id>
+      <answer>3</answer>
+      <bio>true</bio>
+    </answers>
+    <answers>
+      <_id>60c362d39dea6452a4d375b4</_id>
+      <answer>tất cả đều sai</answer>
+      <bio>false</bio>
+    </answers>
+  </detailTest>
+  <detailTest>
+    <question>Thiết bị Switch có bao nhiêu collision domain?</question>
+    <status>true</status>
+    <soLanSuDung>0</soLanSuDung>
+    <soLanTraLoiDung>0</soLanTraLoiDung>
+    <_id>60c362d39dea6452a4d375b5</_id>
+    <theme>Switch</theme>
+    <level>1</level>
+    <answers>
+      <_id>60c362d39dea6452a4d375b6</_id>
+      <answer>1 collision</answer>
+      <bio>false</bio>
+    </answers>
+    <answers>
+      <_id>60c362d39dea6452a4d375b7</_id>
+      <answer>2 collison</answer>
+      <bio>false</bio>
+    </answers>
+    <answers>
+      <_id>60c362d39dea6452a4d375b8</_id>
+      <answer>1collison/1post</answer>
+      <bio>true</bio>
+    </answers>
+    <answers>
+      <_id>60c362d39dea6452a4d375b9</_id>
+      <answer>tất cả đều đúng</answer>
+      <bio>false</bio>
+    </answers>
+  </detailTest>
+  <detailTest>
+    <question>Thiết bị Hub có bao nhiêu collision domain?</question>
+    <status>true</status>
+    <soLanSuDung>0</soLanSuDung>
+    <soLanTraLoiDung>0</soLanTraLoiDung>
+    <_id>60c362d39dea6452a4d375ba</_id>
+    <theme>Hub</theme>
+    <level>1</level>
+    <answers>
+      <_id>60c362d39dea6452a4d375bb</_id>
+      <answer>1 collision </answer>
+      <bio>true</bio>
+    </answers>
+    <answers>
+      <_id>60c362d39dea6452a4d375bc</_id>
+      <answer>2 collision </answer>
+      <bio>false</bio>
+    </answers>
+    <answers>
+      <_id>60c362d39dea6452a4d375bd</_id>
+      <answer>3 collision </answer>
+      <bio>false</bio>
+    </answers>
+    <answers>
+      <_id>60c362d39dea6452a4d375be</_id>
+      <answer>4 collision </answer>
+      <bio>false</bio>
+    </answers>
+  </detailTest>
+  <detailTest>
+    <question>Thiết bị Router nằm ở tầng nào trong mô hình OSI ?</question>
+    <status>true</status>
+    <soLanSuDung>0</soLanSuDung>
+    <soLanTraLoiDung>0</soLanTraLoiDung>
+    <_id>60c362d39dea6452a4d375bf</_id>
+    <theme>Router</theme>
+    <level>1</level>
+    <answers>
+      <_id>60c362d39dea6452a4d375c0</_id>
+      <answer>tầng 1.</answer>
+      <bio>false</bio>
+    </answers>
+    <answers>
+      <_id>60c362d39dea6452a4d375c1</_id>
+      <answer>tầng 2</answer>
+      <bio>false</bio>
+    </answers>
+    <answers>
+      <_id>60c362d39dea6452a4d375c2</_id>
+      <answer>từ tầng 3 trở lên</answer>
+      <bio>true</bio>
+    </answers>
+    <answers>
+      <_id>60c362d39dea6452a4d375c3</_id>
+      <answer>tất cả đều sai.</answer>
+      <bio>false</bio>
+    </answers>
+  </detailTest>
+  <status>true</status>
+</Dethi>

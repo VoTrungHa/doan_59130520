@@ -1,0 +1,8 @@
+https://angular.io/guide/structural-directives
+
+https://angular.io/guide/built-in-directives
+https://angular.io/guide/architecture
+
+https://angular.io/guide/router
+
+https://angular.io/api/forms/AbstractControl //validator

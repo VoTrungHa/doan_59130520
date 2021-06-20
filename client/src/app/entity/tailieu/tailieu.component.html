@@ -1,0 +1,101 @@
+
+  <div class="mod-tailieu float-left p-4 mt-3  w-75">
+    <h5 class="text-center">TÀI LIỆU <br /> MẠNG MÁY TÍNH </h5>
+    <hr />
+    <div class="w-100">
+      <select id="them" class="form-control ml-auto form-control-sm p-0 w-25" [ngModel]="params.theme"
+        (ngModelChange)="searchByTheme($event)">
+        <option value="" disabled selected>--- All ---</option>
+        <option value="">All</option>
+        < <option *ngFor="let theme of themes" [value]="theme.name">{{theme.name}}</option>
+      </select>
+    </div>
+    <div class="mod-tailieu-content p-4">
+      <div class="mb-4 p-3 " style="background-color: aliceblue;"
+        *ngFor="let item of questions | paginate: { id: 'server', itemsPerPage: params.limit, currentPage: params.current_page, totalItems: total_records }; let i =index">
+        <ul class="list-unstyled myhome-question w-75">
+          <li  >
+            <p class="p-0 mb-1" style="word-wrap: break-word">Câu {{i+1}}: <span>{{item.question}}</span> </p>
+          </li>
+          <li class="pl-3" *ngFor="let ans of item.answers let j=index">
+            <span *ngIf="j==0" [ngStyle]="ans.bio?{'color': 'red','word-wrap': 'break-word'}:{'color': '#212529','word-wrap': 'break-word'}">a). {{ans.answer}}</span>
+            <span *ngIf="j==1" [ngStyle]="ans.bio?{'color': 'red','word-wrap': 'break-word'}:{'color': '#212529','word-wrap': 'break-word'}">b). {{ans.answer}}</span>
+            <span *ngIf="j==2" [ngStyle]="ans.bio?{'color': 'red','word-wrap': 'break-word'}:{'color': '#212529','word-wrap': 'break-word'}">c). {{ans.answer}}</span>
+            <span *ngIf="j==3" [ngStyle]="ans.bio?{'color': 'red','word-wrap': 'break-word'}:{'color': '#212529','word-wrap': 'break-word'}">d). {{ans.answer}}</span>
+            <span *ngIf="j==4" [ngStyle]="ans.bio?{'color': 'red','word-wrap': 'break-word'}:{'color': '#212529','word-wrap': 'break-word'}">e). {{ans.answer}}</span>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="text-right mt-3 filter-table pb-3">
+      <span>Kết quả của trang</span>
+      <span class="px-2">
+        <select [ngModel]="params.limit" (ngModelChange)="onChangelimit($event)">
+          <option [selected]="params.limit=='5'" value="5">5</option>
+          <option value="10">10</option>
+          <option value="15">15</option>
+        </select>
+      </span>
+      <span>
+        {{start+1}}
+        -
+        {{end}}
+        <span class="text-lowercase">Of</span>
+        {{total_records}}
+      </span>
+
+      <pagination-template #p="paginationApi" id="server" (pageChange)="loadAll($event)">
+        <span class="custom-pagination">
+          <img *ngIf="p.isFirstPage()" class=" ml-5 inactive" src="../../../assets/Images/icon-arrow-left.svg">
+          <img *ngIf="!p.isFirstPage()" (click)="p.previous()" class=" ml-5"
+            src="../../../assets/Images/icon-arrow-left.svg">
+          <img *ngIf="!p.isLastPage()" (click)="p.next()" class=" mr-5"
+            src="../../../assets/Images/icon-arrow-right.svg">
+          <img *ngIf="p.isLastPage()" class=" mr-5 inactive" src="../../../assets/Images/icon-arrow-right.svg">
+        </span>
+      </pagination-template>
+    </div>
+  </div>
+  <div class="w-25 float-right mod-tailieu-test sticky mt-3 px-2">
+    <div class="mod-true px-2 ml-1">
+      <h5 class="text-center">Cuộc thi sắp diễn ra</h5>
+      <div class="mt-3" *ngIf="Dethi">
+        <ngb-carousel>
+          <ng-template ngbSlide *ngFor="let item of Dethi">
+            <div class="picsum-img-wrapper" [routerLink]="['/nhacuatoi/dethi',item._id]">
+              <img *ngIf="item.avatar!=''" src="http://localhost:3000/static/image/{{item.avatar}}"
+                class="d-block h-100 w-100" alt="...">
+              <img *ngIf="item.avatar==''" src="../../../assets/Images/text7.jpg" class="d-block w-100 h-100" alt="...">
+            </div>
+            <!-- <div class="carousel-caption carousel-content">
+                  <h3>First slide label</h3>
+                  <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                </div> -->
+          </ng-template>
+        </ngb-carousel>
+      </div>
+      <div *ngIf="DethiUse.length>0">
+        <hr />
+        <h5 class="text-center">Cuộc thi dành cho bạn</h5>
+        <div class="mt-3">
+          <ngb-carousel>
+            <ng-template ngbSlide *ngFor="let item of DethiUse">
+              <div class="picsum-img-wrapper" [routerLink]="['/nhacuatoi/dethi',item._id]">
+                <img *ngIf="item.avatar!=''" src="http://localhost:3000/static/image/{{item.avatar}}"
+                  class="d-block h-100 w-100" alt="...">
+                <img *ngIf="item.avatar==''" src="../../../assets/Images/text7.jpg" class="d-block w-100 h-100"
+                  alt="...">
+              </div>
+              <!-- <div class="carousel-caption carousel-content">
+                            <h3>First slide label</h3>
+                            <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                          </div> -->
+            </ng-template>
+          </ngb-carousel>
+        </div>
+      </div>
+      <div>
+      </div>
+    </div>
+  </div>
+

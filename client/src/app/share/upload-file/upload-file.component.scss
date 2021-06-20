@@ -1,0 +1,52 @@
+.modal-body {
+  .icon_pdf {
+    cursor: pointer;
+    color: rgb(247, 72, 19);
+    box-shadow: 1px 5px 12px rgb(122, 122, 122);
+    &:hover {
+      opacity: 0.8;
+      box-shadow: none;
+    }
+  }
+  .icon_xml {
+    cursor: pointer;
+    box-shadow: 1px 5px 12px rgb(100, 100, 100);
+    color: rgb(231, 215, 66);
+    &:hover {
+      box-shadow: none;
+      opacity: 0.8;
+    }
+  }
+  .mod-upload-box {
+    .ngx-file-drop__drop-zone {
+      border-radius: 0.4rem !important;
+      min-height: 250px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .ngx-file-drop__content {
+      cursor: pointer;
+      display: block;
+      text-align: center;
+      button {
+        border: none;
+        transition: all 0.4s;
+        background: transparent;
+        columns: rgb(13, 7, 32);
+        &:hover {
+          opacity: 0.8;
+          text-decoration: underline;
+        }
+      }
+    }
+    &-example {
+      border: 2px dotted #0782d0;
+      min-height: 250px;
+      border-radius: 0.4rem;
+      height: 250px;
+      overflow: hidden;
+      overflow-y: scroll;
+    }
+  }
+}

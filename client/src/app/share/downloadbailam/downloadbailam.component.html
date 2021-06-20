@@ -1,0 +1,17 @@
+<div class="modal-body">
+  <div class="modal-upload">
+    <span aria-hidden="true" (click)="activeModal.close('close')" class="close">&times;</span>
+  </div>
+  <div class="py-3 px-2 w-50 d-flex justify-content-around mx-auto">
+    <a class="modal-body-xml mr-2" [ngClass]="isXml ? 'active' : '' " (click)="open('xml')">
+      <fa-icon [icon]="faFileCode" size="3x"></fa-icon>
+    </a>
+    <a class="modal-body-pdf ml-2" [ngClass]="isExcel ? 'active' : ''" (click)="open('excel')">
+      <fa-icon [icon]="faFileExcel" size="3x"></fa-icon>
+    </a>
+
+  </div>
+  <div class="mx-auto w-50 d-felx modal-body-down" (click)="clickDownload()">
+    <span class="form-control btn btn-outline-primary">Download <fa-icon [icon]="faDownload" size='1x'></fa-icon></span>
+  </div>
+</div>

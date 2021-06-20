@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Accounts>
+  <Account>
+    <maTaiKhoan>AC-68544-53006</maTaiKhoan>
+    <tenDangNhap>232fs</tenDangNhap>
+    <matKhau>$2b$10$ilGPR.nYI5aKKuOO/mq.5.csTRCU2ycDYGFtfpdnxqTy.NHwG/zaC</matKhau>
+    <trangThai>true</trangThai>
+    <Role>SV</Role>
+    <functions>sv</functions>
+    <functions>svgfds</functions>
+    <ngayTao>16-3-2021</ngayTao>
+  </Account>
+  <Account>
+    <maTaiKhoan>AC-56589-14386</maTaiKhoan>
+    <tenDangNhap>232fs</tenDangNhap>
+    <matKhau>$2b$10$BBdSGEuhkJ9rCgU9.gm9x..J8aCTRkKlRYbjtSBRyIwcl17QyyQAC</matKhau>
+    <trangThai>true</trangThai>
+    <Role>SV</Role>
+    <functions>sv</functions>
+    <functions>svgfds</functions>
+    <ngayTao>16-3-2021</ngayTao>
+  </Account>
+  <Account>
+    <maTaiKhoan>AC-78825-54987</maTaiKhoan>
+    <tenDangNhap>232fs</tenDangNhap>
+    <matKhau>$2b$10$9aXGZrbx.MPXBhK9McPxyO3FvuE64ixkPl2MPkMnSpx5LOEDNljoS</matKhau>
+    <trangThai>true</trangThai>
+    <Role>SV</Role>
+    <functions>sv</functions>
+    <functions>svgfds</functions>
+    <ngayTao>16-3-2021</ngayTao>
+  </Account>
+  <Account>
+    <maTaiKhoan>AC-79975-29373</maTaiKhoan>
+    <tenDangNhap>232fs</tenDangNhap>
+    <matKhau>$2b$10$0q1F/cJVxznym.R.YKFX4uLk0PcdCk42v85K4kAWWo1XMSRYJP2NG</matKhau>
+    <trangThai>true</trangThai>
+    <Role>SV</Role>
+    <functions>sv</functions>
+    <functions>svgfds</functions>
+    <ngayTao>16-3-2021</ngayTao>
+  </Account>
+</Accounts>

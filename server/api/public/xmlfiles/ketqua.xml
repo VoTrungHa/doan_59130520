@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Ketqua>
+  <dethi>
+    <Class>59CNTT-3</Class>
+    <idDeThi>609f91c7b2ffe72cbc0cd007</idDeThi>
+    <kyThi>Năm học 2020-2021 - học kỳ I</kyThi>
+    <nameCreateBy>Hồ Giang</nameCreateBy>
+    <createBy>607033c6a43120065424e63c</createBy>
+    <content>đề thi trắc nghiệm học I</content>
+    <avatar/>
+    <sumPoint>0</sumPoint>
+    <truNumberQuestion>0</truNumberQuestion>
+    <percent>0</percent>
+    <time/>
+    <maDeThi>MMT0001</maDeThi>
+    <idPerformer>607033c6a43120065424e63c</idPerformer>
+    <status>false</status>
+    <_id>609f9390b2ffe72cbc0cd0b7</_id>
+    <performer>Hồ Giang</performer>
+    <timeStart>15-05-2021,   02:40</timeStart>
+    <timeEnd>16-05-2021,   14:40</timeEnd>
+    <detailTest>
+      <question>Thiết bị Repeater nằm ở tầng nào trong mô hình OSI ?</question>
+      <status>true</status>
+      <result>false</result>
+      <_id>609f9365b2ffe72cbc0cd070</_id>
+      <theme>Repeater</theme>
+      <level>1</level>
+      <answers>
+        <_id>609f9365b2ffe72cbc0cd071</_id>
+        <answer>tầng 1.</answer>
+        <bio>false</bio>
+      </answers>
+      <answers>
+        <_id>609f9365b2ffe72cbc0cd072</_id>
+        <answer>tầng 2.</answer>
+        <bio>false</bio>
+      </answers>
+      <answers>
+        <_id>609f9365b2ffe72cbc0cd073</_id>
+        <answer>tầng 3.</answer>
+        <bio>false</bio>
+      </answers>
+      <answers>
+        <_id>609f9365b2ffe72cbc0cd074</_id>
+        <answer>tất cả đều sai.</answer>
+        <bio>false</bio>
+      </answers>
+    </detailTest>
+    <detailTest>
+      <question>Đặc trưng của mạng cục bộ là gì ?</question>
+      <status>true</status>
+      <result>false</result>
+      <_id>609f9365b2ffe72cbc0cd089</_id>
+      <theme>chung</theme>
+      <level>1</level>
+      <answers>
+        <_id>609f9365b2ffe72cbc0cd08a</_id>
+        <answer>Tốc độ truyền cao, tỉ lệ xuất hiện lỗi thấp</answer>
+        <bio>false</bio>
+      </answers>
+      <answers>
+        <_id>609f9365b2ffe72cbc0cd08b</_id>
+        <answer>Có nhiều cơ quan quản lý</answer>
+        <bio>false</bio>
+      </answers>
+      <answers>
+        <_id>609f9365b2ffe72cbc0cd08c</_id>
+        <answer>Sử dụng chung hệ thống truyền thông, phạm vi kết nối giữa các máy tính hẹp</answer>
+        <bio>false</bio>
+      </answers>
+      <answers>
+        <_id>609f9365b2ffe72cbc0cd08d</_id>
+        <answer>Cả ba câu trên đều sai</answer>
+        <bio>false</bio>
+      </answers>
+    </detailTest>
+    <detailTest>
+      <question>Thiết bị Router nằm ở tầng nào trong mô hình OSI ?</question>
+      <status>true</status>
+      <result>false</result>
+      <_id>609f9365b2ffe72cbc0cd075</_id>
+      <theme>Router</theme>
+      <level>1</level>
+      <answers>
+        <_id>609f9365b2ffe72cbc0cd076</_id>
+        <answer>tầng 1.</answer>
+        <bio>false</bio>
+      </answers>
+      <answers>
+        <_id>609f9365b2ffe72cbc0cd077</_id>
+        <answer>tầng 2</answer>
+        <bio>false</bio>
+      </answers>
+      <answers>
+        <_id>609f9365b2ffe72cbc0cd078</_id>
+        <answer>từ tầng 3 trở lên</answer>
+        <bio>false</bio>
+      </answers>
+      <answers>
+        <_id>609f9365b2ffe72cbc0cd079</_id>
+        <answer>tất cả đều sai.</answer>
+        <bio>false</bio>
+      </answers>
+    </detailTest>
+    <detailTest>
+      <question>Thiết bị Switch có bao nhiêu collision domain?</question>
+      <status>true</status>
+      <result>false</result>
+      <_id>609f9365b2ffe72cbc0cd07f</_id>
+      <theme>Switch</theme>
+      <level>1</level>
+      <answers>
+        <_id>609f9365b2ffe72cbc0cd080</_id>
+        <answer>1 collision</answer>
+        <bio>false</bio>
+      </answers>
+      <answers>
+        <_id>609f9365b2ffe72cbc0cd081</_id>
+        <answer>2 collison</answer>
+        <bio>false</bio>
+      </answers>
+      <answers>
+        <_id>609f9365b2ffe72cbc0cd082</_id>
+        <answer>1collison/1post</answer>
+        <bio>false</bio>
+      </answers>
+      <answers>
+        <_id>609f9365b2ffe72cbc0cd083</_id>
+        <answer>tất cả đều đúng</answer>
+        <bio>false</bio>
+      </answers>
+    </detailTest>
+    <detailTest>
+      <question>Thiết bị Switch có bao nhiêu Broadcast domain?</question>
+      <status>true</status>
+      <result>false</result>
+      <_id>609f9365b2ffe72cbc0cd084</_id>
+      <theme>Switch</theme>
+      <level>1</level>
+      <answers>
+        <_id>609f9365b2ffe72cbc0cd085</_id>
+        <answer>1</answer>
+        <bio>false</bio>
+      </answers>
+      <answers>
+        <_id>609f9365b2ffe72cbc0cd086</_id>
+        <answer>2</answer>
+        <bio>false</bio>
+      </answers>
+      <answers>
+        <_id>609f9365b2ffe72cbc0cd087</_id>
+        <answer>3</answer>
+        <bio>false</bio>
+      </answers>
+      <answers>
+        <_id>609f9365b2ffe72cbc0cd088</_id>
+        <answer>tất cả đều sai</answer>
+        <bio>false</bio>
+      </answers>
+    </detailTest>
+    <detailTest>
+      <question>Thiết bị Hub có bao nhiêu collision domain?</question>
+      <status>true</status>
+      <result>false</result>
+      <_id>609f9365b2ffe72cbc0cd07a</_id>
+      <theme>Hub</theme>
+      <level>1</level>
+      <answers>
+        <_id>609f9365b2ffe72cbc0cd07b</_id>
+        <answer>1 collision </answer>
+        <bio>false</bio>
+      </answers>
+      <answers>
+        <_id>609f9365b2ffe72cbc0cd07c</_id>
+        <answer>2 collision </answer>
+        <bio>false</bio>
+      </answers>
+      <answers>
+        <_id>609f9365b2ffe72cbc0cd07d</_id>
+        <answer>3 collision </answer>
+        <bio>false</bio>
+      </answers>
+      <answers>
+        <_id>609f9365b2ffe72cbc0cd07e</_id>
+        <answer>4 collision </answer>
+        <bio>false</bio>
+      </answers>
+    </detailTest>
+    <detailTest>
+      <question>Nguyên nhân nào có thể gây ra lỗi kết nối trao đổi thông tin giữa hai máy trạm trong mạng dạng tuyến?</question>
+      <status>true</status>
+      <result>false</result>
+      <_id>609f9365b2ffe72cbc0cd08e</_id>
+      <theme>chung</theme>
+      <level>1</level>
+      <answers>
+        <_id>609f9365b2ffe72cbc0cd08f</_id>
+        <answer>Do thiết bị Terminator bị lỗi</answer>
+        <bio>false</bio>
+      </answers>
+      <answers>
+        <_id>609f9365b2ffe72cbc0cd090</_id>
+        <answer>Do đầu nối giữa máy trạm và đường truyền chính (T-Connector) bị lỗi</answer>
+        <bio>false</bio>
+      </answers>
+      <answers>
+        <_id>609f9365b2ffe72cbc0cd091</_id>
+        <answer>Do có nhiều cặp máy trạm trên mạng trao đổi thông tin đồng thời</answer>
+        <bio>false</bio>
+      </answers>
+      <answers>
+        <_id>609f9365b2ffe72cbc0cd092</_id>
+        <answer>Tất cả đều đúng.</answer>
+        <bio>false</bio>
+      </answers>
+    </detailTest>
+    <dateTest>2021-05-15T16:25:36+07:00</dateTest>
+    <goc>609f9390b2ffe72cbc0cd093</goc>
+  </dethi>
+</Ketqua>

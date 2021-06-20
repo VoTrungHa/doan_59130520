@@ -1,0 +1,196 @@
+<div class="container-fluid">
+  <div class="row mod-home">
+    <div class="col-md-12">
+      <div class="mt-2" *ngIf="Dethi">
+        <ngb-carousel>
+          <ng-template ngbSlide *ngFor="let item of Dethi">
+            <div class="picsum-img-wrapper">
+              <img *ngIf="item.avatar!=''" src="http://localhost:3000/static/image/{{item.avatar}}"
+                class="d-block w-100" alt="...">
+              <img *ngIf="item.avatar==''" src="../../../assets/Images/text7.jpg" class="d-block w-100 h-100" alt="...">
+            </div>
+            <!-- <div class="carousel-caption carousel-content">
+            <h3>First slide label</h3>
+            <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+          </div> -->
+          </ng-template>
+        </ngb-carousel>
+      </div>
+    </div>
+  </div>
+  <div class="mod-home-notifytion mt-4">
+    <div class="row text-center">
+      <div class="col-md-4">
+        <img src="../../../assets/Images/edu.png" width="100" height="100" alt="">
+        <div>
+          <h4>Giáo dục &
+            Tuyên truyền</h4>
+          <p>Thi trực tuyến là một hình thức giúp lôi cuốn nhiều người tham gia thông qua việc chia sẻ bài thi qua các
+            Trang Mạng xã
+            hội. Người tham gia với mong muốn chiến thắng, luôn cố gắng nghiên cứu tìm hiểu sâu hơn. Từ đó giúp bạn đạt
+            được mục
+            đích tuyên truyền và giáo dục.</p>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <img src="../../../assets/Images/market.png" width="100" height="100" alt="">
+        <div>
+          <h4>TUYỂN DỤNG & ĐÀO TẠO NHÂN SỰ 4.0</h4>
+          <p>Chúng tôi giúp bạn giải quyết bài toán tối ưu chi phí, thời gian, sự linh hoạt trong việc bố trí kế hoạch
+            tuyển dụng &
+            đào tạo doanh nghiệp. Nền tảng tổ chức thi trực tuyến giúp Doanh nghiệp tuyển dụng đào tạo nhân sự từ xa quy
+            mô
+            khắp cả nước và là công cụ đo lường, đánh giá hiệu suất.</p>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <img src="../../../assets/Images/business.png" width="100" height="100" alt="">
+        <div>
+          <h4>Kinh doanh &
+            Marketing</h4>
+          <p>Thông qua các cuộc thi trực tuyến dễ dàng giúp doanh nghiệp đạt được mục tiêu Marketing, giúp doanh nghiệp
+            bạn, định vị
+            thương hiệu, tiếp cận khách hàng và thu thập data khách tiềm năng. Kích thích người tiêu dùng tìm hiểu về
+            thương hiệu và
+            nhanh chóng ra quyết định mua hàng. Từ đó gia tăng hiệu.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="mod-dethi mt-5">
+    <div class="mod-dethi-true py-4">
+      <h3 class="text-center">CUỘC THI SẮP DIỄN RA</h3>
+      <div class="row p-4">
+        <div class="col-md-4  my-2" *ngFor="let item of Dethi | paginate: { id: 'server', itemsPerPage: params.limit, currentPage: params.current_page,
+            totalItems: total_recordsS }; let i =index">
+          <div class="card border-none" [routerLink]="['/nhacuatoi/dethi',item._id]"
+            routerLinkActive="router-link-active">
+            <img *ngIf="item.avatar!=''" src="http://localhost:3000/static/image/{{item.avatar}}" class="d-block w-100"
+              alt="...">
+            <img *ngIf="item.avatar==''" src="../../../assets/Images/text7.jpg" class="d-block w-100 h-100" alt="...">
+            <div class="card-body p-1">
+              <h5 class="card-title">{{item.content.substring(0,20).toUpperCase()}}...</h5>
+              <p class="card-text"><span> {{item.timeStart}} -- {{item.timeEnd}}</span>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="text-right mt-3 filter-table pb-3">
+        <span>Kết quả của trang</span>
+        <span>
+          {{startS+1}}
+          -
+          {{endS}}
+          <span class="text-lowercase">trong</span>
+          {{total_recordsS}}
+        </span>
+
+        <pagination-template #p="paginationApi" id="server" (pageChange)="loadAllTrue($event)">
+          <span class="custom-pagination">
+            <img *ngIf="p.isFirstPage()" class=" ml-5 inactive" src="../../../assets/Images/icon-arrow-left.svg">
+            <img *ngIf="!p.isFirstPage()" (click)="p.previous()" class=" ml-5"
+              src="../../../assets/Images/icon-arrow-left.svg">
+            <img *ngIf="!p.isLastPage()" (click)="p.next()" class=" mr-5" src="../../../assets/Images/icon-arrow-right.svg">
+            <img *ngIf="p.isLastPage()" class=" mr-5 inactive" src="../../../assets/Images/icon-arrow-right.svg">
+          </span>
+        </pagination-template>
+      </div>
+    </div>
+    <hr />
+    <div class="mod-dethi-false py-4">
+      <h3 class="text-center">CUỘC THI ĐÃ KẾT THÚC</h3>
+      <div class="row p-4">
+        <div class="col-md-4  my-2" *ngFor="let item of DethiFalse | paginate: { id: 'server', itemsPerPage: params.limit, currentPage: params.current_page,
+            totalItems: total_recordsF }; let i =index">
+          <div class="card border-none" [routerLink]="['/nhacuatoi/dethi',item._id]"
+            routerLinkActive="router-link-active">
+            <img *ngIf="item.avatar!=''" src="http://localhost:3000/static/image/{{item.avatar}}" class="d-block w-100"
+              alt="...">
+            <img *ngIf="item.avatar==''" src="../../../assets/Images/text7.jpg" class="d-block w-100 h-100" alt="...">
+            <div class="card-body p-1">
+              <h5 class="card-title">{{item.content.substring(0,20).toUpperCase()}}...</h5>
+              <p class="card-text"><span> {{item.timeStart}} -- {{item.timeEnd}}</span>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="text-right mt-3 filter-table pb-3">
+        <span>Kết quả của trang</span>
+        <span>
+          {{startF+1}}
+          -
+          {{endF}}
+          <span class="text-lowercase">trong</span>
+          {{total_recordsF}}
+        </span>
+
+        <pagination-template #p="paginationApi" id="server" (pageChange)="loadAllfalse($event)">
+          <span class="custom-pagination">
+            <img *ngIf="p.isFirstPage()" class=" ml-5 inactive" src="../../../assets/Images/icon-arrow-left.svg">
+            <img *ngIf="!p.isFirstPage()" (click)="p.previous()" class=" ml-5"
+              src="../../../assets/Images/icon-arrow-left.svg">
+            <img *ngIf="!p.isLastPage()" (click)="p.next()" class=" mr-5" src="../../../assets/Images/icon-arrow-right.svg">
+            <img *ngIf="p.isLastPage()" class=" mr-5 inactive" src="../../../assets/Images/icon-arrow-right.svg">
+          </span>
+        </pagination-template>
+      </div>
+    </div>
+  </div>
+  <div class="mod-homeSecurity w-100 p-4 mt-5">
+    <div class="w-75 text-center mx-auto mb-4">
+        <h3 class="">TẠI SAO CHỌN WEBSITE NÀY TRONG ĐÀO TẠO VÀ TỔ CHỨC THI TRỰC TUYẾN</h3>
+    </div>
+    <div class="row text-center">
+      <div class="col-md-4 px-5">
+        <img src="../../../assets/Images/security.png" width="100" height="100" alt="">
+        <div>
+          <h4>Bảo mật</h4>
+          <p>Bảo mật thông tin thí sinh dự thi. Cấu hình đạt tiêu chuẩn bảo mật của Luật An ninh mạng</p>
+        </div>
+      </div>
+      <div class="col-md-4 px-5">
+        <img src="../../../assets/Images/safe.png" width="100" height="100" alt="">
+        <div>
+          <h4>Chủ động</h4>
+          <p>Chủ động thiết kế Hội thi phù hợp với cơ quan đơn vị mình. Tuỳ ý chỉnh sửa cài đặt Hội thi</p>
+        </div>
+      </div>
+      <div class="col-md-4 px-5">
+        <img src="../../../assets/Images/auto.png" width="100" height="100" alt="">
+        <div>
+          <h4>Thông minh</h4>
+          <p>Tự động đóng mở Hội thi Tự động tổng hợp kết quả Tự động trộn đề đáp án Theo dõi thời gian làm bài và giới
+            hạn số
+            lượt
+            thi</p>
+        </div>
+      </div>
+
+      <div class="col-md-4 px-5">
+        <img src="../../../assets/Images/fast.png" width="100" height="100" alt="">
+        <div>
+          <h4>Nhanh chóng</h4>
+          <p>Tạo trang cuộc thi trong chưa đầy 15 phút. Xử lý nhanh sự cố phát sinh trong quá trình cuộc thi diễn ra</p>
+        </div>
+      </div>
+      <div class="col-md-4 px-5">
+        <img src="../../../assets/Images/acurate.png" width="100" height="100" alt="">
+        <div>
+          <h4>Chính xác</h4>
+          <p>Thống kê Dữ liệu và Kết quả Hội thi chính xác theo nhiều tiêu chí. Tự động thống kê theo nhiều đợt thi khác</p>
+        </div>
+      </div>
+      <div class="col-md-4 px-5">
+        <img src="../../../assets/Images/statistic.png" width="100" height="100" alt="">
+        <div>
+          <h4>Hiệu quả</h4>
+          <p>Số lượng dự thi lớn giúp Quảng bá và nhận diện thương hiệu Doanh nghiệp. Thu thập data người dùng phục vụ cho các Giải
+          pháp Marketing trong kinh doanh</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+

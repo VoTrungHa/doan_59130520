@@ -1,0 +1,15 @@
+.mod-date {
+   position: sticky;
+   top: 20px;
+   width: 100%;
+  background: #ffffff;
+  border-radius: 4px;
+  border: 1px solid rgb(233, 233, 233);
+  padding: 4px;
+  .mod-calendar {
+    .cal-month-view {
+      border-radius: 4px;
+      padding: 6px;
+    }
+  }
+}

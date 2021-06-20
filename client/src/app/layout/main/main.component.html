@@ -1,0 +1,25 @@
+<div class="mod-main m-0 p-0">
+  <ngx-ui-loader class="center-center" textPosition="center-center" [hasProgressBar]="false" [logoUrl]="ImgLoading">
+  </ngx-ui-loader>
+  <div class="mod-client">
+  </div>
+  <!-- did login -->
+  <div class="mod-manager rs">
+      <app-hearder (isnav)="setNav()"></app-hearder>
+    <div class="mod-body">
+      <div class="mod-body-left  d-none d-md-block mr-auto" [ngStyle]="!isNav ? {'left': '-280px'} : {'left': '0'}">
+        <app-navleft></app-navleft>
+      </div>
+      <div class="mod-body-right px-2 ml-auto"  [ngStyle]="!isNav ? {'width': '100%'} : {'width': 'calc(100% - 280px)'}" >
+
+          <router-outlet></router-outlet>
+
+        <div class="mt-5 p-0">
+          <app-footer></app-footer>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+

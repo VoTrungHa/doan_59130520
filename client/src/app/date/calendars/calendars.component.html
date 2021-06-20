@@ -1,0 +1,22 @@
+<div class="mod-date">
+  <div class="btn-group d-flex justify-content-center">
+    <div class="btn btn-sm" mwlCalendarPreviousView [view]="view" [(viewDate)]="viewDate"
+      (viewDateChange)="closeOpenMonthViewDay()">
+        <fa-icon [icon]="faChevronLeft"></fa-icon>
+        </div>
+        <div class="text-center align-self-center">
+          <h6 class="m-0 p-0">{{ viewDate | calendarDate:(view + 'ViewTitle'):'en' }}</h6>
+        </div>
+        <div class="btn btn-sm" mwlCalendarNextView [view]="view" [(viewDate)]="viewDate"
+          (viewDateChange)="closeOpenMonthViewDay()">
+          <fa-icon [icon]="faChevronRight"></fa-icon>
+        </div>
+    </div>
+
+  <div [ngSwitch]="view" class="mod-calendar">
+    <mwl-calendar-month-view style="min-height: 35px;" *ngSwitchCase="CalendarView.Month" [viewDate]="viewDate"
+      [events]="events" [refresh]="refresh" [activeDayIsOpen]="activeDayIsOpen" (dayClicked)="dayClicked($event.day)"
+      (eventClicked)="handleEvent('Clicked', $event.event)" (eventTimesChanged)="eventTimesChanged($event)">
+    </mwl-calendar-month-view>
+  </div>
+</div>

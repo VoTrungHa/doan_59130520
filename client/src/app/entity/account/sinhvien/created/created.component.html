@@ -1,0 +1,169 @@
+<div class=" d-flex w-100">
+  <div class="w-75 py-3 float-left ">
+    <div class="w-100 mr-3 p-3 mod-taothanhvien">
+      <h4>Tài khoản</h4>
+      <hr />
+      <div class="w-10  mod-upload-box">
+        <ngx-file-drop *ngIf="urlIma==''"  dropZoneLabel="Drop files here" (onFileDrop)="dropped($event)"
+          (onFileOver)="fileOver($event)" (onFileLeave)="fileLeave($event)">
+          <ng-template ngx-file-drop-content-tmp let-openFileSelector="openFileSelector" class="d-flex flex-column">
+            <img src="../../../assets/Images/cloud-upload-outline-blue.png" width="100" class="mt-5" alt="upload" />
+            <br />
+            <span *ngIf="!isFile">Kéo thả ảnh đại diện tại đây hoặc</span>
+            <span *ngIf="isFile">{{'general.IsFileUpload' | translate}}</span>
+            <button type="file" (click)="openFileSelector()">Click here</button>
+          </ng-template>
+        </ngx-file-drop>
+        <div *ngIf="urlIma!=''" class="rs">
+          <span class="close" (click)="closeImage()">X</span>
+          <img [src]="urlIma" height="50%" width="100%" alt="">
+        </div>
+      </div>
+      <form [formGroup]="formAccount">
+        <div class="d-flex">
+          <div class="form-group w-50 mr-2">
+            <label for="ho">Họ:</label>
+            <input type="text" formControlName="firstName"
+              [ngClass]="(firstName.errors && isValidator) ? 'border-error':''" name="ho" id="ho" autofocus
+              placeholder="họ" class="form-control form-control-sm">
+          </div>
+          <div class="form-group w-50 ml-2">
+            <label for="ten">Tên:</label>
+            <input type="text" placeholder="Tên" name="ten" id="ten" class="form-control form-control-sm"
+              formControlName="lastName" [ngClass]="(lastName.errors && isValidator) ? 'border-error':''">
+          </div>
+        </div>
+        <div class="d-flex">
+          <div class="form-group w-50 mr-2">
+            <label for="ho">Email:</label>
+            <input type="text" name="ho" id="email" autofocus placeholder="nhập địa chỉ email" formControlName="login"
+              [ngClass]="(login.errors && isValidator) ? 'border-error':''" class="form-control form-control-sm">
+          </div>
+          <div class="form-group w-50 ml-2">
+            <label for="password">password:</label>
+            <input type="password" placeholder="password" name="password" id="password" formControlName="password"
+              [ngClass]="(password.errors && isValidator) ? 'border-error':''" class="form-control form-control-sm">
+          </div>
+        </div>
+
+        <div class="d-flex">
+          <div class=" w-50 mr-2 ">
+            <label for="">Ngày sinh:</label><br />
+            <div class="d-flex justify-content-around" [formGroup]="birthDay">
+              <div class="form-group w-100 mr-2">
+                <select class="form-control-sm form-control" formControlName="day"
+                  [ngClass]="(formAccount.get('birthDay').get('day').errors && isValidator) ? 'border-error':''">
+                  <option value="" disabled selected>00</option>
+                  <option *ngFor="let ng of ngay" [value]='ng'>{{ng}}</option>
+                </select>
+              </div>
+              <div class="form-group w-100 mr-2">
+                <select class="form-control-sm form-control" formControlName="month"
+                  [ngClass]="(formAccount.get('birthDay').get('month').errors && isValidator) ? 'border-error':''">
+                  <option value="" disabled selected>00</option>
+                  <option *ngFor="let th of thang" [value]='th'>{{th}}</option>
+                </select>
+              </div>
+              <div class="form-group w-100 mr-2">
+                <select class="form-control-sm form-control" formControlName="year"
+                  [ngClass]="(formAccount.get('birthDay').get('year').errors && isValidator) ? 'border-error':''">
+                  <option value="" disabled selected>00</option>
+                  <option *ngFor="let na of nam" [value]='na'>{{na}}</option>
+                </select>
+              </div>
+            </div>
+          </div>
+          <div class=" w-50 ml-2 ">
+            <label for="gt">Giới tính:</label>
+            <div class="d-flex">
+              <div for="nam" class=" mr-4 mod-sex p-2 d-flex align-items-center justify-content-between">
+                <label for="nam" class="m-0 align-self-center"> Nam</label>
+                <input type="radio" id="nam"   name="gender" value="Nam" formControlName="gender">
+              </div>
+              <div for="nam" class="mod-sex d-flex p-2 justify-content-between">
+                <label for="nu" class="m-0 align-self-center"> Nữ</label>
+                <input type="radio" id="nu" name="gender" value="Nữ" formControlName="gender">
+              </div>
+            </div>
+          </div>
+        </div>
+
+<div class="d-flex">
+  <div class="form-group w-50 mr-2">
+    <label for="phone">Điện thoại:</label>
+    <input type="text" formControlName="phone" [ngClass]="(phone.errors && isValidator) ? 'border-error':''"
+      name="ho" id="phone" autofocus placeholder="Điện thoại..." class="form-control form-control-sm">
+  </div>
+  <div class="form-group w-50 ml-2">
+    <label for="diachi">Địa chỉ:</label>
+    <input type="text" placeholder="Địa chỉ.." name="ten" id="diachi" class="form-control form-control-sm"
+      formControlName="diachi" [ngClass]="(diachi.errors && isValidator) ? 'border-error':''">
+  </div>
+</div>
+
+        <div class="d-flex">
+          <div class="form-group w-50 mr-2">
+            <label for="dt">Tên ngành học:</label>
+            <input type="text" id="dt" placeholder="Tên ngành học" class="form-control form-control-sm" formControlName="nganh"
+              [ngClass]="(nganh.errors && isValidator) ? 'border-error':''">
+          </div>
+          <div class="w-50 ">
+
+            <div class="d-flex">
+              <div class="w-50">
+                <div class="d-flex justify-content-between">
+                  <label for="lop">Lớp:</label>
+                  <span class="ml-auto my-auto ml-4" (click)="isLop=!isLop">
+                    <fa-icon [icon]="faSyncAlt" size="1x"></fa-icon>
+                  </span>
+                </div>
+                <div *ngIf="isLop" class="d-flex w-100 mr-2">
+                  <div class="form-group w-75 ">
+                    <input type="text" value="" #lop class="form-control from-control-sm"  />
+                  </div>
+                  <div class="form-group ml-1 w-25">
+                    <span class="btn btn-sm btn-outline-success" (click)="createLop(lop.value)"><fa-icon [icon]="faSave"></fa-icon></span>
+                  </div>
+                </div>
+                <div *ngIf="!isLop" class="form-group w-100 mr-2">
+                  <select id="lop" class="form-control form-control-sm" formControlName="Class" [ngClass]="(Class.errors && isValidator) ? 'border-error':''">
+                    <option *ngFor="let lp of lop" [value]="lp.name">{{lp.name}}</option>
+                  </select>
+                </div>
+              </div>
+              <div class="form-group w-50 ml-2">
+                <label for="role">Chức vụ:</label>
+                <select *ngIf="roles=='ADMIN'" id="role" class="form-control form-control-sm" formControlName="authorities">
+                  <option value="SV">Sinh viên</option>
+                  <option value="GV">Giao viên bộ môn</option>
+                  <option value="TBM">Giao viên trưởng bộ môn</option>
+                </select>
+                  <select *ngIf="roles=='TBM'" id="role" class="form-control form-control-sm" formControlName="authorities">
+                    <option value="TBM">Giao viên trưởng bộ môn</option>
+                  </select>
+                  <select *ngIf="roles=='GV'" id="role" class="form-control form-control-sm" formControlName="authorities">
+                    <option value="GV">Giao viên bộ môn</option>
+                  </select>
+                  <select *ngIf="roles=='SV'" id="role" class="form-control form-control-sm" formControlName="authorities">
+                    <option value="SV">Sinh viên</option>
+                  </select>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="d-flex justify-content-end">
+          <button [routerLink]="['/thanhvien/sinhvien']" routerLinkActive="router-link-active"  class="btn btn-sm btn-outline-danger mr-2">Hủy <fa-icon [icon]="faBan"></fa-icon></button>
+          <button class="btn btn-sm btn-outline-primary ml-2"
+            (click)="(firstName.errors || diachi.errors || nganh.errors ||lastName.errors || password.errors || login.errors|| phone.errors || birthDay.errors || Class.errors) ? setValidator() : (id ? edit() : created()) ">Lưu
+            <fa-icon [icon]="faSave"></fa-icon>
+          </button>
+        </div>
+      </form>
+    </div>
+  </div>
+  <div class="w-25 py-3  float-right ">
+
+      <app-calendars></app-calendars>
+
+  </div>
+</div>

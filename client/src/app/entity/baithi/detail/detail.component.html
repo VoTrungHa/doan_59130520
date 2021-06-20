@@ -1,0 +1,49 @@
+<div class="mod-detail-baithi p-4">
+  <div *ngIf="Baithi" class="mod-detail-baithi-content rs px-5 py-4">
+    <h4 class="text-center">Đề thi {{Baithi.id}}</h4>
+    <span class="close" [routerLink]="['/baithi']" routerLinkActive="router-link-active" >x</span>
+    <hr/>
+    <div class="title text-center">
+        <h4 class="text-uppercase"> {{Baithi.content}}  </h4>
+        <h6>HỌC PHẦN: MẠNG MÁY TÍNH (COMPUTER NETWORk)</h6>
+        <h6>KỲ THI: <span>{{Baithi.kyThi}}</span></h6>
+        <h6>GIAO VIÊN RA ĐỀ: <span>{{Baithi.createBy.name}}</span></h6>
+        <h6 *ngIf="Baithi.confirmationBy">GIÁO VIÊN PHÊ DUYỆT: <span>{{Baithi.confirmationBy}}</span></h6>
+        <h6 *ngIf="!Baithi.confirmationBy">GIÁO VIÊN PHÊ DUYỆT: <span>Đề thi chưa được phê duyệt</span></h6>
+        <h6>THỜI GIAN BẮT ĐẦU: <span>{{Baithi.timeStart}}</span></h6>
+        <h6>THỜI GIAN KẾT THÚC: <span>{{Baithi.timeEnd}}</span></h6>
+
+        <h6>MẬT KHẨU ĐỀ THI: <span>{{Baithi.password}}</span></h6>
+        <h6>DÀNH CHO LỚP: <span *ngFor="let item of Baithi.Class" class="mr-2">{{item.name}}</span></h6>
+        <h6>GHI CHÚ: <span>{{Baithi.note}}</span></h6>
+      </div>
+      <hr/>
+    <div class="content w-75 mx-auto">
+      <h5>Danh sách các câu hỏi</h5>
+      <div *ngFor="let item of Baithi.detailTest ; let i=index">
+          <ul class="list-unstyled">
+            <li><p>Câu {{i+1}}: {{item.question}}</p></li>
+            <li *ngFor="let ans of item.answers let j=index">
+              <span *ngIf="j==0" [ngStyle]="ans.bio?{'color': 'red'}:{'color': '#212529'}">a). {{ans.answer}}</span>
+              <span *ngIf="j==1" [ngStyle]="ans.bio?{'color': 'red'}:{'color': '#212529'}">b). {{ans.answer}}</span>
+              <span *ngIf="j==2" [ngStyle]="ans.bio?{'color': 'red'}:{'color': '#212529'}">c). {{ans.answer}}</span>
+              <span *ngIf="j==3" [ngStyle]="ans.bio?{'color': 'red'}:{'color': '#212529'}">d). {{ans.answer}}</span>
+              <span *ngIf="j==4" [ngStyle]="ans.bio?{'color': 'red'}:{'color': '#212529'}">e). {{ans.answer}}</span>
+            </li>
+            <li>
+              <span *ngIf="item.level==1">Mức độ: Dễ</span>
+              <span *ngIf="item.level==2">Mức độ: Trung Bình</span>
+              <span *ngIf="item.level==3">Mức độ: Khó</span>
+            </li>
+            <li>
+              <span>Chủ đề: {{item.theme}}</span>
+            </li>
+          </ul>
+      </div>
+    </div>
+    <div class="d-flex justify-content-end">
+      <span class="btn btn-sm mx-2 btn-outline-danger" [routerLink]="['/baithi']" routerLinkActive="router-link-active" >Quay lại <fa-icon [icon]="faBan" size="1x"></fa-icon></span>
+      <span class="btn btn-sm mx-2 btn-outline-success" [routerLink]="['/baithi/thaydoi',Baithi._id]"   routerLinkActive="router-link-active" >Thay đổi <fa-icon [icon]="faEdit" size="1x"></fa-icon></span>
+    </div>
+  </div>
+</div>

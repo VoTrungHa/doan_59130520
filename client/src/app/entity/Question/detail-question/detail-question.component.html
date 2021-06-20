@@ -1,0 +1,102 @@
+<div class="px-3  py-4">
+  <div (click)="modal.dismiss()">
+    <span class="close mr-1" aria-hidden="true">&times;</span>
+  </div>
+  <h6 class="mb-4">{{'general.CauHoi' | translate}} {{id.substring(0,10)}}</h6>
+  <form class="mt-2" [formGroup]="questionForm">
+    <div class="form-group rs" *ngIf="isChange">
+      <label for="theme"> {{'CH.ChuDe' | translate}}</label>
+      <input list="id-car" id="theme" formControlName="theme" class="form-control form-control-sm"
+        [ngClass]="(theme.errors && isvalidator)?'border-error':''">
+      <datalist id="id-car">
+        <option>fdsa</option>
+      </datalist>
+    </div>
+    <div class="form-group rs" *ngIf="!isChange">
+      <label for="theme"> {{'CH.ChuDe' | translate}}</label>
+      <input disabled list="id-car" id="theme" formControlName="theme" class="form-control form-control-sm"
+        [ngClass]="(theme.errors && isvalidator)?'border-error':''">
+      <datalist id="id-car">
+        <option>fdsa</option>
+      </datalist>
+    </div>
+    <div class="form-group mt-4 rs">
+      <label for="question"> {{'CH.Ten_CH' | translate}}</label>
+      <textarea disabled *ngIf="!isChange" rows="3" id="question" [ngClass]="(question.errors && isvalidator) ? 'border-error' : ''"
+        formControlName="question" class="form-control"></textarea>
+        <textarea rows="3" *ngIf="isChange" id="question" [ngClass]="(question.errors && isvalidator) ? 'border-error' : ''"
+          formControlName="question" class="form-control"></textarea>
+
+    </div>
+    <div class="input-group mt-3 rs">
+      <label >{{'CH.DapAn' | translate}}</label>
+      <div class="d-flex w-100  ">
+        <div class=" p-0 w-100" formArrayName="answers">
+          <div class="d-flex mb-1" *ngFor="let corr of answers.controls; let i = index" [formGroupName]="i">
+            <div class="input-group mb-2" *ngIf="!isChange">
+              <div for="bio"
+                class="input-group-prepend btn btn-xs  rounded-sm mr-1 p-0 btn-outline-secondary f-flex justify-content-center align-items-center">
+                <input disabled id="bio" type="checkbox" class="input-group-text m-2 " formControlName="bio">
+              </div>
+              <input disabled type="text" class="form-control mr-1 form-control-sm" formControlName="answer"
+                [ngClass]="(questionForm.get('answers')['controls'][i].get('answer').errors && isvalidator) ? 'border-error' : ''">
+              <span (click)="clickAddOrDelete(false)" class="btn btn-sm btn-outline-secondary">
+                <fa-icon [icon]="faTrash"></fa-icon>
+              </span>
+            </div>
+            <div class="input-group mb-2" *ngIf="isChange">
+              <div for="bio"  [ngClass] ="(checkbio)?'border-error':''"
+                class="input-group-prepend btn btn-xs  rounded-sm mr-1 p-0 btn-outline-secondary f-flex justify-content-center align-items-center">
+                <input id="bio" type="checkbox" class="input-group-text m-2 " formControlName="bio">
+              </div>
+              <input type="text" class="form-control mr-1 form-control-sm" formControlName="answer"
+                [ngClass]="(questionForm.get('answers')['controls'][i].get('answer').errors && isvalidator) ? 'border-error' : ''">
+              <span (click)="clickAddOrDelete(false,i)" class="btn btn-sm btn-outline-secondary">
+                <fa-icon [icon]="faTrash"></fa-icon>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <span (click)="clickAddOrDelete(true,null)" class="btn btn-outline-success mt-3 btn-sm">{{'CH.ThemCauTraLoi' |
+          translate}}</span>
+      </div>
+
+    </div>
+    <div class="d-flex mt-4 w-100 justify-content-around">
+
+      <!-- <div class="form-group ml-1 rs  w-100">
+          <label for="level">{{'CH.DoKho' | translate}}</label>
+        <select disabled *ngIf="!isChange" class="form-control form-control-sm" formControlName="level"
+          [ngClass]="(level.errors && isvalidator) ? 'border-error' : ''" name="level" id="level">
+          <option value="1">{{'CH.De' | translate}}</option>
+          <option value="2"> {{'CH.TrungBinh' | translate}} </option>
+          <option value="3"> {{'CH.Kho' | translate}} </option>
+        </select>
+        <select  *ngIf="isChange" class="form-control form-control-sm" formControlName="level"
+          [ngClass]="(level.errors && isvalidator) ? 'border-error' : ''" name="level" id="level">
+          <option value="1">{{'CH.De' | translate}}</option>
+          <option value="2"> {{'CH.TrungBinh' | translate}} </option>
+          <option value="3"> {{'CH.Kho' | translate}} </option>
+        </select>
+      </div> -->
+    </div>
+    <div class="d-flex mt-3 justify-conten-center">
+      <div class="form-group ml-auto w-auto" *ngIf="isChange">
+        <button class="btn btn-add text-light btn-sm  px-3"
+          (click)="(theme.errors || question.errors  || questionForm.get('answers').status==='INVALID')?setValidator():update()">
+          {{'CH.Them' | translate}} <fa-icon [icon]="faSave"></fa-icon></button>
+      </div>
+      <div class="form-group ml-auto w-auto" *ngIf="!isChange">
+        <button class="btn btn-add text-light btn-sm  px-3"
+          (click)="setIsChangeEdit()">
+          {{'general.ThayDoi' | translate}} <fa-icon [icon]="faSave"></fa-icon></button>
+      </div>
+      <div class="form-group w-auto ">
+        <button class="btn text-light btn-cancel btn-sm mx-2 px-3" (click)="notification()"> {{'CH.Huy' | translate}}
+          <fa-icon [icon]="faCandyCane"></fa-icon></button>
+      </div>
+    </div>
+  </form>
+</div>

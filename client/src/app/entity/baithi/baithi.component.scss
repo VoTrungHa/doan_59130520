@@ -1,0 +1,24 @@
+.mod-content{
+  &-duyet{
+    padding: 0.2rem;
+    border-radius: 5px;
+    color: #fff;
+    background: rgb(11, 26, 233);
+    border:none;
+    transition: all 0.4s;;
+    &:hover{
+      opacity: 0.8;
+    }
+  }
+  &-huy{
+    padding: 0.2rem;
+    border-radius: 5px;
+    color: #fff;
+    background: rgb(233, 11, 41);
+    border:none;
+    transition: all 0.4s;;
+    &:hover{
+      opacity: 0.8;
+    }
+  }
+}

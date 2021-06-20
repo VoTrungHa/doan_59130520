@@ -1,0 +1,28 @@
+.mod-detail-baithi-content{
+  background: rgb(250, 250, 250);
+  border: 1px solid rgb(219, 217, 217);
+  border-radius: 7px;
+  padding: 0.5rem 1rem;
+  .title{
+    h6{
+      span{
+        font-weight: 400;
+        font-size: 22px;
+      }
+    }
+  }
+  ul{
+    li{
+      p{
+        font-size: 20px;
+        font-weight: 500;
+        margin-bottom:0;
+      }
+      span{
+        font-size: 20px;
+        font-weight: 400;
+
+      }
+    }
+  }
+}

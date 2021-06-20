@@ -1,0 +1,157 @@
+/* You can add global styles to this file, and also import other style files */
+
+/* Importing Bootstrap SCSS file. */
+@import "~bootstrap/scss/bootstrap";
+@import "../node_modules/angular-calendar/css/angular-calendar.css";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: 'Times New Roman';
+  font-size: 16px !important;
+  position: relative;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  text-align: left;
+  background-color: #fff;
+  overflow: hidden;
+  height: auto;
+
+}
+
+.activated-bg {
+  background: #0073a5;
+  color: #fff;
+  font-weight: 500;
+}
+.cal-open-day-events {
+  display: none;
+}
+
+.rs {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+.nav-acvited {
+  color: rgb(219, 40, 40);
+  border-bottom: 2px solid rgb(228, 33, 33);
+}
+.close {
+  position: absolute;
+  border: none;
+  cursor: pointer;
+  top: 5px;
+  right: 10px;
+  font-size: 10px;
+}
+.alert-error {
+  color: rgb(221, 15, 15);
+}
+.border-error {
+  border: 1px solid rgb(221, 15, 15) !important;
+  border-radius: 5px;
+}
+.border-success{
+border: 1px solid rgb(39, 221, 15) !important;
+  border-radius: 5px;
+}
+.border-error + label {
+  color: rgb(221, 15, 15);
+}
+.sk-ball-spin-clockwise {
+  display: none;
+}
+h5 {
+  font-weight: 22px;
+  font-weight: 600;
+}
+.bg-btn {
+  background: #4a90e2 !important;
+  color: #fff;
+  width: 160px;
+  padding: 8px 10px;
+  outline: none;
+  border: none;
+  margin-right: 35px;
+}
+.rs {
+  position: relative;
+}
+.ps-lt {
+  position: absolute;
+  left: 15px;
+  top: -52%;
+}
+.ps-l {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.ps-r {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.ps-c {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+form {
+  .form-control {
+    font-size: 14px;
+  }
+}
+table {
+  tbody {
+    background-color: #eef4fa;
+    tr {
+      cursor: pointer;
+      .id {
+        color: rgb(111, 156, 240);
+        text-decoration: underline;
+      }
+    }
+  }
+  th {
+    img {
+      cursor: pointer;
+    }
+  }
+}
+.cal-events,
+.cal-day-badge {
+  display: none !important;
+}
+.bg-fail{
+  background: rgb(255, 230, 230);
+  border-radius: 5px;
+
+}
+.bg-correct{
+  background: rgb(217, 244, 252);
+  border-radius: 5px;
+
+}
+
+.cal-cell-top {
+  min-height: 35px !important;
+}
+.cal-month-view .cal-day-cell {
+  min-height: 35px !important;
+}
+@import "./app/share/upload-file/upload-file.component.scss";
+@import "./app/layout/main/main.component.scss";
+@import "./app/date/calendars/calendars.component.scss";
+@import "./app/entity/baithi/taobaithi/taobaithi.component.scss";
+@import "./app/entity/account/sinhvien/created/created.component.scss";
+@import "./app/entity/thi/thi.component.scss";
+@import "./app/entity/docs/docs.component.scss"

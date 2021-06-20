@@ -1,0 +1,13 @@
+<div class="p-3" *ngIf="Info">
+  <h4 style="font-weight: 700; font-size: 23px; color: rgb(85, 85, 85);">Thông tin đề thi</h4>
+  <div class="myhome-infor mt-2">
+    <h5>Học phần: <span>MẠNG MÁY TÍNH</span> </h5>
+    <h5>Kỳ thi: <span>{{Info.kyThi}}</span></h5>
+    <h5>Giáo viên ra đề: <span>{{Info.createBy.name}}</span></h5>
+    <h5>Giáo viên phê duyệt: <span>{{Info.confirmationBy}}</span></h5>
+    <h5>Thời gian bắt đầu: <span>{{Info.timeStart}}</span></h5>
+    <h5>Thời gian kết thúc: <span>{{Info.timeEnd}}</span></h5>
+    <h5>Mật khẩu đề thi: <span>{{Info.password}}</span></h5>
+    <h5>Ghi chú: <span>{{Info.note}}</span></h5>
+  </div>
+</div>

@@ -1,0 +1,89 @@
+<div class="mod-left">
+  <ul>
+    <li [routerLink]="['/trangchu']" routerLinkActive="activated-bg" >
+      <span>
+        <fa-icon [icon]="faHome"></fa-icon> {{'general.TrangChu'| translate}}
+      </span>
+    </li>
+    <li [routerLink]="['/nhacuatoi']" routerLinkActive="activated-bg" >
+      <span >
+        <fa-icon [icon]="faTachometerAlt"></fa-icon> {{'general.NhaCuaToi' | translate}}
+      </span>
+    </li>
+    <li [routerLink]="['/baigiang']" routerLinkActive="activated-bg">
+      <span>
+        <fa-icon [icon]="faFileInvoice"></fa-icon> Bài giảng
+      </span>
+    </li>
+    <li [routerLink]="['/tailieu']" routerLinkActive="activated-bg">
+      <span>
+        <fa-icon [icon]="faFileInvoice"></fa-icon> Tài liệu
+      </span>
+    </li>
+    <li *ngIf="authorities!='SV'" [routerLink]="['/questions']" routerLinkActive="activated-bg">
+      <span>
+        <fa-icon [icon]="faQuestion"></fa-icon> {{'general.CauHoi' | translate}}
+      </span>
+    </li>
+
+    <li  *ngIf="authorities=='SV'"  [routerLink]="['/lambai/diem']" routerLinkActive="activated-bg">
+      <span>
+        <fa-icon [icon]="faTicketAlt"></fa-icon> Điểm
+      </span>
+    </li>
+    <li  *ngIf="authorities!='SV'" [routerLink]="['/baithi']" routerLinkActive="activated-bg">
+      <span>
+        <fa-icon [icon]="faTicketAlt"></fa-icon> {{'general.TaoCuocThi' | translate}}
+      </span>
+    </li>
+      <li *ngIf="authorities!='SV'" [routerLink]="['/bangdiem']" routerLinkActive="activated-bg">
+        <span>
+          <fa-icon [icon]="faTable"></fa-icon> Bảng điểm
+        </span>
+      </li>
+  </ul>
+</div>
+
+
+<div class="mod-left">
+
+  <ul ngbDropdown class="p-custom m-0 p-0" display="dynamic" placement="bottom-right">
+    <li ngbDropdownToggle  *ngIf="authorities!='SV'">
+      <span>
+        <fa-icon [icon]="faUsers"></fa-icon> Danh sách thành viên
+      </span>
+      <ul class="mb-0" ngbDropdownMenu >
+        <li ngbDropdownItem [routerLink]="['/thanhvien/giaovien']" routerLinkActive="router-link-active" >
+          <span>
+            <fa-icon [icon]="faChalkboardTeacher"></fa-icon> Giao viên
+          </span>
+        </li>
+        <li ngbDropdownItem [routerLink]="['/thanhvien/sinhvien']" routerLinkActive="router-link-active" >
+          <span >
+            <fa-icon [icon]="faGraduationCap"></fa-icon> Sinh viên
+          </span>
+        </li>
+      </ul>
+    </li>
+  </ul>
+  <ul ngbDropdown class="p-custom" display="dynamic" placement="bottom-right">
+    <li ngbDropdownToggle *ngIf="authorities=='ADMIN'">
+      <span>
+        <fa-icon [icon]="faHistory"></fa-icon> Lịch sử hoạt động
+      </span>
+      <ul class="mb-0" ngbDropdownMenu>
+        <li ngbDropdownItem [routerLink]="['/lichsu/giaovien']" routerLinkActive="bg-active">
+          <span >
+            <fa-icon [icon]="faChalkboardTeacher"></fa-icon> Giao viên
+          </span>
+        </li>
+        <li ngbDropdownItem  [routerLink]="['/lichsu/sinhvien']" routerLinkActive="bg-active" >
+          <span>
+            <fa-icon [icon]="faGraduationCap"></fa-icon> Sinh viên
+          </span>
+        </li>
+      </ul>
+    </li>
+  </ul>
+</div>
+

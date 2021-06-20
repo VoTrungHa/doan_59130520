@@ -1,0 +1,375 @@
+Thời gian: 05/10/2021, hành động: Sửa đề thi, Mã người dùng: 607033c6a43120065424e63c, Họ tên: Hồ Giang, dữ liệu: Mã đề thi: fdsa, Kythi: Năm học 2020-2021 - học kỳ I, Nội dung: fdsa, Số lượng câu hỏi: 1, Giáo viên: Hồ Giang, Lớp: [{"_id":"6098b06566828d34703c65a9","name":"59CNTT-3"}], Mật khẩu:fdas
+Thời gian: 05/10/2021, hành động: Sửa đề thi, Mã người dùng: 607033c6a43120065424e63c, Họ tên: Hồ Giang, dữ liệu: Mã đề thi: fdsa, Kythi: Năm học 2020-2021 - học kỳ I, Nội dung: fdsa, Số lượng câu hỏi: 1, Giáo viên: Hồ Giang, Lớp: [{"_id":"6098b0aded3b1337f4a5ea89","name":"59CNTT-3"}], Mật khẩu:fdas
+Thời gian: 05/10/2021, hành động: Xóa đề thi, Mã người dùng: 607033c6a43120065424e63c, Họ tên: Hồ Giang, dữ liệu: Mã đề thi: fdas, Kythi: Năm học 2020-2021 - học kỳ I, Nội dung: fdas, Số lượng câu hỏi: 1, Giáo viên: Hồ Giang, Lớp: [{"_id":"6098aac5618a9d184c2b269b","name":"59CNTT-3"}], Mật khẩu:fdas
+Thời gian: 05/10/2021, hành động: Tạo đề thi, Mã người dùng: 607033c6a43120065424e63c, Họ tên: Hồ Giang, dữ liệu: Mã đề thi: fda, Kythi: Năm học 2022-2023 - học kỳ I, Nội dung: fdasfasdffdsa, Số lượng câu hỏi: 2, Giáo viên: Hồ Giang, Lớp: [{"_id":"6098db601111502cb81c4776","name":"59CNTT-2"}], Mật khẩu:fads
+Thời gian: 05/10/2021, hành động: Duyệt đề thi, Mã người dùng: 607033c6a43120065424e63c, Họ tên: Hồ Giang, dữ liệu: Mã đề thi: fda, Kythi: Năm học 2022-2023 - học kỳ I, Nội dung: fdasfasdffdsa, Số lượng câu hỏi: 2, Giáo viên: Hồ Giang, Lớp: [{"_id":"6098db601111502cb81c4776","name":"59CNTT-2"}], Mật khẩu:fads
+Thời gian: 05/10/2021, hành động: Duyệt đề thi, Mã người dùng: 607033c6a43120065424e63c, Họ tên: Hồ Giang, dữ liệu: Mã đề thi: fda, Kythi: Năm học 2022-2023 - học kỳ I, Nội dung: fdasfasdffdsa, Số lượng câu hỏi: 2, Giáo viên: Hồ Giang, Lớp: [{"_id":"6098db601111502cb81c4776","name":"59CNTT-2"}], Mật khẩu:fads
+Thời gian: 05/10/2021, hành động: Sửa đề thi, Mã người dùng: 607033c6a43120065424e63c, Họ tên: Hồ Giang, dữ liệu: Mã đề thi: fda, Kythi: Năm học 2022-2023 - học kỳ I, Nội dung: fdasfasdffdsa, Số lượng câu hỏi: 2, Giáo viên: Hồ Giang, Lớp: [{"_id":"6098db601111502cb81c4776","name":"59CNTT-2"}], Mật khẩu:fads
+Thời gian: 05/10/2021, hành động: Tạo đề thi, Mã người dùng: 607033c6a43120065424e63c, Họ tên: Hồ Giang, dữ liệu: Mã đề thi: 1231, Kythi: Năm học 2020-2021 - học kỳ I, Nội dung: dfsfdsa, Số lượng câu hỏi: 1, Giáo viên: Hồ Giang, Lớp: [{"_id":"6098e062d658cb0c28d8f0ee","name":"59CNTT-3"}], Mật khẩu:dfdasfds
+Thời gian: 05/10/2021, hành động: Duyệt đề thi, Mã người dùng: 607033c6a43120065424e63c, Họ tên: Hồ Giang, dữ liệu: Mã đề thi: 123, Kythi: Năm học 2020-2021 - học kỳ I, Nội dung: fdasfasdffdsa, Số lượng câu hỏi: 2, Giáo viên: Hồ Giang, Lớp: [{"_id":"6098e003d658cb0c28d8f0e7","name":"59CNTT-2"}], Mật khẩu:fads
+Thời gian: 05/10/2021, hành động: Tạo đề thi, Mã người dùng: undefined, Họ tên: Hồ Giang, dữ liệu: Mã đề thi: 123, Kythi: Năm học 2022-2023 - học kỳ I, Nội dung: fdas, Số lượng câu hỏi: 0, Giáo viên: Hồ Giang, Lớp: [{"_id":"6098e0dfd658cb0c28d8f0f3","name":"59CNTT-3"}], Mật khẩu:dfsafadsf
+Thời gian: 05/10/2021, hành động: Sửa đề thi, Mã người dùng: 607033c6a43120065424e63c, Họ tên: Hồ Giang, dữ liệu: Mã đề thi: 123, Kythi: Năm học 2022-2023 - học kỳ I, Nội dung: fdas, Số lượng câu hỏi: 0, Giáo viên: Hồ Giang, Lớp: [{"_id":"6098e0dfd658cb0c28d8f0f3","name":"59CNTT-3"}], Mật khẩu:dfsafadsf
+Thời gian: 05/10/2021, hành động: Duyệt đề thi, Mã người dùng: 607033c6a43120065424e63c, Họ tên: Hồ Giang, dữ liệu: Mã đề thi: 123, Kythi: Năm học 2022-2023 - học kỳ I, Nội dung: fdas, Số lượng câu hỏi: 1, Giáo viên: Hồ Giang, Lớp: [{"_id":"6098e0ffd658cb0c28d8f0f4","name":"59CNTT-3"}], Mật khẩu:dfsafadsf
+Thời gian: 05/10/2021, hành động: Duyệt đề thi, Mã người dùng: 607033c6a43120065424e63c, Họ tên: Hồ Giang, dữ liệu: Mã đề thi: 1231, Kythi: Năm học 2020-2021 - học kỳ I, Nội dung: dfsfdsa, Số lượng câu hỏi: 1, Giáo viên: Hồ Giang, Lớp: [{"_id":"6098e062d658cb0c28d8f0ee","name":"59CNTT-3"}], Mật khẩu:dfdasfds
+Thời gian: 05/10/2021, hành động: Sửa đề thi, Mã người dùng: 607033c6a43120065424e63c, Họ tên: Hồ Giang, dữ liệu: Mã đề thi: 123, Kythi: Năm học 2022-2023 - học kỳ I, Nội dung: fdas, Số lượng câu hỏi: 1, Giáo viên: Hồ Giang, Lớp: [{"_id":"6098e0ffd658cb0c28d8f0f4","name":"59CNTT-3"}], Mật khẩu:dfsafadsf
+Thời gian: 05/10/2021, hành động: Tạo Đề thi, Mã người dùng: 607033c6a43120065424e63c, Họ tên: Hồ Giang, dữ liệu: Mã đề thi: 3dfsa, Kythi: Năm học 2020-2021 - học kỳ I, Nội dung: fdsa, Số lượng câu hỏi: 1, Giáo viên: Hồ Giang, Lớp: [{"_id":"6098e30971dc8f09e89aad13","name":"59CNTT-2"}], Mật khẩu:fdsa
+Thời gian: 05/10/2021, hành động: Tạo Đề thi, Mã người dùng: 607033c6a43120065424e63c, Họ tên: Hồ Giang, dữ liệu: Mã đề thi: fsdsafds, Kythi: Năm học 2020-2021 - học kỳ I, Nội dung: fdas, Số lượng câu hỏi: 0, Giáo viên: Hồ Giang, Lớp: [{"_id":"6098e38ad16bdc3a3ce8d77e","name":"59CNTT-3"}], Mật khẩu:fads
+Thời gian: 05/10/2021, hành động: Đề thi bảng nháp, Mã người dùng: 607033c6a43120065424e63c, Họ tên: Hồ Giang, dữ liệu: Mã đề thi: fdasfads, Kythi: Năm học 2020-2021 - học kỳ I, Nội dung: fdsa, Số lượng câu hỏi: 0, Giáo viên: Hồ Giang, Lớp: [{"_id":"6098e417d16bdc3a3ce8d780","name":"59CNTT-3"}], Mật khẩu:fdas
+Thời gian: 05/10/2021, hành động: Tạo Đề thi, Mã người dùng: 607033c6a43120065424e63c, Họ tên: Hồ Giang, dữ liệu: Mã đề thi: fdas, Kythi: Năm học 2020-2021 - học kỳ I, Nội dung: fads, Số lượng câu hỏi: 0, Giáo viên: Hồ Giang, Lớp: [{"_id":"6098e445d16bdc3a3ce8d782","name":"59CNTT-3"}], Mật khẩu:fdas
+Thời gian: 05/10/2021, hành động: Xóa đề thi, Mã người dùng: 607033c6a43120065424e63c, Họ tên: Hồ Giang, dữ liệu: Mã đề thi: fdas, Kythi: Năm học 2020-2021 - học kỳ I, Nội dung: fads, Số lượng câu hỏi: 0, Giáo viên: Hồ Giang, Lớp: [{"_id":"6098e445d16bdc3a3ce8d782","name":"59CNTT-3"}], Mật khẩu:fdas
+Thời gian: 05/10/2021, hành động: Tạo tài khoản, Mã người dùng: undefined, Họ tên: Hồ Giang, dữ liệu: Tên đăng nhập: h@gmail.com, Mật khẩu: 123, Quyền: GV, Địa chỉ: nha trang, Ngành: công nghệ thông tin, Lớp: 59CNTT-2, Email:h@gmail.com
+Thời gian: 05/10/2021, hành động: Tạo tài khoản, Mã người dùng: 607033c6a43120065424e63c, Họ tên: Hồ Giang, dữ liệu: Tên đăng nhập: h@gmail.com, Mật khẩu: $2b$10$6TKRjKzHKn9NgLtkIlqSWeJZ4kBPp5F5pnYWZDA9f7L1iy1L/oCjK, Quyền: GV, Địa chỉ: nha trang, Ngành: công nghệ thông tin, Lớp: 59CNTT-2, Email:h@gmail.com
+Thời gian: 05/10/2021, hành động: Tạo tài khoản, Mã người dùng: 607033c6a43120065424e63c, Họ tên: Hồ Giang, dữ liệu: Tên đăng nhập: h@gmail.com, Mật khẩu: $2b$10$6TKRjKzHKn9NgLtkIlqSWeJZ4kBPp5F5pnYWZDA9f7L1iy1L/oCjK, Quyền: GV, Họ và tên: fdasfdsa111 fadsfdsa, Địa chỉ: nha trang, Ngành: công nghệ thông tin, Lớp: 59CNTT-2, Email:h@gmail.com
+Thời gian: 05/10/2021, hành động: Sửa tài khoản, Mã người dùng: 607033c6a43120065424e63c, Họ tên: Hồ Giang, dữ liệu: Tên đăng nhập: h@gmail.com, Mật khẩu: $2b$10$6TKRjKzHKn9NgLtkIlqSWeJZ4kBPp5F5pnYWZDA9f7L1iy1L/oCjK, Quyền: GV, Họ và tên: fdasfdsa1111 fadsfdsa, Địa chỉ: nha trang, Ngành: công nghệ thông tin, Lớp: 59CNTT-2, Email:h@gmail.com
+Thời gian: 05/10/2021, hành động: Tạo tài khoản, Mã người dùng: 607033c6a43120065424e63c, Họ tên: Hồ Giang, dữ liệu: Tên đăng nhập: ha@gmail.com, Mật khẩu: $2b$10$TxZmCemf0OuTEw143m7jyuDYE7Ybl5naOi.xyTFFsnYd/ps2CSJni, Quyền: SV, Họ và tên: vo ha, Địa chỉ: nha trang, Ngành: công nghệ thông tin, Lớp: undefined, Email:ha@gmail.com
+Thời gian: 05/10/2021, hành động: Xóa tài khoản, Mã người dùng: 607033c6a43120065424e63c, Họ tên: Hồ Giang, dữ liệu: Tên đăng nhập: f@gmail.com, Mật khẩu: $2b$10$CIU3/CKl7J1ieMfoORRMI.IN47HFDhPARCog1PdJj79pa/oJ1nsLe, Quyền: GV, Họ và tên: fdasfdsa fadsfdsa, Địa chỉ: nha trang, Ngành: công nghệ thông tin, Lớp: undefined, Email:f@gmail.com
+Thời gian: 05/10/2021, hành động: Sửa tài khoản, Mã người dùng: 607033c6a43120065424e63c, Họ tên: Hồ Giang, dữ liệu: Tên đăng nhập: h@gmail.com, Mật khẩu: $2b$10$6TKRjKzHKn9NgLtkIlqSWeJZ4kBPp5F5pnYWZDA9f7L1iy1L/oCjK, Quyền: GV, Họ và tên: fdasfdsa111122 fadsfdsa, Địa chỉ: nha trang, Ngành: công nghệ thông tin, Lớp: 59CNTT-2, Email:h@gmail.com
+Thời gian: 05/10/2021, hành động: Xem Kết quả, Mã người dùng: 6070333c440a372f3899f0a9, Họ tên: undefined, dữ liệu: Mã đề thi: 123, Kỳ thi: Năm học 2020-2021 - học kỳ I, Thời gian bắt đầu: 10-05-2021,   16:10, Thời gian kết thúc: 10-05-2021,   16:30, Giáo viên ra đề: Hồ Giang, Sinh viên thực hiện: fdas1111111 fdas, Lớp: 59CNTT-3
+Thời gian: 05/10/2021, hành động: Xem Kết quả, Mã người dùng: 6070333c440a372f3899f0a9, Họ tên: undefined, dữ liệu: Mã đề thi: 123, Kỳ thi: Năm học 2020-2021 - học kỳ I, Thời gian bắt đầu: 10-05-2021,   16:10, Thời gian kết thúc: 10-05-2021,   16:30, Giáo viên ra đề: Hồ Giang, Sinh viên thực hiện: fdas1111111 fdas, Lớp: 59CNTT-3
+Thời gian: 05/10/2021, hành động: Xem Kết quả, Mã người dùng: 6070333c440a372f3899f0a9, Họ tên: hai hao, dữ liệu: Mã đề thi: 123, Kỳ thi: Năm học 2020-2021 - học kỳ I, Thời gian bắt đầu: 10-05-2021,   16:10, Thời gian kết thúc: 10-05-2021,   16:30, Giáo viên ra đề: Hồ Giang, Sinh viên thực hiện: fdas1111111 fdas, Lớp: 59CNTT-3
+Thời gian: 05/10/2021, hành động: Xem Kết quả, Mã người dùng: 6070333c440a372f3899f0a9, Họ tên: hai hao, dữ liệu: Mã đề thi: 123, Kỳ thi: Năm học 2020-2021 - học kỳ I, Thời gian bắt đầu: 10-05-2021,   16:10, Thời gian kết thúc: 10-05-2021,   16:30, Giáo viên ra đề: Hồ Giang, Sinh viên thực hiện: fdas1111111 fdas, Lớp: 59CNTT-3
+Thời gian: 05/10/2021, hành động: Xem Kết quả, Mã người dùng: 6070333c440a372f3899f0a9, Họ tên: hai hao, dữ liệu: Mã đề thi: 123, Kỳ thi: Năm học 2020-2021 - học kỳ I, Thời gian bắt đầu: 10-05-2021,   16:10, Thời gian kết thúc: 10-05-2021,   16:30, Giáo viên ra đề: Hồ Giang, Sinh viên thực hiện: fdas1111111 fdas, Lớp: 59CNTT-3
+Thời gian: 05/10/2021, hành động: Xem Kết quả, Mã người dùng: 6070333c440a372f3899f0a9, Họ tên: hai hao, dữ liệu: Mã đề thi: 123, Kỳ thi: Năm học 2020-2021 - học kỳ I, Thời gian bắt đầu: 10-05-2021,   16:10, Thời gian kết thúc: 10-05-2021,   16:30, Giáo viên ra đề: Hồ Giang, Sinh viên thực hiện: fdas1111111 fdas, Lớp: 59CNTT-3
+Thời gian: 05/10/2021, hành động: Xem Kết quả, Mã người dùng: 6070333c440a372f3899f0a9, Họ tên: hai hao, dữ liệu: Mã đề thi: 123, Kỳ thi: Năm học 2020-2021 - học kỳ I, Thời gian bắt đầu: 10-05-2021,   16:10, Thời gian kết thúc: 10-05-2021,   16:30, Giáo viên ra đề: Hồ Giang, Sinh viên thực hiện: fdas1111111 fdas, Lớp: 59CNTT-3
+Thời gian: 05/10/2021, hành động: Xem Kết quả, Mã người dùng: 6070333c440a372f3899f0a9, Họ tên: hai hao, dữ liệu: Mã đề thi: 123, Kỳ thi: Năm học 2020-2021 - học kỳ I, Thời gian bắt đầu: 10-05-2021,   16:10, Thời gian kết thúc: 10-05-2021,   16:30, Giáo viên ra đề: Hồ Giang, Sinh viên thực hiện: fdas1111111 fdas, Lớp: 59CNTT-3
+Thời gian: 05/10/2021, hành động: Xem Kết quả, Mã người dùng: 6070333c440a372f3899f0a9, Họ tên: hai hao, dữ liệu: Mã đề thi: 123, Kỳ thi: Năm học 2020-2021 - học kỳ I, Thời gian bắt đầu: 10-05-2021,   16:10, Thời gian kết thúc: 10-05-2021,   16:30, Giáo viên ra đề: Hồ Giang, Sinh viên thực hiện: fdas1111111 fdas, Lớp: 59CNTT-3
+Thời gian: 05/10/2021, hành động: Sửa tài khoản, Mã người dùng: 6070333c440a372f3899f0a9, Họ tên: fdas1111111 fdas, dữ liệu: Tên đăng nhập: fads@gmail.com, Mật khẩu: $2b$10$..QYMcrryQ5xPMxZXX24KuGbIiJAUVUPtwaJgYqhFplbCTOiOk5Xi, Quyền: SV, Họ và tên: fdas1111111 fdas, Địa chỉ: fsd2423, Ngành: 312321, Lớp: 59CNTT-3, Email:fads@gmail.com
+Thời gian: 05/10/2021, hành động: Xem Kết quả, Mã người dùng: 6070333c440a372f3899f0a9, Họ tên: hai hao, dữ liệu: Mã đề thi: 123, Kỳ thi: Năm học 2020-2021 - học kỳ I, Thời gian bắt đầu: 10-05-2021,   16:10, Thời gian kết thúc: 10-05-2021,   16:30, Giáo viên ra đề: Hồ Giang, Sinh viên thực hiện: fdas1111111 fdas, Lớp: 59CNTT-3
+Thời gian: 05/10/2021, hành động: Xem Kết quả, Mã người dùng: 6070333c440a372f3899f0a9, Họ tên: hai hao, dữ liệu: Mã đề thi: 123, Kỳ thi: Năm học 2020-2021 - học kỳ I, Thời gian bắt đầu: 10-05-2021,   16:10, Thời gian kết thúc: 10-05-2021,   16:30, Giáo viên ra đề: Hồ Giang, Sinh viên thực hiện: fdas1111111 fdas, Lớp: 59CNTT-3
+Thời gian: 05/10/2021, hành động: Xóa câu hỏi, Mã người dùng: 608e58bdbbea8649e0e63aa7, Họ tên: hai hao, dữ liệu: Câu hỏi: fasfsadf1111111, Mức độ: 1, Chủ đề: fdasfasd
+Thời gian: 05/11/2021, hành động: Xóa câu hỏi, Mã người dùng: 607033c6a43120065424e63c, Họ tên: Hồ Giang, dữ liệu: Câu hỏi: gfhkgjh, Mức độ: 1, Chủ đề: fjfj
+Thời gian: 05/11/2021, hành động: Xóa câu hỏi, Mã người dùng: 607033c6a43120065424e63c, Họ tên: Hồ Giang, dữ liệu: Câu hỏi: fadssssssssss, Mức độ: 2, Chủ đề: router
+Thời gian: 05/11/2021, hành động: Xóa câu hỏi, Mã người dùng: 607033c6a43120065424e63c, Họ tên: Hồ Giang, dữ liệu: Câu hỏi: fdsa, Mức độ: 2, Chủ đề: fdsa
+Thời gian: 05/11/2021, hành động: Xem Kết quả, Mã người dùng: 6070333c440a372f3899f0a9, Họ tên: Hồ Giang, dữ liệu: Mã đề thi: 123, Kỳ thi: Năm học 2020-2021 - học kỳ I, Thời gian bắt đầu: 10-05-2021,   16:10, Thời gian kết thúc: 10-05-2021,   16:30, Giáo viên ra đề: Hồ Giang, Sinh viên thực hiện: fdas1111111 fdas, Lớp: 59CNTT-3
+Thời gian: 05/11/2021, hành động: Sửa đề thi, Mã người dùng: 607033c6a43120065424e63c, Họ tên: Hồ Giang, dữ liệu: Mã đề thi: 123, Kythi: Năm học 2020-2021 - học kỳ I, Nội dung: fdas, Số lượng câu hỏi: 1, Giáo viên: Hồ Giang, Lớp: [{"_id":"6098e15bd658cb0c28d8f0f7","name":"59CNTT-3"}], Mật khẩu:dfsafadsf
+
+Thời gian: 05/11/2021, hành động: Duyệt đề thi, Mã người dùng: 607033c6a43120065424e63c, Họ tên: Hồ Giang, dữ liệu: Mã đề thi: 123, Kythi: Năm học 2020-2021 - học kỳ I, Nội dung: fdas, Số lượng câu hỏi: 1, Giáo viên: Hồ Giang, Lớp: [{"_id":"609a4c8dd215c7289c2dcdf5","name":"59CNTT-3"}], Mật khẩu:dfsafadsf
+
+Thời gian: 05/11/2021, hành động: Xem Kết quả, Mã người dùng: 6070333c440a372f3899f0a9, Họ tên: Hồ Giang, dữ liệu: Mã đề thi: 123, Kỳ thi: Năm học 2020-2021 - học kỳ I, Thời gian bắt đầu: 10-05-2021,   16:10, Thời gian kết thúc: 10-05-2021,   16:30, Giáo viên ra đề: Hồ Giang, Sinh viên thực hiện: fdas1111111 fdas, Lớp: 59CNTT-3
+
+Thời gian: 05/15/2021, hành động: Tạo Đề thi, Mã người dùng: 607033c6a43120065424e63c, Họ tên: Hồ Giang, dữ liệu: Mã đề thi: MMT0001, Kythi: Năm học 2020-2021 - học kỳ I, Nội dung: đề thi trắc nghiệm học I, Số lượng câu hỏi: 5, Giáo viên: Hồ Giang, Lớp: [{"_id":"609f91c7b2ffe72cbc0cd008","name":"59CNTT-3"}], Mật khẩu:123123
+
+Thời gian: 05/15/2021, hành động: Duyệt đề thi, Mã người dùng: 607033c6a43120065424e63c, Họ tên: Hồ Giang, dữ liệu: Mã đề thi: MMT0001, Kythi: Năm học 2020-2021 - học kỳ I, Nội dung: đề thi trắc nghiệm học I, Số lượng câu hỏi: 5, Giáo viên: Hồ Giang, Lớp: [{"_id":"609f91c7b2ffe72cbc0cd008","name":"59CNTT-3"}], Mật khẩu:123123
+
+Thời gian: 05/15/2021, hành động: Test bài thi, Mã người dùng: 607033c6a43120065424e63c, Họ tên: Hồ Giang, dữ liệu: Mã đề thi: MMT0001, Kỳ thi: Năm học 2020-2021 - học kỳ I, Thời gian bắt đầu: 15-05-2021, 02:40, Thời gian kết thúc: 16-05-2021, 14:40, Giáo viên ra đề: Hồ Giang, Lớp: 59CNTT-3
+
+Thời gian: 05/15/2021, hành động: Hủy duyệt đề thi, Mã người dùng: 607033c6a43120065424e63c, Họ tên: Hồ Giang, dữ liệu: Mã đề thi: MMT0001, Kythi: Năm học 2020-2021 - học kỳ I, Nội dung: đề thi trắc nghiệm học I, Số lượng câu hỏi: 5, Giáo viên: Hồ Giang, Lớp: [{"_id":"609f91c7b2ffe72cbc0cd008","name":"59CNTT-3"}], Mật khẩu:123123
+
+Thời gian: 05/15/2021, hành động: Sửa đề thi, Mã người dùng: 607033c6a43120065424e63c, Họ tên: Hồ Giang, dữ liệu: Mã đề thi: MMT0001, Kythi: Năm học 2020-2021 - học kỳ I, Nội dung: đề thi trắc nghiệm học I, Số lượng câu hỏi: 5, Giáo viên: Hồ Giang, Lớp: [{"_id":"609f91c7b2ffe72cbc0cd008","name":"59CNTT-3"}], Mật khẩu:123123
+
+Thời gian: 05/15/2021, hành động: Duyệt đề thi, Mã người dùng: 607033c6a43120065424e63c, Họ tên: Hồ Giang, dữ liệu: Mã đề thi: MMT0001, Kythi: Năm học 2020-2021 - học kỳ I, Nội dung: đề thi trắc nghiệm học I, Số lượng câu hỏi: 7, Giáo viên: Hồ Giang, Lớp: [{"_id":"609f9365b2ffe72cbc0cd06f","name":"59CNTT-3"}], Mật khẩu:123123
+
+Thời gian: 05/15/2021, hành động: Test bài thi, Mã người dùng: 607033c6a43120065424e63c, Họ tên: Hồ Giang, dữ liệu: Mã đề thi: MMT0001, Kỳ thi: Năm học 2020-2021 - học kỳ I, Thời gian bắt đầu: 15-05-2021,  02:40, Thời gian kết thúc: 16-05-2021,  14:40, Giáo viên ra đề: Hồ Giang, Lớp: 59CNTT-3
+
+Thời gian: 05/26/2021, hành động: Xem Kết quả, Mã người dùng: 607033c6a43120065424e63c, Họ tên: hai hao, dữ liệu: Mã đề thi: MMT0001, Kỳ thi: Năm học 2020-2021 - học kỳ I, Thời gian bắt đầu: 15-05-2021,   02:40, Thời gian kết thúc: 16-05-2021,   14:40, Giáo viên ra đề: Hồ Giang, Sinh viên thực hiện: Hồ Giang, Lớp: 59CNTT-3
+
+Thời gian: 05/26/2021, hành động: Test bài thi, Mã người dùng: 6070333c440a372f3899f0a9, Họ tên: fdas11111112323111 fdas, dữ liệu: Mã đề thi: 123, Kỳ thi: Năm học 2020-2021 - học kỳ I, Thời gian bắt đầu: 10-05-2021,  16:10, Thời gian kết thúc: 10-05-2021,  16:30, Giáo viên ra đề: Hồ Giang, Lớp: 59CNTT-3
+
+Thời gian: 05/31/2021, hành động: Sửa câu hỏi, Mã người dùng: 607033c6a43120065424e63c, Họ tên: Hồ Giang, dữ liệu: Câu hỏi: Thiết bị router có bao nhiêu Broadcast domain, Mức độ: 2, Chủ đề: Động vật
+
+Thời gian: 05/31/2021, hành động: Hủy duyệt đề thi, Mã người dùng: 607033c6a43120065424e63c, Họ tên: Hồ Giang, dữ liệu: Mã đề thi: MMT0001, Kythi: Năm học 2020-2021 - học kỳ I, Nội dung: đề thi trắc nghiệm học I, Số lượng câu hỏi: 7, Giáo viên: Hồ Giang, Lớp: [{"_id":"609f9365b2ffe72cbc0cd06f","name":"59CNTT-3"}], Mật khẩu:123123
+
+Thời gian: 06/01/2021, hành động: Tạo tài khoản, Mã người dùng: 607033c6a43120065424e63c, Họ tên: Hồ Giang, dữ liệu: Tên đăng nhập: thanh@gmail.com, Mật khẩu: 123, Quyền: SV, Họ và tên: Nguyễn Thành, Địa chỉ: Nha Trang, Ngành: Công Nghệ Thông Tin, Lớp: 59CNTT-3, Email:thanh@gmail.com
+
+Thời gian: 06/01/2021, hành động: Xóa tài khoản, Mã người dùng: 607033c6a43120065424e63c, Họ tên: Hồ Giang, dữ liệu: Tên đăng nhập: fads@gmail.com, Mật khẩu: $2b$10$..QYMcrryQ5xPMxZXX24KuGbIiJAUVUPtwaJgYqhFplbCTOiOk5Xi, Quyền: SV, Họ và tên: fdas11111112323111 fdas, Địa chỉ: fsd2423, Ngành: 312321, Lớp: undefined, Email:fads@gmail.com
+
+Thời gian: 06/01/2021, hành động: Xem Kết quả, Mã người dùng: 607033c6a43120065424e63c, Họ tên: Hồ Giang, dữ liệu: Mã đề thi: MMT0001, Kỳ thi: Năm học 2020-2021 - học kỳ I, Thời gian bắt đầu: 15-05-2021,   02:40, Thời gian kết thúc: 16-05-2021,   14:40, Giáo viên ra đề: Hồ Giang, Sinh viên thực hiện: Hồ Giang, Lớp: 59CNTT-3
+
+Thời gian: 06/01/2021, hành động: Xem Kết quả, Mã người dùng: 6070333c440a372f3899f0a9, Họ tên: Hồ Giang, dữ liệu: Mã đề thi: 123, Kỳ thi: Năm học 2020-2021 - học kỳ I, Thời gian bắt đầu: 10-05-2021,   16:10, Thời gian kết thúc: 10-05-2021,   16:30, Giáo viên ra đề: Hồ Giang, Sinh viên thực hiện: fdas11111112323111 fdas, Lớp: 59CNTT-3
+
+Thời gian: 06/01/2021, hành động: Xem Kết quả, Mã người dùng: 607033c6a43120065424e63c, Họ tên: Hồ Giang, dữ liệu: Mã đề thi: MMT0001, Kỳ thi: Năm học 2020-2021 - học kỳ I, Thời gian bắt đầu: 15-05-2021,   02:40, Thời gian kết thúc: 16-05-2021,   14:40, Giáo viên ra đề: Hồ Giang, Sinh viên thực hiện: Hồ Giang, Lớp: 59CNTT-3
+
+Thời gian: 06/01/2021, hành động: Xem Kết quả, Mã người dùng: 6070333c440a372f3899f0a9, Họ tên: Hồ Giang, dữ liệu: Mã đề thi: 123, Kỳ thi: Năm học 2020-2021 - học kỳ I, Thời gian bắt đầu: 10-05-2021,   16:10, Thời gian kết thúc: 10-05-2021,   16:30, Giáo viên ra đề: Hồ Giang, Sinh viên thực hiện: fdas11111112323111 fdas, Lớp: 59CNTT-3
+
+Thời gian: 06/01/2021, hành động: Tạo tài khoản, Mã người dùng: 607033c6a43120065424e63c, Họ tên: Hồ Giang, dữ liệu: Tên đăng nhập: loc@gmail.com, Mật khẩu: 123, Quyền: SV, Họ và tên: Thành Lộc, Địa chỉ: Ninh hòa, Ngành: Công nghệ Thông Tin, Lớp: 59CNTT-3, Email:loc@gmail.com
+
+Thời gian: 06/01/2021, hành động: Tạo tài khoản, Mã người dùng: 607033c6a43120065424e63c, Họ tên: Hồ Giang, dữ liệu: Tên đăng nhập: nhan@gmail.com, Mật khẩu: 123, Quyền: SV, Họ và tên: Hữu  Nhân, Địa chỉ: Nha Trang, Ngành: Công nghệ Thông Tin, Lớp: 59CNTT-3, Email:nhan@gmail.com
+
+Thời gian: 06/01/2021, hành động: Tạo tài khoản, Mã người dùng: 607033c6a43120065424e63c, Họ tên: Hồ Giang, dữ liệu: Tên đăng nhập: tai@gmail.com, Mật khẩu: 123, Quyền: SV, Họ và tên: Tấn Tài, Địa chỉ: Nha Trang, Ngành: Công nghệ Thông Tin, Lớp: 59CNTT-3, Email:tai@gmail.com
+
+Thời gian: 06/01/2021, hành động: Tạo tài khoản, Mã người dùng: 607033c6a43120065424e63c, Họ tên: Hồ Giang, dữ liệu: Tên đăng nhập: hai@gmail.com, Mật khẩu: 123, Quyền: SV, Họ và tên: Đức  Hải, Địa chỉ: Nha Trang, Ngành: Công nghệ Thông Tin, Lớp: 59CNTT-3, Email:hai@gmail.com
+
+Thời gian: 06/01/2021, hành động: Tạo tài khoản, Mã người dùng: 607033c6a43120065424e63c, Họ tên: Hồ Giang, dữ liệu: Tên đăng nhập: nhi@gmail.com, Mật khẩu: 123, Quyền: SV, Họ và tên: Huỳnh Nhi, Địa chỉ: Nha Trang, Ngành: Công nghệ Thông Tin, Lớp: 59CNTT-3, Email:nhi@gmail.com
+
+Thời gian: 06/01/2021, hành động: Tạo tài khoản, Mã người dùng: 607033c6a43120065424e63c, Họ tên: Hồ Giang, dữ liệu: Tên đăng nhập: tram@gmail.com, Mật khẩu: 123, Quyền: SV, Họ và tên: Nguyễn  Trâm, Địa chỉ: Nha Trang, Ngành: Công nghệ Thông Tin, Lớp: 59CNTT-3, Email:tram@gmail.com
+
+Thời gian: 06/01/2021, hành động: Tạo tài khoản, Mã người dùng: 607033c6a43120065424e63c, Họ tên: Hồ Giang, dữ liệu: Tên đăng nhập: kim@gmail.com, Mật khẩu: 123, Quyền: SV, Họ và tên: Nguyễn Kim, Địa chỉ: Nha Trang, Ngành: Công nghệ Thông Tin, Lớp: 59CNTT-3, Email:kim@gmail.com
+
+Thời gian: 06/01/2021, hành động: Xóa tài khoản, Mã người dùng: 607033c6a43120065424e63c, Họ tên: Hồ Giang, dữ liệu: Tên đăng nhập: h@gmail.com, Mật khẩu: $2b$10$6TKRjKzHKn9NgLtkIlqSWeJZ4kBPp5F5pnYWZDA9f7L1iy1L/oCjK, Quyền: GV, Họ và tên: fdasfdsa111122 fadsfdsa111111, Địa chỉ: nha trang, Ngành: công nghệ thông tin, Lớp: undefined, Email:h@gmail.com
+
+Thời gian: 06/01/2021, hành động: Xóa tài khoản, Mã người dùng: 607033c6a43120065424e63c, Họ tên: Hồ Giang, dữ liệu: Tên đăng nhập: tbm@gmail.com, Mật khẩu: $2b$10$7ON5YhugqHKsXVNf26Oobuui/dC19n3SzFGIg3Tqz49MTu/i1oSFq, Quyền: TBM, Họ và tên: hai hao, Địa chỉ: Nha Trang, Ngành: Công Nghê Thông Tin, Lớp: undefined, Email:tbm@gmail.com
+
+Thời gian: 06/01/2021, hành động: Xóa tài khoản, Mã người dùng: 607033c6a43120065424e63c, Họ tên: Hồ Giang, dữ liệu: Tên đăng nhập: gv@gmail.ccom, Mật khẩu: $2b$10$xZULb2HS8c2jYacsbcXbzOfPGSam/dTqt2/Q22RbAgEnWNfiWrLxW, Quyền: GV, Họ và tên: gv gv1, Địa chỉ: fsfsafs, Ngành: 1312321, Lớp: undefined, Email:gv@gmail.ccom
+
+Thời gian: 06/01/2021, hành động: Tạo tài khoản, Mã người dùng: 607033c6a43120065424e63c, Họ tên: Hồ Giang, dữ liệu: Tên đăng nhập: tung@gmail.com, Mật khẩu: 123, Quyền: TBM, Họ và tên: Tôn Tùng, Địa chỉ: Nha Trang, Ngành: Công nghệ thông tin, Lớp: 59CNTT-3, Email:tung@gmail.com
+
+Thời gian: 06/01/2021, hành động: Tạo tài khoản, Mã người dùng: 607033c6a43120065424e63c, Họ tên: Hồ Giang, dữ liệu: Tên đăng nhập: lam@gmail.com, Mật khẩu: 123, Quyền: GV, Họ và tên: Thành Lâm, Địa chỉ: Nha Trang, Ngành: Công nghệ thông tin, Lớp: 59CNTT-2, Email:lam@gmail.com
+
+Thời gian: 06/01/2021, hành động: Tạo tài khoản, Mã người dùng: 607033c6a43120065424e63c, Họ tên: Hồ Giang, dữ liệu: Tên đăng nhập: tam@gmail.com, Mật khẩu: 123, Quyền: GV, Họ và tên: Thành Tâm, Địa chỉ: Nha Trang, Ngành: Công nghệ thông tin, Lớp: 59CNTT-2, Email:tam@gmail.com
+
+Thời gian: 06/01/2021, hành động: Tạo tài khoản, Mã người dùng: 607033c6a43120065424e63c, Họ tên: Hồ Giang, dữ liệu: Tên đăng nhập: dai@gmail.com, Mật khẩu: 123, Quyền: GV, Họ và tên: Hữu  Đại, Địa chỉ: Nha Trang, Ngành: Công nghệ thông tin, Lớp: 59CNTT-1, Email:dai@gmail.com
+
+Thời gian: 06/01/2021, hành động: Tạo tài khoản, Mã người dùng: 607033c6a43120065424e63c, Họ tên: Hồ Giang, dữ liệu: Tên đăng nhập: luu@gmail.com, Mật khẩu: 123, Quyền: GV, Họ và tên: Quốc Lưu, Địa chỉ: Nha Trang, Ngành: Công nghệ thông tin, Lớp: 59CNTT-1, Email:luu@gmail.com
+
+Thời gian: 06/01/2021, hành động: Tạo tài khoản, Mã người dùng: 607033c6a43120065424e63c, Họ tên: Hồ Giang, dữ liệu: Tên đăng nhập: thong@gmail.com, Mật khẩu: 123, Quyền: GV, Họ và tên: Nguyễn Thông, Địa chỉ: Nha Trang, Ngành: Công nghệ thông tin, Lớp: 59CNTT-3, Email:thong@gmail.com
+
+Thời gian: 06/01/2021, hành động: Tạo tài khoản, Mã người dùng: 607033c6a43120065424e63c, Họ tên: Hồ Giang, dữ liệu: Tên đăng nhập: tien@gmail.com, Mật khẩu: 123, Quyền: SV, Họ và tên: thành Tiến, Địa chỉ: Nha trang, Ngành: Công nghệ thông tin, Lớp: 59CNTT-2, Email:tien@gmail.com
+
+Thời gian: 06/01/2021, hành động: Tạo tài khoản, Mã người dùng: 607033c6a43120065424e63c, Họ tên: Hồ Giang, dữ liệu: Tên đăng nhập: tinh@gmail.com, Mật khẩu: 123, Quyền: SV, Họ và tên: Đức Tỉnh, Địa chỉ: Nha Trang, Ngành: Công nghệ thông tin, Lớp: 59CNTT-1, Email:tinh@gmail.com
+
+Thời gian: 06/01/2021, hành động: Tạo tài khoản, Mã người dùng: 607033c6a43120065424e63c, Họ tên: Hồ Giang, dữ liệu: Tên đăng nhập: hue@gmail.com, Mật khẩu: 123, Quyền: SV, Họ và tên: Nguyễn Huệ, Địa chỉ: Hà Nội, Ngành: Công nghệ thông tin, Lớp: 59CNTT-1, Email:hue@gmail.com
+
+Thời gian: 06/01/2021, hành động: Xem Kết quả, Mã người dùng: 6070333c440a372f3899f0a9, Họ tên: Hồ Giang, dữ liệu: Mã đề thi: 123, Kỳ thi: Năm học 2020-2021 - học kỳ I, Thời gian bắt đầu: 10-05-2021,   16:10, Thời gian kết thúc: 10-05-2021,   16:30, Giáo viên ra đề: Hồ Giang, Sinh viên thực hiện: fdas11111112323111 fdas, Lớp: 59CNTT-3
+
+Thời gian: 06/01/2021, hành động: Xóa đề thi, Mã người dùng: 607033c6a43120065424e63c, Họ tên: Hồ Giang, dữ liệu: Mã đề thi: MMT0001, Kythi: Năm học 2020-2021 - học kỳ I, Nội dung: đề thi trắc nghiệm học I, Số lượng câu hỏi: 7, Giáo viên: Hồ Giang, Lớp: [{"_id":"609f9365b2ffe72cbc0cd06f","name":"59CNTT-3"}], Mật khẩu:123123
+
+Thời gian: 06/06/2021, hành động: Tạo Đề thi, Mã người dùng: 60b5b57db79f9f3d34fe0845, Họ tên: Quốc Lưu, dữ liệu: Mã đề thi: MMT001, Kythi: Năm học 2020-2021 - học kỳ II, Nội dung: Ngân hàng câu hỏi đề thi học kì I năm học 2020 - 2021, Số lượng câu hỏi: 0, Giáo viên: Quốc Lưu, Lớp: [{"_id":"60bc9524e8db5a10c07c482b","name":"59CNTT-3"},{"_id":"60bc9524e8db5a10c07c482c","name":"59CNTT-2"}], Mật khẩu:123
+
+Thời gian: 06/06/2021, hành động: Sửa đề thi, Mã người dùng: 60b5b57db79f9f3d34fe0845, Họ tên: Quốc Lưu, dữ liệu: Mã đề thi: MMT001, Kythi: Năm học 2020-2021 - học kỳ II, Nội dung: Ngân hàng câu hỏi đề thi học kì I năm học 2020 - 2021, Số lượng câu hỏi: 0, Giáo viên: Quốc Lưu, Lớp: [{"_id":"60bc9524e8db5a10c07c482b","name":"59CNTT-3"},{"_id":"60bc9524e8db5a10c07c482c","name":"59CNTT-2"}], Mật khẩu:123
+
+Thời gian: 06/06/2021, hành động: Tạo Đề thi, Mã người dùng: 60b5b57db79f9f3d34fe0845, Họ tên: Quốc Lưu, dữ liệu: Mã đề thi: MMT002, Kythi: Năm học 2020-2021 - học kỳ I, Nội dung: Ngân hàng câu hỏi đề thi học kỳ II năm 2020 - 2021, Số lượng câu hỏi: 5, Giáo viên: Quốc Lưu, Lớp: [{"_id":"60bc96c2e8db5a10c07c484e","name":"59CNTT-3"}], Mật khẩu:123
+
+Thời gian: 06/06/2021, hành động: Tạo Đề thi, Mã người dùng: 60b5b57db79f9f3d34fe0845, Họ tên: Quốc Lưu, dữ liệu: Mã đề thi: MMT003, Kythi: Năm học 2020-2021 - học kỳ I, Nội dung: Ngân hàng câu hỏi đề thi học kỳ I năm học 2020 - 2021, Số lượng câu hỏi: 5, Giáo viên: Quốc Lưu, Lớp: [{"_id":"60bc9761e8db5a10c07c486a","name":"59CNTT-3"},{"_id":"60bc9761e8db5a10c07c486b","name":"59CNTT-2"}], Mật khẩu:123
+
+Thời gian: 06/06/2021, hành động: Duyệt đề thi, Mã người dùng: 60b5b483b79f9f3d34fe083d, Họ tên: Quốc Lưu, dữ liệu: Mã đề thi: MMT003, Kythi: Năm học 2020-2021 - học kỳ I, Nội dung: Ngân hàng câu hỏi đề thi học kỳ I năm học 2020 - 2021, Số lượng câu hỏi: 5, Giáo viên: Quốc Lưu, Lớp: [{"_id":"60bc9761e8db5a10c07c486a","name":"59CNTT-3"},{"_id":"60bc9761e8db5a10c07c486b","name":"59CNTT-2"}], Mật khẩu:123
+
+Thời gian: 06/06/2021, hành động: Duyệt đề thi, Mã người dùng: 60b5b483b79f9f3d34fe083d, Họ tên: Quốc Lưu, dữ liệu: Mã đề thi: MMT002, Kythi: Năm học 2020-2021 - học kỳ I, Nội dung: Ngân hàng câu hỏi đề thi học kỳ II năm 2020 - 2021, Số lượng câu hỏi: 5, Giáo viên: Quốc Lưu, Lớp: [{"_id":"60bc96c2e8db5a10c07c484e","name":"59CNTT-3"}], Mật khẩu:123
+
+Thời gian: 06/06/2021, hành động: Duyệt đề thi, Mã người dùng: 60b5b483b79f9f3d34fe083d, Họ tên: Quốc Lưu, dữ liệu: Mã đề thi: MMT001, Kythi: Năm học 2020-2021 - học kỳ II, Nội dung: Ngân hàng câu hỏi đề thi học kì I năm học 2020 - 2021, Số lượng câu hỏi: 6, Giáo viên: Quốc Lưu, Lớp: [{"_id":"60bc95aae8db5a10c07c482d","name":"59CNTT-3"},{"_id":"60bc95aae8db5a10c07c482e","name":"59CNTT-2"}], Mật khẩu:123
+
+Thời gian: 06/06/2021, hành động: Tạo Đề thi, Mã người dùng: 60b5b57db79f9f3d34fe0845, Họ tên: Quốc Lưu, dữ liệu: Mã đề thi: MMT004, Kythi: Năm học 2020-2021 - học kỳ I, Nội dung: ngân hàn câu hỏi đề thi học kì I năm học 2020 - 2021 , Số lượng câu hỏi: 5, Giáo viên: Quốc Lưu, Lớp: [{"_id":"60bc98d5e8db5a10c07c4886","name":"59CNTT-3"},{"_id":"60bc98d5e8db5a10c07c4887","name":"59CNTT-2"}], Mật khẩu:123
+
+Thời gian: 06/06/2021, hành động: Duyệt đề thi, Mã người dùng: 60b5b483b79f9f3d34fe083d, Họ tên: Quốc Lưu, dữ liệu: Mã đề thi: MMT004, Kythi: Năm học 2020-2021 - học kỳ I, Nội dung: ngân hàn câu hỏi đề thi học kì I năm học 2020 - 2021 , Số lượng câu hỏi: 5, Giáo viên: Quốc Lưu, Lớp: [{"_id":"60bc98d5e8db5a10c07c4886","name":"59CNTT-3"},{"_id":"60bc98d5e8db5a10c07c4887","name":"59CNTT-2"}], Mật khẩu:123
+
+Thời gian: 06/06/2021, hành động: Duyệt đề thi, Mã người dùng: 60b5b483b79f9f3d34fe083d, Họ tên: Quốc Lưu, dữ liệu: Mã đề thi: MMT004, Kythi: Năm học 2020-2021 - học kỳ I, Nội dung: ngân hàn câu hỏi đề thi học kì I năm học 2020 - 2021 , Số lượng câu hỏi: 5, Giáo viên: Quốc Lưu, Lớp: [{"_id":"60bc98d5e8db5a10c07c4886","name":"59CNTT-3"},{"_id":"60bc98d5e8db5a10c07c4887","name":"59CNTT-2"}], Mật khẩu:123
+
+Thời gian: 06/06/2021, hành động: Xem Kết quả, Mã người dùng: 60b5b604b79f9f3d34fe0849, Họ tên: undefined, dữ liệu: Mã đề thi: MMT004, Kỳ thi: Năm học 2020-2021 - học kỳ I, Thời gian bắt đầu: 06-06-2021,  16:30, Thời gian kết thúc: 06-06-2021,  16:50, Giáo viên ra đề: Quốc Lưu, Sinh viên thực hiện: thành Tiến, Lớp: 59CNTT-3
+
+Thời gian: 06/06/2021, hành động: Xem Kết quả, Mã người dùng: 60b5b604b79f9f3d34fe0849, Họ tên: Tôn Tùng, dữ liệu: Mã đề thi: MMT004, Kỳ thi: Năm học 2020-2021 - học kỳ I, Thời gian bắt đầu: 06-06-2021,  16:30, Thời gian kết thúc: 06-06-2021,  16:50, Giáo viên ra đề: Quốc Lưu, Sinh viên thực hiện: thành Tiến, Lớp: 59CNTT-3
+
+Thời gian: 06/06/2021, hành động: Test bài thi, Mã người dùng: 60b5aa57b79f9f3d34fe0829, Họ tên: Nguyễn Thành, dữ liệu: Mã đề thi: MMT004, Kỳ thi: Năm học 2020-2021 - học kỳ I, Thời gian bắt đầu: 06-06-2021, 16:30, Thời gian kết thúc: 06-06-2021, 16:50, Giáo viên ra đề: Quốc Lưu, Lớp: 59CNTT-3
+
+Thời gian: 06/06/2021, hành động: Xem Kết quả, Mã người dùng: 60b5b604b79f9f3d34fe0849, Họ tên: Tôn Tùng, dữ liệu: Mã đề thi: MMT004, Kỳ thi: Năm học 2020-2021 - học kỳ I, Thời gian bắt đầu: 06-06-2021,  16:30, Thời gian kết thúc: 06-06-2021,  16:50, Giáo viên ra đề: Quốc Lưu, Sinh viên thực hiện: thành Tiến, Lớp: 59CNTT-3
+
+Thời gian: 06/06/2021, hành động: Tạo Đề thi, Mã người dùng: 60b5b57db79f9f3d34fe0845, Họ tên: Quốc Lưu, dữ liệu: Mã đề thi: MMT005, Kythi: Năm học 2020-2021 - học kỳ I, Nội dung: Ngân hàng câu hỏi đề thi học kỳ I năm học 2020 - 2021, Số lượng câu hỏi: 5, Giáo viên: Quốc Lưu, Lớp: [{"_id":"60bca251e8db5a10c07c49f8","name":"59CNTT-3"}], Mật khẩu:123
+
+Thời gian: 06/06/2021, hành động: Duyệt đề thi, Mã người dùng: 60b5b483b79f9f3d34fe083d, Họ tên: Quốc Lưu, dữ liệu: Mã đề thi: MMT005, Kythi: Năm học 2020-2021 - học kỳ I, Nội dung: Ngân hàng câu hỏi đề thi học kỳ I năm học 2020 - 2021, Số lượng câu hỏi: 5, Giáo viên: Quốc Lưu, Lớp: [{"_id":"60bca251e8db5a10c07c49f8","name":"59CNTT-3"}], Mật khẩu:123
+
+Thời gian: 06/06/2021, hành động: Xem Kết quả, Mã người dùng: 60b5b604b79f9f3d34fe0849, Họ tên: Tôn Tùng, dữ liệu: Mã đề thi: MMT004, Kỳ thi: Năm học 2020-2021 - học kỳ I, Thời gian bắt đầu: 06-06-2021,  16:30, Thời gian kết thúc: 06-06-2021,  16:50, Giáo viên ra đề: Quốc Lưu, Sinh viên thực hiện: thành Tiến, Lớp: 59CNTT-3
+
+Thời gian: 06/06/2021, hành động: Xem Kết quả, Mã người dùng: 60b5aa57b79f9f3d34fe0829, Họ tên: Tôn Tùng, dữ liệu: Mã đề thi: MMT004, Kỳ thi: Năm học 2020-2021 - học kỳ I, Thời gian bắt đầu: 06-06-2021,  16:30, Thời gian kết thúc: 06-06-2021,  16:50, Giáo viên ra đề: Quốc Lưu, Sinh viên thực hiện: Nguyễn Thành, Lớp: 59CNTT-3
+
+Thời gian: 06/06/2021, hành động: Xem Kết quả, Mã người dùng: 60b5b604b79f9f3d34fe0849, Họ tên: undefined, dữ liệu: Mã đề thi: MMT005, Kỳ thi: Năm học 2020-2021 - học kỳ I, Thời gian bắt đầu: 06-06-2021,  17:20, Thời gian kết thúc: 06-06-2021,  17:30, Giáo viên ra đề: Quốc Lưu, Sinh viên thực hiện: thành Tiến, Lớp: 59CNTT-3
+
+Thời gian: 06/08/2021, hành động: Hủy duyệt đề thi, Mã người dùng: 60b5b483b79f9f3d34fe083d, Họ tên: Quốc Lưu, dữ liệu: Mã đề thi: MMT005, Kythi: Năm học 2020-2021 - học kỳ I, Nội dung: Ngân hàng câu hỏi đề thi học kỳ I năm học 2020 - 2021, Số lượng câu hỏi: 5, Giáo viên: Quốc Lưu, Lớp: [{"_id":"60bca251e8db5a10c07c49f8","name":"59CNTT-3"}], Mật khẩu:123
+
+Thời gian: 06/08/2021, hành động: Hủy duyệt đề thi, Mã người dùng: 60b5b483b79f9f3d34fe083d, Họ tên: Quốc Lưu, dữ liệu: Mã đề thi: MMT005, Kythi: Năm học 2020-2021 - học kỳ I, Nội dung: Ngân hàng câu hỏi đề thi học kỳ I năm học 2020 - 2021, Số lượng câu hỏi: 5, Giáo viên: Quốc Lưu, Lớp: [{"_id":"60bca251e8db5a10c07c49f8","name":"59CNTT-3"}], Mật khẩu:123
+
+Thời gian: 06/08/2021, hành động: Duyệt đề thi, Mã người dùng: 60b5b483b79f9f3d34fe083d, Họ tên: Quốc Lưu, dữ liệu: Mã đề thi: MMT005, Kythi: Năm học 2020-2021 - học kỳ I, Nội dung: Ngân hàng câu hỏi đề thi học kỳ I năm học 2020 - 2021, Số lượng câu hỏi: 5, Giáo viên: Quốc Lưu, Lớp: [{"_id":"60bca251e8db5a10c07c49f8","name":"59CNTT-3"}], Mật khẩu:123
+
+Thời gian: 06/08/2021, hành động: Duyệt đề thi, Mã người dùng: 60b5b483b79f9f3d34fe083d, Họ tên: Quốc Lưu, dữ liệu: Mã đề thi: MMT005, Kythi: Năm học 2020-2021 - học kỳ I, Nội dung: Ngân hàng câu hỏi đề thi học kỳ I năm học 2020 - 2021, Số lượng câu hỏi: 5, Giáo viên: Quốc Lưu, Lớp: [{"_id":"60bca251e8db5a10c07c49f8","name":"59CNTT-3"}], Mật khẩu:123
+
+Thời gian: 06/08/2021, hành động: Hủy duyệt đề thi, Mã người dùng: 60b5b483b79f9f3d34fe083d, Họ tên: Quốc Lưu, dữ liệu: Mã đề thi: MMT005, Kythi: Năm học 2020-2021 - học kỳ I, Nội dung: Ngân hàng câu hỏi đề thi học kỳ I năm học 2020 - 2021, Số lượng câu hỏi: 5, Giáo viên: Quốc Lưu, Lớp: [{"_id":"60bca251e8db5a10c07c49f8","name":"59CNTT-3"}], Mật khẩu:123
+
+Thời gian: 06/08/2021, hành động: Xem Kết quả, Mã người dùng: 60b5b604b79f9f3d34fe0849, Họ tên: Tôn Tùng, dữ liệu: Mã đề thi: MMT005, Kỳ thi: Năm học 2020-2021 - học kỳ I, Thời gian bắt đầu: 06-06-2021,  17:20, Thời gian kết thúc: 06-06-2021,  17:30, Giáo viên ra đề: Quốc Lưu, Sinh viên thực hiện: thành Tiến, Lớp: 59CNTT-3
+
+Thời gian: 06/11/2021, hành động: Xem Kết quả, Mã người dùng: 60b5b604b79f9f3d34fe0849, Họ tên: Tôn Tùng, dữ liệu: Mã đề thi: MMT004, Kỳ thi: Năm học 2020-2021 - học kỳ I, Thời gian bắt đầu: 06-06-2021,  16:30, Thời gian kết thúc: 06-06-2021,  16:50, Giáo viên ra đề: Quốc Lưu, Sinh viên thực hiện: thành Tiến, Lớp: 59CNTT-3
+
+Thời gian: 06/11/2021, hành động: Duyệt đề thi, Mã người dùng: 60b5b483b79f9f3d34fe083d, Họ tên: Quốc Lưu, dữ liệu: Mã đề thi: MMT005, Kythi: Năm học 2020-2021 - học kỳ I, Nội dung: Ngân hàng câu hỏi đề thi học kỳ I năm học 2020 - 2021, Số lượng câu hỏi: 5, Giáo viên: Quốc Lưu, Lớp: [{"_id":"60bca251e8db5a10c07c49f8","name":"59CNTT-3"}], Mật khẩu:123
+
+Thời gian: 06/11/2021, hành động: Tạo Đề thi, Mã người dùng: 60b5b483b79f9f3d34fe083d, Họ tên: Tôn Tùng, dữ liệu: Mã đề thi: 123, Kythi: Năm học 2022-2023 - học kỳ I, Nội dung: fdsfasdfasd, Số lượng câu hỏi: 5, Giáo viên: Tôn Tùng, Lớp: [{"_id":"60c2e1440681d72c2c7d04df","name":"59CNTT-3"},{"_id":"60c2e1440681d72c2c7d04e0","name":"59CNTT-2"},{"_id":"60c2e1440681d72c2c7d04e1","name":"59CNTT-1"}], Mật khẩu:123
+
+Thời gian: 06/11/2021, hành động: Duyệt đề thi, Mã người dùng: 60b5b483b79f9f3d34fe083d, Họ tên: Tôn Tùng, dữ liệu: Mã đề thi: 123, Kythi: Năm học 2022-2023 - học kỳ I, Nội dung: fdsfasdfasd, Số lượng câu hỏi: 5, Giáo viên: Tôn Tùng, Lớp: [{"_id":"60c2e1440681d72c2c7d04df","name":"59CNTT-3"},{"_id":"60c2e1440681d72c2c7d04e0","name":"59CNTT-2"},{"_id":"60c2e1440681d72c2c7d04e1","name":"59CNTT-1"}], Mật khẩu:123
+
+Thời gian: 06/11/2021, hành động: Sửa đề thi, Mã người dùng: 60b5b483b79f9f3d34fe083d, Họ tên: Tôn Tùng, dữ liệu: Mã đề thi: 123, Kythi: Năm học 2022-2023 - học kỳ I, Nội dung: fdsfasdfasd, Số lượng câu hỏi: 5, Giáo viên: Tôn Tùng, Lớp: [{"_id":"60c2e1440681d72c2c7d04df","name":"59CNTT-3"},{"_id":"60c2e1440681d72c2c7d04e0","name":"59CNTT-2"},{"_id":"60c2e1440681d72c2c7d04e1","name":"59CNTT-1"}], Mật khẩu:123
+
+Thời gian: 06/11/2021, hành động: Duyệt đề thi, Mã người dùng: 60b5b483b79f9f3d34fe083d, Họ tên: Tôn Tùng, dữ liệu: Mã đề thi: 123, Kythi: Năm học 2022-2023 - học kỳ I, Nội dung: fdsfasdfasd, Số lượng câu hỏi: 5, Giáo viên: Tôn Tùng, Lớp: [{"_id":"60c2e1a80681d72c2c7d04fb","name":"59CNTT-3"},{"_id":"60c2e1a80681d72c2c7d04fc","name":"59CNTT-2"},{"_id":"60c2e1a80681d72c2c7d04fd","name":"59CNTT-1"}], Mật khẩu:123
+
+Thời gian: 06/11/2021, hành động: Sửa đề thi, Mã người dùng: 60b5b483b79f9f3d34fe083d, Họ tên: Tôn Tùng, dữ liệu: Mã đề thi: 123, Kythi: Năm học 2022-2023 - học kỳ I, Nội dung: fdsfasdfasd, Số lượng câu hỏi: 5, Giáo viên: Tôn Tùng, Lớp: [{"_id":"60c2e1a80681d72c2c7d04fb","name":"59CNTT-3"},{"_id":"60c2e1a80681d72c2c7d04fc","name":"59CNTT-2"},{"_id":"60c2e1a80681d72c2c7d04fd","name":"59CNTT-1"}], Mật khẩu:123
+
+Thời gian: 06/11/2021, hành động: Duyệt đề thi, Mã người dùng: 60b5b483b79f9f3d34fe083d, Họ tên: Tôn Tùng, dữ liệu: Mã đề thi: 123, Kythi: Năm học 2022-2023 - học kỳ I, Nội dung: fdsfasdfasd, Số lượng câu hỏi: 5, Giáo viên: Tôn Tùng, Lớp: [{"_id":"60c2e48c0681d72c2c7d05fb","name":"59CNTT-3"},{"_id":"60c2e48c0681d72c2c7d05fc","name":"59CNTT-2"},{"_id":"60c2e48c0681d72c2c7d05fd","name":"59CNTT-1"}], Mật khẩu:123
+
+Thời gian: 06/11/2021, hành động: Sửa đề thi, Mã người dùng: 60b5b483b79f9f3d34fe083d, Họ tên: Tôn Tùng, dữ liệu: Mã đề thi: 123, Kythi: Năm học 2022-2023 - học kỳ I, Nội dung: fdsfasdfasd, Số lượng câu hỏi: 5, Giáo viên: Tôn Tùng, Lớp: [{"_id":"60c2e48c0681d72c2c7d05fb","name":"59CNTT-3"},{"_id":"60c2e48c0681d72c2c7d05fc","name":"59CNTT-2"},{"_id":"60c2e48c0681d72c2c7d05fd","name":"59CNTT-1"}], Mật khẩu:123
+
+Thời gian: 06/11/2021, hành động: Duyệt đề thi, Mã người dùng: 60b5b483b79f9f3d34fe083d, Họ tên: Tôn Tùng, dữ liệu: Mã đề thi: 123, Kythi: Năm học 2022-2023 - học kỳ I, Nội dung: fdsfasdfasd, Số lượng câu hỏi: 5, Giáo viên: Tôn Tùng, Lớp: [{"_id":"60c2e6030681d72c2c7d06dc","name":"59CNTT-3"},{"_id":"60c2e6030681d72c2c7d06dd","name":"59CNTT-2"},{"_id":"60c2e6030681d72c2c7d06de","name":"59CNTT-1"}], Mật khẩu:123
+
+Thời gian: 06/11/2021, hành động: Sửa đề thi, Mã người dùng: 60b5b483b79f9f3d34fe083d, Họ tên: Tôn Tùng, dữ liệu: Mã đề thi: 123, Kythi: Năm học 2022-2023 - học kỳ I, Nội dung: fdsfasdfasd, Số lượng câu hỏi: 5, Giáo viên: Tôn Tùng, Lớp: [{"_id":"60c2e6030681d72c2c7d06dc","name":"59CNTT-3"},{"_id":"60c2e6030681d72c2c7d06dd","name":"59CNTT-2"},{"_id":"60c2e6030681d72c2c7d06de","name":"59CNTT-1"}], Mật khẩu:123
+
+Thời gian: 06/11/2021, hành động: Duyệt đề thi, Mã người dùng: 60b5b483b79f9f3d34fe083d, Họ tên: Tôn Tùng, dữ liệu: Mã đề thi: 123, Kythi: Năm học 2022-2023 - học kỳ I, Nội dung: fdsfasdfasd, Số lượng câu hỏi: 5, Giáo viên: Tôn Tùng, Lớp: [{"_id":"60c2e6e90681d72c2c7d079e","name":"59CNTT-3"},{"_id":"60c2e6e90681d72c2c7d079f","name":"59CNTT-2"},{"_id":"60c2e6e90681d72c2c7d07a0","name":"59CNTT-1"}], Mật khẩu:123
+
+Thời gian: 06/11/2021, hành động: Sửa đề thi, Mã người dùng: 60b5b483b79f9f3d34fe083d, Họ tên: Tôn Tùng, dữ liệu: Mã đề thi: 123, Kythi: Năm học 2022-2023 - học kỳ I, Nội dung: fdsfasdfasd, Số lượng câu hỏi: 5, Giáo viên: Tôn Tùng, Lớp: [{"_id":"60c2e6e90681d72c2c7d079e","name":"59CNTT-3"},{"_id":"60c2e6e90681d72c2c7d079f","name":"59CNTT-2"},{"_id":"60c2e6e90681d72c2c7d07a0","name":"59CNTT-1"}], Mật khẩu:123
+
+Thời gian: 06/11/2021, hành động: Duyệt đề thi, Mã người dùng: 60b5b483b79f9f3d34fe083d, Họ tên: Tôn Tùng, dữ liệu: Mã đề thi: 123, Kythi: Năm học 2022-2023 - học kỳ I, Nội dung: fdsfasdfasd, Số lượng câu hỏi: 5, Giáo viên: Tôn Tùng, Lớp: [{"_id":"60c2e8320681d72c2c7d089e","name":"59CNTT-3"},{"_id":"60c2e8320681d72c2c7d089f","name":"59CNTT-2"},{"_id":"60c2e8320681d72c2c7d08a0","name":"59CNTT-1"}], Mật khẩu:123
+
+Thời gian: 06/11/2021, hành động: Xem Kết quả, Mã người dùng: 60b5b604b79f9f3d34fe0849, Họ tên: undefined, dữ liệu: Mã đề thi: 123, Kỳ thi: Năm học 2022-2023 - học kỳ I, Thời gian bắt đầu: 11-06-2021,       11:05, Thời gian kết thúc: 11-06-2021,       11:37, Giáo viên ra đề: Tôn Tùng, Sinh viên thực hiện: thành Tiến, Lớp: 59CNTT-3
+
+Thời gian: 06/11/2021, hành động: Sửa đề thi, Mã người dùng: 60b5b483b79f9f3d34fe083d, Họ tên: Tôn Tùng, dữ liệu: Mã đề thi: 123, Kythi: Năm học 2022-2023 - học kỳ I, Nội dung: fdsfasdfasd, Số lượng câu hỏi: 5, Giáo viên: Tôn Tùng, Lớp: [{"_id":"60c2e8320681d72c2c7d089e","name":"59CNTT-3"},{"_id":"60c2e8320681d72c2c7d089f","name":"59CNTT-2"},{"_id":"60c2e8320681d72c2c7d08a0","name":"59CNTT-1"}], Mật khẩu:123
+
+Thời gian: 06/11/2021, hành động: Duyệt đề thi, Mã người dùng: 60b5b483b79f9f3d34fe083d, Họ tên: Tôn Tùng, dữ liệu: Mã đề thi: 123, Kythi: Năm học 2022-2023 - học kỳ I, Nội dung: fdsfasdfasd, Số lượng câu hỏi: 5, Giáo viên: Tôn Tùng, Lớp: [{"_id":"60c2e9980681d72c2c7d099e","name":"59CNTT-3"},{"_id":"60c2e9980681d72c2c7d099f","name":"59CNTT-2"},{"_id":"60c2e9980681d72c2c7d09a0","name":"59CNTT-1"}], Mật khẩu:123
+
+Thời gian: 06/11/2021, hành động: Xem Kết quả, Mã người dùng: 60b5b604b79f9f3d34fe0849, Họ tên: undefined, dữ liệu: Mã đề thi: 123, Kỳ thi: Năm học 2022-2023 - học kỳ I, Thời gian bắt đầu: 11-06-2021,        11:05, Thời gian kết thúc: 11-06-2021,        11:43, Giáo viên ra đề: Tôn Tùng, Sinh viên thực hiện: thành Tiến, Lớp: 59CNTT-3
+
+Thời gian: 06/11/2021, hành động: Sửa đề thi, Mã người dùng: 60b5b483b79f9f3d34fe083d, Họ tên: Tôn Tùng, dữ liệu: Mã đề thi: 123, Kythi: Năm học 2022-2023 - học kỳ I, Nội dung: fdsfasdfasd, Số lượng câu hỏi: 5, Giáo viên: Tôn Tùng, Lớp: [{"_id":"60c2e9980681d72c2c7d099e","name":"59CNTT-3"},{"_id":"60c2e9980681d72c2c7d099f","name":"59CNTT-2"},{"_id":"60c2e9980681d72c2c7d09a0","name":"59CNTT-1"}], Mật khẩu:123
+
+Thời gian: 06/11/2021, hành động: Duyệt đề thi, Mã người dùng: 60b5b483b79f9f3d34fe083d, Họ tên: Tôn Tùng, dữ liệu: Mã đề thi: 123, Kythi: Năm học 2022-2023 - học kỳ I, Nội dung: fdsfasdfasd, Số lượng câu hỏi: 5, Giáo viên: Tôn Tùng, Lớp: [{"_id":"60c2eb560681d72c2c7d0a7f","name":"59CNTT-3"},{"_id":"60c2eb560681d72c2c7d0a80","name":"59CNTT-2"},{"_id":"60c2eb560681d72c2c7d0a81","name":"59CNTT-1"}], Mật khẩu:123
+
+Thời gian: 06/11/2021, hành động: Xóa câu hỏi, Mã người dùng: 60b5b483b79f9f3d34fe083d, Họ tên: Tôn Tùng, dữ liệu: Câu hỏi: Thiết bị router có bao nhiêu Broadcast domain, Mức độ: 2, Chủ đề: Động vật
+
+Thời gian: 06/11/2021, hành động: Thêm câu hỏi, Mã người dùng: 60b5b483b79f9f3d34fe083d, Họ tên: Tôn Tùng, dữ liệu: Câu hỏi: fads, Mức độ: , Chủ đề: fdsa
+
+Thời gian: 06/11/2021, hành động: Sửa câu hỏi, Mã người dùng: 60b5b483b79f9f3d34fe083d, Họ tên: Tôn Tùng, dữ liệu: Câu hỏi: fadsfdsafasđà, Mức độ: , Chủ đề: fdsa
+
+Thời gian: 06/11/2021, hành động: Sửa đề thi, Mã người dùng: 60b5b483b79f9f3d34fe083d, Họ tên: Tôn Tùng, dữ liệu: Mã đề thi: 123, Kythi: Năm học 2022-2023 - học kỳ I, Nội dung: fdsfasdfasd, Số lượng câu hỏi: 5, Giáo viên: Tôn Tùng, Lớp: [{"_id":"60c2eb560681d72c2c7d0a7f","name":"59CNTT-3"},{"_id":"60c2eb560681d72c2c7d0a80","name":"59CNTT-2"},{"_id":"60c2eb560681d72c2c7d0a81","name":"59CNTT-1"}], Mật khẩu:123
+
+Thời gian: 06/11/2021, hành động: Duyệt đề thi, Mã người dùng: 60b5b483b79f9f3d34fe083d, Họ tên: Tôn Tùng, dữ liệu: Mã đề thi: 123, Kythi: Năm học 2022-2023 - học kỳ I, Nội dung: fdsfasdfasd, Số lượng câu hỏi: 5, Giáo viên: Tôn Tùng, Lớp: [{"_id":"60c30844d5673c2d1cb5a3e5","name":"59CNTT-3"},{"_id":"60c30844d5673c2d1cb5a3e6","name":"59CNTT-2"},{"_id":"60c30844d5673c2d1cb5a3e7","name":"59CNTT-1"}], Mật khẩu:123
+
+Thời gian: 06/11/2021, hành động: Tạo Đề thi, Mã người dùng: 60b5b483b79f9f3d34fe083d, Họ tên: Tôn Tùng, dữ liệu: Mã đề thi: 12312, Kythi: Năm học 2020-2021 - học kỳ I, Nội dung: fdsfsad, Số lượng câu hỏi: 2, Giáo viên: Tôn Tùng, Lớp: [{"_id":"60c3098cce99f71edce0f889","name":"59CNTT-3"}], Mật khẩu:312
+
+Thời gian: 06/11/2021, hành động: Xóa đề thi, Mã người dùng: 60b5b483b79f9f3d34fe083d, Họ tên: Tôn Tùng, dữ liệu: Mã đề thi: 12312, Kythi: Năm học 2020-2021 - học kỳ I, Nội dung: fdsfsad, Số lượng câu hỏi: 2, Giáo viên: Tôn Tùng, Lớp: [{"_id":"60c3098cce99f71edce0f889","name":"59CNTT-3"}], Mật khẩu:312
+
+Thời gian: 06/11/2021, hành động: Sửa đề thi, Mã người dùng: 60b5b483b79f9f3d34fe083d, Họ tên: Tôn Tùng, dữ liệu: Mã đề thi: 123, Kythi: Năm học 2022-2023 - học kỳ I, Nội dung: fdsfasdfasd, Số lượng câu hỏi: 5, Giáo viên: Tôn Tùng, Lớp: [{"_id":"60c30844d5673c2d1cb5a3e5","name":"59CNTT-3"},{"_id":"60c30844d5673c2d1cb5a3e6","name":"59CNTT-2"},{"_id":"60c30844d5673c2d1cb5a3e7","name":"59CNTT-1"}], Mật khẩu:123
+
+Thời gian: 06/11/2021, hành động: Duyệt đề thi, Mã người dùng: 60b5b483b79f9f3d34fe083d, Họ tên: Tôn Tùng, dữ liệu: Mã đề thi: 123, Kythi: Năm học 2022-2023 - học kỳ I, Nội dung: fdsfasdfasd, Số lượng câu hỏi: 5, Giáo viên: Tôn Tùng, Lớp: [{"_id":"60c30d5167195f20682a1780","name":"59CNTT-3"},{"_id":"60c30d5167195f20682a1781","name":"59CNTT-2"},{"_id":"60c30d5167195f20682a1782","name":"59CNTT-1"}], Mật khẩu:123
+
+Thời gian: 06/11/2021, hành động: Tạo Đề thi, Mã người dùng: 60b5b483b79f9f3d34fe083d, Họ tên: Tôn Tùng, dữ liệu: Mã đề thi: 312, Kythi: Năm học 2020-2021 - học kỳ I, Nội dung: fdas, Số lượng câu hỏi: 2, Giáo viên: Tôn Tùng, Lớp: [{"_id":"60c31016fc394939303d1e6e","name":"59CNTT-3"}], Mật khẩu:312
+
+Thời gian: 06/11/2021, hành động: Duyệt đề thi, Mã người dùng: 60b5b483b79f9f3d34fe083d, Họ tên: Tôn Tùng, dữ liệu: Mã đề thi: 312, Kythi: Năm học 2020-2021 - học kỳ I, Nội dung: fdas, Số lượng câu hỏi: 2, Giáo viên: Tôn Tùng, Lớp: [{"_id":"60c31016fc394939303d1e6e","name":"59CNTT-3"}], Mật khẩu:312
+
+Thời gian: 06/11/2021, hành động: Sửa đề thi, Mã người dùng: 60b5b483b79f9f3d34fe083d, Họ tên: Tôn Tùng, dữ liệu: Mã đề thi: 312, Kythi: Năm học 2020-2021 - học kỳ I, Nội dung: fdas, Số lượng câu hỏi: 2, Giáo viên: Tôn Tùng, Lớp: [{"_id":"60c31016fc394939303d1e6e","name":"59CNTT-3"}], Mật khẩu:312
+
+Thời gian: 06/11/2021, hành động: Duyệt đề thi, Mã người dùng: 60b5b483b79f9f3d34fe083d, Họ tên: Tôn Tùng, dữ liệu: Mã đề thi: 312, Kythi: Năm học 2020-2021 - học kỳ I, Nội dung: fdas, Số lượng câu hỏi: 2, Giáo viên: Tôn Tùng, Lớp: [{"_id":"60c31057363a852468348126","name":"59CNTT-3"}], Mật khẩu:312
+
+Thời gian: 06/11/2021, hành động: Thêm câu hỏi, Mã người dùng: 60b5b483b79f9f3d34fe083d, Họ tên: Tôn Tùng, dữ liệu: Câu hỏi: fdas, Mức độ: , Chủ đề: fdsafsad
+
+Thời gian: 06/11/2021, hành động: Thêm câu hỏi, Mã người dùng: 60b5b483b79f9f3d34fe083d, Họ tên: Tôn Tùng, dữ liệu: Câu hỏi: das, Mức độ: , Chủ đề: fdsaf
+
+Thời gian: 06/11/2021, hành động: Sửa câu hỏi, Mã người dùng: 60b5b483b79f9f3d34fe083d, Họ tên: Tôn Tùng, dữ liệu: Câu hỏi: das, Mức độ: , Chủ đề: fdsaf11111111
+
+Thời gian: 06/11/2021, hành động: Sửa câu hỏi, Mã người dùng: 60b5b483b79f9f3d34fe083d, Họ tên: Tôn Tùng, dữ liệu: Câu hỏi: das11111, Mức độ: , Chủ đề: fdsaf11111111
+
+Thời gian: 06/11/2021, hành động: Tạo Đề thi, Mã người dùng: 60b5b483b79f9f3d34fe083d, Họ tên: Tôn Tùng, dữ liệu: Mã đề thi: fdas, Kythi: Năm học 2020-2021 - học kỳ I, Nội dung: fads, Số lượng câu hỏi: 1, Giáo viên: Tôn Tùng, Lớp: [{"_id":"60c313dc0d95ba1810af719c","name":"59CNTT-3"}], Mật khẩu:fads
+
+Thời gian: 06/11/2021, hành động: Tạo Đề thi, Mã người dùng: 60b5b483b79f9f3d34fe083d, Họ tên: Tôn Tùng, dữ liệu: Mã đề thi: fdas312, Kythi: Năm học 2020-2021 - học kỳ I, Nội dung: fdas, Số lượng câu hỏi: 1, Giáo viên: Tôn Tùng, Lớp: [{"_id":"60c31487675b5a14e8de0669","name":"59CNTT-3"}], Mật khẩu:fads
+
+Thời gian: 06/11/2021, hành động: Xem Kết quả, Mã người dùng: 60b5b604b79f9f3d34fe0849, Họ tên: undefined, dữ liệu: Mã đề thi: 312, Kỳ thi: Năm học 2020-2021 - học kỳ I, Thời gian bắt đầu: 11-06-2021,   14:00, Thời gian kết thúc: 11-06-2021,   15:00, Giáo viên ra đề: Tôn Tùng, Sinh viên thực hiện: thành Tiến, Lớp: 59CNTT-3
+
+Thời gian: 06/11/2021, hành động: Tạo Đề thi, Mã người dùng: 60b5b483b79f9f3d34fe083d, Họ tên: Tôn Tùng, dữ liệu: Mã đề thi: fdasfdsa, Kythi: Năm học 2020-2021 - học kỳ I, Nội dung: fdasfads, Số lượng câu hỏi: 1, Giáo viên: Tôn Tùng, Lớp: [{"_id":"60c31816cbeac934f422e30f","name":"59CNTT-3"}], Mật khẩu:123
+
+Thời gian: 06/11/2021, hành động: Duyệt đề thi, Mã người dùng: 60b5b483b79f9f3d34fe083d, Họ tên: Tôn Tùng, dữ liệu: Mã đề thi: fdasfdsa, Kythi: Năm học 2020-2021 - học kỳ I, Nội dung: fdasfads, Số lượng câu hỏi: 1, Giáo viên: Tôn Tùng, Lớp: [{"_id":"60c31816cbeac934f422e30f","name":"59CNTT-3"}], Mật khẩu:123
+
+Thời gian: 06/11/2021, hành động: Tạo Đề thi, Mã người dùng: 60b5b483b79f9f3d34fe083d, Họ tên: Tôn Tùng, dữ liệu: Mã đề thi: 123, Kythi: Năm học 2020-2021 - học kỳ I, Nội dung: fdsa, Số lượng câu hỏi: 5, Giáo viên: Tôn Tùng, Lớp: [{"_id":"60c31857cbeac934f422e315","name":"59CNTT-3"}], Mật khẩu:123
+
+Thời gian: 06/11/2021, hành động: Tạo Đề thi, Mã người dùng: 60b5b483b79f9f3d34fe083d, Họ tên: Tôn Tùng, dữ liệu: Mã đề thi: fsad, Kythi: Năm học 2020-2021 - học kỳ I, Nội dung: fdsa, Số lượng câu hỏi: 1, Giáo viên: Tôn Tùng, Lớp: [{"_id":"60c31989cbeac934f422e327","name":"59CNTT-2"}], Mật khẩu:123
+
+Thời gian: 06/11/2021, hành động: Duyệt đề thi, Mã người dùng: 60b5b483b79f9f3d34fe083d, Họ tên: Tôn Tùng, dữ liệu: Mã đề thi: fsad, Kythi: Năm học 2020-2021 - học kỳ I, Nội dung: fdsa, Số lượng câu hỏi: 1, Giáo viên: Tôn Tùng, Lớp: [{"_id":"60c31989cbeac934f422e327","name":"59CNTT-2"}], Mật khẩu:123
+
+Thời gian: 06/11/2021, hành động: Tạo Đề thi, Mã người dùng: 60b5b483b79f9f3d34fe083d, Họ tên: Tôn Tùng, dữ liệu: Mã đề thi: 213, Kythi: Năm học 2020-2021 - học kỳ I, Nội dung: fdas, Số lượng câu hỏi: 1, Giáo viên: Tôn Tùng, Lớp: [{"_id":"60c31a98cbeac934f422e32b","name":"59CNTT-3"}], Mật khẩu:123
+
+Thời gian: 06/11/2021, hành động: Tạo Đề thi, Mã người dùng: 60b5b483b79f9f3d34fe083d, Họ tên: Tôn Tùng, dữ liệu: Mã đề thi: fda, Kythi: Năm học 2020-2021 - học kỳ I, Nội dung: fdasfad, Số lượng câu hỏi: 1, Giáo viên: Tôn Tùng, Lớp: [{"_id":"60c31c00382626259ce60130","name":"59CNTT-3"}], Mật khẩu:123
+
+Thời gian: 06/11/2021, hành động: Tạo Đề thi, Mã người dùng: 60b5b483b79f9f3d34fe083d, Họ tên: Tôn Tùng, dữ liệu: Mã đề thi: fdas, Kythi: Năm học 2020-2021 - học kỳ I, Nội dung: afdf, Số lượng câu hỏi: 1, Giáo viên: Tôn Tùng, Lớp: [{"_id":"60c31c6f95820e2e9435ee68","name":"59CNTT-3"}], Mật khẩu:fad
+
+Thời gian: 06/11/2021, hành động: Tạo Đề thi, Mã người dùng: 60b5b483b79f9f3d34fe083d, Họ tên: Tôn Tùng, dữ liệu: Mã đề thi: fdasfdas, Kythi: Năm học 2020-2021 - học kỳ I, Nội dung: fdas, Số lượng câu hỏi: 1, Giáo viên: Tôn Tùng, Lớp: [{"_id":"60c31d8357f5155c94d644b3","name":"59CNTT-3"},{"_id":"60c31d8357f5155c94d644b4","name":"59CNTT-2"}], Mật khẩu:fdas
+
+Thời gian: 06/11/2021, hành động: Tạo Đề thi, Mã người dùng: 60b5b483b79f9f3d34fe083d, Họ tên: Tôn Tùng, dữ liệu: Mã đề thi: fdsa, Kythi: Năm học 2022-2023 - học kỳ I, Nội dung: fdas, Số lượng câu hỏi: 1, Giáo viên: Tôn Tùng, Lớp: [{"_id":"60c31e2f580687424c63735b","name":"59CNTT-2"}], Mật khẩu:fdas
+
+Thời gian: 06/11/2021, hành động: Sửa đề thi, Mã người dùng: 60b5b483b79f9f3d34fe083d, Họ tên: Tôn Tùng, dữ liệu: Mã đề thi: fdsa, Kythi: Năm học 2022-2023 - học kỳ I, Nội dung: fdas, Số lượng câu hỏi: 1, Giáo viên: Tôn Tùng, Lớp: [{"_id":"60c31e2f580687424c63735b","name":"59CNTT-2"}], Mật khẩu:fdas
+
+Thời gian: 06/11/2021, hành động: Xóa đề thi, Mã người dùng: 60b5b483b79f9f3d34fe083d, Họ tên: Tôn Tùng, dữ liệu: Mã đề thi: fdsa, Kythi: Năm học 2022-2023 - học kỳ I, Nội dung: fdas, Số lượng câu hỏi: 2, Giáo viên: Tôn Tùng, Lớp: [{"_id":"60c31e5b580687424c637360","name":"59CNTT-2"}], Mật khẩu:fdas
+
+Thời gian: 06/11/2021, hành động: Xóa đề thi, Mã người dùng: 60b5b483b79f9f3d34fe083d, Họ tên: Tôn Tùng, dữ liệu: Mã đề thi: fdasfdas, Kythi: Năm học 2020-2021 - học kỳ I, Nội dung: fdas, Số lượng câu hỏi: 1, Giáo viên: Tôn Tùng, Lớp: [{"_id":"60c31d8357f5155c94d644b3","name":"59CNTT-3"},{"_id":"60c31d8357f5155c94d644b4","name":"59CNTT-2"}], Mật khẩu:fdas
+
+Thời gian: 06/11/2021, hành động: Xóa đề thi, Mã người dùng: 60b5b483b79f9f3d34fe083d, Họ tên: Tôn Tùng, dữ liệu: Mã đề thi: fdas, Kythi: Năm học 2020-2021 - học kỳ I, Nội dung: afdf, Số lượng câu hỏi: 1, Giáo viên: Tôn Tùng, Lớp: [{"_id":"60c31c6f95820e2e9435ee68","name":"59CNTT-3"}], Mật khẩu:fad
+
+Thời gian: 06/11/2021, hành động: Xóa đề thi, Mã người dùng: 60b5b483b79f9f3d34fe083d, Họ tên: Tôn Tùng, dữ liệu: Mã đề thi: fda, Kythi: Năm học 2020-2021 - học kỳ I, Nội dung: fdasfad, Số lượng câu hỏi: 1, Giáo viên: Tôn Tùng, Lớp: [{"_id":"60c31c00382626259ce60130","name":"59CNTT-3"}], Mật khẩu:123
+
+Thời gian: 06/11/2021, hành động: Xóa đề thi, Mã người dùng: 60b5b483b79f9f3d34fe083d, Họ tên: Tôn Tùng, dữ liệu: Mã đề thi: 213, Kythi: Năm học 2020-2021 - học kỳ I, Nội dung: fdas, Số lượng câu hỏi: 1, Giáo viên: Tôn Tùng, Lớp: [{"_id":"60c31a98cbeac934f422e32b","name":"59CNTT-3"}], Mật khẩu:123
+
+Thời gian: 06/11/2021, hành động: Xóa đề thi, Mã người dùng: 60b5b483b79f9f3d34fe083d, Họ tên: Tôn Tùng, dữ liệu: Mã đề thi: fsad, Kythi: Năm học 2020-2021 - học kỳ I, Nội dung: fdsa, Số lượng câu hỏi: 1, Giáo viên: Tôn Tùng, Lớp: [{"_id":"60c31989cbeac934f422e327","name":"59CNTT-2"}], Mật khẩu:123
+
+Thời gian: 06/11/2021, hành động: Sửa đề thi, Mã người dùng: 60b5b483b79f9f3d34fe083d, Họ tên: Tôn Tùng, dữ liệu: Mã đề thi: 123, Kythi: Năm học 2020-2021 - học kỳ I, Nội dung: fdsa, Số lượng câu hỏi: 5, Giáo viên: Tôn Tùng, Lớp: [{"_id":"60c31857cbeac934f422e315","name":"59CNTT-3"}], Mật khẩu:123
+
+Thời gian: 06/11/2021, hành động: Duyệt đề thi, Mã người dùng: 60b5b483b79f9f3d34fe083d, Họ tên: Tôn Tùng, dữ liệu: Mã đề thi: 123, Kythi: Năm học 2020-2021 - học kỳ I, Nội dung: fdsa11111111111111, Số lượng câu hỏi: 5, Giáo viên: Tôn Tùng, Lớp: [{"_id":"60c31ec2580687424c637365","name":"59CNTT-3"}], Mật khẩu:123
+
+Thời gian: 06/11/2021, hành động: Sửa đề thi, Mã người dùng: 60b5b483b79f9f3d34fe083d, Họ tên: Quốc Lưu, dữ liệu: Mã đề thi: MMT005, Kythi: Năm học 2020-2021 - học kỳ I, Nội dung: Ngân hàng câu hỏi đề thi học kỳ I năm học 2020 - 2021, Số lượng câu hỏi: 5, Giáo viên: Quốc Lưu, Lớp: [{"_id":"60bca251e8db5a10c07c49f8","name":"59CNTT-3"}], Mật khẩu:123
+
+Thời gian: 06/11/2021, hành động: Duyệt đề thi, Mã người dùng: 60b5b483b79f9f3d34fe083d, Họ tên: Quốc Lưu, dữ liệu: Mã đề thi: MMT005, Kythi: Năm học 2020-2021 - học kỳ I, Nội dung: Ngân hàng câu hỏi đề thi học kỳ I năm học 2020 - 2021, Số lượng câu hỏi: 5, Giáo viên: Quốc Lưu, Lớp: [{"_id":"60c321175bb8ac58c05ea503","name":"59CNTT-3"}], Mật khẩu:123
+
+Thời gian: 06/11/2021, hành động: Xem Kết quả, Mã người dùng: 60b5b604b79f9f3d34fe0849, Họ tên: undefined, dữ liệu: Mã đề thi: MMT005, Kỳ thi: Năm học 2020-2021 - học kỳ I, Thời gian bắt đầu: 06-06-2021,  17:20, Thời gian kết thúc: 06-06-2021,  17:30, Giáo viên ra đề: Quốc Lưu, Sinh viên thực hiện: thành Tiến, Lớp: 59CNTT-3
+
+Thời gian: 06/11/2021, hành động: Sửa đề thi, Mã người dùng: 60b5b483b79f9f3d34fe083d, Họ tên: Quốc Lưu, dữ liệu: Mã đề thi: MMT005, Kythi: Năm học 2020-2021 - học kỳ I, Nội dung: Ngân hàng câu hỏi đề thi học kỳ I năm học 2020 - 2021, Số lượng câu hỏi: 5, Giáo viên: Quốc Lưu, Lớp: [{"_id":"60c321175bb8ac58c05ea503","name":"59CNTT-3"}], Mật khẩu:123
+
+Thời gian: 06/11/2021, hành động: Duyệt đề thi, Mã người dùng: 60b5b483b79f9f3d34fe083d, Họ tên: Quốc Lưu, dữ liệu: Mã đề thi: MMT005, Kythi: Năm học 2020-2021 - học kỳ I, Nội dung: Ngân hàng câu hỏi đề thi học kỳ I năm học 2020 - 2021, Số lượng câu hỏi: 5, Giáo viên: Quốc Lưu, Lớp: [{"_id":"60c3260951c22f5318e3b615","name":"59CNTT-3"}], Mật khẩu:123
+
+Thời gian: 06/11/2021, hành động: Xem Kết quả, Mã người dùng: 60b5b604b79f9f3d34fe0849, Họ tên: undefined, dữ liệu: Mã đề thi: MMT005, Kỳ thi: Năm học 2020-2021 - học kỳ I, Thời gian bắt đầu: 11-06-2021,   15:20, Thời gian kết thúc: 11-06-2021,  16:15, Giáo viên ra đề: Quốc Lưu, Sinh viên thực hiện: thành Tiến, Lớp: 59CNTT-3
+
+Thời gian: 06/11/2021, hành động: Xem Kết quả, Mã người dùng: 60b5b604b79f9f3d34fe0849, Họ tên: undefined, dữ liệu: Mã đề thi: MMT005, Kỳ thi: Năm học 2020-2021 - học kỳ I, Thời gian bắt đầu: 11-06-2021,   15:20, Thời gian kết thúc: 11-06-2021,  16:15, Giáo viên ra đề: Quốc Lưu, Sinh viên thực hiện: thành Tiến, Lớp: 59CNTT-3
+
+Thời gian: 06/11/2021, hành động: Xem Kết quả, Mã người dùng: 60b5b604b79f9f3d34fe0849, Họ tên: undefined, dữ liệu: Mã đề thi: MMT005, Kỳ thi: Năm học 2020-2021 - học kỳ I, Thời gian bắt đầu: 11-06-2021,   15:20, Thời gian kết thúc: 11-06-2021,  16:15, Giáo viên ra đề: Quốc Lưu, Sinh viên thực hiện: thành Tiến, Lớp: 59CNTT-3
+
+Thời gian: 06/11/2021, hành động: Sửa đề thi, Mã người dùng: 60b5b483b79f9f3d34fe083d, Họ tên: Quốc Lưu, dữ liệu: Mã đề thi: MMT005, Kythi: Năm học 2020-2021 - học kỳ I, Nội dung: Ngân hàng câu hỏi đề thi học kỳ I năm học 2020 - 2021, Số lượng câu hỏi: 5, Giáo viên: Quốc Lưu, Lớp: [{"_id":"60c3260951c22f5318e3b615","name":"59CNTT-3"}], Mật khẩu:123
+
+Thời gian: 06/11/2021, hành động: Duyệt đề thi, Mã người dùng: 60b5b483b79f9f3d34fe083d, Họ tên: Quốc Lưu, dữ liệu: Mã đề thi: MMT005, Kythi: Năm học 2020-2021 - học kỳ I, Nội dung: Ngân hàng câu hỏi đề thi học kỳ I năm học 2020 - 2021, Số lượng câu hỏi: 5, Giáo viên: Quốc Lưu, Lớp: [{"_id":"60c32b72432b7b0b78e103f1","name":"59CNTT-3"}], Mật khẩu:123
+
+Thời gian: 06/11/2021, hành động: Sửa đề thi, Mã người dùng: 60b5b483b79f9f3d34fe083d, Họ tên: Quốc Lưu, dữ liệu: Mã đề thi: MMT005, Kythi: Năm học 2020-2021 - học kỳ I, Nội dung: Ngân hàng câu hỏi đề thi học kỳ I năm học 2020 - 2021, Số lượng câu hỏi: 5, Giáo viên: Quốc Lưu, Lớp: [{"_id":"60c32b72432b7b0b78e103f1","name":"59CNTT-3"}], Mật khẩu:123
+
+Thời gian: 06/11/2021, hành động: Duyệt đề thi, Mã người dùng: 60b5b483b79f9f3d34fe083d, Họ tên: Quốc Lưu, dữ liệu: Mã đề thi: MMT005, Kythi: Năm học 2020-2021 - học kỳ I, Nội dung: Ngân hàng câu hỏi đề thi học kỳ I năm học 2020 - 2021, Số lượng câu hỏi: 5, Giáo viên: Quốc Lưu, Lớp: [{"_id":"60c33221422849493cd2e65e","name":"59CNTT-3"}], Mật khẩu:123
+
+Thời gian: 06/11/2021, hành động: Sửa đề thi, Mã người dùng: 60b5b483b79f9f3d34fe083d, Họ tên: Quốc Lưu, dữ liệu: Mã đề thi: MMT005, Kythi: Năm học 2020-2021 - học kỳ I, Nội dung: Ngân hàng câu hỏi đề thi học kỳ I năm học 2020 - 2021, Số lượng câu hỏi: 5, Giáo viên: Quốc Lưu, Lớp: [{"_id":"60c33221422849493cd2e65e","name":"59CNTT-3"}], Mật khẩu:123
+
+Thời gian: 06/11/2021, hành động: Duyệt đề thi, Mã người dùng: 60b5b483b79f9f3d34fe083d, Họ tên: Quốc Lưu, dữ liệu: Mã đề thi: MMT005, Kythi: Năm học 2020-2021 - học kỳ I, Nội dung: Ngân hàng câu hỏi đề thi học kỳ I năm học 2020 - 2021, Số lượng câu hỏi: 5, Giáo viên: Quốc Lưu, Lớp: [{"_id":"60c362d39dea6452a4d375aa","name":"59CNTT-3"}], Mật khẩu:123
+
+Thời gian: 06/11/2021, hành động: Thêm câu hỏi, Mã người dùng: 60b5b483b79f9f3d34fe083d, Họ tên: Tôn Tùng, dữ liệu: Câu hỏi: fsadfadsf, Mức độ: , Chủ đề: Repeater
+
+Thời gian: 06/11/2021, hành động: Xóa câu hỏi, Mã người dùng: 60b5b483b79f9f3d34fe083d, Họ tên: Tôn Tùng, dữ liệu: Câu hỏi: Con vịt có bơi không., Mức độ: 2, Chủ đề: động vật
+
+Thời gian: 06/11/2021, hành động: Xóa câu hỏi, Mã người dùng: 60b5b483b79f9f3d34fe083d, Họ tên: Tôn Tùng, dữ liệu: Câu hỏi: Con chó mấy chân?., Mức độ: 1, Chủ đề: động vật
+
+Thời gian: 06/11/2021, hành động: Xóa câu hỏi, Mã người dùng: 60b5b483b79f9f3d34fe083d, Họ tên: Tôn Tùng, dữ liệu: Câu hỏi: Con chó có mấy chân, Mức độ: 2, Chủ đề: Động vật
+
+Thời gian: 06/11/2021, hành động: Xóa câu hỏi, Mã người dùng: 60b5b483b79f9f3d34fe083d, Họ tên: Tôn Tùng, dữ liệu: Câu hỏi: Con heo có mấy chân, Mức độ: 1, Chủ đề: Động vật
+
+Thời gian: 06/11/2021, hành động: Xóa câu hỏi, Mã người dùng: 60b5b483b79f9f3d34fe083d, Họ tên: Tôn Tùng, dữ liệu: Câu hỏi: Con chó mấy chân?., Mức độ: , Chủ đề: động vật
+
+Thời gian: 06/11/2021, hành động: Xóa câu hỏi, Mã người dùng: 60b5b483b79f9f3d34fe083d, Họ tên: Tôn Tùng, dữ liệu: Câu hỏi: Con chó mấy chân?., Mức độ: , Chủ đề: động vật
+
+Thời gian: 06/11/2021, hành động: Xóa câu hỏi, Mã người dùng: 60b5b483b79f9f3d34fe083d, Họ tên: Tôn Tùng, dữ liệu: Câu hỏi: Con chó mấy chân?., Mức độ: , Chủ đề: động vật
+
+Thời gian: 06/11/2021, hành động: Xóa câu hỏi, Mã người dùng: 60b5b483b79f9f3d34fe083d, Họ tên: Tôn Tùng, dữ liệu: Câu hỏi: Thiết bị router có bao nhiêu Broadcast domain1, Mức độ: , Chủ đề: Động vật
+
+Thời gian: 06/11/2021, hành động: Xóa câu hỏi, Mã người dùng: 60b5b483b79f9f3d34fe083d, Họ tên: Tôn Tùng, dữ liệu: Câu hỏi: Thiết bị router có bao nhiêu Broadcast domain1, Mức độ: , Chủ đề: Động vật
+
+Thời gian: 06/11/2021, hành động: Xem Kết quả, Mã người dùng: 60b5aa57b79f9f3d34fe0829, Họ tên: Tôn Tùng, dữ liệu: Mã đề thi: MMT005, Kỳ thi: Năm học 2020-2021 - học kỳ I, Thời gian bắt đầu: 11-06-2021,      15:20, Thời gian kết thúc: 11-06-2021,  20:50, Giáo viên ra đề: Quốc Lưu, Sinh viên thực hiện: Nguyễn Thành, Lớp: 59CNTT-3
+
+Thời gian: 06/11/2021, hành động: Test bài thi, Mã người dùng: 60b5b604b79f9f3d34fe0849, Họ tên: thành Tiến, dữ liệu: Mã đề thi: MMT005, Kỳ thi: Năm học 2020-2021 - học kỳ I, Thời gian bắt đầu: 11-06-2021,     15:20, Thời gian kết thúc: 11-06-2021, 20:50, Giáo viên ra đề: Quốc Lưu, Lớp: 59CNTT-3
+
+Thời gian: 06/11/2021, hành động: Xem Kết quả, Mã người dùng: 60b5b604b79f9f3d34fe0849, Họ tên: Tôn Tùng, dữ liệu: Mã đề thi: MMT005, Kỳ thi: Năm học 2020-2021 - học kỳ I, Thời gian bắt đầu: 11-06-2021,      15:20, Thời gian kết thúc: 11-06-2021,  20:50, Giáo viên ra đề: Quốc Lưu, Sinh viên thực hiện: thành Tiến, Lớp: 59CNTT-3
+
+Thời gian: 06/11/2021, hành động: Xem Kết quả, Mã người dùng: 60b5aa57b79f9f3d34fe0829, Họ tên: Tôn Tùng, dữ liệu: Mã đề thi: MMT005, Kỳ thi: Năm học 2020-2021 - học kỳ I, Thời gian bắt đầu: 11-06-2021,      15:20, Thời gian kết thúc: 11-06-2021,  20:50, Giáo viên ra đề: Quốc Lưu, Sinh viên thực hiện: Nguyễn Thành, Lớp: 59CNTT-3
+
+Thời gian: 06/11/2021, hành động: Test bài thi, Mã người dùng: 60b5acf3b79f9f3d34fe082d, Họ tên: Hữu  Nhân, dữ liệu: Mã đề thi: MMT005, Kỳ thi: Năm học 2020-2021 - học kỳ I, Thời gian bắt đầu: 11-06-2021,     15:20, Thời gian kết thúc: 11-06-2021, 20:50, Giáo viên ra đề: Quốc Lưu, Lớp: 59CNTT-3
+
+Thời gian: 06/11/2021, hành động: Xem Kết quả, Mã người dùng: 60b5acf3b79f9f3d34fe082d, Họ tên: Quốc Lưu, dữ liệu: Mã đề thi: MMT005, Kỳ thi: Năm học 2020-2021 - học kỳ I, Thời gian bắt đầu: 11-06-2021,      15:20, Thời gian kết thúc: 11-06-2021,  20:50, Giáo viên ra đề: Quốc Lưu, Sinh viên thực hiện: Hữu  Nhân, Lớp: 59CNTT-3
+
+Thời gian: 06/11/2021, hành động: Hủy duyệt đề thi, Mã người dùng: 60b5b57db79f9f3d34fe0845, Họ tên: Quốc Lưu, dữ liệu: Mã đề thi: MMT005, Kythi: Năm học 2020-2021 - học kỳ I, Nội dung: Ngân hàng câu hỏi đề thi học kỳ I năm học 2020 - 2021, Số lượng câu hỏi: 5, Giáo viên: Quốc Lưu, Lớp: [{"_id":"60c362d39dea6452a4d375aa","name":"59CNTT-3"}], Mật khẩu:123
+
+Thời gian: 06/11/2021, hành động: Hủy duyệt đề thi, Mã người dùng: 60b5b57db79f9f3d34fe0845, Họ tên: Quốc Lưu, dữ liệu: Mã đề thi: MMT004, Kythi: Năm học 2020-2021 - học kỳ I, Nội dung: ngân hàng câu hỏi đề thi học kì I năm học 2020 - 2021 , Số lượng câu hỏi: 5, Giáo viên: Quốc Lưu, Lớp: [{"_id":"60bc98d5e8db5a10c07c4886","name":"59CNTT-3"},{"_id":"60bc98d5e8db5a10c07c4887","name":"59CNTT-2"}], Mật khẩu:123
+
+Thời gian: 06/11/2021, hành động: Duyệt đề thi, Mã người dùng: 60b5b483b79f9f3d34fe083d, Họ tên: Quốc Lưu, dữ liệu: Mã đề thi: MMT005, Kythi: Năm học 2020-2021 - học kỳ I, Nội dung: Ngân hàng câu hỏi đề thi học kỳ I năm học 2020 - 2021, Số lượng câu hỏi: 5, Giáo viên: Quốc Lưu, Lớp: [{"_id":"60c362d39dea6452a4d375aa","name":"59CNTT-3"}], Mật khẩu:123
+
+Thời gian: 06/11/2021, hành động: Duyệt đề thi, Mã người dùng: 60b5b483b79f9f3d34fe083d, Họ tên: Quốc Lưu, dữ liệu: Mã đề thi: MMT004, Kythi: Năm học 2020-2021 - học kỳ I, Nội dung: ngân hàng câu hỏi đề thi học kì I năm học 2020 - 2021 , Số lượng câu hỏi: 5, Giáo viên: Quốc Lưu, Lớp: [{"_id":"60bc98d5e8db5a10c07c4886","name":"59CNTT-3"},{"_id":"60bc98d5e8db5a10c07c4887","name":"59CNTT-2"}], Mật khẩu:123
+
+Thời gian: 06/13/2021, hành động: Test bài thi, Mã người dùng: 60b5ad1fb79f9f3d34fe082f, Họ tên: Tấn Tài, dữ liệu: Mã đề thi: MMT004, Kỳ thi: Năm học 2020-2021 - học kỳ I, Thời gian bắt đầu: 06-06-2021, 16:30, Thời gian kết thúc: 06-06-2021, 16:50, Giáo viên ra đề: Quốc Lưu, Lớp: 59CNTT-3
+
+Thời gian: 06/14/2021, hành động: Xem Kết quả, Mã người dùng: 60b5aa57b79f9f3d34fe0829, Họ tên: Tôn Tùng, dữ liệu: Mã đề thi: MMT005, Kỳ thi: Năm học 2020-2021 - học kỳ I, Thời gian bắt đầu: 11-06-2021,      15:20, Thời gian kết thúc: 11-06-2021,  20:50, Giáo viên ra đề: Quốc Lưu, Sinh viên thực hiện: Nguyễn Thành, Lớp: 59CNTT-3
+
+Thời gian: 06/14/2021, hành động: Xem Kết quả, Mã người dùng: 60b5aa57b79f9f3d34fe0829, Họ tên: Tôn Tùng, dữ liệu: Mã đề thi: MMT005, Kỳ thi: Năm học 2020-2021 - học kỳ I, Thời gian bắt đầu: 11-06-2021,      15:20, Thời gian kết thúc: 11-06-2021,  20:50, Giáo viên ra đề: Quốc Lưu, Sinh viên thực hiện: Nguyễn Thành, Lớp: 59CNTT-3
+
+Thời gian: 06/19/2021, hành động: Thêm câu hỏi, Mã người dùng: 60b5b483b79f9f3d34fe083d, Họ tên: Tôn Tùng, dữ liệu: Câu hỏi: fsda, Mức độ: , Chủ đề: fdsaf11111111
+
+Thời gian: 06/19/2021, hành động: Xóa câu hỏi, Mã người dùng: 60b5b483b79f9f3d34fe083d, Họ tên: Tôn Tùng, dữ liệu: Câu hỏi: fsda, Mức độ: , Chủ đề: fdsaf11111111
+
+Thời gian: 06/19/2021, hành động: Xóa câu hỏi, Mã người dùng: 60b5b483b79f9f3d34fe083d, Họ tên: Tôn Tùng, dữ liệu: Câu hỏi: fsadfadsf, Mức độ: , Chủ đề: Repeater
+
+Thời gian: 06/19/2021, hành động: Test bài thi, Mã người dùng: 60b5aa57b79f9f3d34fe0829, Họ tên: Nguyễn Thành, dữ liệu: Mã đề thi: MMT004, Kỳ thi: Năm học 2020-2021 - học kỳ I, Thời gian bắt đầu: 06-06-2021, 16:30, Thời gian kết thúc: 06-06-2021, 16:50, Giáo viên ra đề: Quốc Lưu, Lớp: 59CNTT-3
+

@@ -1,0 +1,27 @@
+.mod-myhome {
+  &-calender{
+    margin-top: 100px;
+  }
+  &-content {
+    background: #f5f5f5;
+    border-radius: 5px;
+    border: 1px solid rgb(228, 227, 227);
+    color: rgb(24, 24, 24) !important;
+    h3 {
+      font-weight: 700;
+      text-shadow: 1px 2px 5px #fff;
+    }
+    .card {
+      padding: 1px;
+      cursor: pointer;
+      background: transparent !important;
+      border: none;
+      transition: all 0.4s;
+      &:hover {
+        border: blanchedalmond;
+        color: rgb(243, 44, 44);
+        border: 1px solid rgb(192, 191, 191);
+      }
+    }
+  }
+}

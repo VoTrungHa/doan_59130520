@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Bailam>
+  <Class>59CNTT-3</Class>
+  <idDeThi>6098db601111502cb81c4775</idDeThi>
+  <kyThi>Năm học 2020-2021 - học kỳ I</kyThi>
+  <nameCreateBy>Hồ Giang</nameCreateBy>
+  <createBy>607033c6a43120065424e63c</createBy>
+  <content>fdasfasdffdsa</content>
+  <avatar/>
+  <sumPoint>0</sumPoint>
+  <truNumberQuestion>0</truNumberQuestion>
+  <percent>0</percent>
+  <time/>
+  <maDeThi>123</maDeThi>
+  <idPerformer>6070333c440a372f3899f0a9</idPerformer>
+  <status>false</status>
+  <_id>6098fc4498d4f4396800fc74</_id>
+  <performer>fdas1111111 fdas</performer>
+  <timeStart>10-05-2021,   16:10</timeStart>
+  <timeEnd>10-05-2021,   16:30</timeEnd>
+  <detailTest>
+    <question>fasfsadf1111111</question>
+    <status>true</status>
+    <result>false</result>
+    <_id>6098e003d658cb0c28d8f0ea</_id>
+    <theme>fdasfasd</theme>
+    <level>1</level>
+    <answers>
+      <_id>6098e003d658cb0c28d8f0eb</_id>
+      <answer>fssdafsadfsad</answer>
+      <bio>false</bio>
+    </answers>
+    <answers>
+      <_id>6098e003d658cb0c28d8f0ec</_id>
+      <answer>12321312</answer>
+      <bio>false</bio>
+    </answers>
+  </detailTest>
+  <detailTest>
+    <question>fasfsadf</question>
+    <status>true</status>
+    <result>false</result>
+    <_id>6098e003d658cb0c28d8f0e8</_id>
+    <theme>fdasfasd</theme>
+    <level>1</level>
+    <answers>
+      <_id>6098e003d658cb0c28d8f0e9</_id>
+      <answer>fssdafsadfsad</answer>
+      <bio>false</bio>
+    </answers>
+  </detailTest>
+  <dateTest>2021-05-10T16:26:28+07:00</dateTest>
+  <goc>6098fc4498d4f4396800fc6e</goc>
+</Bailam>

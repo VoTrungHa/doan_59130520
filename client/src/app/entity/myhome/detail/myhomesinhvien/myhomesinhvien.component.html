@@ -1,0 +1,35 @@
+<div class="myhome-sinhvien py-4 px-2">
+  <h5>Danh sách sinh viên</h5>
+  <table *ngIf="sinhviens" class="table table-striped table-borderless table-hover table-sm">
+    <thead>
+      <tr class="d-flex text-center ">
+        <th class="col-1">#</th>
+        <th class="col-2"><span> Họ và tên <img src="../../../assets/Images/icon-sort.svg" alt=""></span> </th>
+        <th class="col-2"><span>Ngày sinh<img src="../../../assets/Images/icon-sort.svg" alt=""></span> </th>
+        <th class="col-2"><span>Giới tính<img src="../../../assets/Images/icon-sort.svg" alt=""></span> </th>
+        <th class="col-2"><span>Email<img src="../../../assets/Images/icon-sort.svg" alt="">
+          </span> </th>
+        <th class="col-2"><span>Lớp<img src="../../../assets/Images/icon-sort.svg" alt=""> </span> </th>
+        <th class="col-1"><span>Kết quả</span> </th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngIf="sinhviens.length == 0" class="bg-none">
+        <td class="text-center">{{'general.Trong' | translate}}</td>
+      </tr>
+      <ng-container>
+        <tr class="d-flex text-center"  *ngFor="let item of sinhviens | paginate: { id: 'server', itemsPerPage: params.limit, currentPage: params.current_page, totalItems: total_records }; let i =index">
+          <td class="col-1 id">{{item.infor.id}}</td>
+          <td class="col-2">{{item.infor.firstName}} {{item.infor.lastName}}</td>
+          <td class="col-2">{{item.infor.birthDay}}</td>
+          <td class="col-2">{{item.infor.gender}}</td>
+          <td class="col-2">{{item.infor.email}}</td>
+          <td class="col-2">{{item.infor.Class[0].name}}</td>
+          <td class="col-1">
+            <fa-icon (click)="SeeArchiverment(item._id)" style="color: rgb(241, 176, 77);" [icon]="faTrophy"></fa-icon>
+          </td>
+        </tr>
+      </ng-container>
+    </tbody>
+  </table>
+</div>

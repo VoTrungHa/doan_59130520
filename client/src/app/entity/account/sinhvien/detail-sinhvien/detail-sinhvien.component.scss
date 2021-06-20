@@ -1,0 +1,14 @@
+.detail-sinhvien{
+  &-content{
+    border: 1px solid rgb(197, 197, 197);
+    background: #f7f7f7;
+    border-radius: 4px;
+    box-shadow: 1px 2px 5px rgb(173, 171, 171);
+    h6{
+       font-size: 22px;
+      span{
+        font-weight: 400;
+      }
+    }
+  }
+}

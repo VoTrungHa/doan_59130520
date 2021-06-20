@@ -1,0 +1,156 @@
+<div class="mod-docs my-2 mx-2">
+  <div class="mod-docs-box p-3">
+    <h5>Thay đổi Chương</h5>
+    <form [formGroup]="TailieuFrom" class="mt-3">
+      <div class="ml-auto w-50 mod-upload-box">
+        <ngx-file-drop *ngIf="checkavatar" dropZoneLabel="Drop files here" (onFileDrop)="dropped($event,'','','avatar')"
+          (onFileOver)="fileOver($event)" (onFileLeave)="fileLeave($event)">
+          <ng-template ngx-file-drop-content-tmp let-openFileSelector="openFileSelector" class="d-flex flex-column">
+            <img src="../../../assets/Images/cloud-upload-outline-blue.png" width="100" class="mt-5" alt="upload" />
+            <br />
+            <div class="mt-4">
+              <span *ngIf="!isFile">Kéo thả ảnh nền cho đề thi tại đây hoặc</span>
+              <span *ngIf="isFile">{{'general.IsFileUpload' | translate}}</span>
+              <button type="file" (click)="openFileSelector()">Click here</button>
+            </div>
+          </ng-template>
+        </ngx-file-drop>
+      </div>
+      <div *ngIf="!checkavatar" class="rs">
+        <span class="close" (click)="closeAvatar()">X</span>
+        <img src="http://localhost:3000/static/image/{{TailieuFrom.value.avatar}}" height="50%" width="100%" alt="">
+      </div>
+
+
+      <div class="form-froup mb-2">
+        <label for="noidung">Tên chương</label>
+        <textarea class="form-control" formControlName="chuong" required
+          [ngClass]="(chuong.errors && isvalidator) ? 'border-error':''" autofocus rows="2"></textarea>
+      </div>
+      <div class="form-froup my-1">
+        <label for="noidung">Nội dung</label>
+        <div class="w-100 ">
+
+          <div class=" p-0 w-100" formArrayName="DsNoiDung">
+            <div class="d-flex mb-1" *ngFor="let nd of DsNoiDung.controls; let i = index" [formGroupName]="i">
+
+              <div class="w-100 p-3 mb-2 mod-docs-box-nd  rs">
+                <span class="clo1" (click)="deletecontent(i)">x</span>
+                <div class="form-froup">
+                  <label for="noidung">Tiêu đề</label>
+                  <input class="form-control "
+                    [ngClass]="(TailieuFrom.get('DsNoiDung')['controls'][i].get('tieuDe').errors && isvalidator) ? 'border-error':''"
+                    formControlName="tieuDe" required placeholder="Nhập tiêu đề cho nội dung">
+                </div>
+                <div formArrayName="noidung">
+                  <div *ngFor="let nd of DsNoiDung.controls[i].get('noidung').controls ; let j = index"
+                    [formGroupName]="j">
+                    <div class="form-froup rs" *ngIf="nd.value.bio=='text'">
+                      <span class="clo" (click)="deletenoidung(i,j)">x</span>
+                      <label for="noidung">Nội dung</label>
+                      <textarea class="form-control" placeholder="Nội dung văn bản" formControlName="text" required
+                        rows="3"
+                        [ngClass]="(TailieuFrom.get('DsNoiDung').controls[i].get('noidung')['controls'][j].get('text').errors && isvalidator) ? 'border-error':''"></textarea>
+                    </div>
+
+                    <div class="form-froup rs" *ngIf="nd.value.bio=='anh'">
+                      <div class="w-25 mod-upload-box my-2 rs">
+                        <span class="clo2" *ngIf="!nd.value.text" (click)="deletenoidung(i,j)">x</span>
+                        <ngx-file-drop *ngIf="!nd.value.text" dropZoneLabel="Drop files here"
+                          (onFileDrop)="dropped($event,i,j,'anh')" (onFileOver)="fileOver($event)"
+                          (onFileLeave)="fileLeave($event)">
+                          <ng-template ngx-file-drop-content-tmp let-openFileSelector="openFileSelector"
+                            class="d-flex flex-column">
+                            <img src="../../../assets/Images/cloud-upload-outline-blue.png" width="100" class=" mt-5"
+                              alt="upload" />
+                            <br />
+                            <div class="mb-2 mt-0"
+                              [ngClass]="(TailieuFrom.get('DsNoiDung').controls[i].get('noidung')['controls'][j].get('text').errors && isvalidator) ? 'textError':''">
+                              <span *ngIf="!isFile">Kéo thả ảnh nền cho đề thi tại đây hoặc</span>
+                              <span *ngIf="isFile">{{'general.IsFileUpload' | translate}}</span>
+                              <button type="file" (click)="openFileSelector()"> Click here</button>
+                            </div>
+                          </ng-template>
+                        </ngx-file-drop>
+                        <div *ngIf="nd.value.text" class="rs">
+                          <span class="close" (click)="closeImage(i,j)">X</span>
+                          <img src='http://localhost:3000/static/image/{{nd.value.text}}' height="50%" width="100%"
+                            alt="">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="from-group mt-2">
+                  <button class="btn btn-sm btn-outline-success mr-1" title="Thêm ảnh" (click)="andnoidung(i,'anh')">
+                    <fa-icon [icon]="faImage"></fa-icon>
+                  </button>
+                  <button class="btn btn-sm btn-outline-primary ml-1" title="Thêm nội dung"
+                    (click)="andnoidung(i,'text')">
+                    <fa-icon [icon]="faFileAlt"></fa-icon>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div formArrayName="detailTest">
+            <ng-container *ngFor="let content of detailTest.controls; let i = index" [formGroupName]="i">
+              <div class="mod-baithi-content-Ch mb-2 rs"
+                [ngClass]="(content.value.answers.length<=0 && !checkSumAnswer)?'border-error':''">
+                <span class="close mr-1" (click)="deleteQuestion(i)" aria-hidden="true">&times;</span>
+                <div class="form-gruop">
+                  <label for="question{{i}}">Câu {{i+1}}</label>
+                  <textarea placeholder="nội dung..." name="" id="question{{i}}" rows="2" class="form-control"
+                    formControlName="question"
+                    [ngClass]="(TailieuFrom.get('detailTest')['controls'][i].get('question').errors && isvalidator)? 'border-error' : ''"></textarea>
+                </div>
+                <div class="input-group mt-3 rs">
+                  <label class="ml-2">Đáp án</label>
+                  <div class="w-100 " formArrayName="answers">
+                    <div class="d-flex mb-1 w-100"
+                      *ngFor="let ans of detailTest.controls[i].get('answers').controls; let j = index"
+                      [formGroupName]="j">
+                      <div class="input-group mb-2">
+                        <div for="bio"
+                          [ngClass]="(questionCheckbio.indexOf(content.value.question)!=-1 && !checkbio)?'border-error':''"
+                          class="input-group-prepend btn btn-xs  rounded-sm mr-1 p-0 btn-outline-secondary f-flex justify-content-center align-items-center">
+                          <input type="checkbox" class="input-group-text m-2 " formControlName="bio">
+                        </div>
+                        <input type="text" class="form-control mr-1 form-control-sm" formControlName="answer"
+                          [ngClass]="(TailieuFrom. get('detailTest').controls[i].get('answers')['controls'][j].get('answer').errors && isvalidator)? 'border-error' : ''">
+                        <span class="btn ml-2 btn-sm btn-outline-danger" (click)="deleteAnswer(i,j)">
+                          <fa-icon [icon]="faTrash"></fa-icon>
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="w-100">
+                    <span class="float-right mod-baithi-content-Ch-answer" (click)="andAnswer(i)">Thêm đáp án</span>
+                  </div>
+                </div>
+              </div>
+            </ng-container>
+          </div>
+
+        </div>
+        <div class="from-group">
+          <button class="btn btn-sm btn-outline-success mr-1" (click)="addContent()">Thêm nội dung</button>
+          <button class="btn btn-sm btn-outline-primary ml-1" (click)="addQuestion()">Thêm câu hỏi</button>
+        </div>
+      </div>
+    </form>
+    <div class="d-flex mt-3 justify-conten-center">
+      <div class="form-group ml-auto w-auto">
+        <button class="btn btn-add text-light btn-sm  px-3"
+          (click)="(chuong.errors || TailieuFrom.get('detailTest').status==='INVALID'|| !checkbio|| !checkSumAnswer|| TailieuFrom.get('DsNoiDung').status==='INVALID')?setValidator(): submit()">
+          Lưu <fa-icon [icon]="faSave"></fa-icon></button>
+      </div>
+      <div class="form-group w-auto ">
+        <button (click)="cancel()" class="btn text-light btn-cancel btn-sm mx-2 px-3"> Hủy
+          <fa-icon [icon]="faCandyCane"></fa-icon>
+        </button>
+      </div>
+    </div>
+  </div>
+</div>

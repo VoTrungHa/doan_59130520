@@ -1,0 +1,38 @@
+<div class="detail-sinhvien mt-5 p-3" >
+  <div class="detail-sinhvien-content p-4" *ngIf="Sinhvien">
+    <h5>Sinh Viên </h5>
+    <hr/>
+    <div class="mt-2 row px-3">
+      <div class="col-md-2">
+        <div class="content-avatar justity-content-center align-self-center">
+            <img src="../../../../../assets/Images/avatar.png" width="100%" height="100%" alt="">
+        </div>
+      </div>
+      <div class="col-md-4">
+        <h6>Mã sinh viên: <span>{{Sinhvien.infor.id}}</span></h6>
+        <h6>Giới tính: <span>{{Sinhvien.infor.gender}}</span></h6>
+        <h6>Lớp: <span>{{Sinhvien.infor.Class[0].name}}</span></h6>
+        <h6>Tên ngành học: <span>{{Sinhvien.infor.nganh}}</span></h6>
+        <h6>Tên đơn vị: <span>{{Sinhvien.infor.nganh}}</span></h6>
+        <h6 *ngIf="(Sinhvien.authorities==='SV')">Chức vụ: <span>Sinh viên</span></h6>
+        <h6 *ngIf="(Sinhvien.authorities==='GV')">Chức vụ: <span>Giáo viên</span></h6>
+        <h6 *ngIf="(Sinhvien.authorities==='TBM')">Chức vụ: <span>Trưởng bộ môn</span></h6>
+
+      </div>
+      <div class="col-md-4">
+        <h6>Họ tên sinh viên: <span>{{Sinhvien.infor.firstName}} {{Sinhvien.infor.lastName}}</span></h6>
+        <h6>Ngày sinh: <span>{{Sinhvien.infor.birthDay}}</span></h6>
+        <h6>Điạ chỉ: <span>{{Sinhvien.infor.diachi}}</span></h6>
+        <h6>Điện thoại: <span>{{Sinhvien.infor.phone}}</span></h6>
+        <h6>Email: <span>{{Sinhvien.infor.email}}</span></h6>
+      </div>
+    </div>
+    <div class="d-flex justify-content-end mt-5">
+      <span class="btn btn-sm btn-outline-danger mr-2" (click)="onback()" >Quay lại <fa-icon [icon]="faBan"></fa-icon></span>
+        <span class="btn btn-sm btn-outline-primary ml-2" [routerLink]="['/thanhvien/thaydoi/',Sinhvien._id]" routerLinkActive="router-link-active" >
+          Thay đổi <fa-icon [icon]="faEdit"></fa-icon>
+        </span>
+    </div>
+  </div>
+  <!-- <div class="w-25"></div> -->
+</div>

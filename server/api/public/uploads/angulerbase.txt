@@ -1,0 +1,11 @@
+"strictPropertyInitialization": false,
+    "strictNullChecks":false
+
+cú pháp tạo folder có module.ts and router.module.ts
+ng generate module nameFolder/heroes --module app --flat --routing
+
+đê thiết lập lazy loaded.
+cú pháp: ng generate module customers --route customers --module app.module
+* chú ý: để đảm bảo là mudule lazy loaded, thì CustomersModule không được gọi trong app.mudels.ts nhưng nó được thêm vào app-routing.nudule.ts
+* ngoài ra còn được tải trước các module tải chậm,
+* tải trước data ta: bằng các chặm tải page cho đến khi data đã sẳn sàng hiển thị

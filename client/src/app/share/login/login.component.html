@@ -1,0 +1,52 @@
+<div class="mod-login   py-4">
+  <div (click)="modal.dismiss()">
+<span class="close mr-1" aria-hidden="true">&times;</span>
+  </div>
+
+  <div class="row my-3 justify-content-center">
+    <h4>{{'general.DangNhap'|translate}}</h4>
+  </div>
+    <div class="text-danger text-center" *ngIf="message">{{message}}</div>
+  <div class="row justify-content-center">
+    <form [formGroup]="formLogin">
+      <div class="form-group">
+        <input type="text" id="username" class="form-control" formControlName="username" placeholder="E-mail" required
+          autofocus [ngClass]="(username.errors && stataValidator)?'border-error':''">
+        <div *ngIf="username.invalid && (username.dirty||username.touched)" class="alert-error">
+          <div *ngIf="username.errors.required">
+            {{'error.username_required'| translate}}
+          </div>
+          <div *ngIf="username.errors.email">
+            {{'error.username_email'| translate}}
+          </div>
+        </div>
+      </div>
+      <div class="form-group">
+        <input type="password" id="password" formControlName="password" placeholder="password" class="form-control"
+          required [ngClass]="(password.errors && stataValidator)?'border-error':''">
+        <div *ngIf="password.invalid && (password.dirty||password.touched)" class="alert-error">
+          <div *ngIf="password.errors.required">
+            {{'error.password_required'| translate}}
+          </div>
+        </div>
+      </div>
+      <div class="form-group">
+        <input type="checkbox" id="remeberMe" formControlName="remeberMe"
+           >
+        <label for="remeberMe" class="pl-1">{{'general.remember' | translate}}</label>
+      </div>
+
+      <div class="form-group mb-1">
+         <button class="form-control btn-login" type="submit" (click)="(username.errors || password.errors)?setValidator():login()">
+           {{'general.DangNhap'| translate}}
+         </button>
+      </div>
+      <div class="row mt-1 justify-content-center create">
+        <span (click)="register()" >{{'general.TaoTaiKhoan' | translate}}</span>
+      </div>
+    </form>
+  </div>
+
+
+
+</div>

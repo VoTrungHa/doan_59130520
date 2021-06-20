@@ -1,0 +1,78 @@
+.mod-show{
+  font-family: 'Times New Roman';
+.mod-show-content{
+  background: #fff;
+  border-radius: 3px;
+  border:1px solid rgb(236, 236, 236);
+  h2{
+    font-weight: 600;
+    font-size: 30px;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+  }
+  h3{
+    font-size: 28px;
+    font-weight: 700;
+  }
+  h4{
+    font-weight: 600;
+    margin: 5px 0;
+  }
+  .mod-noidung{
+    &-text{
+      p{
+        font-size: 20px;
+      }
+    }
+  }
+}
+}
+.update{
+  position: absolute;
+  top: -30px;
+  right: 10px;
+}
+.mod-cau{
+background: rgb(250, 249, 249);
+  border-radius: 5px;
+  border:1px solid rgb(226, 226, 226);
+.mod-cauhoi{
+  background: #fff;
+  border-radius: 5px;
+  border:1px solid rgb(226, 226, 226);
+  &-question{
+    font-size: 20px;
+    font-weight: 600;
+  }
+}
+
+}
+.mod-tailieu {
+  background: rgb(255, 255, 255);
+  border-radius: 5px;
+  &-content {
+    ul {
+      li {
+        font-size: 21px;
+        p {
+          font-weight: 500;
+        }
+      }
+    }
+  }
+}
+.mod-tailieu-test {
+  position: sticky;
+  top: 25px;
+  .mod-true {
+    border: 1px solid rgb(219, 218, 218);
+    border-right: 5px;
+    min-height: 350px;
+    background: #fff;
+    h5 {
+      font-weight: 500;
+      font-size: 20px;
+    }
+  }
+}
+

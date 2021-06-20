@@ -1,0 +1,14 @@
+<div class="modal-body">
+  <h4>{{title}}</h4>
+  <p class="mb-4">{{text}}</p>
+  <div class="row">
+      <div class="col-sm-6"><button type="button" (click)="activeModal.close('Close click')"
+              class="btn btn-danger btn-sm mr-5">{{
+              'general.No'
+              |
+              translate }}</button></div>
+      <div class="col-sm-6 text-right"><button type="button" (click)="onYes(); activeModal.close('Close click')"
+              class="btn btn-success btn-sm">{{
+              'general.TiepTuc' | translate }}</button></div>
+  </div>
+</div>

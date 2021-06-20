@@ -1,0 +1,56 @@
+<div class="mod-myhome d-flex mt-3">
+  <div class="w-75 px-3 py-4  ">
+    <div class="d-flex justify-content-between">
+      <h4>Danh sách các cuộc thi</h4>
+      <select [ngModel]="params.state" #state (ngModelChange)="changeTime(state.value)" name="cuothi" id="" class=" w-25 form-control form-control-sm">
+        <option value="true">Sắp diễn ra</option>
+        <option value="false">Đã kết thúc</option>
+      </select>
+    </div>
+
+    <hr/>
+    <div class="mod-myhome-content p-4">
+      <h3 class="text-center" *ngIf="params.state=='true'">CUỘC THI SẮP DIỄN RA</h3>
+    <h3 class="text-center" *ngIf="params.state=='false'">CUỘC THI ĐÃ KẾT THÚC</h3>
+      <div class="row mt-4"  *ngIf="Dethi">
+        <div class="col-md-6  my-2"  *ngFor="let item of Dethi | paginate: { id: 'server', itemsPerPage: params.limit, currentPage: params.current_page, totalItems: total_records }; let i =index">
+
+          <div class="card border-none" [routerLink]="['/nhacuatoi/dethi',item._id]" >
+            <img *ngIf="item.avatar!=''" src="http://localhost:3000/static/image/{{item.avatar}}" class="d-block w-100" alt="...">
+            <img *ngIf="item.avatar==''" src="../../../assets/Images/text1.png" class="d-block w-100 h-100" alt="...">
+            <div class="card-body p-1">
+              <h5 class="card-title">{{item.content.substring(0,30).toUpperCase()}}</h5>
+              <p class="card-text"><span> {{item.timeStart}} -- {{item.timeEnd}}</span>
+              </p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+      <hr class="mt-5"/>
+      <div class="text-right my-2 filter-table">
+        <span> Kết quả mỗi trang</span>
+        <span>
+          {{start+1}}
+          -
+          {{end}}
+          <span class="text-lowercase">của</span>
+          {{total_records}}
+        </span>
+
+        <pagination-template #p="paginationApi" id="server" (pageChange)="loadAll($event)">
+          <span class="custom-pagination">
+            <img *ngIf="p.isFirstPage()" class=" ml-2 inactive" src="../../../assets/Images/icon-arrow-left.svg">
+            <img *ngIf="!p.isFirstPage()" (click)="p.previous()" class=" ml-2"
+              src="../../../assets/Images/icon-arrow-left.svg">
+            <img *ngIf="!p.isLastPage()" (click)="p.next()" class=" mr-5" src="../../../assets/Images/icon-arrow-right.svg">
+            <img *ngIf="p.isLastPage()" class=" mr-5 inactive" src="../../../assets/Images/icon-arrow-right.svg">
+          </span>
+        </pagination-template>
+      </div>
+    </div>
+  </div>
+  <div class="w-25 mt-5 float-right">
+      <app-calendars></app-calendars>
+  </div>
+</div>

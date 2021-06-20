@@ -1,0 +1,23 @@
+.mod-left{
+  width: 100%;
+  position: relative;
+  background: #fff;
+  cursor: pointer;
+  ul{
+    list-style: none;
+    li{
+      padding: 0.5rem 1rem;
+      border:1px solid rgb(236, 233, 233);
+      &:hover{
+        background: rgb(225, 232, 247);
+      }
+    }
+  }
+  .p-custom{
+    .dropdown-menu{
+      width: 100%;
+      font-size: 16px;
+
+    }
+  }
+}

@@ -1,0 +1,52 @@
+.navbar {
+  box-shadow: 0 2px 4px rgb(0 0 0 / 8%);
+  position: relative;
+  background-color: rgb(8, 18, 44);
+}
+.navbar {
+  max-height: 50px;
+  .dropdown{
+     cursor: pointer;
+    &-menu{
+      min-width: auto !important;
+    }
+  }
+  .bg-gray{
+    border: none;
+    background: none;
+    color: #fff;
+    transition: all 0.4s ease-in-out;
+    &:hover{
+      opacity: 0.5;
+    }
+  }
+  .header-left{
+    .p-custom{
+      cursor: pointer;
+      padding: 0.5rem 1rem;
+      transition: all 0.5s;
+    }
+  }
+}
+.fixed-top {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1030;
+}
+.bg-white {
+  background-color: #fff!important;
+}
+.mod-lang{
+  select{
+     cursor: pointer;
+      color: #fff;
+      border: none;
+      background: none;
+      option{color:rgb(8, 18, 44);}
+    &:hover{
+      opacity: 0.5;
+    }
+  }
+}

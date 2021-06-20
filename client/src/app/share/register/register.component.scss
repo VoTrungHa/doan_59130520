@@ -1,0 +1,23 @@
+.mod-login{
+  .btn-login{
+    background: linear-gradient(
+              90deg
+              , #08122c 0%, #4a90e2 50.16%, #08122c 100%);
+    color: #fff;
+    font-weight: 400;
+    transition: all 0.4s ease-in-out;
+    &:hover{
+      opacity: 0.7;
+    }
+  }
+  .create{
+    font-size: 15px;
+    color: rgb(136, 134, 134);
+    text-align: initial;
+    cursor: pointer;
+     transition: all 0.4s ease-in-out;
+    &:hover{
+      color: rgb(245, 18, 18);
+    }
+  }
+}

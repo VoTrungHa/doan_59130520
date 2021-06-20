@@ -1,0 +1,303 @@
+
+<div class="mod-baithi mt-3 d-flex">
+  <div class="mod-baithi-content w-75">
+    <h4>Đề thi</h4>
+    <hr />
+    <form [formGroup]="formDethi">
+      <div class="mod-baithi-content-GT w-100">
+        <div class="ml-auto w-50 mod-upload-box">
+              <ngx-file-drop *ngIf="!image" dropZoneLabel="Drop files here" (onFileDrop)="dropped($event)" (onFileOver)="fileOver($event)"
+                (onFileLeave)="fileLeave($event)">
+                <ng-template ngx-file-drop-content-tmp  let-openFileSelector="openFileSelector" class="d-flex flex-column">
+                  <img src="../../../assets/Images/cloud-upload-outline-blue.png" width="100" class="mb-1" alt="upload" />
+                  <br />
+                  <span *ngIf="!isFile">Kéo thả ảnh nền cho đề thi tại đây hoặc</span>
+                  <span *ngIf="isFile">{{'general.IsFileUpload' | translate}}</span>
+                  <button type="file" (click)="openFileSelector()">Click here</button>
+                </ng-template>
+              </ngx-file-drop>
+        </div>
+        <div *ngIf="image" class="rs">
+          <span class="close" (click)="closeImage()">X</span>
+          <img [src]="urlIma" height="50%" width="100%" alt="">
+        </div>
+        <div class="form-froup mb-1">
+          <label for="noidung"> Giới thiệu</label>
+          <textarea class="form-control" formControlName="content" required
+            [ngClass]="(content.errors && isvalidator) ? 'border-error':''" autofocus rows="4"></textarea>
+        </div>
+        <div class="form-froup  mb-1">
+          <label for="ghichu"> Ghi chú</label>
+          <textarea class="form-control" formControlName="note"
+            [ngClass]="(note.errors && isvalidator) ? 'border-error':''" rows="2"></textarea>
+        </div>
+        <div class="d-flex w-100  mb-1">
+
+          <div class="d-flex w-50">
+            <div class="d-flex" *ngIf="!isKyThi">
+              <div class="form-group w-100 ml-1 mr-1">
+                <label for="namhoc">Năn học</label>
+                <input #namhoc value="" class="form-control form-control-sm" type="text">
+              </div>
+              <div class="form-group w-100 ml-1 mr-3">
+                <label for="hocky">Học kỳ</label>
+                <select name="hocky" class="form-control form-control-sm" #hocky id="hocky">
+                  <option *ngFor="let hocky of ky" value={{hocky}}>{{hocky}}</option>
+                </select>
+              </div>
+              <div class="form-group mt-4">
+                <span class="btn btn-sm btn-outline-success" (click)="onBlurHocKy(namhoc.value,hocky.value)">New</span>
+              </div>
+            </div>
+            <div class="form-group mr-3 w-100 mr-1" *ngIf="isKyThi">
+              <label for="kythi">{{'BaiThi.KyThi' | translate}}</label>
+              <select id="kythi" formControlName="kyThi" [ngClass]="(kyThi.errors && isvalidator) ? 'border-error':''"
+                class="form-control form-control-sm">
+                <option *ngFor="let kythi of kyThis" value={{kythi.name}}>{{kythi.name}}</option>
+              </select>
+            </div>
+            <span class="ml-auto my-auto ml-4" (click)="isKyThi=!isKyThi">
+              <fa-icon [icon]="faSyncAlt" size="1x"></fa-icon>
+            </span>
+          </div>
+
+          <div class="d-flex w-50">
+            <div class="form-group w-100 ml-1 mr-3" *ngIf="!ismulti">
+              <label for="kythi">{{'BaiThi.Lop' | translate}}</label>
+              <input #box (blur)="onBlur(box.value)" class="form-control form-control-sm" type="text">
+            </div>
+            <div class="form-group w-100 ml-1 mr-3" *ngIf="ismulti">
+              <label for="lop">{{'BaiThi.Lop' | translate}}</label>
+              <select multiple size='1' id="lop" class="form-control form-control-sm" formControlName="Class"
+                [ngClass]="(Class.errors && isvalidator) ? 'border-error':''">
+                <option *ngFor="let lop of lops ;let i =index" value={{lop.name}}>
+                  {{lop.name}}
+                </option>
+              </select>
+            </div>
+            <span class="ml-auto my-auto ml-4" (click)="ismulti=!ismulti">
+              <fa-icon [icon]="faSyncAlt" size="1x"></fa-icon>
+            </span>
+          </div>
+        </div>
+        <div>
+          <p class="  mb-2 mr-2 p-0 align-self-center">{{'BaiThi.ThoiGianBD' | translate}}: </p>
+          <div class="d-flex  mb-1 clearfix" [formGroup]="timeStart">
+            <div class="form-group">
+              <label for="ngay"> Ngày </label>
+              <select formControlName="day"
+                [ngClass]="(formDethi.get('timeStart').get('day').errors && isvalidator) ? 'border-error' : ''"
+                class="form-control form-control-sm" (blur)="onChangeDate('day')">
+                <option value="" disabled selected>00</option>
+                <option *ngFor="let item of ngay" [value]="item">{{item}}</option>
+              </select>
+            </div>
+            <span class="align-self-center mx-2">/</span>
+            <div class="form-group  ">
+              <label for="thang"> Tháng </label>
+              <select class="form-control form-control-sm" formControlName="month"
+                [ngClass]="(formDethi.get('timeStart').get('month').errors && isvalidator) ? 'border-error' : ''"
+                (blur)="onChangeDate('month')">
+                <option value="" disabled selected>00</option>
+                <option *ngFor="let item of thang" [value]="item">{{item}}</option>
+              </select>
+            </div>
+            <span class="align-self-center mx-2">/</span>
+            <div class="form-group">
+              <label for="nam"> Năm </label>
+              <select class="form-control form-control-sm" formControlName="year"
+                [ngClass]="(formDethi.get('timeStart').get('year').errors && isvalidator) ? 'border-error' : ''"
+                (blur)="onChangeDate('year')">
+                <option value="" disabled selected>00</option>
+                <option *ngFor="let item of nam" [value]="item">{{item}}</option>
+              </select>
+            </div>
+
+            <span class="align-self-center mx-2">:</span>
+            <div class="form-group">
+              <label for="nam"> Giờ </label>
+              <select class="form-control form-control-sm" formControlName="hours"
+                [ngClass]="(formDethi.get('timeStart').get('hours').errors && isvalidator) ? 'border-error' : ''">
+                <option value="" disabled selected>00</option>
+                <option *ngFor="let item of gio" [value]="item">{{item}}</option>
+              </select>
+            </div>
+            <span class="align-self-center mx-2">:</span>
+            <div class="form-group">
+              <label for="nam"> Phút </label>
+              <select class="form-control form-control-sm" formControlName="minute"
+                [ngClass]="(formDethi.get('timeStart').get('minute').errors && isvalidator) ? 'border-error' : ''">
+                <option value="" disabled selected>00</option>
+                <option *ngFor="let item of phut" [value]="item">{{item}}</option>
+              </select>
+            </div>
+          </div>
+        </div>
+        <div>
+          <p class="  mb-2 mr-2 p-0 align-self-center">{{'BaiThi.ThoiGianKT' | translate}}: </p>
+          <div class="d-flex  mb-1 clearfix" [formGroup]="timeEnd">
+            <div class="form-group">
+              <label for="ngay"> Ngày </label>
+              <select formControlName="day"
+                [ngClass]="(formDethi.get('timeEnd').get('day').errors && isvalidator) ? 'border-error' : ''"
+                class="form-control form-control-sm">
+                <option value="" disabled selected>00</option>
+                <option *ngFor="let item of ngay" [value]="item">{{item}}</option>
+              </select>
+            </div>
+            <span class="align-self-center mx-2">/</span>
+            <div class="form-group  ">
+              <label for="thang"> Tháng </label>
+              <select class="form-control form-control-sm" formControlName="month"
+                [ngClass]="(formDethi.get('timeEnd').get('month').errors && isvalidator) ? 'border-error' : ''">
+                <option value="" disabled selected>00</option>
+                <option *ngFor="let item of thang" [value]="item">{{item}}</option>
+              </select>
+            </div>
+            <span class="align-self-center mx-2">/</span>
+            <div class="form-group">
+              <label for="nam"> Năm </label>
+              <select class="form-control form-control-sm" formControlName="year"
+                [ngClass]="(formDethi.get('timeEnd').get('year').errors && isvalidator) ? 'border-error' : ''">
+                <option value="" disabled selected>00</option>
+                <option *ngFor="let item of nam" [value]="item">{{item}}</option>
+              </select>
+            </div>
+
+            <span class="align-self-center mx-2">:</span>
+            <div class="form-group">
+              <label for="nam"> Giờ </label>
+              <select class="form-control form-control-sm" formControlName="hours"
+                [ngClass]="(formDethi.get('timeEnd').get('hours').errors && isvalidator) ? 'border-error' : ''">
+                <option value="" disabled selected>00</option>
+                <option *ngFor="let item of gio" [value]="item">{{item}}</option>
+              </select>
+            </div>
+            <span class="align-self-center mx-2">:</span>
+            <div class="form-group">
+              <label for="nam"> Phút </label>
+              <select class="form-control form-control-sm" formControlName="minute"
+                [ngClass]="(formDethi.get('timeEnd').get('minute').errors && isvalidator) ? 'border-error' : ''">
+                <option value="" disabled selected>00</option>
+                <option *ngFor="let item of phut" [value]="item">{{item}}</option>
+              </select>
+            </div>
+          </div>
+        </div>
+        <div class="d-flex">
+          <div class="form-group mr-1 w-25">
+            <label for="id">Mã đề</label>
+            <input type="text" formControlName="id" [ngClass]="(id.errors && isvalidator)? 'border-error':''"
+              class="form-control-sm form-control">
+          </div>
+          <div class="form-group ml-1 w-25">
+            <label for="matkhau">Mật khẩu</label>
+            <input type="text" formControlName="password"
+              [ngClass]="(password.errors && isvalidator)? 'border-error':''" class="form-control-sm form-control">
+          </div>
+        </div>
+
+      </div>
+      <hr />
+
+      <div class="w-100">
+        <div class="d-flex mb-3">
+          <h6>Danh sách Câu hỏi</h6>
+          <div class="ml-auto">
+            <span class="btn mr-1 btn-sm btn-outline-success" (click)="upload()">Import <fa-icon [icon]="faFileAlt"
+                size="1x"></fa-icon>
+            </span>
+            <span class="btn ml-1 btn-sm btn-outline-primary" (click)="uploadOnWeb()">Import <fa-icon [icon]="faFolder"
+                size="1x"></fa-icon>
+            </span>
+          </div>
+        </div>
+
+        <div formArrayName="detailTest">
+         <ng-container  *ngFor="let content of detailTest.controls; let i = index"
+            [formGroupName]="i">
+          <div class="mod-baithi-content-Ch mb-2 rs" [ngClass]="(duplicate.indexOf(formDethi.get('detailTest')['controls'][i].get('question').value)!=-1)? 'border-error' : ''">
+
+              <span class="close mr-1" (click)="deleteQuestion(i)" aria-hidden="true">&times;</span>
+              <div class="form-gruop">
+                <label for="question{{i}}">Câu {{i+1}}</label>
+                <textarea placeholder="nội dung..." name="" id="question{{i}}" rows="2" class="form-control"
+                  formControlName="question"
+                  [ngClass]="(formDethi.get('detailTest')['controls'][i].get('question').errors && isvalidator)? 'border-error' : ''"></textarea>
+              </div>
+              <div class="input-group mt-3 rs">
+                <label class="ml-2">Đáp án</label>
+                <div class="w-100 " formArrayName="answers">
+                  <div class="d-flex mb-1 w-100"
+                    *ngFor="let ans of detailTest.controls[i].get('answers').controls; let j = index"
+                    [formGroupName]="j">
+                    <div class="input-group mb-2">
+                      <div for="bio" [ngClass] ="(questionCheckbio.indexOf(content.value.question)!=-1 && !checkbio)?'border-error':''"
+                        class="input-group-prepend btn btn-xs  rounded-sm mr-1 p-0 btn-outline-secondary f-flex justify-content-center align-items-center">
+                        <input type="checkbox" class="input-group-text m-2 " formControlName="bio">
+                      </div>
+                      <input type="text" class="form-control mr-1 form-control-sm" formControlName="answer"
+                        [ngClass]="(formDethi. get('detailTest').controls[i].get('answers')['controls'][j].get('answer').errors && isvalidator)? 'border-error' : ''">
+                      <span class="btn ml-2 btn-sm btn-outline-danger" (click)="deleteAnswer(i,j)">
+                        <fa-icon [icon]="faTrash"></fa-icon>
+                      </span>
+                    </div>
+                  </div>
+                </div>
+                <div class="w-100">
+                  <span class="float-right mod-baithi-content-Ch-answer" (click)="andAnswer(i)">Thêm đáp án</span>
+                </div>
+              </div>
+              <div class="d-flex w-100">
+                <div class="form-group mr-2 w-50">
+                  <label for="Chude"> Chủ để</label>
+                  <input list="theme" type="text" (change)="blurTheme(theme.value)" #theme
+                    class="form-control form-control-sm" formControlName="theme"
+                    [ngClass]="(formDethi.get('detailTest')['controls'][i].get('theme').errors && isvalidator)? 'border-error' : ''">
+                  <datalist id="theme">
+                    <option *ngFor="let theme of themes" [value]="theme.name">{{theme.name}}</option>
+                  </datalist>
+                </div>
+                <div class="form-group ml-2 w-50">
+                  <label for="Dokho"> Độ khó</label>
+                  <select name="level" class="form-control form-control-sm" formControlName="level"
+                    [ngClass]="(formDethi.get('detailTest')['controls'][i].get('level').errors && isvalidator)? 'border-error' : ''">
+                    <option value="1">Dễ</option>
+                    <option value="2">Trung bình</option>
+                    <option value="3">Khó</option>
+                  </select>
+
+                </div>
+              </div>
+            </div>
+          </ng-container>
+
+
+        </div>
+
+        <div>
+          <span class="btn btn-outline-success mt-3 btn-sm mod-baithi-content-answer" (click)="addQuestion()"
+            title="thêm câu hỏi">Thêm câu hỏi</span>
+
+        </div>
+      </div>
+      <div class="d-flex justify-content-end mt-3">
+        <span class="btn btn-sm btn-outline-danger" [routerLink]="['/baithi']" routerLinkActive="router-link-active">Hủy
+          <fa-icon [icon]="faBan" size="1x"></fa-icon></span>
+        <span class="btn btn-sm btn-outline-success mx-2" (click)="(content.errors || Class.errors|| password.errors || id.errors || kyThi.errors || note.errors
+         || formDethi.get('timeStart').status==='INVALID'
+         || formDethi.get('detailTest').status==='INVALID'
+         )?setValidator():clickSave()">Lưu <fa-icon [icon]="faSave" size="1x"></fa-icon></span>
+        <button class="btn btn-sm btn-outline-primary" (click)="(content.errors || Class.errors|| password.errors || id.errors || kyThi.errors || note.errors
+         || formDethi.get('timeStart').status==='INVALID'
+         || formDethi.get('detailTest').status==='INVALID'
+         )?setValidator():createDethi()"> Xuất bản <fa-icon [icon]="faDownload" size="1x"></fa-icon></button>
+      </div>
+    </form>
+  </div>
+
+  <div class="w-25 px-2 float-right">
+      <app-calendars></app-calendars>
+  </div>
+</div>
+

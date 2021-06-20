@@ -1,0 +1,43 @@
+<nav class="fixed-top navbar navbar-light text-light navbar-expand moodle-has-zindex" aria-label="Site navigation"
+  id="yui_3_17_2_1_1615710279176_27">
+
+  <div data-region="drawer-toggle" class="d-inline-block mr-3 bg-none">
+    <button aria-expanded="true" aria-controls="nav-drawer" type="button" (click)="clickShowNav()"
+      class="btn nav-link float-sm-left mr-1 btn-light bg-gray" data-action="toggle-drawer" data-side="left"
+      data-preference="drawer-open-nav">
+      <fa-icon [icon]="faBars"></fa-icon><span class="sr-only">Side panel</span>
+    </button>
+  </div>
+  <img src="../../../assets/Images/logo.png" style="width: 60px; height: 50px;" alt="">
+  <!-- <span class="d-none d-md-block">H97</span> -->
+  <div class="mod-lang">
+    <select [ngModel]="lang" (ngModelChange)="changeLang($event)"  aria-labelledby="dropdownBasic1" class="ml-3">
+      <option [selected]="lang=='vi'" value="vi" >Vietnamese (vi)</option>
+      <option   value="en" >english (en)</option>
+    </select>
+</div>
+  <div class="d-flex ml-auto justify-content-center header-left align-items-center ">
+    <span class="p-custom">
+      <fa-icon [icon]="faBell"></fa-icon>
+    </span>
+    <span *ngIf="!isLogin" class="p-custom" (click)="open()">
+      <fa-icon [icon]="faUser"  size="lg"></fa-icon>
+      {{'general.DangNhap'| translate}}
+    </span>
+    <div *ngIf="isLogin" ngbDropdown class="p-custom" display="dynamic" placement="bottom-right">
+      <span ngbDropdownToggle>
+         {{email}}
+         <fa-icon [icon]="faUser" size="lg"></fa-icon>
+      </span>
+      <div  ngbDropdownMenu aria-labelledby="dropdownBasic2" class="mt-2 py-1">
+        <ul class="mb-0">
+          <li class="activated-bg" [routerLink]="['/nhacuatoi']" routerLinkActive="bg-active"  ngbDropdownItem><fa-icon class="mr-2" [icon]="faTachometerAlt"></fa-icon> {{'general.NhaCuaToi' | translate}} </li>
+          <li  ngbDropdownItem [routerLink]="['/thanhvien',_id]" routerLinkActive="bg-active" ><fa-icon class="mr-2" [icon]="faUser"></fa-icon> {{'general.HoSo' | translate}} </li>
+          <li *ngIf="author=='SV'"  ngbDropdownItem [routerLink]="['/lambai/diem']" routerLinkActive="bg-active" ><fa-icon class="mr-2" [icon]="faTable"></fa-icon> {{'general.Diem' | translate}} </li>
+          <li  ngbDropdownItem (click)="logout()"><fa-icon class="mr-2" [icon]="faSignOutAlt"></fa-icon> {{'general.Thoat' | translate}} </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+</nav>

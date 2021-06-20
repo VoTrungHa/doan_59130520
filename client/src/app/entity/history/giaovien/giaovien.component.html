@@ -1,0 +1,10 @@
+<div class="rs p-4 bg-light">
+  <h5>Lịch sử hoạt dộng giáo viên</h5>
+  <div class="history-mod mt-4 w-100">
+    <iframe class="w-100 h-100 m-0 p-1" src="http://localhost:3000/api/history/sinhvien.txt"
+      title="lịch sử hoạt động của sinh viên"></iframe>
+  </div>
+  <div class="btn mr-1 mt-4 btn-sm btn-outline-danger">
+    <span (click)="clickDownload()">Tải xuống <fa-icon [icon]="faDownload"></fa-icon></span>
+  </div>
+</div>

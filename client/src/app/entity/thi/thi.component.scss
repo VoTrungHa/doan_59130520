@@ -1,0 +1,74 @@
+.mod-thi {
+  background: #fff;
+  position: relative;
+  &-dethi{
+    p{
+      font-weight: 500;
+      border: 1px solid rgb(85, 84, 84);
+      padding: 0.4rem 1rem;
+      span{
+        font-weight: 400;
+      }
+    }
+
+  }
+  &-name{
+      p{
+      font-weight: 500;
+      padding: 0.4rem 1rem;
+      font-size: 18px;
+
+      span{
+        font-weight: 400;
+        text-transform: uppercase;
+      }
+    }
+  }
+  &-title {
+    border: 1px dotted rgb(197, 197, 197);
+    border-radius: 5px;
+  }
+  &-content {
+    &-ques{
+      p{
+        font-weight: 600;
+        font-size: 18px;
+      }
+    }
+    &-ques1 {
+      position: sticky;
+      top: 160px;
+      z-index: 1;
+      padding: 5px;
+      height: 400px;
+      border-radius: 5px;
+      border: 1px solid rgb(112, 112, 112);
+      a {
+        padding: 0.2rem 0.5rem;
+        border-radius: 5px;
+        border: 1px solid rgb(126, 125, 125);
+        margin: 0.3rem;
+        text-decoration: none;
+        font-weight: 600;
+        color: rgb(63, 62, 62);
+        transition: all 0.4s;
+        &:hover {
+          color: #fff;
+          background: rgb(105, 105, 105);
+        }
+      }
+      .ques1-btn {
+        position: absolute;
+        bottom: 10px;
+      }
+      .ques1-time {
+        color: rgb(253, 24, 24);
+        position: absolute;
+        bottom: 40px;
+        font-weight: 500;
+        left: 50%;
+        transform: translateX(-50%);
+      }
+    }
+  }
+}

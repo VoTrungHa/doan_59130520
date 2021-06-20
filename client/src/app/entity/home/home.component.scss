@@ -1,0 +1,76 @@
+.mod-home{
+  .carousel-content{
+
+  }
+}
+
+.mod-home-notifytion{
+  h4{
+    color: #333333;
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-align: center;
+    line-height: 2rem;
+  }
+  p{
+    padding-top: 1rem;
+    width: 100%;
+    color: #333333;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.7rem;
+    text-align: justify;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-height: 21rem;
+  }
+}
+.mod-dethi{
+  background-color: #2d303b;
+  color: #fff;
+ h3{
+      font-weight: 700;
+      text-shadow: 1px 2px 5px #fff;
+    }
+  .card {
+      padding: 1px;
+      cursor: pointer;
+      background: transparent !important;
+      border: none;
+      transition: all 0.4s;
+      &:hover {
+        border: blanchedalmond;
+        color: rgb(243, 44, 44);
+      }
+    }
+}
+.mod-homeSecurity{
+  h3{
+    color:rgb(243, 44, 44);
+    font-size: 2rem;
+    font-weight: 700;
+    text-align: center;
+    line-height: 2rem;
+
+  }
+  h4{
+    color: #333333;
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-align: center;
+    line-height: 2rem;
+  }
+  p{
+    padding-top: 1rem;
+    width: 100%;
+    color: #333333;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.7rem;
+    text-align: justify;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-height: 21rem;
+  }
+}
+

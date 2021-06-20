@@ -1,0 +1,65 @@
+{
+  "general":{
+    "TrangChu":"Home",
+    "DangNhap":"Log in ",
+    "remember":"Remember password",
+    "NhaCuaToi":"Dashboard",
+    "HoSo":"Profile",
+    "Thoat":"Log out",
+    "Diem":"Grades",
+    "TaoTaiKhoan":"Create new account !",
+     "TaoCuocThi":"Contests",
+      "TaoCauHoi":"New question",
+       "timkiemCH":"Content question",
+       "CauHoi":"Question",
+        "HanhDong":"Action",
+        "KetQuaMoiTrang":"Results per page",
+        "Trong":"no records",
+        "TiepTuc":"Yes",
+        "No":"No",
+        "ThayDoi":"Edit",
+        "Upload":"Drag and drop here or",
+        "Title_Upload":"File upload",
+        "Note_Upload":"Requires users to import files with the same layout as the sample below.",
+        "ChuY":"Note",
+        "IsFileUpload":"Sorry, upload failed! File invalid, Drag and drop to store your writing parper or"
+
+
+
+  },
+  "CH":{
+    "Ten_CH":"Content question",
+    "ChuDe":"Theme",
+    "DoKho":"Level",
+    "DapAn":"Answer",
+    "ThemCauTraLoi":"Add answer",
+    "Them":"Save",
+    "Huy":"Cancel",
+    "NgayTao":"Date created",
+    "TrangThai":"Status",
+    "De":"Easy",
+    "TrungBinh":"normal",
+    "Kho":"Difficult",
+    "MauQuestion":"Example",
+     "MucDo":"Level",
+    "DA":"True answer"
+
+
+  },
+  "error": {
+      "choose_new_password": "Choose a new password",
+      "confirmation_match": "The password and its confirmation do not match!",
+      "password_required": "Your password is required.",
+      "new_password_confirmation": "New password confirmation",
+      "password_for": "Password of",
+      "current_password": "Current password",
+      "password_change": "Password changed!",
+      "confirmation_required": "Your confirmation password is required.",
+      "password_not_changed": "Current password incorrect",
+
+       "username_required":"Your email is required.",
+      "username_email":"Your email invalid",
+      "username_not_changed": "Current email incorrect"
+
+  }
+}

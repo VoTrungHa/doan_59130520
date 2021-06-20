@@ -1,0 +1,98 @@
+
+<div class="mod-question rs p-4">
+  <h5>Danh sách sinh viên</h5>
+  <div class="mod-question-nav mt-2 justify-content-end row">
+    <div class="form-group col-lg-3 col-md-6 col-12">
+      <select name="them" id="level" (ngModelChange)="searchByClass($event)" [ngModel]="params.Class"
+        class="form-control form-control-sm">
+        <option value="" disabled selected>--- Lớp ---</option>
+        <option value="">All</option>
+        <option *ngFor="let lp of lops" [value]="lp.name">{{lp.name}}</option>
+      </select>
+    </div>
+    <div class="form-group col-lg-3 col-md-6 col-12 rs">
+      <input type="text" id="search" [ngModel]="params.search" (ngModelChange)="search($event)" autofocus
+        placeholder="Nội dung..." class="form-control form-control-sm">
+      <fa-icon [icon]="faSearch" class="ps-r mr-3 text-gray"></fa-icon>
+    </div>
+    <div class="form-group col-lg-3 col-md-6 col-12">
+      <button class="btn-sm  bg-btn" [routerLink]="['/thanhvien/taotaikhoanSV']" routerLinkActive="router-link-active"  >Tạo thành viên
+        <fa-icon [icon]="faUser"></fa-icon>
+      </button>
+    </div>
+  </div>
+  <div class="mod-content rounded-lg py-4 px-3 border border-secondary-light bg-light rs">
+    <div class="table-responsive">
+      <table class="table w-100 table-striped table-borderless table-hover table-sm">
+        <thead>
+          <tr class="d-flex text-center ">
+            <th class="col-1">#</th>
+            <th class="col-2"><span> Họ và tên <img (click)="sortAll('lastName')"
+                  src="../../../assets/Images/icon-sort.svg" alt=""></span> </th>
+            <th class="col-2"><span>Ngày sinh<img (click)="sortAll('birthDay')"
+                  src="../../../assets/Images/icon-sort.svg" alt=""></span> </th>
+            <th class="col-1"><span>Giới tính<img (click)="sortAll('gender')"
+                  src="../../../assets/Images/icon-sort.svg" alt=""></span> </th>
+            <th class="col-2"><span>Email<img (click)="sortAll('login')"
+                  src="../../../assets/Images/icon-sort.svg" alt=""> </span> </th>
+            <th class="col-2"><span>Lớp<img (click)="sortAll('infor.Class.name')"
+                  src="../../../assets/Images/icon-sort.svg" alt=""> </span> </th>
+            <th class="col-2"><span>{{'general.HanhDong' | translate}}</span> </th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngIf="sinhViens.length == 0" class="bg-none">
+            <td class="text-center">{{'general.Trong' | translate}}</td>
+          </tr>
+          <ng-container *ngIf="sinhViens">
+            <tr class="d-flex text-center "
+              *ngFor="let item of sinhViens | paginate: { id: 'server', itemsPerPage: params.limit, currentPage: params.current_page, totalItems: total_records }; let i =index">
+              <td class="col-1" class="id" (click)="detail(item)">{{item.infor.id}}</td>
+              <td class="col-2">{{item.infor.firstName}} {{item.infor.lastName}}</td>
+              <td class="col-2">{{item.infor.birthDay}}</td>
+              <td class="col-1"  >{{item.infor.gender}}</td>
+              <td class="col-2">{{item.login}}</td>
+              <td class="col-2" >{{item.infor.Class[0].name}}</td>
+              <td class="col-2 justify-content-around">
+                <button class="btn btn-sm text-danger" (click)="deleteOn(item._id,item.infor.id)">
+                  <fa-icon [icon]="faTrash" size="lg"></fa-icon>
+                </button>
+                <button class="btn btn-sm text-warning" [routerLink]="['/thanhvien/thaydoi/',item._id]" routerLinkActive="router-link-active"  >
+                  <fa-icon [icon]="faEdit" size="lg"></fa-icon>
+                </button>
+              </td>
+            </tr>
+          </ng-container>
+        </tbody>
+      </table>
+    </div>
+    <div class="text-right mt-3 filter-table pb-3">
+      <span>{{'general.KetQuaMoiTrang' | translate}}</span>
+      <span class="px-2">
+        <select [ngModel]="params.limit" (ngModelChange)="onChangelimit($event)">
+          <option [selected]="params.limit=='5'" value="5">5</option>
+          <option value="10">10</option>
+          <option value="15">15</option>
+        </select>
+      </span>
+      <span>
+        {{start+1}}
+        -
+        {{end}}
+        <span class="text-lowercase">Of</span>
+        {{total_records}}
+      </span>
+
+      <pagination-template #p="paginationApi" id="server" (pageChange)="loadAll($event)">
+        <span class="custom-pagination">
+          <img *ngIf="p.isFirstPage()" class=" ml-5 inactive" src="../../../assets/Images/icon-arrow-left.svg">
+          <img *ngIf="!p.isFirstPage()" (click)="p.previous()" class=" ml-5"
+            src="../../../assets/Images/icon-arrow-left.svg">
+          <img *ngIf="!p.isLastPage()" (click)="p.next()" class=" mr-5"
+            src="../../../assets/Images/icon-arrow-right.svg">
+          <img *ngIf="p.isLastPage()" class=" mr-5 inactive" src="../../../assets/Images/icon-arrow-right.svg">
+        </span>
+      </pagination-template>
+    </div>
+  </div>
+</div>

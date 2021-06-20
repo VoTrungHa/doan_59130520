@@ -1,0 +1,86 @@
+<div class="myhome-detail p-3" *ngIf="Dethi">
+  <h3>Chi tiết đề thi</h3>
+  <hr/>
+  <img *ngIf="Dethi.avatar!=''" src="http://localhost:3000/static/image/{{Dethi.avatar}}" class="d-block w-100" alt="...">
+  <img *ngIf="Dethi.avatar==''" src="../../../assets/Images/text1.png" class="d-block w-100 h-100" alt="...">
+  <div class="row mb-3">
+    <div class="col-md-4 myhome-detail-title">
+      <h2>{{Dethi.content}}</h2>
+      <p>{{Dethi.note}}</p>
+    </div>
+    <div class="col-md-8 d-flex align-items-center myhome-detail-notification">
+      <button (click)="createBaiLam()"  class="mr-3">THAM GIA NGAY <fa-icon [icon]="faPlay"></fa-icon></button>
+      <table  class="text-center w-25">
+        <thead  >
+          <tr ><th >Bắt đầu</th></tr>
+        </thead>
+        <tbody>
+           <td *ngIf="timeStart"><p>{{timeStart.split(':')[0]}}h{{timeStart.split(':')[1]}} <br/> <span>{{ngayStart}}</span></p></td>
+        </tbody>
+      </table>
+      <table class="text-center w-25 mx-3">
+        <thead>
+          <tr>
+            <th>Kết thúc</th>
+          </tr>
+        </thead>
+        <tbody>
+          <td *ngIf="timeEnd">
+            <p>{{timeEnd.split(':')[0]}}h{{timeEnd.split(':')[1]}} <br /> <span>{{ngayEnd}}</span></p>
+          </td>
+        </tbody>
+      </table>
+      <table class="text-center   w-75 time">
+        <thead>
+          <tr *ngIf="Tstart>Tnow" >
+            <th colspan="4">Cuộc thi sẽ bắt đầu trong</th>
+          </tr>
+          <tr *ngIf="Tstart < Tnow && Tend > Tnow">
+            <th colspan="4">Cuộc thi đang diễn ra </th>
+          </tr>
+          <tr *ngIf="Tstart < Tnow && Tend < Tnow">
+            <th colspan="4">Cuộc thi đã kết thúc </th>
+          </tr>
+        </thead>
+        <tbody *ngIf="Tstart>Tnow">
+          <tr  >
+            <td class=" clo-3"><h6>{{ngay}}</h6> <br/> NGÀY</td>
+            <td class=" clo-3">
+              <h6>{{gio}}</h6> <br /> GIỜ
+            </td>
+            <td class=" clo-3">
+              <h6>{{phut}}</h6> <br /> PHÚT
+            </td>
+            <td class=" clo-3">
+              <h6>{{giay}}</h6> <br /> GIÂY
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+  <hr class="m-0 p-0"/>
+  <div class="myhome-detail-content">
+    <div class="row text-center">
+      <div class="col-md-4">
+        <div class="myhome-detail-content-one" [routerLink]="['./sinhvien']" routerLinkActive="nav-acvited" >
+          <h4>Sinh viên tham gia <span style=" font-size: 30px; color: rgb(231, 23, 23);">{{lengSv}}</span></h4>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="myhome-detail-content-one" [routerLink]="['./cauhoi']" routerLinkActive="nav-acvited">
+          <h4>Số lượng câu hỏi <span style="font-size: 30px; color: rgb(231, 23, 23);">{{lengQuesion}}</span></h4>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="myhome-detail-content-one" [routerLink]="['./thongtin']" routerLinkActive="nav-acvited">
+          <h4>Thông tin đề thi </h4>
+        </div>
+      </div>
+    </div>
+  </div>
+  <hr class="m-0 p-0"/>
+  <div class="mt-2">
+    <router-outlet></router-outlet>
+  </div>
+</div>

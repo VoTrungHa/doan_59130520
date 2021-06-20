@@ -1,0 +1,36 @@
+.mod-footer{
+  position: relative;
+  left: 0;
+  z-index: 9;
+  color: #fff;
+  background:#9c9c9c;
+  h4{
+
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-align: center;
+    line-height: 2rem;
+    text-overflow: ellipsis;
+  }
+  p{
+    padding-top: 1rem;
+    width: 100%;
+    font-weight: 500;
+    line-height: 1.7rem;
+    text-align: justify;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  ul{
+    li{
+    text-align: center !important;
+    padding-top:0.5rem;
+    width: 100%;
+    font-weight: 500;
+    line-height: 1.4rem;
+    text-align: justify;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+}
+}

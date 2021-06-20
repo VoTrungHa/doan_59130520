@@ -1,0 +1,25 @@
+<div class="p-3" *ngIf="Baithi && role!='SV'">
+  <h5 style="font-weight: 700; font-size: 23px; color: rgb(85, 85, 85);">Danh sách các câu hỏi</h5>
+  <div *ngFor="let item of Baithi.detailTest ; let i=index">
+    <ul class="list-unstyled myhome-question ">
+      <li>
+        <p>Câu {{i+1}}: <span>{{item.question}}</span> </p>
+      </li>
+      <li class="pl-3" *ngFor="let ans of item.answers let j=index">
+        <span *ngIf="j==0" [ngStyle]="ans.bio?{'color': 'red'}:{'color': '#212529'}">a). {{ans.answer}}</span>
+        <span *ngIf="j==1" [ngStyle]="ans.bio?{'color': 'red'}:{'color': '#212529'}">b). {{ans.answer}}</span>
+        <span *ngIf="j==2" [ngStyle]="ans.bio?{'color': 'red'}:{'color': '#212529'}">c). {{ans.answer}}</span>
+        <span *ngIf="j==3" [ngStyle]="ans.bio?{'color': 'red'}:{'color': '#212529'}">d). {{ans.answer}}</span>
+        <span *ngIf="j==4" [ngStyle]="ans.bio?{'color': 'red'}:{'color': '#212529'}">e). {{ans.answer}}</span>
+      </li>
+      <li class="pl-3">
+        <span *ngIf="item.level==1">Mức độ: Dễ</span>
+        <span *ngIf="item.level==2">Mức độ: Trung Bình</span>
+        <span *ngIf="item.level==3">Mức độ: Khó</span>
+      </li>
+      <li class="pl-3">
+        <span>Chủ đề: {{item.theme}}</span>
+      </li>
+    </ul>
+  </div>
+</div>
