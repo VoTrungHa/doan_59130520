@@ -130,6 +130,7 @@ export class TaobaithiComponent implements OnInit {
     '2030',
   ];
   gio = [
+    '00',
     '01',
     '02',
     '03',
@@ -327,7 +328,7 @@ export class TaobaithiComponent implements OnInit {
     let fg = this.fb.group({
       question: new FormControl('', [Validators.required]),
       theme: new FormControl('', [Validators.required]),
-      level: new FormControl('', [Validators.required]),
+      level: new FormControl(''),
       soLanSuDung: new FormControl(0),
       soLanTraLoiDung: new FormControl(0),
       answers: this.fb.array([
@@ -629,7 +630,7 @@ export class TaobaithiComponent implements OnInit {
         let fb = this.fb.group({
           question: new FormControl(item.question, [Validators.required]),
           theme: new FormControl(item.theme, [Validators.required]),
-          level: new FormControl(item.level, [Validators.required]),
+           level: new FormControl(item.level),
           soLanSuDung: new FormControl(item.soLanSuDung),
           soLanTraLoiDung: new FormControl(item.soLanTraLoiDung),
           answers: this.fb.array([]),
@@ -650,7 +651,7 @@ export class TaobaithiComponent implements OnInit {
         let fb = this.fb.group({
           question: new FormControl(item.question, [Validators.required]),
           theme: new FormControl(item.theme, [Validators.required]),
-          level: new FormControl(item.level, [Validators.required]),
+           level: new FormControl(item.level),
           soLanSuDung: new FormControl(item.soLanSuDung),
           soLanTraLoiDung: new FormControl(item.soLanTraLoiDung),
           answers: this.fb.array([]),

@@ -1,6 +1,16 @@
 import { Component, OnInit } from '@angular/core';
-import { FormArray, FormBuilder,FormControl,FormGroup, Validators } from '@angular/forms';
-import { FileSystemDirectoryEntry, FileSystemFileEntry, NgxFileDropEntry } from 'ngx-file-drop';
+import {
+  FormArray,
+  FormBuilder,
+  FormControl,
+  FormGroup,
+  Validators,
+} from '@angular/forms';
+import {
+  FileSystemDirectoryEntry,
+  FileSystemFileEntry,
+  NgxFileDropEntry,
+} from 'ngx-file-drop';
 import {
   faImage,
   faFileAlt,
@@ -12,10 +22,11 @@ import { SERVER_IMAGE } from 'src/app/app.contants';
 import { ShareService } from 'src/app/share/share.service';
 import { HttpErrorResponse } from '@angular/common/http';
 import { DocsService } from '../docs.service';
-import {ActivatedRoute}from '@angular/router';
+import { ActivatedRoute } from '@angular/router';
 import { NotificationComponent } from 'src/app/share/notification/notification.component';
 import { NgxUiLoaderService } from 'ngx-ui-loader';
 import { NgbModal } from '@ng-bootstrap/ng-bootstrap';
+import { TailieuService } from '../../tailieu/tailieu.service';
 @Component({
   selector: 'app-taodocs',
   templateUrl: './taodocs.component.html',
@@ -28,7 +39,7 @@ export class TaodocsComponent implements OnInit {
   faSave = faSave;
   faTrash = faTrash;
   TailieuFrom: FormGroup;
-  success:boolean// kiểm tra đã đầy đủ thông tin chưa
+  success: boolean; // kiểm tra đã đầy đủ thông tin chưa
   isvalidator: boolean = false;
   image: boolean = false;
   isFile: boolean = false;
@@ -37,14 +48,25 @@ export class TaodocsComponent implements OnInit {
   flas: any;
   checkbio: boolean = true;
   checkSumAnswer: boolean = true;
-
+  Dethi: any = [];
   checkavatar: boolean = true;
+  params: any = {
+    current_page: 1,
+    limit: 5,
+    sort: '_id',
+    reverse: false,
+    search: '',
+    theme: '',
+    level: '',
+  };
+
   constructor(
     private docService: DocsService,
     private fb: FormBuilder,
     private ss: ShareService,
     private loadService: NgxUiLoaderService,
     private ngModel: NgbModal,
+    private tailieuService: TailieuService,
     private router: ActivatedRoute
   ) {
     this.TailieuFrom = this.fb.group({
@@ -64,7 +86,9 @@ export class TaodocsComponent implements OnInit {
       detailTest: this.fb.array([]),
     });
   }
-  ngOnInit() {}
+  ngOnInit() {
+
+  }
   get chuong() {
     return this.TailieuFrom.get('chuong');
   }
@@ -276,50 +300,46 @@ export class TaodocsComponent implements OnInit {
       }
     });
     if (this.questionCheckbio.length != 0 && this.checkbio == false) {
-      this.success=false;
+      this.success = false;
       alert('Bài giảng có chứa câu hỏi chưa hoàn tất !');
       return;
     }
 
-    if(this.success)
-    {
+    if (this.success) {
+      let modal = this.ngModel.open(NotificationComponent, {
+        size: 'md',
+        centered: true,
+      });
+      modal.componentInstance.title = `Thêm nội dung ${this.TailieuFrom.value.chuong.substring(
+        0,
+        8
+      )}`;
+      modal.componentInstance.text = `Bạn đang muốn thêm nội dung của ${this.TailieuFrom.value.chuong.substring(
+        0,
+        8
+      )} ?`;
+      modal.componentInstance.comfirm.subscribe((resp) => {
+        if (resp) {
+          // let id = this.router.snapshot.paramMap.get('id');
 
-    let modal = this.ngModel.open(NotificationComponent, {
-      size: 'md',
-      centered: true,
-    });
-    modal.componentInstance.title = `Thêm nội dung ${this.TailieuFrom.value.chuong.substring(
-      0,
-      8
-    )}`;
-    modal.componentInstance.text = `Bạn đang muốn thêm nội dung của ${this.TailieuFrom.value.chuong.substring(
-      0,
-      8
-    )} ?`;
-    modal.componentInstance.comfirm.subscribe((resp) => {
-      if (resp) {
-        // let id = this.router.snapshot.paramMap.get('id');
-
-        this.docService.create(this.TailieuFrom.value).subscribe(
-          (res) => {
-            if (res) {
-              if (res.status == 200) {
-                alert('Tạo chương mới thành công !');
-                this.loadService.start();
+          this.docService.create(this.TailieuFrom.value).subscribe(
+            (res) => {
+              if (res) {
+                if (res.status == 200) {
+                  alert('Tạo chương mới thành công !');
+                  this.loadService.start();
+                }
               }
+              this.loadService.stop();
+              window.history.back();
+            },
+            (error: HttpErrorResponse) => {
+              alert('Tiêu đề chương đã tồn tại. Hãy kiểm tra và thử lại sau !');
             }
-            this.loadService.stop();
-            window.history.back();
-          },
-          (error: HttpErrorResponse) => {
-            alert('Tiêu đề chương đã tồn tại. Hãy kiểm tra và thử lại sau !');
-          }
-        );
-      }
-    });
-
+          );
+        }
+      });
     }
     console.log(this.TailieuFrom.value);
   }
 }
-

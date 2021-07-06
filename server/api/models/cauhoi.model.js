@@ -15,13 +15,13 @@ const mongoose = require("mongoose");
 
 const Question = new mongoose.Schema({
   question: { type: String, default: "" },
-  answers: [{ answer: String, default: "", bio: Boolean }],
+  answers: [{ answer: String, default: "", bio: Boolean, default: false }],
   status: { type: Boolean },
   theme: { type: String },
-  level: { type: String },
+  level: { type: String, default: "" },
   soLanSuDung: { type: Number, default: 0 },
   soLanTraLoiDung: { type: Number, default: 0 },
-  createDate: { type: String },
+  createDate: { type: String, default: Date.now },
   dateMotify: { type: String },
 });
 module.exports = mongoose.model("Question", Question);

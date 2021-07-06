@@ -119,14 +119,14 @@ export class QuestionComponent implements OnInit {
     this.questionService.getAll(this.params).subscribe(
       (res) => {
         this.questions = res.body.data;
-        console.log(this.questions);
+
         this.questionService.getOnAll().subscribe(
           (res) => {
             this.total_records = res.body.data.length;
           },
           (err) => console.log(err)
         );
-        console.log(this.total_records);
+
         this.findStart();
         this.findEnd();
       },

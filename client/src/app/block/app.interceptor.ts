@@ -22,7 +22,7 @@ export class AuthInterceptor implements HttpInterceptor {
     // }
     const token = this.localStorage.retrieve('authenticationToken');
     const lang = localStorage.getItem('lang');
-    console.log(token)
+
     if (!!token && !request.url.startsWith('https://www.irene.tools')) {
       request = request.clone({
         setHeaders: {

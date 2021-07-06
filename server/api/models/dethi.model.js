@@ -35,7 +35,7 @@ const DeThi = new mongoose.Schema({
       answers: [{ answer: String, default: "", bio: Boolean }],
       status: { type: Boolean, default: true },
       theme: { type: String },
-      level: { type: String },
+      level: { type: String, default: "Chưa xác định" },
       soLanSuDung: { type: Number, default: 0 },
       soLanTraLoiDung: { type: Number, default: 0 },
       createDate: { type: String },

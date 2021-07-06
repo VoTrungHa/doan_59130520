@@ -57,6 +57,7 @@
               <td class="col-1" class="id" (click)="detailQuestion(item)">{{item._id.substring(0,8)}}</td>
               <td class="col-3">{{item.question.length>20 ? item.question.substring(0,18)+'...' : item.question }}</td>
               <td class="col-2">{{item.createDate.substring(0,10)}}</td>
+              <td class="col-2" *ngIf="!item.level">Chưa xác định</td>
               <td class="col-2" *ngIf="item.level==1">Dễ</td>
               <td class="col-2" *ngIf="item.level==2">Trung bình</td>
               <td class="col-2" *ngIf="item.level==3">Khó</td>

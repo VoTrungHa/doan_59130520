@@ -78,3 +78,13 @@ Thời gian: 06/11/2021, hành động: Làm bài thi, Mã người dùng: 60b5a
 
 Thời gian: 06/11/2021, hành động: Xem kết quả, Mã người dùng: 60b5aa57b79f9f3d34fe0829, Họ tên: Nguyễn Thành, dữ liệu: Mã đề thi: MMT005, Kỳ thi: Năm học 2020-2021 - học kỳ I, Thời gian bắt đầu: 11-06-2021,      15:20, Thời gian kết thúc: 11-06-2021,  20:50, Giáo viên ra đề: Quốc Lưu, Sinh viên thực hiện: Nguyễn Thành, Lớp: 59CNTT-3
 
+Thời gian: 06/27/2021, hành động: Xem kết quả, Mã người dùng: 60b5aa57b79f9f3d34fe0829, Họ tên: Nguyễn Thành, dữ liệu: Mã đề thi: MMT005, Kỳ thi: Năm học 2020-2021 - học kỳ I, Thời gian bắt đầu: 11-06-2021,      15:20, Thời gian kết thúc: 11-06-2021,  20:50, Giáo viên ra đề: Quốc Lưu, Sinh viên thực hiện: Nguyễn Thành, Lớp: 59CNTT-3
+
+Thời gian: 06/27/2021, hành động: Xem kết quả, Mã người dùng: 60b5aa57b79f9f3d34fe0829, Họ tên: Nguyễn Thành, dữ liệu: Mã đề thi: MMT005, Kỳ thi: Năm học 2020-2021 - học kỳ I, Thời gian bắt đầu: 11-06-2021,      15:20, Thời gian kết thúc: 11-06-2021,  20:50, Giáo viên ra đề: Quốc Lưu, Sinh viên thực hiện: Nguyễn Thành, Lớp: 59CNTT-3
+
+Thời gian: 06/28/2021, hành động: Làm bài thi, Mã người dùng: 60b5aa57b79f9f3d34fe0829, Họ tên: Nguyễn Thành, dữ liệu: Mã đề thi: 123, Kỳ thi: Năm học 2020-2021 - học kỳ I, Thời gian bắt đầu: 28-06-2021, 00:00, Thời gian kết thúc: 28-06-2021, 00:15, Giáo viên ra đề: Tôn Tùng, Lớp: 59CNTT-3
+
+Thời gian: 06/28/2021, hành động: Làm bài thi, Mã người dùng: 60b5aa57b79f9f3d34fe0829, Họ tên: Nguyễn Thành, dữ liệu: Mã đề thi: 1231, Kỳ thi: Năm học 2020-2021 - học kỳ I, Thời gian bắt đầu: 28-06-2021, 00:10, Thời gian kết thúc: 28-06-2021, 00:30, Giáo viên ra đề: Tôn Tùng, Lớp: 59CNTT-3
+
+Thời gian: 06/28/2021, hành động: Làm bài thi, Mã người dùng: 60b5aa57b79f9f3d34fe0829, Họ tên: Nguyễn Thành, dữ liệu: Mã đề thi: 12313, Kỳ thi: Năm học 2020-2021 - học kỳ I, Thời gian bắt đầu: 28-06-2021, 00:30, Thời gian kết thúc: 28-06-2021, 00:35, Giáo viên ra đề: Tôn Tùng, Lớp: 59CNTT-3
+

@@ -259,7 +259,7 @@ export class UpdatebaithiComponent implements OnInit {
       let fb = this.fb.group({
         question: new FormControl(item.question, [Validators.required]),
         theme: new FormControl(item.theme, [Validators.required]),
-        level: new FormControl(item.level, [Validators.required]),
+        level: new FormControl(item.level),
         answers: this.fb.array([]),
       });
       control.push(fb);
@@ -330,7 +330,7 @@ export class UpdatebaithiComponent implements OnInit {
     let fg = this.fb.group({
       question: new FormControl('', [Validators.required]),
       theme: new FormControl('', [Validators.required]),
-      level: new FormControl('', [Validators.required]),
+      level: new FormControl(''),
       answers: this.fb.array([
         // create formArray container one formGroup
         // this.fb.group({
@@ -501,7 +501,7 @@ export class UpdatebaithiComponent implements OnInit {
         let fb = this.fb.group({
           question: new FormControl(item.question, [Validators.required]),
           theme: new FormControl(item.theme, [Validators.required]),
-          level: new FormControl(item.level, [Validators.required]),
+          level: new FormControl(item.level),
           answers: this.fb.array([]),
         });
         control.push(fb);
@@ -520,7 +520,7 @@ export class UpdatebaithiComponent implements OnInit {
         let fb = this.fb.group({
           question: new FormControl(item.question, [Validators.required]),
           theme: new FormControl(item.theme, [Validators.required]),
-          level: new FormControl(item.level, [Validators.required]),
+          level: new FormControl(item.level),
           answers: this.fb.array([]),
         });
         control.push(fb);

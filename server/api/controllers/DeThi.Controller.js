@@ -26,8 +26,8 @@ exports.Create = (req, res) => {
     action,
     idCreateBy,
     confirmationBy,
-  } = req.body; 
-  console.log("30"+req.body)
+  } = req.body;
+  console.log("30" + req.body);
   DeThi.findOne({ $and: [{ id, kyThi }] })
     .then((data) => {
       if (data) return res.status(404).json({ message: "duplicate" });
@@ -49,7 +49,7 @@ exports.Create = (req, res) => {
         status,
       });
 
-        console.log("52dethi" + dethi);
+      console.log("52dethi" + dethi);
       return dethi
         .save()
         .then((data) => {
@@ -86,7 +86,7 @@ exports.Create = (req, res) => {
                 (ques.soLanSuDung = item.soLanSuDung),
                   (ques.soLanTraLoiDung = item.soLanTraLoiDung);
                 ques.save((err, data) => {
-                   console.log("85"+data);
+                  console.log("85" + data);
                 });
               }
             });
@@ -275,7 +275,7 @@ exports.Update = (req, res) => {
         },
       }).exec((err, data) => {
         if (!data) {
-            console.log("update");
+          console.log("update");
           const ques = new Question();
           (ques.question = item.question),
             (ques.answers = item.answers),
@@ -284,8 +284,8 @@ exports.Update = (req, res) => {
             (ques.createDate = moment().format()),
             (ques.status = true),
             (ques.theme = item.theme);
-              (ques.soLanSuDung = item.soLanSuDung),
-                (ques.soLanTraLoiDung = item.soLanTraLoiDung);
+          (ques.soLanSuDung = item.soLanSuDung),
+            (ques.soLanTraLoiDung = item.soLanTraLoiDung);
           ques.save();
         }
       });
@@ -454,16 +454,17 @@ exports.uploadQuesTXT = async (req, resp) => {
     }
     try {
       const data = res.split(/\r\n/);
+
       const Ques = {
         question: "",
         answers: [],
-        level: "",
+        // level: "",
         theme: "",
         fullName: function () {
           return {
             question: this.question,
             answers: this.answers,
-            level: this.level,
+            // level: this.level,
             theme: this.theme,
           };
         },
@@ -480,10 +481,12 @@ exports.uploadQuesTXT = async (req, resp) => {
         } else if (item.slice(0, 6) === "Chủ đề") {
           Ques.theme = item.slice(8, item.length - 1);
           return;
-        } else if (item.slice(0, 6) === "Mức độ") {
-          Ques.level = item.slice(8, item.length - 1);
-          return;
-        } else if (item.slice(0, 6) === "Đáp án") {
+        }
+        //  else if (item.slice(0, 6) === "Mức độ") {
+        //   Ques.level = item.slice(8, item.length - 1);
+        //   return;
+        // }
+        else if (item.slice(0, 6) === "Đáp án") {
           let ans = item.slice(7).split(",");
           Ques.answers.map((item, index) => {
             // thêm cio vào answer
@@ -498,6 +501,7 @@ exports.uploadQuesTXT = async (req, resp) => {
           });
           QuesTXT.push(Ques.fullName());
           if (index === data.length - 1) {
+            // console.log(QuesTXT);
             return resp.status(200).json({ data: QuesTXT });
           }
         } else {
@@ -505,9 +509,11 @@ exports.uploadQuesTXT = async (req, resp) => {
         }
       });
       if (isStruct == false) {
+        console.log(isStruct);
         return resp.status(406).json({ message: "Không đúng cấu trúc." });
       }
     } catch (error) {
+      console.log(error);
       return resp.status(400).json({ message: error });
     }
   });
@@ -529,13 +535,13 @@ exports.uploadQuesXML = (req, res) => {
     const Ques = {
       question: "",
       answers: [],
-      level: "",
+      // level: "",
       theme: "",
       fullName: function () {
         return {
           question: this.question,
           answers: this.answers,
-          level: this.level,
+          // level: this.level,
           theme: this.theme,
         };
       },
@@ -550,7 +556,7 @@ exports.uploadQuesXML = (req, res) => {
         data.map((item, index) => {
           // get a jobject
           Ques.question = item.question.toString();
-          Ques.level = item.level.toString();
+          // Ques.level = item.level.toString();
           Ques.theme = item.theme.toString();
           item.answers.map((ans, index) => {
             // get an answer into answer in Qusetion

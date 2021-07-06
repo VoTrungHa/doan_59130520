@@ -373,3 +373,89 @@ Thời gian: 06/19/2021, hành động: Xóa câu hỏi, Mã người dùng: 60b
 
 Thời gian: 06/19/2021, hành động: Test bài thi, Mã người dùng: 60b5aa57b79f9f3d34fe0829, Họ tên: Nguyễn Thành, dữ liệu: Mã đề thi: MMT004, Kỳ thi: Năm học 2020-2021 - học kỳ I, Thời gian bắt đầu: 06-06-2021, 16:30, Thời gian kết thúc: 06-06-2021, 16:50, Giáo viên ra đề: Quốc Lưu, Lớp: 59CNTT-3
 
+Thời gian: 06/27/2021, hành động: Xóa câu hỏi, Mã người dùng: 60b5b483b79f9f3d34fe083d, Họ tên: Tôn Tùng, dữ liệu: Câu hỏi: Con chó mấy chân?., Mức độ: , Chủ đề: động vật
+
+Thời gian: 06/27/2021, hành động: Xóa câu hỏi, Mã người dùng: 60b5b483b79f9f3d34fe083d, Họ tên: Tôn Tùng, dữ liệu: Câu hỏi: Thiết bị Switch có bao nhiêu Broadcast domain?, Mức độ: 1, Chủ đề: Switch
+
+Thời gian: 06/27/2021, hành động: Thêm câu hỏi, Mã người dùng: 60b5b483b79f9f3d34fe083d, Họ tên: Tôn Tùng, dữ liệu: Câu hỏi: fds, Mức độ: , Chủ đề: fdsa
+
+Thời gian: 06/27/2021, hành động: Xóa câu hỏi, Mã người dùng: 60b5b483b79f9f3d34fe083d, Họ tên: Tôn Tùng, dữ liệu: Câu hỏi: fds, Mức độ: , Chủ đề: fdsa
+
+Thời gian: 06/27/2021, hành động: Xóa câu hỏi, Mã người dùng: 60b5b483b79f9f3d34fe083d, Họ tên: Tôn Tùng, dữ liệu: Câu hỏi: Thiết bị Switch có bao nhiêu Broadcast domain?, Mức độ: , Chủ đề: Động vật
+
+Thời gian: 06/27/2021, hành động: Xóa câu hỏi, Mã người dùng: 60b5b483b79f9f3d34fe083d, Họ tên: Tôn Tùng, dữ liệu: Câu hỏi: Thiết bị Switch có bao nhiêu Broadcast domain?, Mức độ: , Chủ đề: Động vật
+
+Thời gian: 06/27/2021, hành động: Xóa câu hỏi, Mã người dùng: 60b5b483b79f9f3d34fe083d, Họ tên: Tôn Tùng, dữ liệu: Câu hỏi: Thiết bị Hub có bao nhiêu1 collision domain?1., Mức độ: Chưa xác định, Chủ đề: Hub
+
+Thời gian: 06/27/2021, hành động: Xóa câu hỏi, Mã người dùng: 60b5b483b79f9f3d34fe083d, Họ tên: Tôn Tùng, dữ liệu: Câu hỏi: Thiết bị Router nằm ở tầng1 nào trong mô hình OSI ?1., Mức độ: Chưa xác định, Chủ đề: Router
+
+Thời gian: 06/27/2021, hành động: Xóa câu hỏi, Mã người dùng: 60b5b483b79f9f3d34fe083d, Họ tên: Tôn Tùng, dữ liệu: Câu hỏi: Thiết bị Hub có bao nhiêu1 collision domain?1., Mức độ: , Chủ đề: Hub
+
+Thời gian: 06/27/2021, hành động: Xóa câu hỏi, Mã người dùng: 60b5b483b79f9f3d34fe083d, Họ tên: Tôn Tùng, dữ liệu: Câu hỏi: Thiết bị Router nằm ở tầng1 nào trong mô hình OSI ?1., Mức độ: , Chủ đề: Router
+
+Thời gian: 06/27/2021, hành động: Xóa câu hỏi, Mã người dùng: 60b5b483b79f9f3d34fe083d, Họ tên: Tôn Tùng, dữ liệu: Câu hỏi: Thiết bị Hub có bao nhiêu1 collision domain?1., Mức độ: , Chủ đề: Hub
+
+Thời gian: 06/27/2021, hành động: Xóa câu hỏi, Mã người dùng: 60b5b483b79f9f3d34fe083d, Họ tên: Tôn Tùng, dữ liệu: Câu hỏi: Thiết bị Router nằm ở tầng1 nào trong mô hình OSI ?1., Mức độ: , Chủ đề: Router
+
+Thời gian: 06/27/2021, hành động: Xóa câu hỏi, Mã người dùng: 60b5b483b79f9f3d34fe083d, Họ tên: Tôn Tùng, dữ liệu: Câu hỏi: Thiết bị Hub có bao nhiêu1 collision domain?1., Mức độ: , Chủ đề: Hub
+
+Thời gian: 06/27/2021, hành động: Xóa câu hỏi, Mã người dùng: 60b5b483b79f9f3d34fe083d, Họ tên: Tôn Tùng, dữ liệu: Câu hỏi: Thiết bị Router nằm ở tầng1 nào trong mô hình OSI ?1., Mức độ: , Chủ đề: Router
+
+Thời gian: 06/27/2021, hành động: Xóa câu hỏi, Mã người dùng: 60b5b483b79f9f3d34fe083d, Họ tên: Tôn Tùng, dữ liệu: Câu hỏi: Thiết bị Hub có bao nhiêu1 collision domain?1., Mức độ: , Chủ đề: Hub
+
+Thời gian: 06/27/2021, hành động: Xóa câu hỏi, Mã người dùng: 60b5b483b79f9f3d34fe083d, Họ tên: Tôn Tùng, dữ liệu: Câu hỏi: Thiết bị Router nằm ở tầng1 nào trong mô hình OSI ?1., Mức độ: , Chủ đề: Router
+
+Thời gian: 06/27/2021, hành động: Xem Kết quả, Mã người dùng: 60b5aa57b79f9f3d34fe0829, Họ tên: Tôn Tùng, dữ liệu: Mã đề thi: MMT005, Kỳ thi: Năm học 2020-2021 - học kỳ I, Thời gian bắt đầu: 11-06-2021,      15:20, Thời gian kết thúc: 11-06-2021,  20:50, Giáo viên ra đề: Quốc Lưu, Sinh viên thực hiện: Nguyễn Thành, Lớp: 59CNTT-3
+
+Thời gian: 06/27/2021, hành động: Xem Kết quả, Mã người dùng: 60b5aa57b79f9f3d34fe0829, Họ tên: Tôn Tùng, dữ liệu: Mã đề thi: MMT004, Kỳ thi: Năm học 2020-2021 - học kỳ I, Thời gian bắt đầu: 06-06-2021,  16:30, Thời gian kết thúc: 06-06-2021,  16:50, Giáo viên ra đề: Quốc Lưu, Sinh viên thực hiện: Nguyễn Thành, Lớp: 59CNTT-3
+
+Thời gian: 06/28/2021, hành động: Hủy duyệt đề thi, Mã người dùng: 60b5b483b79f9f3d34fe083d, Họ tên: Quốc Lưu, dữ liệu: Mã đề thi: MMT005, Kythi: Năm học 2020-2021 - học kỳ I, Nội dung: Ngân hàng câu hỏi đề thi học kỳ I năm học 2020 - 2021, Số lượng câu hỏi: 5, Giáo viên: Quốc Lưu, Lớp: [{"_id":"60c362d39dea6452a4d375aa","name":"59CNTT-3"}], Mật khẩu:123
+
+Thời gian: 06/28/2021, hành động: Hủy duyệt đề thi, Mã người dùng: 60b5b483b79f9f3d34fe083d, Họ tên: Quốc Lưu, dữ liệu: Mã đề thi: MMT005, Kythi: Năm học 2020-2021 - học kỳ I, Nội dung: Ngân hàng câu hỏi đề thi học kỳ I năm học 2020 - 2021, Số lượng câu hỏi: 5, Giáo viên: Quốc Lưu, Lớp: [{"_id":"60c362d39dea6452a4d375aa","name":"59CNTT-3"}], Mật khẩu:123
+
+Thời gian: 06/28/2021, hành động: Hủy duyệt đề thi, Mã người dùng: 60b5b483b79f9f3d34fe083d, Họ tên: Quốc Lưu, dữ liệu: Mã đề thi: MMT004, Kythi: Năm học 2020-2021 - học kỳ I, Nội dung: ngân hàng câu hỏi đề thi học kì I năm học 2020 - 2021 , Số lượng câu hỏi: 5, Giáo viên: Quốc Lưu, Lớp: [{"_id":"60bc98d5e8db5a10c07c4886","name":"59CNTT-3"},{"_id":"60bc98d5e8db5a10c07c4887","name":"59CNTT-2"}], Mật khẩu:123
+
+Thời gian: 06/28/2021, hành động: Sửa đề thi, Mã người dùng: 60b5b483b79f9f3d34fe083d, Họ tên: Quốc Lưu, dữ liệu: Mã đề thi: MMT005, Kythi: Năm học 2020-2021 - học kỳ I, Nội dung: Ngân hàng câu hỏi đề thi học kỳ I năm học 2020 - 2021, Số lượng câu hỏi: 5, Giáo viên: Quốc Lưu, Lớp: [{"_id":"60c362d39dea6452a4d375aa","name":"59CNTT-3"}], Mật khẩu:123
+
+Thời gian: 06/28/2021, hành động: Duyệt đề thi, Mã người dùng: 60b5b483b79f9f3d34fe083d, Họ tên: Quốc Lưu, dữ liệu: Mã đề thi: MMT005, Kythi: Năm học 2020-2021 - học kỳ I, Nội dung: Ngân hàng câu hỏi đề thi học kỳ I năm học 2020 - 2021, Số lượng câu hỏi: 5, Giáo viên: Quốc Lưu, Lớp: [{"_id":"60d8b07c002fc71fc400fe92","name":"59CNTT-3"},{"_id":"60d8b07c002fc71fc400fe93","name":"59CNTT-2"}], Mật khẩu:123
+
+Thời gian: 06/28/2021, hành động: Duyệt đề thi, Mã người dùng: 60b5b483b79f9f3d34fe083d, Họ tên: Quốc Lưu, dữ liệu: Mã đề thi: MMT005, Kythi: Năm học 2020-2021 - học kỳ I, Nội dung: Ngân hàng câu hỏi đề thi học kỳ I năm học 2020 - 2021, Số lượng câu hỏi: 5, Giáo viên: Quốc Lưu, Lớp: [{"_id":"60d8b07c002fc71fc400fe92","name":"59CNTT-3"},{"_id":"60d8b07c002fc71fc400fe93","name":"59CNTT-2"}], Mật khẩu:123
+
+Thời gian: 06/28/2021, hành động: Xem Kết quả, Mã người dùng: 60b5aa57b79f9f3d34fe0829, Họ tên: undefined, dữ liệu: Mã đề thi: MMT005, Kỳ thi: Năm học 2020-2021 - học kỳ I, Thời gian bắt đầu: 11-06-2021,      15:20, Thời gian kết thúc: 11-06-2021,  20:50, Giáo viên ra đề: Quốc Lưu, Sinh viên thực hiện: Nguyễn Thành, Lớp: 59CNTT-3
+
+Thời gian: 06/28/2021, hành động: Xem Kết quả, Mã người dùng: 60b5aa57b79f9f3d34fe0829, Họ tên: undefined, dữ liệu: Mã đề thi: MMT005, Kỳ thi: Năm học 2020-2021 - học kỳ I, Thời gian bắt đầu: 11-06-2021,      15:20, Thời gian kết thúc: 11-06-2021,  20:50, Giáo viên ra đề: Quốc Lưu, Sinh viên thực hiện: Nguyễn Thành, Lớp: 59CNTT-3
+
+Thời gian: 06/28/2021, hành động: Xem Kết quả, Mã người dùng: 60b5aa57b79f9f3d34fe0829, Họ tên: undefined, dữ liệu: Mã đề thi: MMT005, Kỳ thi: Năm học 2020-2021 - học kỳ I, Thời gian bắt đầu: 11-06-2021,      15:20, Thời gian kết thúc: 11-06-2021,  20:50, Giáo viên ra đề: Quốc Lưu, Sinh viên thực hiện: Nguyễn Thành, Lớp: 59CNTT-3
+
+Thời gian: 06/28/2021, hành động: Xem Kết quả, Mã người dùng: 60b5aa57b79f9f3d34fe0829, Họ tên: undefined, dữ liệu: Mã đề thi: MMT005, Kỳ thi: Năm học 2020-2021 - học kỳ I, Thời gian bắt đầu: 11-06-2021,      15:20, Thời gian kết thúc: 11-06-2021,  20:50, Giáo viên ra đề: Quốc Lưu, Sinh viên thực hiện: Nguyễn Thành, Lớp: 59CNTT-3
+
+Thời gian: 06/28/2021, hành động: Tạo Đề thi, Mã người dùng: 60b5b483b79f9f3d34fe083d, Họ tên: Tôn Tùng, dữ liệu: Mã đề thi: 123, Kythi: Năm học 2020-2021 - học kỳ I, Nội dung: fdsa, Số lượng câu hỏi: 2, Giáo viên: Tôn Tùng, Lớp: [{"_id":"60d8b1b7002fc71fc400feaf","name":"59CNTT-3"},{"_id":"60d8b1b7002fc71fc400feb0","name":"59CNTT-2"}], Mật khẩu:123
+
+Thời gian: 06/28/2021, hành động: Duyệt đề thi, Mã người dùng: 60b5b483b79f9f3d34fe083d, Họ tên: Tôn Tùng, dữ liệu: Mã đề thi: 123, Kythi: Năm học 2020-2021 - học kỳ I, Nội dung: fdsa, Số lượng câu hỏi: 2, Giáo viên: Tôn Tùng, Lớp: [{"_id":"60d8b1b7002fc71fc400feaf","name":"59CNTT-3"},{"_id":"60d8b1b7002fc71fc400feb0","name":"59CNTT-2"}], Mật khẩu:123
+
+Thời gian: 06/28/2021, hành động: Tạo Đề thi, Mã người dùng: 60b5b483b79f9f3d34fe083d, Họ tên: Tôn Tùng, dữ liệu: Mã đề thi: 1231, Kythi: Năm học 2020-2021 - học kỳ I, Nội dung: fdsa, Số lượng câu hỏi: 1, Giáo viên: Tôn Tùng, Lớp: [{"_id":"60d8b419002fc71fc400feeb","name":"59CNTT-3"},{"_id":"60d8b419002fc71fc400feec","name":"59CNTT-2"}], Mật khẩu:123
+
+Thời gian: 06/28/2021, hành động: Duyệt đề thi, Mã người dùng: 60b5b483b79f9f3d34fe083d, Họ tên: Tôn Tùng, dữ liệu: Mã đề thi: 1231, Kythi: Năm học 2020-2021 - học kỳ I, Nội dung: fdsa, Số lượng câu hỏi: 1, Giáo viên: Tôn Tùng, Lớp: [{"_id":"60d8b419002fc71fc400feeb","name":"59CNTT-3"},{"_id":"60d8b419002fc71fc400feec","name":"59CNTT-2"}], Mật khẩu:123
+
+Thời gian: 06/28/2021, hành động: Tạo Đề thi, Mã người dùng: 60b5b483b79f9f3d34fe083d, Họ tên: Tôn Tùng, dữ liệu: Mã đề thi: 12313, Kythi: Năm học 2020-2021 - học kỳ I, Nội dung: fdsa, Số lượng câu hỏi: 2, Giáo viên: Tôn Tùng, Lớp: [{"_id":"60d8b61a002fc71fc400ff00","name":"59CNTT-3"},{"_id":"60d8b61a002fc71fc400ff01","name":"59CNTT-2"}], Mật khẩu:123
+
+Thời gian: 06/28/2021, hành động: Duyệt đề thi, Mã người dùng: 60b5b483b79f9f3d34fe083d, Họ tên: Tôn Tùng, dữ liệu: Mã đề thi: 12313, Kythi: Năm học 2020-2021 - học kỳ I, Nội dung: fdsa, Số lượng câu hỏi: 2, Giáo viên: Tôn Tùng, Lớp: [{"_id":"60d8b61a002fc71fc400ff00","name":"59CNTT-3"},{"_id":"60d8b61a002fc71fc400ff01","name":"59CNTT-2"}], Mật khẩu:123
+
+Thời gian: 06/28/2021, hành động: Xem Kết quả, Mã người dùng: 60b5aa57b79f9f3d34fe0829, Họ tên: undefined, dữ liệu: Mã đề thi: 12313, Kỳ thi: Năm học 2020-2021 - học kỳ I, Thời gian bắt đầu: 28-06-2021,  00:30, Thời gian kết thúc: 28-06-2021,  00:35, Giáo viên ra đề: Tôn Tùng, Sinh viên thực hiện: Nguyễn Thành, Lớp: 59CNTT-3
+
+Thời gian: 07/01/2021, hành động: Xóa câu hỏi, Mã người dùng: 60b5b483b79f9f3d34fe083d, Họ tên: Tôn Tùng, dữ liệu: Câu hỏi: 123, Mức độ: 1, Chủ đề: Router
+
+Thời gian: 07/01/2021, hành động: Xóa câu hỏi, Mã người dùng: 60b5b483b79f9f3d34fe083d, Họ tên: Tôn Tùng, dữ liệu: Câu hỏi: Thiết bị router có bao nhiêu Broadcast domain, Mức độ: 1, Chủ đề: Động vật
+
+Thời gian: 07/01/2021, hành động: Xóa câu hỏi, Mã người dùng: 60b5b483b79f9f3d34fe083d, Họ tên: Tôn Tùng, dữ liệu: Câu hỏi: Thiết bị Switch có bao nhiêu Broadcast domain?, Mức độ: , Chủ đề: Động vật
+
+Thời gian: 07/01/2021, hành động: Xóa câu hỏi, Mã người dùng: 60b5b483b79f9f3d34fe083d, Họ tên: Tôn Tùng, dữ liệu: Câu hỏi: Thiết bị router có bao nhiêu Broadcast domain1, Mức độ: , Chủ đề: Động vật
+
+Thời gian: 07/01/2021, hành động: Xóa câu hỏi, Mã người dùng: 60b5b483b79f9f3d34fe083d, Họ tên: Tôn Tùng, dữ liệu: Câu hỏi: Thiết bị Hub có bao nhiêu collision domain?, Mức độ: 2, Chủ đề: Hub
+
+Thời gian: 07/01/2021, hành động: Xóa câu hỏi, Mã người dùng: 60b5b483b79f9f3d34fe083d, Họ tên: Tôn Tùng, dữ liệu: Câu hỏi: Thiết bị Hub có bao nhiêu1 collision domain?1., Mức độ: 1, Chủ đề: Hub
+
+Thời gian: 07/01/2021, hành động: Xóa câu hỏi, Mã người dùng: 60b5b483b79f9f3d34fe083d, Họ tên: Tôn Tùng, dữ liệu: Câu hỏi: Thiết bị Hub có bao nhiêu1 collision domain?1., Mức độ: , Chủ đề: Hub
+
+Thời gian: 07/03/2021, hành động: Xem Kết quả, Mã người dùng: 60b5aa57b79f9f3d34fe0829, Họ tên: Tôn Tùng, dữ liệu: Mã đề thi: 12313, Kỳ thi: Năm học 2020-2021 - học kỳ I, Thời gian bắt đầu: 28-06-2021,  00:30, Thời gian kết thúc: 28-06-2021,  00:35, Giáo viên ra đề: Tôn Tùng, Sinh viên thực hiện: Nguyễn Thành, Lớp: 59CNTT-3
+

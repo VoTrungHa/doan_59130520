@@ -87,7 +87,7 @@ export class CreatedComponent implements OnInit {
       this.setValueForForm(id);
     }
     let path = this.route.snapshot.url;
-    console.log(path);
+    // console.log(path);
     if (path.length == 4) {
       this.path = path[2].path;
     }
@@ -103,12 +103,12 @@ export class CreatedComponent implements OnInit {
         const Sinhvien = res.body.data;
         this.ids = Sinhvien.infor.id;
         this.id = Sinhvien._id;
-        console.log(Sinhvien);
+        // console.log(Sinhvien);
         if (Sinhvien.infor.avatar != '') {
           this.urlIma = SERVER_IMAGE + Sinhvien.infor.avatar;
         }
 
-        console.log(this.urlIma);
+        // console.log(this.urlIma);
         this.formAccount.get('avatar').setValue(Sinhvien.infor.avatar);
         this.formAccount.get('firstName').setValue(Sinhvien.infor.firstName);
         this.formAccount.get('lastName').setValue(Sinhvien.infor.lastName);
@@ -128,7 +128,7 @@ export class CreatedComponent implements OnInit {
         this.loadui.stop();
       },
       (error: HttpErrorResponse) => {
-        console.log(error);
+        // console.log(error);
       }
     );
   }
@@ -176,19 +176,19 @@ export class CreatedComponent implements OnInit {
         this.lop = data.body.data;
       },
       (error: HttpErrorResponse) => {
-        console.log(error.error.message);
+        // console.log(error.error.message);
       }
     );
   }
   createLop(e) {
     this.ss.createLop(e).subscribe(
       (res) => {
-        console.log(res.status);
+        // console.log(res.status);
         this.getAllLop();
         this.isLop = false;
       },
       (error: HttpErrorResponse) => {
-        console.log(error.error.message);
+        // console.log(error.error.message);
       }
     );
   }
@@ -221,7 +221,7 @@ export class CreatedComponent implements OnInit {
         }
       },
       (error: HttpErrorResponse) => {
-        console.log(error);
+        // console.log(error);
       }
     );
   }
@@ -262,13 +262,10 @@ export class CreatedComponent implements OnInit {
     // Is it a file?
     if (droppedFile.fileEntry.isFile) {
       const fileEntry = droppedFile.fileEntry as FileSystemFileEntry;
-      fileEntry.file((file: File) => {
-        // Here you can access the real file
-        // console.log(droppedFile.relativePath, file);
+      fileEntry.file((file: File) => { 
         formData.append('file', file);
         let dotfile = files[0].relativePath.split('.')[1];
-        if (dotfile === 'jpg' || dotfile === 'png') {
-          console.log(file);
+        if (dotfile === 'jpg' || dotfile === 'png') { 
           this.ss.uploadImage(formData).subscribe(
             (res) => {
               if (res.status == 200) {
@@ -277,8 +274,7 @@ export class CreatedComponent implements OnInit {
                 this.urlIma = SERVER_IMAGE + file.name;
               }
             },
-            (error: HttpErrorResponse) => {
-              console.log(error);
+            (error: HttpErrorResponse) => { 
             }
           );
         } else {

@@ -38,7 +38,6 @@ export class NavleftComponent implements OnInit {
   }
   loadDate() {
     this.idblog = this.router.snapshot.paramMap.get('id');
-    console.log(this.idblog);
     let data = JSON.parse(localStorage.getItem('listProfiles'));
     if (data) {
       this.authorities = data.authorities;

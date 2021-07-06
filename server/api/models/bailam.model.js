@@ -39,7 +39,7 @@ const BaiLam = new mongoose.Schema({
       answers: [{ answer: String, default: "", bio: Boolean }],
       status: { type: Boolean, default: true },
       theme: { type: String },
-      level: { type: String },
+      level: { type: String, default: "Chưa xác định" },
       result: { type: Boolean, default: false },
       answerUser: [{ answer: { type: String } }],
       soLanSuDung: { type: Number, default: 0 },

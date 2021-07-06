@@ -56,24 +56,24 @@ export class SinhvienComponent implements OnInit {
     this.sinhvienService.loadAll(this.params).subscribe(
       (res) => {
         this.sinhViens = res.body.data;
-        console.log(this.sinhViens);
+        // console.log(this.sinhViens);
         this.sinhvienService.getAll().subscribe(
           (res) => {
             this.total_records = res.body.data.length;
           },
           (error: HttpErrorResponse) => {
-            console.log(error);
+            // console.log(error);
           }
         );
       },
       (error: HttpErrorResponse) => {
-        console.log(error);
+        // console.log(error);
       }
     );
   }
 
   onChangelimit(e) {
-    console.log(e);
+    // console.log(e);
     this.params.limit = e;
     this.params.current_page = 1;
     this.loadAll(this.params.current_page);
@@ -103,14 +103,14 @@ export class SinhvienComponent implements OnInit {
             }
           },
           (error: HttpErrorResponse) => {
-            console.log(error);
+            // console.log(error);
           }
         );
       }
     });
   }
   detail(item) {
-    console.log(item);
+    // console.log(item);
     this.route.navigate(['/thanhvien/', item._id]);
   }
   sortAll(value) {
@@ -132,11 +132,11 @@ export class SinhvienComponent implements OnInit {
   loadAllClass() {
     this.ss.getAll().subscribe(
       (res) => {
-        console.log(res);
+        // console.log(res);
         this.lops = res.body.data;
       },
       (error: HttpErrorResponse) => {
-        console.log(error);
+        // console.log(error);
       }
     );
   }

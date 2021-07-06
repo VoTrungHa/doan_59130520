@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Questions>
+  <Question>
+    <_id>60d8ad9a002fc71fc400fe89</_id>
+    <question>Thiết bị Hub có bao nhiêu1 collision domain?1.</question>
+    <level/>
+    <soLanSuDung>0</soLanSuDung>
+    <soLanTraLoiDung>0</soLanTraLoiDung>
+    <answers>
+      <answer>1 collision.</answer>
+      <bio>true</bio>
+    </answers>
+    <answers>
+      <answer>2 collision.</answer>
+      <bio>false</bio>
+    </answers>
+    <answers>
+      <answer>3 collision.</answer>
+      <bio>false</bio>
+    </answers>
+    <answers>
+      <answer>4 collision.</answer>
+      <bio>false</bio>
+    </answers>
+    <createDate>2021-06-27T23:55:54+07:00</createDate>
+    <status>true</status>
+    <theme>Hub</theme>
+  </Question>
+  <Question>
+    <_id>60d8ad9a002fc71fc400fe84</_id>
+    <question>Thiết bị Router nằm ở tầng1 nào trong mô hình OSI ?1.</question>
+    <level/>
+    <soLanSuDung>0</soLanSuDung>
+    <soLanTraLoiDung>0</soLanTraLoiDung>
+    <answers>
+      <answer>tầng 1.</answer>
+      <bio>false</bio>
+    </answers>
+    <answers>
+      <answer>tầng 2.</answer>
+      <bio>true</bio>
+    </answers>
+    <answers>
+      <answer>tầng 3.</answer>
+      <bio>false</bio>
+    </answers>
+    <answers>
+      <answer>tầng 4.</answer>
+      <bio>false</bio>
+    </answers>
+    <createDate>2021-06-27T23:55:54+07:00</createDate>
+    <status>true</status>
+    <theme>Router</theme>
+  </Question>
+  <Question>
+    <_id>60c371a525c5ca4e34e580c9</_id>
+    <question>Thiết bị router có bao nhiêu Broadcast domain1</question>
+    <soLanSuDung>0</soLanSuDung>
+    <soLanTraLoiDung>0</soLanTraLoiDung>
+    <answers>
+      <answer>1 broadcast/1port</answer>
+      <bio>false</bio>
+    </answers>
+    <answers>
+      <answer>2 broadcast/1port</answer>
+      <bio>true</bio>
+    </answers>
+    <answers>
+      <answer>3 broadcast/1port</answer>
+      <bio>false</bio>
+    </answers>
+    <answers>
+      <answer>4 broadcast/1port</answer>
+      <bio>false</bio>
+    </answers>
+    <level/>
+    <createDate>2021-06-11T21:22:29+07:00</createDate>
+    <status>true</status>
+    <theme>Động vật</theme>
+  </Question>
+  <Question>
+    <_id>60c321175bb8ac58c05ea531</_id>
+    <question>Thiết bị Router nằm ở tầng nào trong mô hình OSI ?</question>
+    <soLanSuDung>12</soLanSuDung>
+    <soLanTraLoiDung>0</soLanTraLoiDung>
+    <answers>
+      <answer>tầng 1.</answer>
+      <bio>false</bio>
+    </answers>
+    <answers>
+      <answer>tầng 2</answer>
+      <bio>false</bio>
+    </answers>
+    <answers>
+      <answer>từ tầng 3 trở lên</answer>
+      <bio>true</bio>
+    </answers>
+    <answers>
+      <answer>tất cả đều sai.</answer>
+      <bio>false</bio>
+    </answers>
+    <level>1</level>
+    <createDate>2021-06-11T15:38:47+07:00</createDate>
+    <status>true</status>
+    <theme>Router</theme>
+  </Question>
+  <Question>
+    <_id>60c321175bb8ac58c05ea52c</_id>
+    <question>Thiết bị Hub có bao nhiêu collision domain?</question>
+    <soLanSuDung>9</soLanSuDung>
+    <soLanTraLoiDung>3</soLanTraLoiDung>
+    <answers>
+      <answer>1 collision </answer>
+      <bio>true</bio>
+    </answers>
+    <answers>
+      <answer>2 collision </answer>
+      <bio>false</bio>
+    </answers>
+    <answers>
+      <answer>3 collision </answer>
+      <bio>false</bio>
+    </answers>
+    <answers>
+      <answer>4 collision </answer>
+      <bio>false</bio>
+    </answers>
+    <level>2</level>
+    <createDate>2021-06-11T15:38:47+07:00</createDate>
+    <status>true</status>
+    <theme>Hub</theme>
+  </Question>
+</Questions>

@@ -24,18 +24,18 @@ export class GuardAuthGuard implements CanActivate {
     | boolean
     | UrlTree {
     const functions = route.data['functions'];
-    console.log("url"+ state.url);
-    console.log("func"+functions);
+    // console.log("url"+ state.url);
+    // console.log("func"+functions);
     return this.checkLogin(functions, state.url);
   }
 
   checkLogin(authorities: string[], url: string): Promise<boolean> {
-    console.log(authorities);
+    // console.log(authorities);
     return Promise.resolve(
       this.principal.identity().then((account) => {
-        console.log("account"+account)
+        // console.log("account"+account)
         if (account) {
-          console.log(account);
+          // console.log(account);
           if (!authorities || authorities.length === 0) {
             alert(
               'Truy cập bị từ chối. Bạn có thể không có quyền thích hợp để truy cập chức năng ' +
@@ -65,7 +65,7 @@ export class GuardAuthGuard implements CanActivate {
             });
         }
         this.stateStorageService.storeUrl(url);
-        console.log("fadssdfa")
+        // console.log("fadssdfa")
         this.router.navigate(['error']).then(() => {
           if (!account) {
             this.LoginModal.open();

@@ -56,7 +56,6 @@ export class UploadFileComponent implements OnInit {
         // Here you can access the real file
         // console.log(droppedFile.relativePath, file);
         formData.append('file', file);
-
         let dotfile = files[0].relativePath.split('.')[1];
         if (dotfile === 'txt' && this.isTXT) {
           console.log(dotfile);
@@ -83,7 +82,6 @@ export class UploadFileComponent implements OnInit {
                 // alert('Lưu ý những câu hỏi trùng lặp hệ thống sẽ tự xóa bỏ !');
                 alert('Tải tệp lên thành công !.');
               }
-
               this.dataUload.emit(res.body.data);
               this.activeModal.dismiss('fdsds');
             },

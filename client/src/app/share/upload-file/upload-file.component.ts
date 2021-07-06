@@ -69,9 +69,10 @@ export class UploadFileComponent implements OnInit {
           this.ss.upload(formData).subscribe(
             (res) => {
               console.log(res);
-              if (res.body.status == 405) {
-                alert('Lưu ý những câu hỏi trùng lặp hệ thống sẽ tự xóa bỏ !');
-              }
+              // if (res.body.status && res.body.status == 405) {
+                
+              // }
+              alert('Lưu ý những câu hỏi trùng lặp hệ thống sẽ tự xóa bỏ !');
               alert('Tải tệp lên thành công !.');
               this.comfirm.emit(true);
               this.activeModal.dismiss('fdsds');

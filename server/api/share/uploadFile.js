@@ -7,15 +7,25 @@ const xml2js = require("xml2js");
 const Question = require("../models/cauhoi.model");
 const pth = require("path");
 
-exports.CreateTextForHistory=(action,idcreateby,createby,data)=>{
-
-const date= moment().format('L')
-return "Thời gian: " +date+", hành động: "+action+", Mã người dùng: "+ idcreateby+", Họ tên: "+createby+", dữ liệu: "+data;
-}
+exports.CreateTextForHistory = (action, idcreateby, createby, data) => {
+  const date = moment().format("L");
+  return (
+    "Thời gian: " +
+    date +
+    ", hành động: " +
+    action +
+    ", Mã người dùng: " +
+    idcreateby +
+    ", Họ tên: " +
+    createby +
+    ", dữ liệu: " +
+    data
+  );
+};
 exports.writeHistorySV = (data) => {
-  const filepath = "../public/history/sinhvien.txt"; 
+  const filepath = "../public/history/sinhvien.txt";
   fs.appendFile(pth.join(__dirname, filepath), data + "\n\n", (err) => {
-     console.log(err);
+    console.log(err);
   });
 };
 exports.writeHistoryGV = (data) => {
@@ -50,7 +60,7 @@ exports.UploadQuestion = (req, resp) => {
     const Ques = {
       question: "",
       answers: [],
-      level: "",
+      // level: "",
       theme: "",
       soLanSuDung: 0,
       soLanTraLoiDung: 0,
@@ -64,7 +74,7 @@ exports.UploadQuestion = (req, resp) => {
         // cập nhâp new object
         Ques.question = "";
         Ques.answers = [];
-        Ques.level = "";
+        // Ques.level = "";
         Ques.theme = "";
         Ques.question = item.slice(7);
         return;
@@ -95,7 +105,7 @@ exports.UploadQuestion = (req, resp) => {
           flag = true;
         }
         createQuestion(Ques, resp, flag, isStruct);
-        return resp.status(200).json({})
+        // return resp.status(200).json({});
       } else {
         Ques.answers.push({ answer: item.slice(3) });
       }
@@ -110,32 +120,39 @@ async function createQuestion(data, res, flag, istruct) {
   if (!istruct) {
     return res.status(406).json({ status: 406 });
   }
-  const { question, answers, level, theme } = data;
+  const { question, answers, theme } = data;
   await Question.findOne({ question })
     .then((err, data) => {
       if (err || data) {
+        console.log(err);
         return { status: 405 };
       }
+      // console.log(question);
       const ques = new Question();
       (ques.question = question),
         (ques.answers = answers),
-        (ques.level = level),
+        //  (ques.level = level),
         //   (ques.subject = subject),
         (ques.createDate = moment().format()),
         (ques.status = true),
-        (ques.theme = theme);
+        (ques.theme = theme),
+        console.log(ques);
       ques.save((err, data) => {
-        if (err) return { message: err };
-        else {
-          return { status: 200 };
+        console.log("e")
+        if (err) {
+          console.log(err);
+          return { message: err };
+        } else {
+          console.log("ok");
+          return { status: 200,message:"thành công !" };
         }
       });
     })
     .then((re) => {
-      if (flag) return res.status(200).json(re);
+      if (flag) return res.status(200).json({sattus:200});
     })
     .catch((err) => {
-      if (flag) return res.status(400).json(err);
+      if (flag) return res.status(400).json({ sattus: 400 });
     });
 }
 
@@ -146,7 +163,7 @@ exports.uploadXml = (req, res) => {
     return res.status(400).json({ message: error });
   }
   let url = `${path}${files.filename}`;
-  console.log(url)
+  console.log(url);
   fs.readFile(url, { encoding: "utf-8" }, (err, data) => {
     // read file
     if (err) {
@@ -181,7 +198,7 @@ exports.uploadXml = (req, res) => {
           // get a jobject
           Ques.question = item.question.toString();
           // Ques.level = item.level.toString();
-           Ques.level = '';
+          Ques.level = "";
           Ques.theme = item.theme.toString();
           item.answers.map((ans, index) => {
             // get an answer into answer in Qusetion
@@ -204,7 +221,7 @@ exports.uploadXml = (req, res) => {
             level: "",
             theme: "",
             soLanSuDung: 0,
-            soLanTraLoiDung:0
+            soLanTraLoiDung: 0,
           };
         });
       } catch (error) {
@@ -215,7 +232,7 @@ exports.uploadXml = (req, res) => {
 };
 
 function createQuestionXml(data, res, flag) {
-  console.log(data.question)
+  console.log(data.question);
   Question.findOne({ question: data.question })
     .then((res) => {
       if (res) {
@@ -229,10 +246,10 @@ function createQuestionXml(data, res, flag) {
         (ques.createDate = moment().format()),
         (ques.status = true),
         (ques.theme = data.theme);
-      ques.save((err,data) => {
+      ques.save((err, data) => {
         if (err) return { status: 400, message: err };
         console.log(data);
-        return { status: 200, message: "success", };
+        return { status: 200, message: "success" };
       });
     })
     .then((data) => {

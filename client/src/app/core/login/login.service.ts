@@ -18,7 +18,7 @@ export class LoginService {
       this.authJwtService.login(credentials).subscribe(
         (data) => {
           this.getUserProfiles().subscribe((profiles) => {
-            console.log(profiles);
+            // console.log(profiles);
             if (profiles) {
               // sessionStorage.setItem('listProfiles', JSON.stringify(profiles));
               localStorage.setItem('listProfiles', JSON.stringify(profiles));

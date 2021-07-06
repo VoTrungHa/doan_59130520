@@ -58,7 +58,7 @@ export class BaithiComponent implements OnInit {
   }
 
   loadAll(page: number) {
-    console.log(page);
+    // console.log(page);
     if (page < 0 || !page) {
       page = 1;
     }
@@ -71,7 +71,7 @@ export class BaithiComponent implements OnInit {
             this.total_records = res.body.data.length;
           },
           (error: HttpErrorResponse) => {
-            console.log(error);
+            // console.log(error);
           }
         );
 
@@ -79,7 +79,7 @@ export class BaithiComponent implements OnInit {
         this.findEnd();
       },
       (error: HttpErrorResponse) => {
-        console.log(error);
+        // console.log(error);
       }
     );
   }
@@ -90,7 +90,7 @@ export class BaithiComponent implements OnInit {
         this.Classes = res.body.data;
       },
       (error: HttpErrorResponse) => {
-        console.log(error);
+        // console.log(error);
       }
     );
   }
@@ -100,7 +100,7 @@ export class BaithiComponent implements OnInit {
         this.kyThis = res.body.data;
       },
       (error: HttpErrorResponse) => {
-        console.log(error);
+        // console.log(error);
       }
     );
   }
@@ -121,7 +121,7 @@ export class BaithiComponent implements OnInit {
      let stor = JSON.parse(localStorage.getItem('listProfiles'));
     this.baithiService.getByIdForDuyet(id).subscribe(
       (res: any) => {
-        console.log(res.body.data);
+        // console.log(res.body.data);
         let proFile = JSON.parse(localStorage.getItem('listProfiles'));
         if (
           res.status == 200 &&
@@ -195,7 +195,7 @@ export class BaithiComponent implements OnInit {
     );
   }
   search(e) {
-    console.log(e);
+    // console.log(e);
     this.params.current_page = 1;
     this.params.search = e;
     this.loadAll(this.params.current_page);
@@ -230,7 +230,7 @@ export class BaithiComponent implements OnInit {
             this.loadUi.stop();
           },
           (error: HttpErrorResponse) => {
-            console.log(error);
+            // console.log(error);
             alert(`error: ${error}`);
           }
         );
@@ -239,7 +239,7 @@ export class BaithiComponent implements OnInit {
   }
 
   searchByKyThi(e) {
-    console.log(e);
+    // console.log(e);
     this.params.current_page = 1;
     this.params.kyThi = e;
     this.loadAll(this.params.current_page);
@@ -251,10 +251,10 @@ export class BaithiComponent implements OnInit {
   }
 
   getDataToServer(data) {
-    console.log(data);
+    // console.log(data);
     this.ss.dowDataToServer(data, 'dethi.xml').subscribe(
       (res) => {
-        console.log(res);
+        // console.log(res);
         if (res.status == 200) {
           const url = this.modal.open(DownloadQuestionComponent, {
             centered: true,

@@ -25,7 +25,7 @@ export class PrincipalService {
       .get() // get information Account
       .toPromise()
       .then((response) => {
-        console.log(response.body);
+        // console.log(response.body);
         const account = response.body.data;
         if (account) {
           this.userIdentity = account;
