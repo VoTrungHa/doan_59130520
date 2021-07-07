@@ -28,7 +28,11 @@ import { Observable } from 'rxjs';
 import { UploadFileComponent } from '../upload-file/upload-file.component';
 import { Question } from '../../Question/question.model';
 import { ChooseQuestionComponent } from '../choose-question/choose-question.component';
-import { FileSystemDirectoryEntry, FileSystemFileEntry, NgxFileDropEntry } from 'ngx-file-drop';
+import {
+  FileSystemDirectoryEntry,
+  FileSystemFileEntry,
+  NgxFileDropEntry,
+} from 'ngx-file-drop';
 import { SERVER_IMAGE } from 'src/app/app.contants';
 @Component({
   selector: 'app-taobaithi',
@@ -267,7 +271,6 @@ export class TaobaithiComponent implements OnInit {
   onBlurHocKy(namhoc, hocky) {
     this.ss.createKyThi({ namhoc, hocky }).subscribe(
       (res) => {
-        console.log(res);
         this.isKyThi = true;
         this.getKyThi();
       },
@@ -289,7 +292,6 @@ export class TaobaithiComponent implements OnInit {
   blurTheme(name) {
     this.ss.createTheme(name).subscribe(
       (res) => {
-        console.log(res);
         this.getTheme();
       },
       (error: HttpErrorResponse) => {}
@@ -359,7 +361,6 @@ export class TaobaithiComponent implements OnInit {
     control.removeAt(index);
   }
   onChangeDate(value) {
-    console.log(this.formDethi.get('timeStart'));
     let s = this.formDethi.get('timeStart').get(`${value}`).value;
     this.formDethi.get('timeEnd').get(`${value}`).setValue(s);
   }
@@ -367,7 +368,7 @@ export class TaobaithiComponent implements OnInit {
   createDethi() {
     this.checkbio = false;
     this.questionCheckbio = [];
-     let profile = JSON.parse(localStorage.getItem('listProfiles'));
+    let profile = JSON.parse(localStorage.getItem('listProfiles'));
 
     this.formDethi.value.detailTest.map((it, ind) => {
       this.flas = 0;
@@ -381,7 +382,7 @@ export class TaobaithiComponent implements OnInit {
         this.checkbio = false;
       }
     });
-    console.log(this.questionCheckbio.length + '  ' + this.checkbio);
+
     if (this.questionCheckbio.length != 0 && this.checkbio == false) {
       alert('Đề thi có chứa câu hỏi chưa hoàn tất !');
     } else {
@@ -403,7 +404,7 @@ export class TaobaithiComponent implements OnInit {
       const dateE = new Date();
       dateE.setFullYear(yeare, monthe, daye);
       dateE.setHours(houre, minutee);
-      console.log(dateE);
+
       if (dateS.getTime() > dateE.getTime()) {
         alert('Thời Gian kết thúc không hợp lệ !');
       } else {
@@ -433,8 +434,8 @@ export class TaobaithiComponent implements OnInit {
                 name: `${stor.infor.firstName} ${stor.infor.lastName}`,
               };
 
-                data.idCreateBy = profile._id;
-                console.log(data);
+              data.idCreateBy = profile._id;
+
               this.baiThiService.create(data).subscribe(
                 (res) => {
                   if (res.status == 200) {
@@ -443,10 +444,8 @@ export class TaobaithiComponent implements OnInit {
                     this.router.navigate(['/baithi']);
                   }
                   this.loadService.stop();
-                  console.log(res);
                 },
                 (error: HttpErrorResponse) => {
-                  console.log(error);
                   alert(
                     `Đã tồn tại đề ${this.formDethi.get('id').value} trong ${
                       this.formDethi.get('kyThi').value
@@ -472,20 +471,17 @@ export class TaobaithiComponent implements OnInit {
             name: `${stor.infor.firstName} ${stor.infor.lastName}`,
           };
 
-           data.idCreateBy = profile._id;
+          data.idCreateBy = profile._id;
           this.baiThiService.create(data).subscribe(
             (res) => {
-              console.log(res);
               if (res.status == 200) {
                 alert('Đề thi được tạo thành công !');
                 this.loadService.start();
                 this.router.navigate(['/baithi']);
               }
               this.loadService.stop();
-              console.log(res);
             },
             (error: HttpErrorResponse) => {
-              console.log(error);
               alert(
                 `Đã tồn tại đề ${this.formDethi.get('id').value} trong ${
                   this.formDethi.get('kyThi').value
@@ -517,8 +513,8 @@ export class TaobaithiComponent implements OnInit {
     const dateE = new Date();
     dateE.setFullYear(yeare, monthe, daye);
     dateE.setHours(houre, minutee);
-    console.log(dateS);
-    console.log(dateE);
+    // console.log(dateS);
+    // console.log(dateE);
     if (dateS.getTime() > dateE.getTime()) {
       alert('Thời Gian kết thúc không hợp lệ !');
     } else {
@@ -547,27 +543,25 @@ export class TaobaithiComponent implements OnInit {
               name: `${stor.infor.firstName} ${stor.infor.lastName}`,
               action: 'Bảng nháp',
             };
-             data.idCreateBy = stor._id;
-             data.action= 'Bảng nháp',
-            console.log(data);
-            this.baiThiService.create(data).subscribe(
-              (res) => {
-                if (res.status == 200) {
-                  alert('Đề thi đã được lưu !');
-                  this.loadService.start();
-                  this.router.navigate(['/baithi']);
+            data.idCreateBy = stor._id;
+            (data.action = 'Bảng nháp'),
+              this.baiThiService.create(data).subscribe(
+                (res) => {
+                  if (res.status == 200) {
+                    alert('Đề thi đã được lưu !');
+                    this.loadService.start();
+                    this.router.navigate(['/baithi']);
+                  }
+                  this.loadService.stop();
+                },
+                (error: HttpErrorResponse) => {
+                  alert(
+                    `Đã tồn tại đề ${this.formDethi.get('id').value} trong ${
+                      this.formDethi.get('kyThi').value
+                    }`
+                  );
                 }
-                this.loadService.stop();
-                console.log(res);
-              },
-              (error: HttpErrorResponse) => {
-                alert(
-                  `Đã tồn tại đề ${this.formDethi.get('id').value} trong ${
-                    this.formDethi.get('kyThi').value
-                  }`
-                );
-              }
-            );
+              );
           }
         });
       } else {
@@ -579,41 +573,38 @@ export class TaobaithiComponent implements OnInit {
         const data = this.formDethi.value;
         data.Class = ArrClass;
         data.status = false;
-        console.log(data);
+        // console.log(data);
         const stor = JSON.parse(localStorage.getItem('listProfiles'));
         data.createBy = {
           id: stor._id,
           name: `${stor.infor.firstName} ${stor.infor.lastName}`,
-
         };
-         data.idCreateBy = stor._id;
-         (data.action = 'Bảng nháp'),
-           this.baiThiService.create(data).subscribe(
-             (res) => {
-               if (res.status == 200) {
-                 alert('Đề thi đã được lưu !');
-                 this.loadService.start();
-                 this.router.navigate(['/baithi']);
-               }
-               this.loadService.stop();
-               console.log(res);
-             },
-             (error: HttpErrorResponse) => {
-               alert(
-                 `Đã tồn tại đề ${this.formDethi.get('id').value} trong ${
-                   this.formDethi.get('kyThi').value
-                 }`
-               );
-             }
-           );
+        data.idCreateBy = stor._id;
+        (data.action = 'Bảng nháp'),
+          this.baiThiService.create(data).subscribe(
+            (res) => {
+              if (res.status == 200) {
+                alert('Đề thi đã được lưu !');
+                this.loadService.start();
+                this.router.navigate(['/baithi']);
+              }
+              this.loadService.stop();
+            },
+            (error: HttpErrorResponse) => {
+              alert(
+                `Đã tồn tại đề ${this.formDethi.get('id').value} trong ${
+                  this.formDethi.get('kyThi').value
+                }`
+              );
+            }
+          );
       }
     }
   }
 
   setValidator() {
-    console.log(this.formDethi.get('Class').value);
     this.isvalidator = true;
-    alert("Tồn tại trường còn trống !")
+    alert('Tồn tại trường còn trống !');
   }
   ///show data upload lên screen
   setDataUpload(data) {
@@ -630,7 +621,7 @@ export class TaobaithiComponent implements OnInit {
         let fb = this.fb.group({
           question: new FormControl(item.question, [Validators.required]),
           theme: new FormControl(item.theme, [Validators.required]),
-           level: new FormControl(item.level),
+          level: new FormControl(item.level),
           soLanSuDung: new FormControl(item.soLanSuDung),
           soLanTraLoiDung: new FormControl(item.soLanTraLoiDung),
           answers: this.fb.array([]),
@@ -651,7 +642,7 @@ export class TaobaithiComponent implements OnInit {
         let fb = this.fb.group({
           question: new FormControl(item.question, [Validators.required]),
           theme: new FormControl(item.theme, [Validators.required]),
-           level: new FormControl(item.level),
+          level: new FormControl(item.level),
           soLanSuDung: new FormControl(item.soLanSuDung),
           soLanTraLoiDung: new FormControl(item.soLanTraLoiDung),
           answers: this.fb.array([]),
@@ -708,7 +699,6 @@ export class TaobaithiComponent implements OnInit {
         formData.append('file', file);
         let dotfile = files[0].relativePath.split('.')[1];
         if (dotfile === 'jpg' || dotfile === 'png') {
-          console.log(file);
           this.ss.uploadImage(formData).subscribe(
             (res) => {
               if (res.status == 200) {

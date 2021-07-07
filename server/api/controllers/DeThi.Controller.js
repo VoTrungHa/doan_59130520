@@ -27,7 +27,7 @@ exports.Create = (req, res) => {
     idCreateBy,
     confirmationBy,
   } = req.body;
-  console.log("30" + req.body);
+  //  console.log("30" + req.body);
   DeThi.findOne({ $and: [{ id, kyThi }] })
     .then((data) => {
       if (data) return res.status(404).json({ message: "duplicate" });
@@ -49,7 +49,7 @@ exports.Create = (req, res) => {
         status,
       });
 
-      console.log("52dethi" + dethi);
+      //  console.log("52dethi" + dethi);
       return dethi
         .save()
         .then((data) => {
@@ -86,7 +86,7 @@ exports.Create = (req, res) => {
                 (ques.soLanSuDung = item.soLanSuDung),
                   (ques.soLanTraLoiDung = item.soLanTraLoiDung);
                 ques.save((err, data) => {
-                  console.log("85" + data);
+                  //   console.log("85" + data);
                 });
               }
             });
@@ -275,7 +275,7 @@ exports.Update = (req, res) => {
         },
       }).exec((err, data) => {
         if (!data) {
-          console.log("update");
+          //  console.log("update");
           const ques = new Question();
           (ques.question = item.question),
             (ques.answers = item.answers),
@@ -413,7 +413,7 @@ exports.delete = (req, res) => {
   const { idCreateBy } = req.body.data;
   DeThi.findByIdAndRemove({ _id: req.params.id }).exec((err, data) => {
     if (err) return res.status(404).json({ message: err });
-    console.log(data);
+    // console.log(data);
     const text =
       "Mã đề thi: " +
       data.id +
@@ -450,7 +450,7 @@ exports.uploadQuesTXT = async (req, resp) => {
   let url = `${path}${files.filename}`;
   fs.readFile(url, { encoding: "utf-8" }, (err, res) => {
     if (err) {
-      console.log(err);
+      // console.log(err);
     }
     try {
       const data = res.split(/\r\n/);
@@ -472,13 +472,13 @@ exports.uploadQuesTXT = async (req, resp) => {
       var isStruct = false;
       data.map((item, index) => {
         // duyệt qua arr[text]
-        if (item.slice(0, 3) === "Câu") {
+        if (item.slice(0, 3).toLocaleLowerCase() === "câu") {
           isStruct = true;
           Ques.answers = [];
           // cập nhâp new object
           Ques.question = item.slice(7);
           return;
-        } else if (item.slice(0, 6) === "Chủ đề") {
+        } else if (item.slice(0, 6).toLocaleLowerCase() === "chủ đề") {
           Ques.theme = item.slice(8, item.length - 1);
           return;
         }
@@ -486,7 +486,7 @@ exports.uploadQuesTXT = async (req, resp) => {
         //   Ques.level = item.slice(8, item.length - 1);
         //   return;
         // }
-        else if (item.slice(0, 6) === "Đáp án") {
+        else if (item.slice(0, 6).toLocaleLowerCase() === "đáp án") {
           let ans = item.slice(7).split(",");
           Ques.answers.map((item, index) => {
             // thêm cio vào answer
@@ -509,7 +509,7 @@ exports.uploadQuesTXT = async (req, resp) => {
         }
       });
       if (isStruct == false) {
-        console.log(isStruct);
+        // console.log(isStruct);
         return resp.status(406).json({ message: "Không đúng cấu trúc." });
       }
     } catch (error) {
@@ -627,7 +627,7 @@ exports.getDeThiById = (req, res) => {
   var Arr = [];
   const { id, current_page, createBy, authorities, limit, state, Class } =
     req.body.data;
-  console.log(req.body.data);
+  // console.log(req.body.data);
   var pages = 0;
   if (+current_page != 1) {
     // nếu page=1 thi bắt đầu lấy từ phần tử 0
@@ -655,7 +655,7 @@ exports.getDeThiById = (req, res) => {
           dateN.setMonth(datenow.getMonth());
           dateN.setDate(datenow.getDate());
           dateN.setHours(datenow.getHours(), datenow.getMinutes());
-          console.log(item.confirmationBy);
+          // console.log(item.confirmationBy);
           // sắp diễn ra
           if (
             sta &&
@@ -691,7 +691,7 @@ exports.getDeThiById = (req, res) => {
     DeThi.find()
       .then((res) => {
         res.map((item, index) => {
-          console.log(item.timeEnd);
+          //  console.log(item.timeEnd);
           let date = item.timeEnd.split(",")[0].split("-");
           let time = item.timeEnd.split(",")[1].split(":");
           const dateE = new Date();
@@ -741,7 +741,7 @@ exports.getDeThiById = (req, res) => {
         return res.status(400).json({ message: error });
       });
   } else {
-    console.log(req.body);
+    //  console.log(req.body);
     DeThi.find({
       $and: [{ confirmationBy: { $ne: "" } }, { "createBy.id": createBy }],
     })
@@ -791,7 +791,7 @@ exports.getDeThiById = (req, res) => {
 //đề thi đã kết thúc
 exports.getAllByStatefalse = (req, res) => {
   const { current_page, limit } = req.body.data;
-  console.log(req.body);
+  // console.log(req.body);
   var Arr = [];
   var pages = 0;
   if (+current_page != 1) {
@@ -840,7 +840,7 @@ exports.getAllByStatefalse = (req, res) => {
 exports.getAllByStateTrue = (req, res) => {
   const { current_page, limit } = req.body.data;
   var Arr = [];
-  console.log(req.body);
+  // console.log(req.body);
   var pages = 0;
   if (+current_page != 1) {
     // nếu page=1 thi bắt đầu lấy từ phần tử 0

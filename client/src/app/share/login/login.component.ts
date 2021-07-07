@@ -49,7 +49,7 @@ export class LoginComponent implements OnInit {
         this.selectedProfile = account;
         // this.NgxService.stop();
         this.goToDashboard();
-        console.log(this.selectedProfile);
+        //  console.log(this.selectedProfile);
       })
       .catch((error) => {
         this.message = error.error.message;

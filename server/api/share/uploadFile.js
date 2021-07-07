@@ -48,7 +48,7 @@ exports.UploadQuestion = (req, resp) => {
       // return resp.status(404).json({ message: err });
     }
     const data = res.split(/\r\n/);
-    console.log(data);
+    // console.log(data);
     fs.unlink(url, (err) => {
       // delete file sau khi read
       if (err) {
@@ -69,7 +69,7 @@ exports.UploadQuestion = (req, resp) => {
     var flag = false; // khi nào cuối mảng thì mới đc response
     data.forEach((item, index) => {
       // duyệt qua arr[text]
-      if (item.slice(0, 3) === "Câu") {
+      if (item.slice(0, 3).toLocaleLowerCase() === "câu") {
         isStruct = true;
         // cập nhâp new object
         Ques.question = "";
@@ -79,7 +79,7 @@ exports.UploadQuestion = (req, resp) => {
         Ques.question = item.slice(7);
         return;
       }
-      if (item.slice(0, 6) === "Chủ đề") {
+      if (item.slice(0, 6).toLocaleLowerCase() === "chủ đề") {
         Ques.theme = item.slice(8, item.length - 1);
         return;
       }
@@ -87,7 +87,7 @@ exports.UploadQuestion = (req, resp) => {
       //   Ques.level = item.slice(8, item.length - 1);
       //   return;
       // }
-      if (item.slice(0, 6) === "Đáp án") {
+      if (item.slice(0, 6).toLocaleLowerCase() === "đáp án") {
         let ans = item.slice(7).split(",");
         Ques.answers.map((item, index) => {
           // thêm cio vào answer
@@ -136,20 +136,20 @@ async function createQuestion(data, res, flag, istruct) {
         (ques.createDate = moment().format()),
         (ques.status = true),
         (ques.theme = theme),
-        console.log(ques);
-      ques.save((err, data) => {
-        console.log("e")
-        if (err) {
-          console.log(err);
-          return { message: err };
-        } else {
-          console.log("ok");
-          return { status: 200,message:"thành công !" };
-        }
-      });
+        // console.log(ques);
+        ques.save((err, data) => {
+          // console.log("e");
+          if (err) {
+            console.log(err);
+            return { message: err };
+          } else {
+            //   console.log("ok");
+            return { status: 200, message: "thành công !" };
+          }
+        });
     })
     .then((re) => {
-      if (flag) return res.status(200).json({sattus:200});
+      if (flag) return res.status(200).json({ sattus: 200 });
     })
     .catch((err) => {
       if (flag) return res.status(400).json({ sattus: 400 });
@@ -163,7 +163,7 @@ exports.uploadXml = (req, res) => {
     return res.status(400).json({ message: error });
   }
   let url = `${path}${files.filename}`;
-  console.log(url);
+  // console.log(url);
   fs.readFile(url, { encoding: "utf-8" }, (err, data) => {
     // read file
     if (err) {
@@ -194,7 +194,7 @@ exports.uploadXml = (req, res) => {
       try {
         const data = result.Questions.Question;
         data.map((item, index) => {
-          console.log(item.question.toString());
+          // console.log(item.question.toString());
           // get a jobject
           Ques.question = item.question.toString();
           // Ques.level = item.level.toString();
@@ -232,7 +232,7 @@ exports.uploadXml = (req, res) => {
 };
 
 function createQuestionXml(data, res, flag) {
-  console.log(data.question);
+  // console.log(data.question);
   Question.findOne({ question: data.question })
     .then((res) => {
       if (res) {
@@ -248,7 +248,7 @@ function createQuestionXml(data, res, flag) {
         (ques.theme = data.theme);
       ques.save((err, data) => {
         if (err) return { status: 400, message: err };
-        console.log(data);
+        // console.log(data);
         return { status: 200, message: "success" };
       });
     })

@@ -41,10 +41,10 @@ export class MyhomesinhvienComponent implements OnInit {
       const url = urlPath[urlPath.length - 1].path;
       this.myhomeService.getDeThiDetailById(url).subscribe(
         (res) => {
-          console.log(res);
+          // console.log(res);
           this.sinhviens = res.body.sinhvien;
           this.deThi = res.body.data;
-          console.log(this.sinhviens);
+          // console.log(this.sinhviens);
         },
         (error: HttpErrorResponse) => {
           console.log(error);
@@ -80,7 +80,7 @@ export class MyhomesinhvienComponent implements OnInit {
     this.Tnow = dateN.getTime();
   }
   SeeArchiverment(mssv) {
-    console.log(mssv);
+    //  console.log(mssv);
     this.settime();
     if (this.Tnow < this.Tend) {
       // kiểm tra thời gian đã kết thúc chưa

@@ -41,7 +41,7 @@ export class DocsComponent implements OnInit {
       (res) => {
         if (res) {
           this.total_records = res.body.data.length;
-          console.log(res);
+          // console.log(res);
         }
       },
       (error: HttpErrorResponse) => {
@@ -59,7 +59,7 @@ export class DocsComponent implements OnInit {
     this.params.current_page = page;
     this.docService.getAll(this.params).subscribe(
       (res) => {
-        console.log(res);
+        // console.log(res);
         this.Chuong = res.body.data;
         this.findEnd();
         this.findStart();
@@ -100,7 +100,7 @@ export class DocsComponent implements OnInit {
       if (resp) {
         this.docService.delete(id).subscribe(
           (res) => {
-            console.log(res);
+            // console.log(res);
             if (res.status == 200) {
               alert(`Xóa nội dung chương ${name.substring(0, 8)} thành công`);
               this.loadService.start();

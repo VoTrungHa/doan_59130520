@@ -25,7 +25,7 @@ export class ThiService {
   }
 
   NopBai(data): Observable<any> {
-    console.log(data);
+    //  console.log(data);
     return this.http.post(
       SERVER_AUTH_API_URL + `bailam/update`,
       { data },
@@ -48,7 +48,7 @@ export class ThiService {
         '&kyThi=' +
         req.kyThi +
         '&search=' +
-        req.search+
+        req.search +
         '&createBy=' +
         req.createBy +
         '&Class=' +

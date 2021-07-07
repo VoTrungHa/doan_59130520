@@ -25,13 +25,13 @@ function filterSeal(str) {
 exports.Create = (req, res) => {
   const { DsNoiDung, avatar, chuong, detailTest } = req.body;
   const s = filterSeal(chuong);
-  console.log(req.body);
+  // console.log(req.body);
   Tailieu.find().then((data) => {
     if (data.length != 0) {
       var flag = 0;
       // for (let i = 0; i <= data.length; i++) {
       data.map((item, index) => {
-        console.log(item.chuong);
+        //  console.log(item.chuong);
         if (filterSeal(item.chuong) === s) {
           flag = 1;
           return;
@@ -66,13 +66,13 @@ exports.Create = (req, res) => {
 
 exports.SearchMulti = (req, res) => {
   const { page, limit, search } = req.query;
-  console.log(req.query);
+  // console.log(req.query);
   var pages = 0;
   if (+page != 1) {
     // nếu page=1 thi bắt đầu lấy từ phần tử 0
     pages = (page * 1 - 1) * +limit;
   }
-  console.log(req.query);
+  // console.log(req.query);
   Tailieu.find({ chuong: { $regex: search } }, { __v: 0 })
     .limit(+limit)
     .skip(pages)
@@ -95,7 +95,7 @@ exports.getAll = (req, res) => {
 };
 exports.getDocsById = (req, res) => {
   const { id } = req.params;
-  console.log(req.params);
+  // console.log(req.params);
   Tailieu.findById({ _id: id })
     .then((data) => {
       if (res) {
@@ -110,14 +110,14 @@ exports.getDocsById = (req, res) => {
 };
 exports.delete = (req, res) => {
   Tailieu.findOneAndDelete({ _id: req.params.id }).exec((err, data) => {
-    if(err) return res.status(400).json({message:err});
-    return res.status(200).json({message:"xóa thành công !"})
+    if (err) return res.status(400).json({ message: err });
+    return res.status(200).json({ message: "xóa thành công !" });
   });
 };
 exports.updateById = (req, res) => {
   const { DsNoiDung, avatar, chuong, detailTest } = req.body.data;
-  console.log(req.body.data);
-  console.log(req.params.id);
+  // console.log(req.body.data);
+  // console.log(req.params.id);
   const tailieu = {
     chuong,
     DsNoiDung,

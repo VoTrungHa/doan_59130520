@@ -19,7 +19,7 @@ export class MyhomeComponent implements OnInit {
     id: '',
     Class: [],
     authorities: 'SV',
-    createBy:'',
+    createBy: '',
   };
   total_records;
   start = 0;
@@ -32,7 +32,7 @@ export class MyhomeComponent implements OnInit {
   }
 
   changeTime(value) {
-    console.log(value);
+    // console.log(value);
     this.params.state = value;
     this.params.current_page;
     this.loadAll(this.params.current_page);
@@ -44,7 +44,7 @@ export class MyhomeComponent implements OnInit {
     this.myhomeService.getAll(stor._id, this.params.state).subscribe((res) => {
       if (res.status == 200) {
         this.total_records = res.body.data.length;
-        console.log(this.total_records);
+        // console.log(this.total_records);
       }
     });
   }
@@ -56,24 +56,25 @@ export class MyhomeComponent implements OnInit {
     const stor = JSON.parse(localStorage.getItem('listProfiles'));
     if (stor) {
       this.params.authorities = stor.authorities;
-      if (stor.authorities == 'SV') {// nếu sv thì lấy đề thi theo clss
+      if (stor.authorities == 'SV') {
+        // nếu sv thì lấy đề thi theo clss
         stor.infor.Class.map((item, index) => {
           this.params.Class.push(item.name);
         });
       }
-      if(stor.authorities=="GV")// nếu Gv lầy theo đề thi của người tạo
-      {
-        this.params.createBy=stor._id;
+      if (stor.authorities == 'GV') {
+        // nếu Gv lầy theo đề thi của người tạo
+        this.params.createBy = stor._id;
       }
     }
     // check role
     // class
-     (this.params.current_page = page);
+    this.params.current_page = page;
     this.myhomeService.loadAll(this.params).subscribe(
       (res) => {
-        console.log(res);
+        // console.log(res);
         this.Dethi = res.body.data;
-        console.log(res.body.data);
+        // console.log(res.body.data);
         this.findEnd();
         this.findStart();
       },

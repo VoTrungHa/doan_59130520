@@ -25,12 +25,14 @@ export class ShareService {
     });
   }
 
-  getAllAccountGv():Observable<any>{
-    return this.http.get(SERVER_AUTH_API_URL + `getAccountGv`,{observe:'response'});
+  getAllAccountGv(): Observable<any> {
+    return this.http.get(SERVER_AUTH_API_URL + `getAccountGv`, {
+      observe: 'response',
+    });
   }
 
-  uploadImage(data):Observable<any>{
-    return this.http.post(SERVER_AUTH_API_URL + `upload/image`,data,{
+  uploadImage(data): Observable<any> {
+    return this.http.post(SERVER_AUTH_API_URL + `upload/image`, data, {
       reportProgress: true,
       observe: 'response',
     });
@@ -46,10 +48,14 @@ export class ShareService {
     );
   }
 
-  dowDataToServer(data,filename): Observable<any> {
-    return this.http.post(SERVER_QUESTION_API_URL + `downloadFile/all`,{data,filename:filename}, {
-      observe: 'response',
-    });
+  dowDataToServer(data, filename): Observable<any> {
+    return this.http.post(
+      SERVER_QUESTION_API_URL + `downloadFile/all`,
+      { data, filename: filename },
+      {
+        observe: 'response',
+      }
+    );
   }
 
   uploadFileXml(data): Observable<any> {
@@ -66,7 +72,7 @@ export class ShareService {
 
   // create lop
   createLop(data): Observable<any> {
-    console.log(data);
+    // console.log(data);
     return this.http.post(
       SERVER_AUTH_API_URL + 'lop/create',
       { name: data },

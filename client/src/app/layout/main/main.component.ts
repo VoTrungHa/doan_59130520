@@ -23,8 +23,7 @@ export class MainComponent implements OnInit {
     }
   }
   setNav() {
-
     this.isNav = !this.isNav;
-  console.log(this.isNav);
+    //  console.log(this.isNav);
   }
 }

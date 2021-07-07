@@ -9,7 +9,7 @@ export class MyhomeService {
   constructor(private http: HttpClient) {}
 
   loadAll(data): Observable<any> {
-    console.log(data);
+    //  console.log(data);
     return this.http.post(
       SERVER_AUTH_API_URL + `dethiCreateBy`,
       { data },
@@ -24,7 +24,7 @@ export class MyhomeService {
   }
 
   getDeThiDetailById(id): Observable<any> {
-    console.log(id);
+    //  console.log(id);
     return this.http.get(SERVER_AUTH_API_URL + `dethi/getone/${id}`, {
       observe: 'response',
     });

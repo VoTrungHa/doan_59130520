@@ -459,3 +459,163 @@ Thời gian: 07/01/2021, hành động: Xóa câu hỏi, Mã người dùng: 60b
 
 Thời gian: 07/03/2021, hành động: Xem Kết quả, Mã người dùng: 60b5aa57b79f9f3d34fe0829, Họ tên: Tôn Tùng, dữ liệu: Mã đề thi: 12313, Kỳ thi: Năm học 2020-2021 - học kỳ I, Thời gian bắt đầu: 28-06-2021,  00:30, Thời gian kết thúc: 28-06-2021,  00:35, Giáo viên ra đề: Tôn Tùng, Sinh viên thực hiện: Nguyễn Thành, Lớp: 59CNTT-3
 
+Thời gian: 07/06/2021, hành động: Xóa câu hỏi, Mã người dùng: 60b5b483b79f9f3d34fe083d, Họ tên: Tôn Tùng, dữ liệu: Câu hỏi: Thiết bị Hub có bao nhiêu1 collision domain?1., Mức độ: , Chủ đề: Hub
+
+Thời gian: 07/07/2021, hành động: Sửa đề thi, Mã người dùng: 60b5b483b79f9f3d34fe083d, Họ tên: Tôn Tùng, dữ liệu: Mã đề thi: 12313, Kythi: Năm học 2020-2021 - học kỳ I, Nội dung: fdsa, Số lượng câu hỏi: 2, Giáo viên: Tôn Tùng, Lớp: [{"_id":"60d8b61a002fc71fc400ff00","name":"59CNTT-3"},{"_id":"60d8b61a002fc71fc400ff01","name":"59CNTT-2"}], Mật khẩu:123
+
+Thời gian: 07/07/2021, hành động: Duyệt đề thi, Mã người dùng: 60b5b483b79f9f3d34fe083d, Họ tên: Tôn Tùng, dữ liệu: Mã đề thi: 12313, Kythi: Năm học 2020-2021 - học kỳ I, Nội dung: fdsa, Số lượng câu hỏi: 2, Giáo viên: Tôn Tùng, Lớp: [{"_id":"60e59aa0395444084c3123bb","name":"59CNTT-3"},{"_id":"60e59aa0395444084c3123bc","name":"59CNTT-2"}], Mật khẩu:123
+
+Thời gian: 07/07/2021, hành động: Xem Kết quả, Mã người dùng: 60b5aa57b79f9f3d34fe0829, Họ tên: undefined, dữ liệu: Mã đề thi: 12313, Kỳ thi: Năm học 2020-2021 - học kỳ I, Thời gian bắt đầu: 28-06-2021,  00:30, Thời gian kết thúc: 28-06-2021,  00:35, Giáo viên ra đề: Tôn Tùng, Sinh viên thực hiện: Nguyễn Thành, Lớp: 59CNTT-3
+
+Thời gian: 07/07/2021, hành động: Sửa đề thi, Mã người dùng: 60b5b483b79f9f3d34fe083d, Họ tên: Tôn Tùng, dữ liệu: Mã đề thi: 12313, Kythi: Năm học 2020-2021 - học kỳ I, Nội dung: fdsa, Số lượng câu hỏi: 2, Giáo viên: Tôn Tùng, Lớp: [{"_id":"60e59aa0395444084c3123bb","name":"59CNTT-3"},{"_id":"60e59aa0395444084c3123bc","name":"59CNTT-2"}], Mật khẩu:123
+
+Thời gian: 07/07/2021, hành động: Duyệt đề thi, Mã người dùng: 60b5b483b79f9f3d34fe083d, Họ tên: Tôn Tùng, dữ liệu: Mã đề thi: 12313, Kythi: Năm học 2020-2021 - học kỳ I, Nội dung: fdsa, Số lượng câu hỏi: 2, Giáo viên: Tôn Tùng, Lớp: [{"_id":"60e59c43395444084c3123c7","name":"59CNTT-3"},{"_id":"60e59c43395444084c3123c8","name":"59CNTT-2"}], Mật khẩu:123
+
+Thời gian: 07/07/2021, hành động: Duyệt đề thi, Mã người dùng: 60b5b483b79f9f3d34fe083d, Họ tên: Tôn Tùng, dữ liệu: Mã đề thi: 12313, Kythi: Năm học 2020-2021 - học kỳ I, Nội dung: fdsa, Số lượng câu hỏi: 2, Giáo viên: Tôn Tùng, Lớp: [{"_id":"60e59c43395444084c3123c7","name":"59CNTT-3"},{"_id":"60e59c43395444084c3123c8","name":"59CNTT-2"}], Mật khẩu:123
+
+Thời gian: 07/07/2021, hành động: Xem Kết quả, Mã người dùng: 60b5ad1fb79f9f3d34fe082f, Họ tên: undefined, dữ liệu: Mã đề thi: 12313, Kỳ thi: Năm học 2020-2021 - học kỳ I, Thời gian bắt đầu: 07-07-2021,   18:30, Thời gian kết thúc: 07-07-2021,   19:25, Giáo viên ra đề: Tôn Tùng, Sinh viên thực hiện: Tấn Tài, Lớp: 59CNTT-3
+
+Thời gian: 07/07/2021, hành động: Thêm câu hỏi, Mã người dùng: 60b5b483b79f9f3d34fe083d, Họ tên: Tôn Tùng, dữ liệu: Câu hỏi: Thiết bị Hubcó bao nhiêu Broadcast domain?, Mức độ: , Chủ đề: Hub
+
+Thời gian: 07/07/2021, hành động: Sửa câu hỏi, Mã người dùng: 60b5b483b79f9f3d34fe083d, Họ tên: Tôn Tùng, dữ liệu: Câu hỏi: Thiết bị Hubcó bao nhiêu Broadcast domain?, Mức độ: , Chủ đề: Hub
+
+Thời gian: 07/07/2021, hành động: Sửa câu hỏi, Mã người dùng: 60b5b483b79f9f3d34fe083d, Họ tên: Tôn Tùng, dữ liệu: Câu hỏi: Thiết bị Hubcó bao nhiêu Broadcast domain?, Mức độ: , Chủ đề: Hub
+
+Thời gian: 07/07/2021, hành động: Xóa câu hỏi, Mã người dùng: 60b5b483b79f9f3d34fe083d, Họ tên: Tôn Tùng, dữ liệu: Câu hỏi: Cáp UTP có thể kết nối tối đa bao nhiêu mét?, Mức độ: , Chủ đề: Cá
+
+Thời gian: 07/07/2021, hành động: Xóa câu hỏi, Mã người dùng: 60b5b483b79f9f3d34fe083d, Họ tên: Tôn Tùng, dữ liệu: Câu hỏi: Cáp quang có thể kết nối bao nhiêu mét?., Mức độ: , Chủ đề: Cáp
+
+Thời gian: 07/07/2021, hành động: Xóa câu hỏi, Mã người dùng: 60b5b483b79f9f3d34fe083d, Họ tên: Tôn Tùng, dữ liệu: Câu hỏi: Để nối Router và máy tính ta bấm cáp kiểu nào?., Mức độ: , Chủ đề: Cáp
+
+Thời gian: 07/07/2021, hành động: Xóa câu hỏi, Mã người dùng: 60b5b483b79f9f3d34fe083d, Họ tên: Tôn Tùng, dữ liệu: Câu hỏi: Cáp UTP có thể kết nối tối đa bao nhiêu mét?, Mức độ: , Chủ đề: Cáp
+
+Thời gian: 07/07/2021, hành động: Xóa câu hỏi, Mã người dùng: 60b5b483b79f9f3d34fe083d, Họ tên: Tôn Tùng, dữ liệu: Câu hỏi: Cáp quang có thể kết nối bao nhiêu mét?., Mức độ: , Chủ đề: Cáp
+
+Thời gian: 07/07/2021, hành động: Xóa câu hỏi, Mã người dùng: 60b5b483b79f9f3d34fe083d, Họ tên: Tôn Tùng, dữ liệu: Câu hỏi: Để nối Router và máy tính ta bấm cáp kiểu nào?., Mức độ: , Chủ đề: Cáp
+
+Thời gian: 07/07/2021, hành động: Xóa câu hỏi, Mã người dùng: 60b5b483b79f9f3d34fe083d, Họ tên: Tôn Tùng, dữ liệu: Câu hỏi: Cáp UTP có thể kết nối tối đa bao nhiêu mét?, Mức độ: , Chủ đề: Cáp
+
+Thời gian: 07/07/2021, hành động: Xóa câu hỏi, Mã người dùng: 60b5b483b79f9f3d34fe083d, Họ tên: Tôn Tùng, dữ liệu: Câu hỏi: Cáp quang có thể kết nối bao nhiêu mét?., Mức độ: , Chủ đề: Cáp
+
+Thời gian: 07/07/2021, hành động: Xóa câu hỏi, Mã người dùng: 60b5b483b79f9f3d34fe083d, Họ tên: Tôn Tùng, dữ liệu: Câu hỏi: Để nối Router và máy tính ta bấm cáp kiểu nào?., Mức độ: , Chủ đề: Cáp
+
+Thời gian: 07/07/2021, hành động: Xóa câu hỏi, Mã người dùng: 60b5b483b79f9f3d34fe083d, Họ tên: Tôn Tùng, dữ liệu: Câu hỏi: Cáp UTP có thể kết nối tối đa bao nhiêu mét?, Mức độ: , Chủ đề: Cáp
+
+Thời gian: 07/07/2021, hành động: Xóa câu hỏi, Mã người dùng: 60b5b483b79f9f3d34fe083d, Họ tên: Tôn Tùng, dữ liệu: Câu hỏi: Cáp quang có thể kết nối bao nhiêu mét?., Mức độ: , Chủ đề: Cáp
+
+Thời gian: 07/07/2021, hành động: Xóa câu hỏi, Mã người dùng: 60b5b483b79f9f3d34fe083d, Họ tên: Tôn Tùng, dữ liệu: Câu hỏi: Để nối Router và máy tính ta bấm cáp kiểu nào?., Mức độ: , Chủ đề: Cáp
+
+Thời gian: 07/07/2021, hành động: Xóa câu hỏi, Mã người dùng: 60b5b483b79f9f3d34fe083d, Họ tên: Tôn Tùng, dữ liệu: Câu hỏi: Cáp UTP có thể kết nối tối đa bao nhiêu mét?, Mức độ: , Chủ đề: Cáp
+
+Thời gian: 07/07/2021, hành động: Xóa câu hỏi, Mã người dùng: 60b5b483b79f9f3d34fe083d, Họ tên: Tôn Tùng, dữ liệu: Câu hỏi: Cáp quang có thể kết nối bao nhiêu mét?., Mức độ: , Chủ đề: Cáp
+
+Thời gian: 07/07/2021, hành động: Xóa câu hỏi, Mã người dùng: 60b5b483b79f9f3d34fe083d, Họ tên: Tôn Tùng, dữ liệu: Câu hỏi: Để nối Router và máy tính ta bấm cáp kiểu nào?., Mức độ: , Chủ đề: Cáp
+
+Thời gian: 07/07/2021, hành động: Xóa câu hỏi, Mã người dùng: 60b5b483b79f9f3d34fe083d, Họ tên: Tôn Tùng, dữ liệu: Câu hỏi: Cáp UTP có thể kết nối tối đa bao nhiêu mét?, Mức độ: , Chủ đề: Cáp
+
+Thời gian: 07/07/2021, hành động: Xóa câu hỏi, Mã người dùng: 60b5b483b79f9f3d34fe083d, Họ tên: Tôn Tùng, dữ liệu: Câu hỏi: Cáp quang có thể kết nối bao nhiêu mét?., Mức độ: , Chủ đề: Cáp
+
+Thời gian: 07/07/2021, hành động: Xóa câu hỏi, Mã người dùng: 60b5b483b79f9f3d34fe083d, Họ tên: Tôn Tùng, dữ liệu: Câu hỏi: Để nối Router và máy tính ta bấm cáp kiểu nào?., Mức độ: , Chủ đề: Cáp
+
+Thời gian: 07/07/2021, hành động: Xóa câu hỏi, Mã người dùng: 60b5b483b79f9f3d34fe083d, Họ tên: Tôn Tùng, dữ liệu: Câu hỏi: Cáp UTP có thể kết nối tối đa bao nhiêu mét?, Mức độ: , Chủ đề: Cáp
+
+Thời gian: 07/07/2021, hành động: Xóa câu hỏi, Mã người dùng: 60b5b483b79f9f3d34fe083d, Họ tên: Tôn Tùng, dữ liệu: Câu hỏi: Cáp quang có thể kết nối bao nhiêu mét?., Mức độ: , Chủ đề: Cáp
+
+Thời gian: 07/07/2021, hành động: Xóa câu hỏi, Mã người dùng: 60b5b483b79f9f3d34fe083d, Họ tên: Tôn Tùng, dữ liệu: Câu hỏi: Để nối Router và máy tính ta bấm cáp kiểu nào?., Mức độ: , Chủ đề: Cáp
+
+Thời gian: 07/07/2021, hành động: Xóa câu hỏi, Mã người dùng: 60b5b483b79f9f3d34fe083d, Họ tên: Tôn Tùng, dữ liệu: Câu hỏi: Cáp UTP có thể kết nối tối đa bao nhiêu mét?, Mức độ: , Chủ đề: Cáp
+
+Thời gian: 07/07/2021, hành động: Xóa câu hỏi, Mã người dùng: 60b5b483b79f9f3d34fe083d, Họ tên: Tôn Tùng, dữ liệu: Câu hỏi: Cáp quang có thể kết nối bao nhiêu mét?., Mức độ: , Chủ đề: Cáp
+
+Thời gian: 07/07/2021, hành động: Xóa câu hỏi, Mã người dùng: 60b5b483b79f9f3d34fe083d, Họ tên: Tôn Tùng, dữ liệu: Câu hỏi: Để nối Router và máy tính ta bấm cáp kiểu nào?., Mức độ: , Chủ đề: Cáp
+
+Thời gian: 07/07/2021, hành động: Xóa câu hỏi, Mã người dùng: 60b5b483b79f9f3d34fe083d, Họ tên: Tôn Tùng, dữ liệu: Câu hỏi: Cáp UTP có thể kết nối tối đa bao nhiêu mét?, Mức độ: , Chủ đề: Cáp
+
+Thời gian: 07/07/2021, hành động: Xóa câu hỏi, Mã người dùng: 60b5b483b79f9f3d34fe083d, Họ tên: Tôn Tùng, dữ liệu: Câu hỏi: Cáp quang có thể kết nối bao nhiêu mét?., Mức độ: , Chủ đề: Cáp
+
+Thời gian: 07/07/2021, hành động: Xóa câu hỏi, Mã người dùng: 60b5b483b79f9f3d34fe083d, Họ tên: Tôn Tùng, dữ liệu: Câu hỏi: Để nối Router và máy tính ta bấm cáp kiểu nào?., Mức độ: , Chủ đề: Cáp
+
+Thời gian: 07/07/2021, hành động: Xóa câu hỏi, Mã người dùng: 60b5b483b79f9f3d34fe083d, Họ tên: Tôn Tùng, dữ liệu: Câu hỏi: Cáp UTP có thể kết nối tối đa bao nhiêu mét?, Mức độ: , Chủ đề: Cáp
+
+Thời gian: 07/07/2021, hành động: Xóa câu hỏi, Mã người dùng: 60b5b483b79f9f3d34fe083d, Họ tên: Tôn Tùng, dữ liệu: Câu hỏi: Cáp quang có thể kết nối bao nhiêu mét?., Mức độ: , Chủ đề: Cáp
+
+Thời gian: 07/07/2021, hành động: Xóa câu hỏi, Mã người dùng: 60b5b483b79f9f3d34fe083d, Họ tên: Tôn Tùng, dữ liệu: Câu hỏi: Để nối Router và máy tính ta bấm cáp kiểu nào?., Mức độ: , Chủ đề: Cáp
+
+Thời gian: 07/07/2021, hành động: Xóa câu hỏi, Mã người dùng: 60b5b483b79f9f3d34fe083d, Họ tên: Tôn Tùng, dữ liệu: Câu hỏi: Cáp UTP có thể kết nối tối đa bao nhiêu mét?, Mức độ: , Chủ đề: Cáp
+
+Thời gian: 07/07/2021, hành động: Xóa câu hỏi, Mã người dùng: 60b5b483b79f9f3d34fe083d, Họ tên: Tôn Tùng, dữ liệu: Câu hỏi: Cáp quang có thể kết nối bao nhiêu mét?., Mức độ: , Chủ đề: Cáp
+
+Thời gian: 07/07/2021, hành động: Xóa câu hỏi, Mã người dùng: 60b5b483b79f9f3d34fe083d, Họ tên: Tôn Tùng, dữ liệu: Câu hỏi: Để nối Router và máy tính ta bấm cáp kiểu nào?., Mức độ: , Chủ đề: Cáp
+
+Thời gian: 07/07/2021, hành động: Xóa câu hỏi, Mã người dùng: 60b5b483b79f9f3d34fe083d, Họ tên: Tôn Tùng, dữ liệu: Câu hỏi: Thiết bị Hubcó bao nhiêu Broadcast domain?, Mức độ: , Chủ đề: Hub
+
+Thời gian: 07/07/2021, hành động: Xóa câu hỏi, Mã người dùng: 60b5b483b79f9f3d34fe083d, Họ tên: Tôn Tùng, dữ liệu: Câu hỏi: Cáp UTP có thể kết nối tối đa bao nhiêu mét?, Mức độ: , Chủ đề: Cáp
+
+Thời gian: 07/07/2021, hành động: Xóa câu hỏi, Mã người dùng: 60b5b483b79f9f3d34fe083d, Họ tên: Tôn Tùng, dữ liệu: Câu hỏi: Cáp quang có thể kết nối bao nhiêu mét?., Mức độ: , Chủ đề: Cáp
+
+Thời gian: 07/07/2021, hành động: Xóa câu hỏi, Mã người dùng: 60b5b483b79f9f3d34fe083d, Họ tên: Tôn Tùng, dữ liệu: Câu hỏi: Để nối Router và máy tính ta bấm cáp kiểu nào?., Mức độ: , Chủ đề: Cáp
+
+Thời gian: 07/07/2021, hành động: Xóa câu hỏi, Mã người dùng: 60b5b483b79f9f3d34fe083d, Họ tên: Tôn Tùng, dữ liệu: Câu hỏi: Cáp UTP có thể kết nối tối đa bao nhiêu mét?, Mức độ: , Chủ đề: Cáp
+
+Thời gian: 07/07/2021, hành động: Xóa câu hỏi, Mã người dùng: 60b5b483b79f9f3d34fe083d, Họ tên: Tôn Tùng, dữ liệu: Câu hỏi: Cáp quang có thể kết nối bao nhiêu mét?., Mức độ: , Chủ đề: Cáp
+
+Thời gian: 07/07/2021, hành động: Xóa câu hỏi, Mã người dùng: 60b5b483b79f9f3d34fe083d, Họ tên: Tôn Tùng, dữ liệu: Câu hỏi: Để nối Router và máy tính ta bấm cáp kiểu nào?., Mức độ: , Chủ đề: Cáp
+
+Thời gian: 07/07/2021, hành động: Xóa câu hỏi, Mã người dùng: 60b5b483b79f9f3d34fe083d, Họ tên: Tôn Tùng, dữ liệu: Câu hỏi: Cáp UTP có thể kết nối tối đa bao nhiêu mét?, Mức độ: , Chủ đề: Cáp
+
+Thời gian: 07/07/2021, hành động: Xóa câu hỏi, Mã người dùng: 60b5b483b79f9f3d34fe083d, Họ tên: Tôn Tùng, dữ liệu: Câu hỏi: Cáp quang có thể kết nối bao nhiêu mét?., Mức độ: , Chủ đề: Cáp
+
+Thời gian: 07/07/2021, hành động: Xóa câu hỏi, Mã người dùng: 60b5b483b79f9f3d34fe083d, Họ tên: Tôn Tùng, dữ liệu: Câu hỏi: Để nối Router và máy tính ta bấm cáp kiểu nào?., Mức độ: , Chủ đề: Cáp
+
+Thời gian: 07/07/2021, hành động: Xóa câu hỏi, Mã người dùng: 60b5b483b79f9f3d34fe083d, Họ tên: Tôn Tùng, dữ liệu: Câu hỏi: Cáp UTP có thể kết nối tối đa bao nhiêu mét?, Mức độ: , Chủ đề: Cáp
+
+Thời gian: 07/07/2021, hành động: Xóa câu hỏi, Mã người dùng: 60b5b483b79f9f3d34fe083d, Họ tên: Tôn Tùng, dữ liệu: Câu hỏi: Cáp quang có thể kết nối bao nhiêu mét?., Mức độ: , Chủ đề: Cáp
+
+Thời gian: 07/07/2021, hành động: Xóa câu hỏi, Mã người dùng: 60b5b483b79f9f3d34fe083d, Họ tên: Tôn Tùng, dữ liệu: Câu hỏi: Để nối Router và máy tính ta bấm cáp kiểu nào?., Mức độ: , Chủ đề: Cáp
+
+Thời gian: 07/07/2021, hành động: Xóa câu hỏi, Mã người dùng: 60b5b483b79f9f3d34fe083d, Họ tên: Tôn Tùng, dữ liệu: Câu hỏi: Cáp UTP có thể kết nối tối đa bao nhiêu mét?, Mức độ: , Chủ đề: lồn
+
+Thời gian: 07/07/2021, hành động: Xóa câu hỏi, Mã người dùng: 60b5b483b79f9f3d34fe083d, Họ tên: Tôn Tùng, dữ liệu: Câu hỏi: Cáp quang có thể kết nối bao nhiêu mét?., Mức độ: , Chủ đề: lồn
+
+Thời gian: 07/07/2021, hành động: Xóa câu hỏi, Mã người dùng: 60b5b483b79f9f3d34fe083d, Họ tên: Tôn Tùng, dữ liệu: Câu hỏi: Để nối Router và máy tính ta bấm cáp kiểu nào?., Mức độ: , Chủ đề: lồn
+
+Thời gian: 07/07/2021, hành động: Xóa câu hỏi, Mã người dùng: 60b5b483b79f9f3d34fe083d, Họ tên: Tôn Tùng, dữ liệu: Câu hỏi: Để nối Router và máy tính ta bấm cáp kiểu nào?., Mức độ: , Chủ đề: Cáp
+
+Thời gian: 07/07/2021, hành động: Xóa câu hỏi, Mã người dùng: 60b5b483b79f9f3d34fe083d, Họ tên: Tôn Tùng, dữ liệu: Câu hỏi: Cáp UTP có thể kết nối tối đa bao nhiêu mét?, Mức độ: , Chủ đề: Cáp
+
+Thời gian: 07/07/2021, hành động: Xóa câu hỏi, Mã người dùng: 60b5b483b79f9f3d34fe083d, Họ tên: Tôn Tùng, dữ liệu: Câu hỏi: Cáp quang có thể kết nối bao nhiêu mét?., Mức độ: , Chủ đề: Cáp
+
+Thời gian: 07/07/2021, hành động: Xóa câu hỏi, Mã người dùng: 60b5b483b79f9f3d34fe083d, Họ tên: Tôn Tùng, dữ liệu: Câu hỏi: Để nối Router và máy tính ta bấm cáp kiểu nào?., Mức độ: , Chủ đề: Cáp
+
+Thời gian: 07/07/2021, hành động: Xóa câu hỏi, Mã người dùng: 60b5b483b79f9f3d34fe083d, Họ tên: Tôn Tùng, dữ liệu: Câu hỏi: Cáp UTP có thể kết nối tối đa bao nhiêu mét?, Mức độ: , Chủ đề: Cáp
+
+Thời gian: 07/07/2021, hành động: Xóa câu hỏi, Mã người dùng: 60b5b483b79f9f3d34fe083d, Họ tên: Tôn Tùng, dữ liệu: Câu hỏi: Cáp quang có thể kết nối bao nhiêu mét?., Mức độ: , Chủ đề: Cáp
+
+Thời gian: 07/07/2021, hành động: Xóa câu hỏi, Mã người dùng: 60b5b483b79f9f3d34fe083d, Họ tên: Tôn Tùng, dữ liệu: Câu hỏi: Để nối Router và máy tính ta bấm cáp kiểu nào?., Mức độ: , Chủ đề: Cáp
+
+Thời gian: 07/07/2021, hành động: Xóa đề thi, Mã người dùng: 60b5b483b79f9f3d34fe083d, Họ tên: Tôn Tùng, dữ liệu: Mã đề thi: 312, Kythi: Năm học 2020-2021 - học kỳ I, Nội dung: fdsafdsa, Số lượng câu hỏi: 3, Giáo viên: Tôn Tùng, Lớp: [{"_id":"60e5cc899835223e74bfe2ea","name":"59CNTT-3"}], Mật khẩu:312
+
+Thời gian: 07/07/2021, hành động: Xóa đề thi, Mã người dùng: 60b5b483b79f9f3d34fe083d, Họ tên: Tôn Tùng, dữ liệu: Mã đề thi: 12313, Kythi: Năm học 2020-2021 - học kỳ I, Nội dung: fdsa, Số lượng câu hỏi: 2, Giáo viên: Tôn Tùng, Lớp: [{"_id":"60e59c43395444084c3123c7","name":"59CNTT-3"},{"_id":"60e59c43395444084c3123c8","name":"59CNTT-2"}], Mật khẩu:123
+
+Thời gian: 07/07/2021, hành động: Xóa đề thi, Mã người dùng: 60b5b483b79f9f3d34fe083d, Họ tên: Tôn Tùng, dữ liệu: Mã đề thi: 1231, Kythi: Năm học 2020-2021 - học kỳ I, Nội dung: fdsa, Số lượng câu hỏi: 1, Giáo viên: Tôn Tùng, Lớp: [{"_id":"60d8b419002fc71fc400feeb","name":"59CNTT-3"},{"_id":"60d8b419002fc71fc400feec","name":"59CNTT-2"}], Mật khẩu:123
+
+Thời gian: 07/07/2021, hành động: Xóa đề thi, Mã người dùng: 60b5b483b79f9f3d34fe083d, Họ tên: Tôn Tùng, dữ liệu: Mã đề thi: 123, Kythi: Năm học 2020-2021 - học kỳ I, Nội dung: fdsa, Số lượng câu hỏi: 2, Giáo viên: Tôn Tùng, Lớp: [{"_id":"60d8b1b7002fc71fc400feaf","name":"59CNTT-3"},{"_id":"60d8b1b7002fc71fc400feb0","name":"59CNTT-2"}], Mật khẩu:123
+
+Thời gian: 07/07/2021, hành động: Hủy duyệt đề thi, Mã người dùng: 60b5b483b79f9f3d34fe083d, Họ tên: Quốc Lưu, dữ liệu: Mã đề thi: MMT005, Kythi: Năm học 2020-2021 - học kỳ I, Nội dung: Ngân hàng câu hỏi đề thi học kỳ I năm học 2020 - 2021, Số lượng câu hỏi: 5, Giáo viên: Quốc Lưu, Lớp: [{"_id":"60d8b07c002fc71fc400fe92","name":"59CNTT-3"},{"_id":"60d8b07c002fc71fc400fe93","name":"59CNTT-2"}], Mật khẩu:123
+
+Thời gian: 07/07/2021, hành động: Hủy duyệt đề thi, Mã người dùng: 60b5b483b79f9f3d34fe083d, Họ tên: Quốc Lưu, dữ liệu: Mã đề thi: MMT005, Kythi: Năm học 2020-2021 - học kỳ I, Nội dung: Ngân hàng câu hỏi đề thi học kỳ I năm học 2020 - 2021, Số lượng câu hỏi: 5, Giáo viên: Quốc Lưu, Lớp: [{"_id":"60d8b07c002fc71fc400fe92","name":"59CNTT-3"},{"_id":"60d8b07c002fc71fc400fe93","name":"59CNTT-2"}], Mật khẩu:123
+
+Thời gian: 07/07/2021, hành động: Sửa đề thi, Mã người dùng: 60b5b483b79f9f3d34fe083d, Họ tên: Quốc Lưu, dữ liệu: Mã đề thi: MMT005, Kythi: Năm học 2020-2021 - học kỳ I, Nội dung: Ngân hàng câu hỏi đề thi học kỳ I năm học 2020 - 2021, Số lượng câu hỏi: 5, Giáo viên: Quốc Lưu, Lớp: [{"_id":"60d8b07c002fc71fc400fe92","name":"59CNTT-3"},{"_id":"60d8b07c002fc71fc400fe93","name":"59CNTT-2"}], Mật khẩu:123
+
+Thời gian: 07/07/2021, hành động: Duyệt đề thi, Mã người dùng: 60b5b483b79f9f3d34fe083d, Họ tên: Quốc Lưu, dữ liệu: Mã đề thi: MMT005, Kythi: Năm học 2020-2021 - học kỳ I, Nội dung: Ngân hàng câu hỏi đề thi học kỳ I năm học 2020 - 2021, Số lượng câu hỏi: 5, Giáo viên: Quốc Lưu, Lớp: [{"_id":"60e5d3de2e79892294e9c102","name":"59CNTT-3"},{"_id":"60e5d3de2e79892294e9c103","name":"59CNTT-2"}], Mật khẩu:123
+
+Thời gian: 07/07/2021, hành động: Sửa đề thi, Mã người dùng: 60b5b483b79f9f3d34fe083d, Họ tên: Quốc Lưu, dữ liệu: Mã đề thi: MMT005, Kythi: Năm học 2020-2021 - học kỳ I, Nội dung: Ngân hàng câu hỏi đề thi học kỳ I năm học 2020 - 2021, Số lượng câu hỏi: 5, Giáo viên: Quốc Lưu, Lớp: [{"_id":"60e5d3de2e79892294e9c102","name":"59CNTT-3"},{"_id":"60e5d3de2e79892294e9c103","name":"59CNTT-2"}], Mật khẩu:123
+
+Thời gian: 07/07/2021, hành động: Duyệt đề thi, Mã người dùng: 60b5b483b79f9f3d34fe083d, Họ tên: Quốc Lưu, dữ liệu: Mã đề thi: MMT005, Kythi: Năm học 2020-2021 - học kỳ I, Nội dung: Ngân hàng câu hỏi đề thi học kỳ I năm học 2020 - 2021, Số lượng câu hỏi: 5, Giáo viên: Quốc Lưu, Lớp: [{"_id":"60e5d4092e79892294e9c128","name":"59CNTT-3"},{"_id":"60e5d4092e79892294e9c129","name":"59CNTT-2"},{"_id":"60e5d4092e79892294e9c12a","name":"59CNTT-1"}], Mật khẩu:123
+
+Thời gian: 07/07/2021, hành động: Sửa đề thi, Mã người dùng: 60b5b483b79f9f3d34fe083d, Họ tên: Quốc Lưu, dữ liệu: Mã đề thi: MMT005, Kythi: Năm học 2020-2021 - học kỳ I, Nội dung: Ngân hàng câu hỏi đề thi học kỳ I năm học 2020 - 2021, Số lượng câu hỏi: 5, Giáo viên: Quốc Lưu, Lớp: [{"_id":"60e5d4092e79892294e9c128","name":"59CNTT-3"},{"_id":"60e5d4092e79892294e9c129","name":"59CNTT-2"},{"_id":"60e5d4092e79892294e9c12a","name":"59CNTT-1"}], Mật khẩu:123
+
+Thời gian: 07/07/2021, hành động: Duyệt đề thi, Mã người dùng: 60b5b483b79f9f3d34fe083d, Họ tên: Quốc Lưu, dữ liệu: Mã đề thi: MMT005, Kythi: Năm học 2020-2021 - học kỳ I, Nội dung: Ngân hàng câu hỏi đề thi học kỳ I năm học 2020 - 2021, Số lượng câu hỏi: 5, Giáo viên: Quốc Lưu, Lớp: [{"_id":"60e5d4302e79892294e9c144","name":"59CNTT-3"},{"_id":"60e5d4302e79892294e9c145","name":"59CNTT-2"},{"_id":"60e5d4302e79892294e9c146","name":"59CNTT-1"}], Mật khẩu:123
+
+Thời gian: 07/07/2021, hành động: Duyệt đề thi, Mã người dùng: 60b5b483b79f9f3d34fe083d, Họ tên: Quốc Lưu, dữ liệu: Mã đề thi: MMT005, Kythi: Năm học 2020-2021 - học kỳ I, Nội dung: Ngân hàng câu hỏi đề thi học kỳ I năm học 2020 - 2021, Số lượng câu hỏi: 5, Giáo viên: Quốc Lưu, Lớp: [{"_id":"60e5d4302e79892294e9c144","name":"59CNTT-3"},{"_id":"60e5d4302e79892294e9c145","name":"59CNTT-2"},{"_id":"60e5d4302e79892294e9c146","name":"59CNTT-1"}], Mật khẩu:123
+

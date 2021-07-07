@@ -65,7 +65,7 @@ export class ShowComponent implements OnInit {
     let id = this.router.snapshot.paramMap.get('id');
     this.docsService.getDocsById(id).subscribe(
       (res) => {
-        console.log(res.body.data);
+        // console.log(res.body.data);
         this.PassDataToForm(res.body.data);
         this.Tailieu = res.body.data;
         this.setTypeAnswer(res.body.data);
@@ -77,7 +77,7 @@ export class ShowComponent implements OnInit {
   }
 
   PassDataToForm(data) {
-    console.log(data);
+    // console.log(data);
 
     const controlTest = <FormArray>this.formDetailTest.get('detailTest');
     data.detailTest.map((item, index) => {
@@ -100,7 +100,7 @@ export class ShowComponent implements OnInit {
 
   checkTrueFalse() {
     this.CheckChoose = [];
-    console.log(this.formDetailTest.value);
+    // console.log(this.formDetailTest.value);
     const data = this.formDetailTest.value.detailTest;
     data.map((item, index) => {
       this.flagCheckChoose = true;
@@ -113,11 +113,11 @@ export class ShowComponent implements OnInit {
         this.CheckChoose.push(item._id);
       }
     });
-    console.log(this.formDetailTest.value);
-    console.log(this.CheckChoose);
+    // console.log(this.formDetailTest.value);
+    // console.log(this.CheckChoose);
     if (this.CheckChoose.length == 0) {
-      console.log(this.Tailieu);
-      console.log(this.formDetailTest.value.detailTest);
+      // console.log(this.Tailieu);
+      // console.log(this.formDetailTest.value.detailTest);
       const data = this.Tailieu.detailTest;
       this.checkAnserUser = [];
       this.Tailieu.detailTest.map((item, index) => {
@@ -135,8 +135,8 @@ export class ShowComponent implements OnInit {
         });
         this.checkAnserUser.push(this.StorAnser);
       });
-      console.log(this.checkAnserUser);
-      console.log(this.formDetailTest.value);
+      // console.log(this.checkAnserUser);
+      // console.log(this.formDetailTest.value);
     }
   }
   loadAllTrue(page) {
@@ -147,7 +147,7 @@ export class ShowComponent implements OnInit {
     this.tailieuService.loadAllDethi(this.params).subscribe(
       (res) => {
         this.Dethi = res.body.data;
-        console.log(this.Dethi)
+        // console.log(this.Dethi)
       },
       (error: HttpErrorResponse) => {
         console.log(error);
@@ -160,7 +160,7 @@ export class ShowComponent implements OnInit {
       this.tailieuService.loadDethibyclass(listProfiles._id).subscribe(
         (res) => {
           this.DethiUse = res.body.data;
-          console.log(this.DethiUse);
+          // console.log(this.DethiUse);
         },
         (error: HttpErrorResponse) => {
           console.log(error);
@@ -182,10 +182,10 @@ export class ShowComponent implements OnInit {
         _id: nd._id,
         length: this.checkLengthAnswerTrue,
       };
-      console.log(ans);
+      // console.log(ans);
       this.typeAnswer.push(ans);
-      console.log(this.typeAnswer);
-      console.log(this.formDetailTest);
+      // console.log(this.typeAnswer);
+      // console.log(this.formDetailTest);
     });
   }
 }

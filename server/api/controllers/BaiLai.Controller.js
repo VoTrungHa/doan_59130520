@@ -24,7 +24,7 @@ exports.Create = (req, res) => {
     idPerformer,
     detailTest,
   } = req.body.data;
-  console.log(req.body.data);
+  // console.log(req.body.data);
   const datetest = moment().format();
   GocBaiLam.findOne({ performer, idDeThi, kyThi })
     .then((data) => {
@@ -81,8 +81,8 @@ exports.Create = (req, res) => {
             dateTest: data.dateTest,
             goc: data._id,
           });
-          console.log("83" + data.detailTest);
-          console.log(bailam);
+          // console.log("83" + data.detailTest);
+          // console.log(bailam);
           bailam.save((err, result) => {
             if (err) return res.status(400).json({ message: err });
             data.detailTest.map((item, index) => {
@@ -170,7 +170,7 @@ function ranDomQuestion(questions) {
       ArrayQues.push(questions[index]);
     }
   }
-  console.log(ArrayQues);
+  // console.log(ArrayQues);
   return ArrayQues;
 }
 
@@ -288,7 +288,7 @@ function MarkForText(data) {
       return { data, bailam };
     })
     .catch((error) => {
-      console.log(error);
+      // console.log(error);
     });
 }
 exports.update = (req, res) => {
@@ -339,7 +339,7 @@ exports.getAll = (req, res) => {
 };
 exports.getBaiLamById = (req, res) => {
   const { id } = req.params;
-  console.log(id);
+  // console.log(id);
   BaiLam.findOne({ goc: id })
     .then((data) => {
       GocBaiLam.findById({ _id: id }).exec((err, data1) => {
@@ -354,7 +354,7 @@ exports.getBaiLamById = (req, res) => {
 
 exports.getBaiLamByIdandPerformer = (req, res) => {
   const { id, idPerformer, role, createBy } = req.body.data;
-  console.log(req.body.data);
+  // console.log(req.body.data);
   BaiLam.findOne({ $and: [{ idDeThi: id }, { idPerformer: idPerformer }] })
     .then((data) => {
       if (data) {
@@ -445,7 +445,7 @@ exports.loadAll = (req, res) => {
     pages = (page * 1 - 1) * +limit;
   }
   const reve = reverse === "true" ? 1 : -1 || 1;
-  console.log(req.query);
+  // console.log(req.query);
   BaiLam.find(
     {
       $and: [

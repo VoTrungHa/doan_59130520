@@ -3,50 +3,103 @@
     <span class="close mr-1" aria-hidden="true">&times;</span>
   </div>
   <div class="py-4">
-  <h6 class="mb-4">{{'general.CauHoi' | translate}} {{id}}</h6>
-  <form class="mt-2" [formGroup]="questionForm">
-    <div class="form-group rs">
-      <input list="id-car" id="theme" formControlName="theme" class="form-control form-control-sm"
-        [ngClass]="(theme.errors && isvalidator)?'border-error':''">
-    <label for="theme" class="ps-lt"> {{'CH.ChuDe' | translate}}</label>
+    <h6 class="mb-2">{{ "general.CauHoi" | translate }} {{ id }}</h6>
+    <form class="mt-2" [formGroup]="questionForm">
+      <div class="form-group rs">
+        <label for="theme" class="mb-2"> {{ "CH.ChuDe" | translate }}</label>
+        <input
+          list="id-car"
+          id="theme"
+          formControlName="theme"
+          class="form-control form-control-sm"
+          [ngClass]="theme.errors && isvalidator ? 'border-error' : ''"
+        />
+
         <datalist id="id-car">
-        <option *ngFor="let theme of themes" [value]="theme.name">{{theme.name}}</option>
-      </datalist>
-    </div>
-    <div class="form-group mt-4 rs">
-      <textarea rows="3" id="question" [ngClass]="(question.errors && isvalidator) ? 'border-error' : ''" formControlName="question" class="form-control"></textarea>
-      <label for="question"
-        class="ps-lt mt-4"> {{'CH.Ten_CH' | translate}}</label>
-    </div>
-    <div class="input-group mt-3 rs">
-      <label class="ml-2">{{'CH.DapAn' | translate}}</label>
-      <div class="d-flex w-100  ">
-        <div class=" p-0 w-100" formArrayName="answers">
-          <div class="d-flex mb-1" *ngFor="let corr of answers.controls; let i = index" [formGroupName]="i">
-            <div class="input-group mb-2">
-              <div for="bio"  [ngClass] ="(checkbio)?'border-error':''" class="input-group-prepend btn btn-xs  rounded-sm mr-1 p-0 btn-outline-secondary f-flex justify-content-center align-items-center">
-                <input id="bio" type="checkbox" class="input-group-text m-2 " formControlName="bio">
+          <option *ngFor="let theme of themes" [value]="theme.name">
+            {{ theme.name }}
+          </option>
+        </datalist>
+      </div>
+      <div class="form-group mt-4 rs">
+        <label for="question" class="mb-1">
+          {{ "CH.Ten_CH" | translate }}</label
+        >
+        <textarea
+          rows="3"
+          id="question"
+          [ngClass]="question.errors && isvalidator ? 'border-error' : ''"
+          formControlName="question"
+          class="form-control"
+        ></textarea>
+      </div>
+      <div class="input-group mt-3 rs">
+        <label class="ml-2">{{ "CH.DapAn" | translate }}</label>
+        <div class="d-flex w-100">
+          <div class="p-0 w-100" formArrayName="answers">
+            <div
+              class="d-flex mb-1"
+              *ngFor="let corr of answers.controls; let i = index"
+              [formGroupName]="i"
+            >
+              <div class="input-group mb-2">
+                <div
+                  for="bio"
+                  [ngClass]="checkbio ? 'border-error' : ''"
+                  class="
+                    input-group-prepend
+                    btn btn-xs
+                    rounded-sm
+                    mr-1
+                    p-0
+                    btn-outline-secondary
+                    f-flex
+                    justify-content-center
+                    align-items-center
+                  "
+                >
+                  <input
+                    id="bio"
+                    type="checkbox"
+                    class="input-group-text m-2"
+                    formControlName="bio"
+                  />
+                </div>
+                <input
+                  type="text"
+                  class="form-control mr-1 form-control-sm"
+                  formControlName="answer"
+                  [ngClass]="
+                    questionForm.get('answers')['controls'][i].get('answer')
+                      .errors && isvalidator
+                      ? 'border-error'
+                      : ''
+                  "
+                />
+                <span
+                  (click)="clickAddOrDelete(false, i)"
+                  class="btn btn-sm btn-outline-secondary"
+                >
+                  <fa-icon [icon]="faTrash"></fa-icon>
+                </span>
               </div>
-              <input type="text" class="form-control mr-1 form-control-sm" formControlName="answer"
-                [ngClass]="(questionForm.get('answers')['controls'][i].get('answer').errors && isvalidator) ? 'border-error' : ''">
-              <span (click)="clickAddOrDelete(false,i)" class="btn btn-sm btn-outline-secondary">
-                <fa-icon [icon]="faTrash"></fa-icon>
-              </span>
             </div>
           </div>
         </div>
+        <div>
+          <span
+            (click)="clickAddOrDelete(true, null)"
+            class="btn btn-outline-success mt-3 btn-sm"
+            >{{ "CH.ThemCauTraLoi" | translate }}</span
+          >
+        </div>
       </div>
-      <div>
-<span (click)="clickAddOrDelete(true,null)" class="btn btn-outline-success mt-3 btn-sm">{{'CH.ThemCauTraLoi' | translate}}</span>
-      </div>
-
-    </div>
-    <div class="d-flex mt-4 w-100 justify-content-around">
-      <!-- <div class="form-group mr-1 rs w-100">
+      <div class="d-flex mt-4 w-100 justify-content-around">
+        <!-- <div class="form-group mr-1 rs w-100">
         <input type="text"   class="form-control form-control-sm">
         <label   class="ps-lt">Theme</label>
       </div> -->
-      <!-- <div class="form-group ml-1 rs  w-100">
+        <!-- <div class="form-group ml-1 rs  w-100">
         <select class="form-control form-control-sm" formControlName="level" [ngClass]="(level.errors && isvalidator) ? 'border-error' : ''"  name="level" id="level">
           <option  value="1">{{'CH.De' | translate}}</option>
           <option value="2"> {{'CH.TrungBinh' | translate}} </option>
@@ -54,15 +107,31 @@
         </select>
         <label for="level" class="ps-lt">{{'CH.DoKho' | translate}}</label>
       </div> -->
-    </div>
-    <div class="d-flex mt-3 justify-conten-center">
-      <div class="form-group ml-auto w-auto">
-        <button class="btn btn-add text-light btn-sm  px-3" (click)="(theme.errors || question.errors || questionForm.get('answers').status==='INVALID')?setValidator():createQuestion()"> {{'CH.Them' | translate}} <fa-icon [icon]="faSave"></fa-icon></button>
       </div>
-      <div class="form-group w-auto ">
-        <button class="btn text-light btn-cancel btn-sm mx-2 px-3" (click)="notification()"> {{'CH.Huy' | translate}} <fa-icon [icon]="faCandyCane"></fa-icon></button>
+      <div class="d-flex mt-3 justify-conten-center">
+        <div class="form-group ml-auto w-auto">
+          <button
+            class="btn btn-add text-light btn-sm px-3"
+            (click)="
+              theme.errors ||
+              question.errors ||
+              questionForm.get('answers').status === 'INVALID'
+                ? setValidator()
+                : createQuestion()
+            "
+          >
+            {{ "CH.Them" | translate }} <fa-icon [icon]="faSave"></fa-icon>
+          </button>
+        </div>
+        <div class="form-group w-auto">
+          <button
+            class="btn text-light btn-cancel btn-sm mx-2 px-3"
+            (click)="notification()"
+          >
+            {{ "CH.Huy" | translate }} <fa-icon [icon]="faCandyCane"></fa-icon>
+          </button>
+        </div>
       </div>
-    </div>
-  </form>
-</div>
+    </form>
+  </div>
 </div>

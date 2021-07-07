@@ -86,9 +86,7 @@ export class TaodocsComponent implements OnInit {
       detailTest: this.fb.array([]),
     });
   }
-  ngOnInit() {
-
-  }
+  ngOnInit() {}
   get chuong() {
     return this.TailieuFrom.get('chuong');
   }
@@ -221,9 +219,9 @@ export class TaodocsComponent implements OnInit {
   setValidator() {
     this.isvalidator = true;
     alert('Tồn tại trường còn trống !');
-    console.log(
-      this.checkbio + ' ' + this.checkSumAnswer + ' ' + this.isvalidator
-    );
+    // console.log(
+    //   this.checkbio + ' ' + this.checkSumAnswer + ' ' + this.isvalidator
+    // );
   }
   public fileLeave(event) {}
   public dropped(files: NgxFileDropEntry[], index, h, bio) {
@@ -238,7 +236,7 @@ export class TaodocsComponent implements OnInit {
         formData.append('file', file);
         let dotfile = files[0].relativePath.split('.')[1];
         if (dotfile === 'jpg' || dotfile === 'png') {
-          console.log(file);
+          // console.log(file);
           this.ss.uploadImage(formData).subscribe(
             (res) => {
               if (res.status == 200) {
@@ -248,7 +246,7 @@ export class TaodocsComponent implements OnInit {
                 }
                 if (bio == 'anh') {
                   const control = <FormArray>this.TailieuFrom.get('DsNoiDung');
-                  console.log(control.value);
+                  // console.log(control.value);
 
                   const fg = <FormArray>(
                     control.controls[index * 1].get('noidung')
@@ -340,6 +338,6 @@ export class TaodocsComponent implements OnInit {
         }
       });
     }
-    console.log(this.TailieuFrom.value);
+    // console.log(this.TailieuFrom.value);
   }
 }

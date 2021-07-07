@@ -42,8 +42,8 @@ export class DetailComponent implements OnInit {
     content: '',
     status: Boolean,
     avatar: '',
-    createBy:'',
-    nameCreateBy:'',
+    createBy: '',
+    nameCreateBy: '',
   };
 
   constructor(
@@ -62,7 +62,7 @@ export class DetailComponent implements OnInit {
 
     this.myhomeService.getDeThiDetailById(id).subscribe(
       (res) => {
-        console.log(res);
+        // console.log(res);
         this.Dethi = res.body.data;
         this.lengSv = res.body.sinhvien.length;
         this.lengQuesion = res.body.data.detailTest.length;
@@ -212,7 +212,7 @@ export class DetailComponent implements OnInit {
                   );
                   this.router.navigate(['/thanhvien/thaydoi', proFiles._id]);
                 } else {
-                  console.log(this.Dethi);
+                  // console.log(this.Dethi);
                   this.bailam.performer = fullName;
                   this.bailam.Class = this.Dethi.Class[0].name;
                   this.bailam.idDeThi = this.Dethi._id;
@@ -226,15 +226,17 @@ export class DetailComponent implements OnInit {
                   this.bailam.idPerformer = proFiles._id;
                   this.bailam.createBy = this.Dethi.createBy.id;
                   this.bailam.status = false;
-                  this.bailam.nameCreateBy=this.Dethi.createBy.name;
-                  console.log(this.bailam);
+                  this.bailam.nameCreateBy = this.Dethi.createBy.name;
+                  // console.log(this.bailam);
 
-                  let profile=JSON.parse(localStorage.getItem("listProfiles"));
-                  this.bailam.role=profile.authorities;
+                  let profile = JSON.parse(
+                    localStorage.getItem('listProfiles')
+                  );
+                  this.bailam.role = profile.authorities;
 
                   this.myhomeService.createBaiLam(this.bailam).subscribe(
                     (res) => {
-                      console.log(res);
+                      // console.log(res);
                       this.router.navigate(['/lambai/thi', res.body.data]);
                     },
                     (error: HttpErrorResponse) => {

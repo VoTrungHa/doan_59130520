@@ -1,6 +1,6 @@
 import { HttpErrorResponse } from '@angular/common/http';
 import { Component, OnInit } from '@angular/core';
-import {faCheck}from '@fortawesome/free-solid-svg-icons'
+import { faCheck } from '@fortawesome/free-solid-svg-icons';
 import {
   FormArray,
   FormBuilder,
@@ -56,7 +56,8 @@ export class ThanhtichComponent implements OnInit {
     createBy: '',
     idPerformer: '',
     status: Boolean,
-    content:'',avatar:'',
+    content: '',
+    avatar: '',
   };
 
   constructor(
@@ -78,7 +79,7 @@ export class ThanhtichComponent implements OnInit {
     });
   }
   ngOnInit(): void {
-    console.log(this.formDethi.value);
+    // console.log(this.formDethi.value);
     this.loadAll();
   }
   get performer() {
@@ -109,7 +110,7 @@ export class ThanhtichComponent implements OnInit {
   getProFiles(id) {
     this.myhomeService.getById(id).subscribe(
       (res) => {
-        console.log(res.body.data);
+        // console.log(res.body.data);
         this.proFile = res.body.data;
         console.log(this.proFile);
       },
@@ -176,7 +177,7 @@ export class ThanhtichComponent implements OnInit {
     const ngayEnd = dateE[0];
     const timeEnd = dateE[1];
 
-    console.log(ngayEnd + ' ' + timeEnd);
+    // console.log(ngayEnd + ' ' + timeEnd);
     const date = new Date();
     date.setFullYear(
       ngayEnd.split('-')[2],
@@ -198,14 +199,14 @@ export class ThanhtichComponent implements OnInit {
     this.route.queryParamMap.subscribe((data) => {
       data.get('dethi');
       let id = this.route.snapshot.paramMap.get('id');
-      let profile=JSON.parse(localStorage.getItem('listProfiles'));
+      let profile = JSON.parse(localStorage.getItem('listProfiles'));
       const data1 = {
         id: data.get('dethi'), // id đe thi
         idPerformer: id, // id người dùng,
-        createBy:`${profile.infor.firstName} ${profile.infor.lastName}`,
-        role:`${profile.authorities}`
+        createBy: `${profile.infor.firstName} ${profile.infor.lastName}`,
+        role: `${profile.authorities}`,
       };
-      console.log(data1);
+      // console.log(data1);
       // lấy đề thi theo người làm và ma id đề thi
       this.myhomeService.getDeThiDetailByIdandPerformer(data1).subscribe(
         (res) => {
@@ -219,7 +220,6 @@ export class ThanhtichComponent implements OnInit {
             this.Dethi = res.body.data.detailTest;
             this.answerTrue = res.body.data1.detailTest;
             this.getDateToForm(res.body.data, res.body.data1);
-
           } else {
             // nếu cguwa có bài thi thì phải tạo mới rồi cho điểm bằng 0;
             this.getProFiles(id); // lấy thông tin người dùng
@@ -234,7 +234,7 @@ export class ThanhtichComponent implements OnInit {
                   .replace('_1_', firstName)
                   .replace('_2_', lastName);
                 const Dethi = dethi.body.data;
-                console.log(Dethi);
+                // console.log(Dethi);
                 this.bailam.performer = fullName;
                 this.bailam.Class = Dethi.Class[0].name;
                 this.bailam.idDeThi = Dethi._id;
@@ -247,15 +247,15 @@ export class ThanhtichComponent implements OnInit {
                 this.bailam.status = true;
                 this.bailam.nameCreateBy = Dethi.createBy.name;
                 this.bailam.createBy = Dethi.createBy.id;
-                this.bailam.content=Dethi.content;
-                this.bailam.avatar=Dethi.avatar;
-                console.log(this.bailam);
+                this.bailam.content = Dethi.content;
+                this.bailam.avatar = Dethi.avatar;
+                // console.log(this.bailam);
                 // tạo bài làm mới cho sinh viên
                 this.myhomeService.createBaiLam(this.bailam).subscribe(
                   (res) => {
                     this.myhomeService.getBailamById(res.body.data).subscribe(
                       (bl) => {
-                       // hiển thị dữ liệu ra form
+                        // hiển thị dữ liệu ra form
                         this.Data = bl.body.data;
                         this.setTimeWork(bl.body.data);
                         let text = this.Data.kyThi.split(' ');
@@ -264,7 +264,6 @@ export class ThanhtichComponent implements OnInit {
                         this.Dethi = bl.body.data.detailTest;
                         this.answerTrue = bl.body.data1.detailTest;
                         this.getDateToForm(bl.body.data, bl.body.data1);
-
                       },
                       (error: HttpErrorResponse) => {
                         console.log(error);

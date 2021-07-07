@@ -9,8 +9,8 @@ import { MyhomeService } from '../../myhome.service';
   styleUrls: ['./myhomequestion.component.scss'],
 })
 export class MyhomequestionComponent implements OnInit {
-  Baithi:any;
-  role:string="SV";
+  Baithi: any;
+  role: string = 'SV';
   constructor(
     private route: ActivatedRoute,
     private myhomeService: MyhomeService
@@ -26,7 +26,7 @@ export class MyhomequestionComponent implements OnInit {
       const url = urlPath[urlPath.length - 1].path;
       this.myhomeService.getDeThiDetailById(url).subscribe(
         (res) => {
-          console.log(res);
+          // console.log(res);
           this.Baithi = res.body.data;
         },
         (error: HttpErrorResponse) => {

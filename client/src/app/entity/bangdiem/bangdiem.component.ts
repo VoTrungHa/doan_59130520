@@ -79,7 +79,7 @@ export class BangdiemComponent implements OnInit {
     this.ss.getAll().subscribe(
       (res) => {
         this.lops = res.body.data;
-        console.log(this.lops);
+        // console.log(this.lops);
       },
       (error: HttpErrorResponse) => {
         console.log(error);
@@ -88,7 +88,7 @@ export class BangdiemComponent implements OnInit {
     this.ss.getAllAccountGv().subscribe(
       (res) => {
         this.createBys = res.body.data;
-        console.log(res.body.data);
+        // console.log(res.body.data);
       },
       (error: HttpErrorResponse) => {
         console.log(error);
@@ -96,7 +96,7 @@ export class BangdiemComponent implements OnInit {
     );
   }
   loadAll(page) {
-    console.log(page);
+    // console.log(page);
     if (!page || page < 0) {
       page = 1;
     }
@@ -111,7 +111,7 @@ export class BangdiemComponent implements OnInit {
       (res) => {
         this.Bailams = res.body.data;
         this.total_records = res.body.allData.length;
-        console.log(this.total_records);
+        // console.log(this.total_records);
         this.findStart();
         this.findEnd();
       },
@@ -160,7 +160,7 @@ export class BangdiemComponent implements OnInit {
     this.loadAll(this.params.current_page);
   }
   searchkyThi(e) {
-    console.log(e);
+    // console.log(e);
     this.params.kyThi = e;
     this.params.current_page = 1;
     this.loadAll(this.params.current_page);
@@ -175,7 +175,7 @@ export class BangdiemComponent implements OnInit {
     this.thiservice.getDataToServer(item).subscribe(
       (res) => {
         if (res.status == 200) {
-           this.ngModal.open(DownloadbailamComponent, {
+          this.ngModal.open(DownloadbailamComponent, {
             centered: true,
           });
         }
@@ -186,11 +186,10 @@ export class BangdiemComponent implements OnInit {
     );
   }
   export() {
-   let comfirm= this.ngModal.open(DownloadbailamComponent, {
+    let comfirm = this.ngModal.open(DownloadbailamComponent, {
       centered: true,
     });
     comfirm.componentInstance.filename = 'ketqua.xlsx';
-  comfirm.componentInstance.data = this.Bailams;
-
+    comfirm.componentInstance.data = this.Bailams;
   }
 }

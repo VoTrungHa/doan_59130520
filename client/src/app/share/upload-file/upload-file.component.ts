@@ -63,14 +63,14 @@ export class UploadFileComponent implements OnInit {
         // Here you can access the real file
         // console.log(droppedFile.relativePath, file);
         formData.append('file', file);
-
+        //  console.log('fdsaaaaaaaa');
         let dotfile = files[0].relativePath.split('.')[1];
         if (dotfile === 'txt' && this.isTXT) {
           this.ss.upload(formData).subscribe(
             (res) => {
-              console.log(res);
+              //   console.log(res);
               // if (res.body.status && res.body.status == 405) {
-                
+
               // }
               alert('Lưu ý những câu hỏi trùng lặp hệ thống sẽ tự xóa bỏ !');
               alert('Tải tệp lên thành công !.');
@@ -83,8 +83,7 @@ export class UploadFileComponent implements OnInit {
               }
             }
           );
-        }
-        else if (dotfile === 'xml' && this.isXML) {
+        } else if (dotfile === 'xml' && this.isXML) {
           this.ss.uploadFileXml(formData).subscribe(
             (res) => {
               console.log(res);

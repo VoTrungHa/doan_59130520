@@ -60,7 +60,7 @@ export class TailieuComponent implements OnInit {
           },
           (err) => console.log(err)
         );
-        console.log(this.total_records);
+        // console.log(this.total_records);
         this.findStart();
         this.findEnd();
       },
@@ -101,7 +101,7 @@ export class TailieuComponent implements OnInit {
       this.tailieuService.loadDethibyclass(listProfiles._id).subscribe(
         (res) => {
           this.DethiUse = res.body.data;
-          console.log(this.DethiUse);
+          //   console.log(this.DethiUse);
         },
         (error: HttpErrorResponse) => {
           console.log(error);
@@ -123,7 +123,7 @@ export class TailieuComponent implements OnInit {
     }
     this.tailieuService.loadAllDethi(this.params).subscribe(
       (res) => {
-        console.log(res);
+        //  console.log(res);
         this.Dethi = res.body.data;
       },
       (error: HttpErrorResponse) => {

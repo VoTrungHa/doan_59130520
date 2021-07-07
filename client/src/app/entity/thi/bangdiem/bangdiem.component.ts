@@ -1,7 +1,7 @@
 import { HttpErrorResponse } from '@angular/common/http';
 import { Component, OnInit } from '@angular/core';
-import {Router} from '@angular/router';
-import {NgbModal}from '@ng-bootstrap/ng-bootstrap'
+import { Router } from '@angular/router';
+import { NgbModal } from '@ng-bootstrap/ng-bootstrap';
 import {
   faSearch,
   faPager,
@@ -33,11 +33,11 @@ export class BangdiemComponent implements OnInit {
     limit: 5,
     sort: '_id',
     reverse: false,
-    idPerformer: '',// lấy theo người thực hiện
+    idPerformer: '', // lấy theo người thực hiện
     kyThi: '',
     search: '',
     Class: '',
-    createBy: '',// lấy thêo đề thi của người tạo
+    createBy: '', // lấy thêo đề thi của người tạo
   };
   total_records;
   start = 0;
@@ -116,7 +116,7 @@ export class BangdiemComponent implements OnInit {
     this.loadAll(this.params.current_page);
   }
   searchkyThi(e) {
-    console.log(e);
+    // console.log(e);
     this.params.kyThi = e;
     this.params.current_page = 1;
     this.loadAll(this.params.current_page);

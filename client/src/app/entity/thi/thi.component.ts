@@ -1,6 +1,6 @@
 import { AfterViewChecked, Component, Inject, OnInit } from '@angular/core';
 import { ThiService } from './thi.service';
-import { ActivatedRoute,Router } from '@angular/router';
+import { ActivatedRoute, Router } from '@angular/router';
 import { NgbModal } from '@ng-bootstrap/ng-bootstrap';
 import {
   FormArray,
@@ -30,7 +30,7 @@ export class ThiComponent implements OnInit {
   ischeckChooseAnser: boolean = false; // kiểm tran câu trả lời trống.
   anserUserEmpety: Array<any> = [];
 
-  co:any=1;
+  co: any = 1;
   time: any;
   ngay: any;
   gio: any;
@@ -40,7 +40,7 @@ export class ThiComponent implements OnInit {
     current_page: 1,
     limit: 2,
   };
-  mytime:any;
+  mytime: any;
   total_records;
   start = 0;
   end = 10;
@@ -48,7 +48,7 @@ export class ThiComponent implements OnInit {
     private route: ActivatedRoute,
     private thiService: ThiService,
     private fb: FormBuilder,
-    private router:Router,
+    private router: Router,
     private pageScrollService: PageScrollService,
     private ngmodal: NgbModal,
     @Inject(DOCUMENT) private document: any
@@ -134,7 +134,7 @@ export class ThiComponent implements OnInit {
 
   loadAll(page) {
     let id = this.route.snapshot.paramMap.get('id');
-    console.log(page);
+
     if (page < 0 || !page) {
       page = 1;
     }
@@ -149,13 +149,12 @@ export class ThiComponent implements OnInit {
         this.namHoc = text[2];
         this.kThi = text[6];
         this.Dethi = res.body.data.detailTest;
-        console.log(this.Dethi);
+
         this.total_records = res.body.data.detailTest.length;
-        console.log(this.total_records);
+
         this.findStart();
         this.findEnd();
         if (data) {
-          console.log(data);
           this.getDateToForm(data, goc);
         } else {
           alert('Bài làm trống !');
@@ -174,11 +173,10 @@ export class ThiComponent implements OnInit {
   findEnd() {
     // limit = pageSize
     const result = this.params.current_page * this.params.limit;
-    console.log(this.params.current_page + ' ' + this.params.limit);
+
     result > this.total_records
       ? (this.end = this.total_records)
       : (this.end = result);
-    console.log(this.end);
   }
 
   getDateToForm(data, goc) {
@@ -229,8 +227,6 @@ export class ThiComponent implements OnInit {
       });
       control.controls[index].get('length').setValue(ind);
     });
-
-    console.log(this.formDethi.value);
   }
 
   updateOneChooseRadio(value, data, index, indexan) {
@@ -259,7 +255,7 @@ export class ThiComponent implements OnInit {
 
     this.thiService.NopBai(this.formDethi.value).subscribe(
       (res) => {
-        console.log(res);
+        //  console.log(res);
       },
       (error: HttpErrorResponse) => {
         console.log(error);
@@ -297,7 +293,7 @@ export class ThiComponent implements OnInit {
 
     this.thiService.NopBai(this.formDethi.value).subscribe(
       (res) => {
-        console.log(res);
+        //   console.log(res);
       },
       (error: HttpErrorResponse) => {
         console.log(error);
@@ -305,8 +301,7 @@ export class ThiComponent implements OnInit {
     );
   }
   TimeAuto() {
-
-   this.mytime= setInterval(() => {
+    this.mytime = setInterval(() => {
       const dateE = this.Data.timeEnd.split(',');
       const ngayEnd = dateE[0];
       const timeEnd = dateE[1];
@@ -322,10 +317,9 @@ export class ThiComponent implements OnInit {
       const dateN = new Date();
 
       const second = date.getTime() - dateN.getTime();
-      if(second<0)
-      {
-         clearInterval(this.mytime);
-        alert("Đã hết thời gian làm bài !");
+      if (second < 0) {
+        clearInterval(this.mytime);
+        alert('Đã hết thời gian làm bài !');
         this.router.navigate(['/nhacuatoi']);
       }
 
@@ -381,9 +375,7 @@ export class ThiComponent implements OnInit {
           );
         }
       }
-      console.log("a");
     }, 1000);
-
   }
   submit() {
     // console.log(this.formDethi.value);
@@ -419,8 +411,7 @@ export class ThiComponent implements OnInit {
           );
         }
       });
-    }
-    else{
+    } else {
       alert('Bạn cần hoàn thành các câu hỏi trước khi nộp bài !');
     }
   }

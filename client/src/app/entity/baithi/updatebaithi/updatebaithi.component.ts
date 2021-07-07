@@ -27,7 +27,11 @@ import { BaithiService } from '../baithi.service';
 import { NumberValidatorsService } from '../NumberValidatorsService ';
 import { UploadFileComponent } from '../upload-file/upload-file.component';
 import { ChooseQuestionComponent } from '../choose-question/choose-question.component';
-import { FileSystemDirectoryEntry, FileSystemFileEntry, NgxFileDropEntry } from 'ngx-file-drop';
+import {
+  FileSystemDirectoryEntry,
+  FileSystemFileEntry,
+  NgxFileDropEntry,
+} from 'ngx-file-drop';
 import { SERVER_IMAGE } from 'src/app/app.contants';
 
 @Component({
@@ -54,7 +58,7 @@ export class UpdatebaithiComponent implements OnInit {
   kyThis: Array<any>;
   namHoc: string;
 
-  themes:Array<any>=[];
+  themes: Array<any> = [];
   // ccheck anser did choose trueanswers yet;
   checkbio: boolean = true;
   questionCheckbio: Array<any> = [];
@@ -192,7 +196,6 @@ export class UpdatebaithiComponent implements OnInit {
     this.ss.getAllTheme().subscribe(
       (res) => {
         this.themes = res.body.data;
-        console.log(this.themes);
       },
       (error: HttpErrorResponse) => {
         alert(error.message);
@@ -213,12 +216,10 @@ export class UpdatebaithiComponent implements OnInit {
     );
   }
   onChangeDate(value) {
-    console.log(this.formDethi.get('timeStart'));
     let s = this.formDethi.get('timeStart').get(`${value}`).value;
     this.formDethi.get('timeEnd').get(`${value}`).setValue(s);
   }
   setValueForForm(data) {
-    console.log(data);
     this.image = true;
     this.formDethi.get('content').setValue(data.content);
     if (data.avatar == '') {
@@ -288,7 +289,6 @@ export class UpdatebaithiComponent implements OnInit {
   onBlurHocKy(namhoc, hocky) {
     this.ss.createKyThi({ namhoc, hocky }).subscribe(
       (res) => {
-        console.log(res);
         this.isKyThi = true;
         this.getKyThi();
       },
@@ -346,17 +346,15 @@ export class UpdatebaithiComponent implements OnInit {
     // console.log(control.controls[index].value.question);
     if (this.duplicate.length > 0) {
       this.duplicate.map((item, inde) => {
-        console.log(control.controls[index].value.question);
         if (
           item.toLowerCase() ==
           control.controls[index].value.question.toLowerCase()
         ) {
-
           this.duplicate.splice(inde, 1);
         }
       });
     }
-    console.log(this.duplicate);
+
     control.removeAt(index);
   }
   updateDethi() {
@@ -376,7 +374,7 @@ export class UpdatebaithiComponent implements OnInit {
         this.checkbio = false;
       }
     });
-    console.log(this.questionCheckbio.length + '  ' + this.checkbio);
+
     if (this.questionCheckbio.length != 0 && this.checkbio == false) {
       alert('Đề thi có chứa câu hỏi chưa hoàn tất !');
     } else {
@@ -420,7 +418,7 @@ export class UpdatebaithiComponent implements OnInit {
               data.Class = ArrClass;
               data.status = true;
               // const stor = JSON.parse(localStorage.getItem('listProfiles'));
-               data.idCreateBy = profile._id;
+              data.idCreateBy = profile._id;
               // data.createBy = {
               //   id: stor._id,
               //   name: `${stor.infor.firstName} ${stor.infor.lastName}`,
@@ -455,7 +453,7 @@ export class UpdatebaithiComponent implements OnInit {
           const data = this.formDethi.value;
           data.Class = ArrClass;
           data.status = true;
-            data.idCreateBy = profile._id;
+          data.idCreateBy = profile._id;
           // const stor = JSON.parse(localStorage.getItem('listProfiles'));
 
           // data.createBy = {
@@ -489,7 +487,7 @@ export class UpdatebaithiComponent implements OnInit {
     this.duplicate = [];
     const control = <FormArray>this.formDethi.controls['detailTest'];
     const leng = control.value.length;
-    console.log(control.value);
+    // console.log(control.value);
     if (leng > 0) {
       data.map((item, index) => {
         control.value.map((ite, ind) => {
@@ -557,7 +555,7 @@ export class UpdatebaithiComponent implements OnInit {
   }
 
   setValidator() {
-    console.log(this.formDethi.get('Class').value);
+    // console.log(this.formDethi.get('Class').value);
     this.isvalidator = true;
   }
 

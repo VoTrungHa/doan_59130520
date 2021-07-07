@@ -9,7 +9,7 @@ import { MyhomeService } from '../../myhome.service';
   styleUrls: ['./myhomeinfor.component.scss'],
 })
 export class MyhomeinforComponent implements OnInit {
-  Info:any;
+  Info: any;
   constructor(
     private route: ActivatedRoute,
     private myhomeService: MyhomeService
@@ -24,7 +24,7 @@ export class MyhomeinforComponent implements OnInit {
       const url = urlPath[urlPath.length - 1].path;
       this.myhomeService.getDeThiDetailById(url).subscribe(
         (res) => {
-          console.log(res);
+          // console.log(res);
           this.Info = res.body.data;
         },
         (error: HttpErrorResponse) => {

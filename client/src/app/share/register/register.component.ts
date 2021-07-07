@@ -7,7 +7,6 @@ import { RegisterService } from './register.service';
 import { NgxUiLoaderService } from 'ngx-ui-loader';
 import { LoginService } from 'src/app/core/login/login.service';
 
-
 @Component({
   selector: 'app-register',
   templateUrl: './register.component.html',
@@ -23,8 +22,7 @@ export class RegisterComponent implements OnInit {
     public modal: NgbActiveModal,
     private ngmodal: NgbModal,
     private loadui: NgxUiLoaderService,
-    private loginService: LoginService,
-
+    private loginService: LoginService
   ) {
     this.formLogin = new FormGroup({
       username: new FormControl('', [Validators.required, Validators.email]),
@@ -76,7 +74,7 @@ export class RegisterComponent implements OnInit {
             this.selectedProfile = account;
             // this.NgxService.stop();
             this.goToDashboard();
-            console.log(this.selectedProfile);
+            //   console.log(this.selectedProfile);
           });
         }
         this.loadui.stop();

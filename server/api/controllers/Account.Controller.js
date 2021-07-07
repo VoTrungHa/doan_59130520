@@ -3,7 +3,7 @@ const jwt = require("jsonwebtoken");
 const bcrypt = require("bcrypt");
 const Account = require("../models/account.model");
 const Profile = require("../models/profile.model");
-const Upload =require('../share/uploadFile');
+const Upload = require("../share/uploadFile");
 const Share = require("../share/random");
 const datebirth = require("../share/ganeralDate");
 let current_datetime = new Date();
@@ -132,7 +132,7 @@ exports.getfile = (req, res) => {
         name: "PostgreSQL",
         type: "RDBMS",
       };
-      console.log(JSON.stringify(result));
+      // console.log(JSON.stringify(result));
 
       result.Accounts.Account.push(postgres);
       const builder = new xml2js.Builder();
@@ -141,7 +141,7 @@ exports.getfile = (req, res) => {
         if (err) {
           throw err;
         }
-        console.log(`Updated XML is written to a new file.`);
+        // console.log(`Updated XML is written to a new file.`);
       });
     });
   });
@@ -198,7 +198,7 @@ exports.registerAccount = (req, res) => {
 
 exports.login = (req, res) => {
   const { username, password } = req.body;
-  console.log(req.body);
+  // console.log(req.body);
   Account.findOne({ login: username }).exec((err, user) => {
     if (err || !user) {
       return res.status(400).json({ message: "email không tồn tại" });
@@ -240,12 +240,13 @@ exports.createAccuontAdmin = (req, resp) => {
     authorities,
     gender,
     diachi,
-    createBy,idCreateBy,
+    createBy,
+    idCreateBy,
     nganh,
     birthDay,
     phone,
   } = req.body;
-  console.log(req.body);
+  // console.log(req.body);
   Account.findOne({
     login: {
       $regex: new RegExp(
@@ -256,12 +257,12 @@ exports.createAccuontAdmin = (req, resp) => {
   })
     .then((res) => {
       if (res) {
-        console.log("duplicate");
+        // console.log("duplicate");
         return resp.status(400).json({ message: "duplicase" });
       }
       bcrypt.hash(password, 10, function (err, hash) {
         if (err) {
-          console.log("hash");
+          // console.log("hash");
           return resp.status(400).json({ message: "hash" });
         }
         let role = authorities ? authorities : "SV";
@@ -284,11 +285,10 @@ exports.createAccuontAdmin = (req, resp) => {
         account.infor.Class.push({ name: Class });
         account.save((err, user) => {
           if (err) {
-          
             return resp.status(401).json({
               message: err,
             });
-          } 
+          }
           const text =
             "Tên đăng nhập: " +
             login +
@@ -297,9 +297,9 @@ exports.createAccuontAdmin = (req, resp) => {
             ", Quyền: " +
             role +
             ", Họ và tên: " +
-             firstName +
+            firstName +
             " " +
-             lastName +
+            lastName +
             ", Địa chỉ: " +
             diachi +
             ", Ngành: " +
@@ -315,7 +315,7 @@ exports.createAccuontAdmin = (req, resp) => {
             text
           );
           Upload.writeHistoryGV(textforFile);
-           
+
           return resp.json({
             success: true,
             message: "Đăng ký thành công !",
@@ -328,38 +328,38 @@ exports.createAccuontAdmin = (req, resp) => {
     });
 };
 exports.delete = (req, res) => {
-  const { idCreateBy, createBy }=req.body.data;
+  const { idCreateBy, createBy } = req.body.data;
   Account.findByIdAndDelete({ _id: req.params.id }).exec((err, data) => {
     if (err) {
       return res.status(400).json({ message: err });
     }
-     const text =
-       "Tên đăng nhập: " +
-       data.login +
-       ", Mật khẩu: " +
-       data.password +
-       ", Quyền: " +
-       data.authorities +
-       ", Họ và tên: " +
-       data.infor.firstName +
-       " " +
-       data.infor.lastName +
-       ", Địa chỉ: " +
-       data.infor.diachi +
-       ", Ngành: " +
-       data.infor.nganh +
-       ", Lớp: " +
-       JSON.stringify(data.infor.Class.name) +
-       ", Email:" +
-       data.infor.email;
-     const textforFile = Upload.CreateTextForHistory(
-       "Xóa tài khoản",
-       idCreateBy,
-       createBy,
-       text
-     );
-     Upload.writeHistoryGV(textforFile);
-           
+    const text =
+      "Tên đăng nhập: " +
+      data.login +
+      ", Mật khẩu: " +
+      data.password +
+      ", Quyền: " +
+      data.authorities +
+      ", Họ và tên: " +
+      data.infor.firstName +
+      " " +
+      data.infor.lastName +
+      ", Địa chỉ: " +
+      data.infor.diachi +
+      ", Ngành: " +
+      data.infor.nganh +
+      ", Lớp: " +
+      JSON.stringify(data.infor.Class.name) +
+      ", Email:" +
+      data.infor.email;
+    const textforFile = Upload.CreateTextForHistory(
+      "Xóa tài khoản",
+      idCreateBy,
+      createBy,
+      text
+    );
+    Upload.writeHistoryGV(textforFile);
+
     return res.status(200).json({ message: "xóa thành công" });
   });
 };
@@ -373,7 +373,7 @@ exports.update = (req, res) => {
     password,
     authorities,
     gender,
-    createBy, 
+    createBy,
     idCreateBy,
     id,
     diachi,
@@ -383,7 +383,7 @@ exports.update = (req, res) => {
     phone,
     actived,
   } = req.body.data;
-  console.log(password);
+  // console.log(password);
   const _id = req.params.id;
   let role = authorities ? authorities : "SV";
 
@@ -403,7 +403,7 @@ exports.update = (req, res) => {
           birthDay: birthDay.year + "/" + birthDay.month + "/" + birthDay.day,
           email: login,
           phone: phone,
-          avatar:avatar,
+          avatar: avatar,
           gender: gender,
           nganh: nganh,
           diachi: diachi,
@@ -421,8 +421,7 @@ exports.update = (req, res) => {
         accout
       )
         .then((data) => {
-           if(role=="SV")
-           {
+          if (role == "SV") {
             const text =
               "Tên đăng nhập: " +
               login +
@@ -449,46 +448,44 @@ exports.update = (req, res) => {
               text
             );
             Upload.writeHistorySV(textforFile);
-          
-           }else{
-             const text =
-               "Tên đăng nhập: " +
-               login +
-               ", Mật khẩu: " +
-               password +
-               ", Quyền: " +
-               role +
-               ", Họ và tên: " +
-               data.infor.firstName +
-               " " +
-               data.infor.lastName +
-               ", Địa chỉ: " +
-               diachi +
-               ", Ngành: " +
-               nganh +
-               ", Lớp: " +
-               Class +
-               ", Email:" +
-               login;
-             const textforFile = Upload.CreateTextForHistory(
-               "Sửa tài khoản",
-               idCreateBy,
-               createBy,
-               text
-             );
-             Upload.writeHistoryGV(textforFile);
-          
-           }
-          return res.status(200).json({message:"Thành công"})
+          } else {
+            const text =
+              "Tên đăng nhập: " +
+              login +
+              ", Mật khẩu: " +
+              password +
+              ", Quyền: " +
+              role +
+              ", Họ và tên: " +
+              data.infor.firstName +
+              " " +
+              data.infor.lastName +
+              ", Địa chỉ: " +
+              diachi +
+              ", Ngành: " +
+              nganh +
+              ", Lớp: " +
+              Class +
+              ", Email:" +
+              login;
+            const textforFile = Upload.CreateTextForHistory(
+              "Sửa tài khoản",
+              idCreateBy,
+              createBy,
+              text
+            );
+            Upload.writeHistoryGV(textforFile);
+          }
+          return res.status(200).json({ message: "Thành công" });
         })
         .catch((err) => {
-          console.log(err)
-          return res.status(400).json({message:err})
+          // console.log(err)
+          return res.status(400).json({ message: err });
         });
     } else {
       bcrypt.hash(password, 10, function (err, hash) {
         if (err) {
-          console.log("hash");
+          // console.log("hash");
           return resp.status(400).json({ message: "hash" });
         } else {
           const accout = {
@@ -506,7 +503,7 @@ exports.update = (req, res) => {
                 birthDay.year + "/" + birthDay.month + "/" + birthDay.day,
               email: login,
               phone: phone,
-              avatar:avatar,
+              avatar: avatar,
               gender: gender,
               nganh: nganh,
               diachi: diachi,
@@ -524,10 +521,10 @@ exports.update = (req, res) => {
             accout
           )
             .then((res) => {
-              console.log(res);
+              // console.log(res);
             })
             .catch((err) => {
-              console.log(err);
+              // console.log(err);
             });
         }
       });
@@ -543,7 +540,7 @@ exports.getAll = (req, res) => {
 };
 
 exports.getAllAccountGV = (req, res) => {
-  Account.find({authorities:"GV"}).exec((err, data) => {
+  Account.find({ authorities: "GV" }).exec((err, data) => {
     if (err) return res.status(400).json({ message: err });
     return res.status(200).json({ data });
   });
@@ -575,7 +572,7 @@ exports.search = (req, res) => {
     .sort([[sorts, reve]])
     .then((data) => {
       if (!data) return res.status(400).json({ message: "empty" });
-      console.log(data);
+      // console.log(data);
       return res.status(200).json({ data });
     })
     .catch((err) => {
@@ -585,7 +582,7 @@ exports.search = (req, res) => {
 
 exports.searchGV = (req, res) => {
   const { search, authorities, sort, reverse, page, limit, Class } = req.query;
-  console.log(req.query);
+  // console.log(req.query);
   var pages = 0;
   if (+page != 1) {
     // nếu page=1 thi bắt đầu lấy từ phần tử 0
@@ -594,43 +591,39 @@ exports.searchGV = (req, res) => {
   // const { year, month, day, hour, minute } = req.body;
   const reve = reverse === "true" ? 1 : -1;
   const sorts = sort ? sort : "id";
-   roleGV="GV";
-   roleTBM="TBM";
-  if (authorities=="GV"){
-    roleGV="GV";
-    roleTBM=''
-  } else if (authorities=='true') {
+  roleGV = "GV";
+  roleTBM = "TBM";
+  if (authorities == "GV") {
+    roleGV = "GV";
+    roleTBM = "";
+  } else if (authorities == "true") {
     roleGV = "GV";
     roleTBM = "TBM";
   } else {
     roleGV = "";
     roleTBM = "TBM";
   }
-    Account.find(
-      {
-        $and: [
-          {
-            $or: [
-              { authorities: `${roleGV}`  },
-              { authorities:  `${roleTBM}`  },
-            ],
-          },
-          { "infor.lastName": { $regex: `${search}` } },
-          { "infor.Class.name": { $regex: `${Class}` } },
-          
-        ],
-      },
-      { __v: 0, password: 0 }
-    )
-      .limit(+limit)
-      .skip(pages)
-      .sort([[sorts, reve]])
-      .then((data) => {
-        if (!data) return res.status(400).json({ message: "empty" });
-        console.log(data);
-        return res.status(200).json({ data });
-      })
-      .catch((err) => {
-        return res.status(401).json({ message: err });
-      });
+  Account.find(
+    {
+      $and: [
+        {
+          $or: [{ authorities: `${roleGV}` }, { authorities: `${roleTBM}` }],
+        },
+        { "infor.lastName": { $regex: `${search}` } },
+        { "infor.Class.name": { $regex: `${Class}` } },
+      ],
+    },
+    { __v: 0, password: 0 }
+  )
+    .limit(+limit)
+    .skip(pages)
+    .sort([[sorts, reve]])
+    .then((data) => {
+      if (!data) return res.status(400).json({ message: "empty" });
+      // console.log(data);
+      return res.status(200).json({ data });
+    })
+    .catch((err) => {
+      return res.status(401).json({ message: err });
+    });
 };

@@ -1,8 +1,18 @@
 import { HttpErrorResponse } from '@angular/common/http';
 import { Component, OnInit } from '@angular/core';
-import {ActivatedRoute}from '@angular/router';
-import { FormArray, FormBuilder, FormControl, FormGroup, Validators } from '@angular/forms';
-import { FileSystemDirectoryEntry, FileSystemFileEntry, NgxFileDropEntry } from 'ngx-file-drop';
+import { ActivatedRoute } from '@angular/router';
+import {
+  FormArray,
+  FormBuilder,
+  FormControl,
+  FormGroup,
+  Validators,
+} from '@angular/forms';
+import {
+  FileSystemDirectoryEntry,
+  FileSystemFileEntry,
+  NgxFileDropEntry,
+} from 'ngx-file-drop';
 import {
   faImage,
   faFileAlt,
@@ -30,7 +40,7 @@ export class UpdateDocsComponent implements OnInit {
   isvalidator: boolean = false;
   image: boolean = false;
   isFile: boolean = false;
-  success:boolean;
+  success: boolean;
   urlIma: string = '';
   questionCheckbio: Array<any> = [];
   flas: any;
@@ -185,7 +195,7 @@ export class UpdateDocsComponent implements OnInit {
         formData.append('file', file);
         let dotfile = files[0].relativePath.split('.')[1];
         if (dotfile === 'jpg' || dotfile === 'png') {
-          console.log(file);
+          // console.log(file);
           this.ss.uploadImage(formData).subscribe(
             (res) => {
               if (res.status == 200) {
@@ -224,7 +234,7 @@ export class UpdateDocsComponent implements OnInit {
     this.docService.getDocsById(id).subscribe(
       (res) => {
         this.PassDataToForm(res.body.data);
-        console.log(res.body.data);
+        // console.log(res.body.data);
       },
       (error: HttpErrorResponse) => {
         console.log(error);
@@ -233,7 +243,7 @@ export class UpdateDocsComponent implements OnInit {
   }
 
   PassDataToForm(data) {
-    console.log(data);
+    // console.log(data);
     // chuong: new FormControl('', [Validators.required]),
     //   avatar: new FormControl(''),
     //   DsNoiDung: this.fb.array([
@@ -251,24 +261,22 @@ export class UpdateDocsComponent implements OnInit {
     const control = <FormArray>this.TailieuFrom.get('DsNoiDung');
     this.TailieuFrom.get('chuong').setValue(data.chuong);
     this.TailieuFrom.get('avatar').setValue(data.avatar);
-   const controlTest = <FormArray>this.TailieuFrom.get('detailTest');
-    data.detailTest.map((item,index)=>{
-        let fg = this.fb.group({
-          question: new FormControl(item.question, [Validators.required]),
-          answers: this.fb.array([
-
-          ]),
+    const controlTest = <FormArray>this.TailieuFrom.get('detailTest');
+    data.detailTest.map((item, index) => {
+      let fg = this.fb.group({
+        question: new FormControl(item.question, [Validators.required]),
+        answers: this.fb.array([]),
+      });
+      controlTest.push(fg);
+      const ans = <FormArray>controlTest.controls[index * 1].get('answers');
+      item.answers.map((ite, index) => {
+        let noidung = this.fb.group({
+          answer: new FormControl(ite.answer, [Validators.required]),
+          bio: new FormControl(ite.bio),
         });
-         controlTest.push(fg);
-         const ans = <FormArray>controlTest.controls[index * 1].get('answers');
-         item.answers.map((ite, index) => {
-           let noidung = this.fb.group({
-             answer: new FormControl(ite.answer, [Validators.required]),
-             bio: new FormControl(ite.bio),
-           });
-           ans.push(noidung);
-         });
-    })
+        ans.push(noidung);
+      });
+    });
     data.DsNoiDung.map((item, index) => {
       let fg = this.fb.group({
         tieuDe: new FormControl(item.tieuDe, [Validators.required]),
@@ -286,13 +294,12 @@ export class UpdateDocsComponent implements OnInit {
     });
   }
 
-  cancel()
-  {
+  cancel() {
     window.history.back();
   }
 
   submit() {
-    this.success=true;
+    this.success = true;
     this.questionCheckbio = [];
     this.TailieuFrom.value.detailTest.map((it, ind) => {
       if (it.answers.length > 0) {
@@ -309,54 +316,51 @@ export class UpdateDocsComponent implements OnInit {
       } else {
         this.checkSumAnswer = false;
         alert('Bài giảng có chứa câu hỏi chưa hoàn tất !');
-        this.success=false;
+        this.success = false;
         return;
       }
     });
     if (this.questionCheckbio.length != 0 && this.checkbio == false) {
-      this.success=false;
+      this.success = false;
       alert('Bài giảng có chứa câu hỏi chưa hoàn tất !');
       return;
     }
-    console.log(this.success)
-    if(this.success)
-    {let modal = this.ngModel.open(NotificationComponent, {
-      size: 'md',
-      centered: true,
-    });
-    modal.componentInstance.title = `Thay đổi nội dung ${this.TailieuFrom.value.chuong.substring(
-      0,
-      8
-    )}`;
-    modal.componentInstance.text = `Bạn đang muốn thay đổi nội dung của ${this.TailieuFrom.value.chuong.substring(
-      0,
-      8
-    )} ?`;
-    modal.componentInstance.comfirm.subscribe((resp) => {
-      if (resp) {
-        let id = this.router.snapshot.paramMap.get('id');
-        this.docService.update(this.TailieuFrom.value, id).subscribe(
-          (res) => {
-            if (res) {
-              if (res.status == 200) {
-                alert('Cập nhật thành công !');
-                this.loadService.start();
+    console.log(this.success);
+    if (this.success) {
+      let modal = this.ngModel.open(NotificationComponent, {
+        size: 'md',
+        centered: true,
+      });
+      modal.componentInstance.title = `Thay đổi nội dung ${this.TailieuFrom.value.chuong.substring(
+        0,
+        8
+      )}`;
+      modal.componentInstance.text = `Bạn đang muốn thay đổi nội dung của ${this.TailieuFrom.value.chuong.substring(
+        0,
+        8
+      )} ?`;
+      modal.componentInstance.comfirm.subscribe((resp) => {
+        if (resp) {
+          let id = this.router.snapshot.paramMap.get('id');
+          this.docService.update(this.TailieuFrom.value, id).subscribe(
+            (res) => {
+              if (res) {
+                if (res.status == 200) {
+                  alert('Cập nhật thành công !');
+                  this.loadService.start();
+                }
+                console.log(res);
+                window.history.back();
+                this.loadService.stop();
               }
-              console.log(res);
-              window.history.back();
-              this.loadService.stop();
+            },
+            (error: HttpErrorResponse) => {
+              alert('Tiêu đề chương đã tồn tại. Hãy kiểm tra và thử lại sau !');
             }
-          },
-          (error: HttpErrorResponse) => {
-            alert('Tiêu đề chương đã tồn tại. Hãy kiểm tra và thử lại sau !');
-          }
-        );
-      }
-    });
-
-
-}
-
+          );
+        }
+      });
+    }
 
     console.log(this.TailieuFrom.value);
   }

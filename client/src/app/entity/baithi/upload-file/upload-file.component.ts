@@ -1,12 +1,20 @@
 import { HttpErrorResponse } from '@angular/common/http';
 import { Component, EventEmitter, OnInit, Output } from '@angular/core';
 import { Router } from '@angular/router';
-import { faFileCode, faFileContract, faFileExcel } from '@fortawesome/free-solid-svg-icons';
+import {
+  faFileCode,
+  faFileContract,
+  faFileExcel,
+} from '@fortawesome/free-solid-svg-icons';
 import { NgbActiveModal } from '@ng-bootstrap/ng-bootstrap';
-import { FileSystemDirectoryEntry, FileSystemFileEntry, NgxFileDropEntry } from 'ngx-file-drop';
+import {
+  FileSystemDirectoryEntry,
+  FileSystemFileEntry,
+  NgxFileDropEntry,
+} from 'ngx-file-drop';
 import { NgxUiLoaderService } from 'ngx-ui-loader';
 import { ShareService } from 'src/app/share/share.service';
-import {BaithiService}from '../baithi.service'
+import { BaithiService } from '../baithi.service';
 @Component({
   selector: 'app-upload-file',
   templateUrl: './upload-file.component.html',
@@ -58,26 +66,26 @@ export class UploadFileComponent implements OnInit {
         formData.append('file', file);
         let dotfile = files[0].relativePath.split('.')[1];
         if (dotfile === 'txt' && this.isTXT) {
-          console.log(dotfile);
+          // console.log(dotfile);
           this.baithiService.upload(formData).subscribe(
             (res) => {
-              console.log(res);
-               this.dataUload.emit(res.body.data);
+              // console.log(res);
+              this.dataUload.emit(res.body.data);
               alert('Tải tệp lên thành công !.');
               this.activeModal.dismiss('fdsds');
             },
             (error: HttpErrorResponse) => {
               if (error.status == 406) {
                 alert('Tệp của bạn có cấu trúc không hợp lệ !');
-              }else{
-                alert(error.message)
+              } else {
+                alert(error.message);
               }
             }
           );
         } else if (dotfile === 'xml' && this.isXML) {
           this.baithiService.uploadFileXml(formData).subscribe(
             (res) => {
-               console.log(res);
+              //  console.log(res);
               if (res.status == 200) {
                 // alert('Lưu ý những câu hỏi trùng lặp hệ thống sẽ tự xóa bỏ !');
                 alert('Tải tệp lên thành công !.');

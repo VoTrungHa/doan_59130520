@@ -125,9 +125,10 @@ export class ModalQuestionComponent implements OnInit {
     // correct.push(cr);
   }
   clickAddOrDelete(
-    choose: boolean,inde:any // create item answer
+    choose: boolean,
+    inde: any // create item answer
   ) {
-    console.log(inde)
+    console.log(inde);
     const control = <FormArray>this.questionForm.controls['answers'];
 
     // const correct = <FormArray>this.questionForm.controls['correct'];
@@ -155,26 +156,27 @@ export class ModalQuestionComponent implements OnInit {
     });
     if (this.flas == 0) {
       this.checkbio = true;
-    }else{
-      let profile=JSON.parse(localStorage.getItem("listProfiles"));
-      this.questionForm.value.createBy=profile.infor.firstName + " "+ profile.infor.lastName;
-      this.questionForm.value.idCreateBy=profile._id;
-      console.log(this.questionForm.value);
-       this.questionService.create(this.questionForm.value).subscribe(
-         (res) => {
-           if (res.status == 200) {
-             this.modal.dismiss('create success');
-             alert('Tạo câu hỏi thành công');
-             this.comfirm.next(true);
-             this.loadService.start();
-           }
-           this.loadService.stop();
-         },
-         (error: HttpErrorResponse) => console.log(error)
-       );
+    } else {
+      let profile = JSON.parse(localStorage.getItem('listProfiles'));
+      this.questionForm.value.createBy =
+        profile.infor.firstName + ' ' + profile.infor.lastName;
+      this.questionForm.value.idCreateBy = profile._id;
+      // console.log(this.questionForm.value);
+      this.questionService.create(this.questionForm.value).subscribe(
+        (res) => {
+          if (res.status == 200) {
+            this.modal.dismiss('create success');
+            alert('Tạo câu hỏi thành công');
+            this.comfirm.next(true);
+            this.loadService.start();
+          } else {
+            alert('Đã tồn tại !');
+          }
+          this.loadService.stop();
+        },
+        (error: HttpErrorResponse) => alert('Đã tồn tại !')
+      );
     }
-
-
   }
   clickCancel() {
     let comfirm = this.ngModel.open(NotificationComponent, {

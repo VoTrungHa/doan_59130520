@@ -1,7 +1,7 @@
 import { HttpErrorResponse } from '@angular/common/http';
 import { Component, OnInit } from '@angular/core';
 import { SERVER_IMAGE } from 'src/app/app.contants';
-import {HomeService}from './home.service'
+import { HomeService } from './home.service';
 @Component({
   selector: 'app-home',
   templateUrl: './home.component.html',
@@ -39,7 +39,7 @@ export class HomeComponent implements OnInit {
       (res) => {
         this.Dethi = res.body.data;
         this.total_recordsS = res.body.data.length;
-        console.log(res.body.data);
+        // console.log(res.body.data);
         this.findStartS();
         this.findEndS();
       },
@@ -82,7 +82,7 @@ export class HomeComponent implements OnInit {
       (res) => {
         this.DethiFalse = res.body.data;
         this.total_recordsF = res.body.data.length;
-        console.log(res.body.data);
+        // console.log(res.body.data);
         this.findStartF();
         this.findEndF();
       },

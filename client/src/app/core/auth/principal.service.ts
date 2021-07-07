@@ -79,20 +79,20 @@ export class PrincipalService {
       // remove user profile when user logout with authenticate = false
       this.userProfiles = null;
     }
-    console.log(
-      this.authenticated +
-        ' ' +
-        this.userIdentity +
-        ' '
+    // console.log(
+    //   this.authenticated +
+    //     ' ' +
+    //     this.userIdentity +
+    //     ' '
 
-    );
+    // );
   }
 
   hasAnyAuthority(authorities: string[]): Promise<boolean> {
     return Promise.resolve(this.hasAnyAuthorityDirect(authorities));
   }
   hasAnyAuthorityDirect(authorities: string[]): boolean {
-    console.log(this.userIdentity.authorities + ' ' + authorities);
+    // console.log(this.userIdentity.authorities + ' ' + authorities);
     if (
       !this.authenticated ||
       !this.userIdentity ||
