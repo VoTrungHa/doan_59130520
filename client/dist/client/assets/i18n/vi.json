@@ -1,0 +1,81 @@
+{
+  "general":{
+    "TrangChu":"Trang chủ",
+    "Diem":"Điểm",
+    "DangNhap":"Đăng nhập",
+    "DangXuat":"Đăng xuất",
+    "remember":"Lưu mật khẩu",
+    "NhaCuaToi":"Nhà của tôi ",
+    "HoSo":"Hồ sơ",
+    "Thoat":"Thoát",
+    "TaoTaiKhoan":"Tạo tài khoản",
+    "TaoCuocThi":"cuộc thi",
+     "TaoCauHoi":"Tạo câu hỏi",
+    "timkiemCH":"Nội dung câu hỏi.",
+    "CauHoi":"Câu hỏi",
+    "HanhDong":"Hành động",
+    "KetQuaMoiTrang":"Kết quả mỗi trang",
+    "Trong":"Không có dữ liệu",
+    "TiepTuc":"Tiếp tục",
+     "No":"Quay Lại",
+     "ThayDoi":"Thay đổi",
+     "Upload":"Kéo thả tệp tin tại đây hoặc ",
+     "Title_Upload":"Tải tệp lên",
+      "Note_Upload":"Yêu cầu bố cục phải giống với bảng mẫu.",
+      "ChuY":"Chú ý",
+      "IsFileUpload":"Xin lỗi, tải lên không thành công!.Yêu cầu tệp tin không hợp lệ, Kéo và thả tệp tin của bạn hoặc"
+
+
+
+
+  },
+  "CH":{
+    "Ten_CH":"Nội dung",
+    "ChuDe":"Chủ Đề",
+    "DoKho":"Độ Khó",
+    "DapAn":"Đáp án",
+    "ThemCauTraLoi":"Thêm đáp án",
+    "Them":"Lưu",
+    "Huy":"Hủy",
+    "NgayTao":"Ngày tạo",
+    "TrangThai":"Trạng Thái",
+    "De":"Dễ",
+    "TrungBinh":"Trung Bình",
+    "Kho":"Khó",
+    "MauQuestion":"Ví dụ",
+    "MucDo":"Mức độ",
+    "DA":"Đáp án"
+
+  },
+  "BaiThi":{
+    "BaiThi":"Đề thi",
+    "KyThi":"Kỳ thi",
+    "Lop":"Lớp",
+    "NguoiDuyet:":"Người duyệt",
+    "MatKhau":"Mật khẩu",
+    "TrangThai":"Trạng thái",
+    "ThoiGianBD":"Bắt đầu (s)",
+    "ThoiGianKT":"Kết thúc (s)",
+    "ChuY":"Chú ý",
+    "NoiDung":"Nội dung",
+    "DeBai":"Phần thi",
+    "SoLuong":"Tổng câu hỏi",
+    "btnAdd":"Tạo đề thi"
+
+  },
+  "error": {
+      "choose_new_password": "Choose a new password",
+      "confirmation_match": "The password and its confirmation do not match!",
+      "password_required": "Mật khẩu còn trống",
+      "new_password_confirmation": "New password confirmation",
+      "password_for": "Password of",
+      "current_password": "Current password",
+      "password_change": "Password changed!",
+      "confirmation_required": "Your confirmation password is required.",
+      "password_not_changed": "Current password incorrect",
+
+     "username_required":"Email còn trống",
+      "username_email":"Email không hợp lệ",
+      "username_current":"Email không chính xác"
+  }
+}
