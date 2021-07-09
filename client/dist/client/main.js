@@ -1741,9 +1741,12 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "SERVER_AUTH_API_URL", function() { return SERVER_AUTH_API_URL; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "SERVER_QUESTION_API_URL", function() { return SERVER_QUESTION_API_URL; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "SERVER_IMAGE", function() { return SERVER_IMAGE; });
-const SERVER_AUTH_API_URL = 'http://thitructuyenvth.xyz:3000/';
-const SERVER_QUESTION_API_URL = 'http://thitructuyenvth.xyz:3000/';
+const SERVER_AUTH_API_URL = 'http://thitructuyenvth.xyz:3000/api/';
+const SERVER_QUESTION_API_URL = 'http://thitructuyenvth.xyz:3000/api/';
 const SERVER_IMAGE = 'http://thitructuyenvth.xyz:3000/static/image/';
+// export const SERVER_AUTH_API_URL = 'thitructuyenvth.xyz:3000/';
+// export const SERVER_QUESTION_API_URL = 'thitructuyenvth.xyz:3000/';
+// export const SERVER_IMAGE = 'thitructuyenvth.xyz:3000/static/image/';
 
 
 /***/ }),
