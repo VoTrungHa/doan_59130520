@@ -95,21 +95,6 @@ exports.createAccuont = (req, res) => {
   }
 };
 
-// exports.login = (req, res) => {
-//   dataForm = req.body;
-//   let data = share.readFileSync(dirPath, "Account");
-//   data.map((account) => {
-//     if (account.tenDangNhap === dataForm.tenDangNhap) {
-//       if (account.matKhau === dataForm.matKhau) {
-//       } else {
-//         res.status(404).json({ message: "Mật khẩu không đúng !" });
-//       }
-//     } else {
-//       res.status(404).json({ message: "Tên đăng nhập không tồn !" });
-//     }
-//   });
-// };
-
 exports.getfile = (req, res) => {
   // var obj ={Accounts:{Account:{name: "Super", Surname: "Man", age: 23,funstions:["fdas","fads"]}}};
 
@@ -149,13 +134,9 @@ exports.getfile = (req, res) => {
 
 exports.registerAccount = (req, res) => {
   const { authorities, username, password } = req.body.data;
+  console.log(req.body.data);
   Account.findOne({
-    login: {
-      $regex: new RegExp(
-        "^" + username.replace(/[-\/\\^$*+?.()|[\]{}]/g, "\\$&") + "$",
-        "i"
-      ),
-    },
+    login: username,
   }).exec((err, user) => {
     if (err || user) {
       return res.status(402).json({ message: `${username} đã tồn tại !` });

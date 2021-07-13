@@ -1,33 +1,39 @@
 var fs = require("fs");
-var parser = require('xml2json');  
+var parser = require("xml2json");
 exports.random = () => {
   return Math.floor(Math.random() * 99999);
 };
 
-exports.readFileSync = (path,name) => {
+exports.readFileSync = (path, name) => {
   try {
     let data = fs.readFileSync(path, { encoding: "utf8" });
-    // var result = parser.toJson(data, {object:true}); // chuyển xml ->json 
+    // var result = parser.toJson(data, {object:true}); // chuyển xml ->json
     return data;
   } catch (error) {
     return `Process readfile ${name}  Error:` + error;
   }
 };
 
-exports.wirteFile=(path,data,name)=>{
-    try {
-        fs.writeFileSync(path,data,{encoding: "utf8"})
-        return true;
-    } catch (error) {
-        return `Process wirte ${name} error: ${error}`
-    } 
-}
- 
-exports.RoleFunctions=(role)=>{
-  switch(role) {
+exports.wirteFile = (path, data, name) => {
+  try {
+    fs.writeFileSync(path, data, { encoding: "utf8" });
+    return true;
+  } catch (error) {
+    return `Process wirte ${name} error: ${error}`;
+  }
+};
+
+exports.RoleFunctions = (role) => {
+  switch (role) {
     case "ADMIN":
-      return ["LICHSU", "allAccount", "nhacuatoi"]; 
-    case 'GV':
+      return [
+        "LICHSU",
+        "allAccount",
+        "nhacuatoi",
+        "createAccount",
+        "updateAccount",
+      ];
+    case "GV":
       return [
         "allQuestion",
         "allQuestion",
@@ -44,8 +50,8 @@ exports.RoleFunctions=(role)=>{
         "suaBangDiem", // sửa điểm ccho học sinh
         "updateAccount",
         "baigiangs",
-      ]; 
-      case 'TBM':
+      ];
+    case "TBM":
       return [
         "createQuestion",
         "allQuestion",
@@ -66,8 +72,8 @@ exports.RoleFunctions=(role)=>{
         "updateAccount",
         "baigiangs",
         "thembaigiang",
-        "thaydoibaigiang"
-      ]; 
+        "thaydoibaigiang",
+      ];
     default:
       return [
         "allBaiLam",
@@ -78,6 +84,6 @@ exports.RoleFunctions=(role)=>{
         "xemdiem",
         "updateAccount",
         "baigiangs",
-      ]; 
+      ];
   }
-}
+};

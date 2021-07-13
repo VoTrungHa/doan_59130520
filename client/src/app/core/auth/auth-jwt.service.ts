@@ -1,9 +1,9 @@
 import { Injectable } from '@angular/core';
 import { Observable } from 'rxjs';
-import{map}from 'rxjs/operators';
+import { map } from 'rxjs/operators';
 import { SERVER_AUTH_API_URL } from 'src/app/app.contants';
 import { Login } from '../login/login.model';
-import {HttpClient}from '@angular/common/http';
+import { HttpClient } from '@angular/common/http';
 import { LocalStorageService, SessionStorageService } from 'ngx-webstorage';
 
 @Injectable({
@@ -33,8 +33,7 @@ export class AuthJwtService {
       return bearerToken;
     }
   }
-  logout()
-  {
+  logout() {
     return new Observable((obser) => {
       //remove our servise
       this.$locationStorage.clear('authenticationtoken');

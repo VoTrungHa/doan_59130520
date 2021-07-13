@@ -619,3 +619,65 @@ Thời gian: 07/07/2021, hành động: Duyệt đề thi, Mã người dùng: 6
 
 Thời gian: 07/07/2021, hành động: Duyệt đề thi, Mã người dùng: 60b5b483b79f9f3d34fe083d, Họ tên: Quốc Lưu, dữ liệu: Mã đề thi: MMT005, Kythi: Năm học 2020-2021 - học kỳ I, Nội dung: Ngân hàng câu hỏi đề thi học kỳ I năm học 2020 - 2021, Số lượng câu hỏi: 5, Giáo viên: Quốc Lưu, Lớp: [{"_id":"60e5d4302e79892294e9c144","name":"59CNTT-3"},{"_id":"60e5d4302e79892294e9c145","name":"59CNTT-2"},{"_id":"60e5d4302e79892294e9c146","name":"59CNTT-1"}], Mật khẩu:123
 
+Thời gian: 07/09/2021, hành động: Xóa tài khoản, Mã người dùng: 60e7c7428ce92c2a9486e39a, Họ tên: Không có, dữ liệu: Tên đăng nhập: thong@gmail.com, Mật khẩu: $2b$10$xVe9TKs3oKLnt6Jc39NF4uOWHT2HQM1/bmixFzn01KJ64akjQMvYm, Quyền: GV, Họ và tên: Nguyễn Thông, Địa chỉ: Nha Trang, Ngành: Công nghệ thông tin, Lớp: undefined, Email:thong@gmail.com
+
+Thời gian: 07/09/2021, hành động: Xóa tài khoản, Mã người dùng: 60e7c7428ce92c2a9486e39a, Họ tên: Không có, dữ liệu: Tên đăng nhập: luu@gmail.com, Mật khẩu: $2b$10$cgGs3O8JrSFM/DCf4KF2FuWIbcK92M4IcPYIOEkS7iTHzmkevSSKy, Quyền: GV, Họ và tên: Quốc Lưu, Địa chỉ: Nha Trang, Ngành: Công nghệ thông tin, Lớp: undefined, Email:luu@gmail.com
+
+Thời gian: 07/09/2021, hành động: Tạo tài khoản, Mã người dùng: 60e7c9f73c3741470064e6b2, Họ tên: Không có, dữ liệu: Tên đăng nhập: fsdfww@gmail.com, Mật khẩu: 123, Quyền: GV, Họ và tên: fdasfdas fasdfsadfsda, Địa chỉ: fadsfasd, Ngành: fasdfsadfdsa, Lớp: 59CNTT-2, Email:fsdfww@gmail.com
+
+Thời gian: 07/09/2021, hành động: Sửa tài khoản, Mã người dùng: 60e7c9f73c3741470064e6b2, Họ tên: Không có, dữ liệu: Tên đăng nhập: fsdfww@gmail.com, Mật khẩu: $2b$10$ZmADvZhi6SOD6nElSfq7OeMqPgIszpSrRTqHNnKp6BYD0kafYglT., Quyền: GV, Họ và tên: fdasfdas fasdfsadfsda, Địa chỉ: fadsfasd, Ngành: fasdfsadfdsa312312, Lớp: 59CNTT-2, Email:fsdfww@gmail.com
+
+Thời gian: 07/09/2021, hành động: Sửa tài khoản, Mã người dùng: 60e7c9f73c3741470064e6b2, Họ tên: Không có, dữ liệu: Tên đăng nhập: admin@gmail.com, Mật khẩu: $2b$10$QhxVXAdbYYaAwuF07f9cWeu3/sfRR9UMoBDd3Wu4NLu0E0H34Kji2, Quyền: ADMIN, Họ và tên: Không có, Địa chỉ: 123, Ngành: 123, Lớp: Không có, Email:admin@gmail.com
+
+Thời gian: 07/09/2021, hành động: Hủy duyệt đề thi, Mã người dùng: 60b5b483b79f9f3d34fe083d, Họ tên: Quốc Lưu, dữ liệu: Mã đề thi: MMT005, Kythi: Năm học 2020-2021 - học kỳ I, Nội dung: Ngân hàng câu hỏi đề thi học kỳ I năm học 2020 - 2021, Số lượng câu hỏi: 5, Giáo viên: Quốc Lưu, Lớp: [{"_id":"60e5d4302e79892294e9c144","name":"59CNTT-3"},{"_id":"60e5d4302e79892294e9c145","name":"59CNTT-2"},{"_id":"60e5d4302e79892294e9c146","name":"59CNTT-1"}], Mật khẩu:123
+
+Thời gian: 07/13/2021, hành động: Tạo tài khoản, Mã người dùng: 60ed57819498235120464382, Họ tên: Không có, dữ liệu: Tên đăng nhập: ha@gmail.com, Mật khẩu: 123, Quyền: TBM, Họ và tên: trung jha, Địa chỉ: Nha Trang, Ngành: Công nghệ thông tin, Lớp: 59CNTT-3, Email:ha@gmail.com
+
+Thời gian: 07/13/2021, hành động: Tạo tài khoản, Mã người dùng: 60ed57819498235120464382, Họ tên: Không có, dữ liệu: Tên đăng nhập: dai@gmail.com, Mật khẩu: 123, Quyền: SV, Họ và tên: ha da, Địa chỉ: 123, Ngành: 123, Lớp: 59CNTT-3, Email:dai@gmail.com
+
+Thời gian: 07/13/2021, hành động: Tạo tài khoản, Mã người dùng: 60ed57819498235120464382, Họ tên: Không có, dữ liệu: Tên đăng nhập: h@gmail.com, Mật khẩu: 123, Quyền: SV, Họ và tên: 312 312, Địa chỉ: 123, Ngành: 123, Lớp: 59CNTT-3, Email:h@gmail.com
+
+Thời gian: 07/13/2021, hành động: Tạo tài khoản, Mã người dùng: 60ed57819498235120464382, Họ tên: Không có, dữ liệu: Tên đăng nhập: gv@gmail.com, Mật khẩu: 123, Quyền: GV, Họ và tên: 312 3123, Địa chỉ: 123, Ngành: 123, Lớp: 59CNTT-3, Email:gv@gmail.com
+
+Thời gian: 07/13/2021, hành động: Xóa câu hỏi, Mã người dùng: 60ed583f949823512046438a, Họ tên: 312 3123, dữ liệu: Câu hỏi: Thiết bị Hub có bao nhiêu collision domain?, Mức độ: 1, Chủ đề: Hub
+
+Thời gian: 07/13/2021, hành động: Xóa câu hỏi, Mã người dùng: 60ed583f949823512046438a, Họ tên: 312 3123, dữ liệu: Câu hỏi: Thiết bị router có bao nhiêu Broadcast domain, Mức độ: 2, Chủ đề: Động vật
+
+Thời gian: 07/13/2021, hành động: Xóa câu hỏi, Mã người dùng: 60ed583f949823512046438a, Họ tên: 312 3123, dữ liệu: Câu hỏi: Cáp UTP có thể kết nối tối đa bao nhiêu mét?, Mức độ: , Chủ đề: Cáp
+
+Thời gian: 07/13/2021, hành động: Xóa câu hỏi, Mã người dùng: 60ed583f949823512046438a, Họ tên: 312 3123, dữ liệu: Câu hỏi: Cáp quang có thể kết nối bao nhiêu mét?., Mức độ: , Chủ đề: Cáp
+
+Thời gian: 07/13/2021, hành động: Xóa câu hỏi, Mã người dùng: 60ed583f949823512046438a, Họ tên: 312 3123, dữ liệu: Câu hỏi: Để nối Router và máy tính ta bấm cáp kiểu nào?., Mức độ: , Chủ đề: Cáp
+
+Thời gian: 07/13/2021, hành động: Xóa câu hỏi, Mã người dùng: 60ed583f949823512046438a, Họ tên: 312 3123, dữ liệu: Câu hỏi: Cáp UTP có thể kết nối tối đa bao nhiêu mét?, Mức độ: , Chủ đề: Cáp
+
+Thời gian: 07/13/2021, hành động: Xóa câu hỏi, Mã người dùng: 60ed583f949823512046438a, Họ tên: 312 3123, dữ liệu: Câu hỏi: Cáp quang có thể kết nối bao nhiêu mét?., Mức độ: , Chủ đề: Cáp
+
+Thời gian: 07/13/2021, hành động: Sửa câu hỏi, Mã người dùng: 60ed583f949823512046438a, Họ tên: 312 3123, dữ liệu: Câu hỏi: Để nối Router và máy tính ta bấm cáp kiểu nào?.1, Mức độ: , Chủ đề: Cáp
+
+Thời gian: 07/13/2021, hành động: Thêm câu hỏi, Mã người dùng: 60ed583f949823512046438a, Họ tên: 312 3123, dữ liệu: Câu hỏi: fafads, Mức độ: , Chủ đề: fdasfdsa
+
+Thời gian: 07/13/2021, hành động: Xóa câu hỏi, Mã người dùng: 60ed583f949823512046438a, Họ tên: 312 3123, dữ liệu: Câu hỏi: fafads, Mức độ: , Chủ đề: fdasfdsa
+
+Thời gian: 07/13/2021, hành động: Xóa câu hỏi, Mã người dùng: 60ed583f949823512046438a, Họ tên: 312 3123, dữ liệu: Câu hỏi: Để nối Router và máy tính ta bấm cáp kiểu nào?.1, Mức độ: , Chủ đề: Cáp
+
+Thời gian: 07/13/2021, hành động: Xóa câu hỏi, Mã người dùng: 60ed583f949823512046438a, Họ tên: 312 3123, dữ liệu: Câu hỏi: Thiết bị Hub có bao nhiêu1 collision domain?1., Mức độ: , Chủ đề: Hub
+
+Thời gian: 07/13/2021, hành động: Xóa đề thi, Mã người dùng: 60ed583f949823512046438a, Họ tên: Quốc Lưu, dữ liệu: Mã đề thi: MMT005, Kythi: Năm học 2020-2021 - học kỳ I, Nội dung: Ngân hàng câu hỏi đề thi học kỳ I năm học 2020 - 2021, Số lượng câu hỏi: 5, Giáo viên: Quốc Lưu, Lớp: [{"_id":"60e5d4302e79892294e9c144","name":"59CNTT-3"},{"_id":"60e5d4302e79892294e9c145","name":"59CNTT-2"},{"_id":"60e5d4302e79892294e9c146","name":"59CNTT-1"}], Mật khẩu:123
+
+Thời gian: 07/13/2021, hành động: Xóa đề thi, Mã người dùng: 60ed583f949823512046438a, Họ tên: Quốc Lưu, dữ liệu: Mã đề thi: MMT004, Kythi: Năm học 2020-2021 - học kỳ I, Nội dung: ngân hàng câu hỏi đề thi học kì I năm học 2020 - 2021 , Số lượng câu hỏi: 5, Giáo viên: Quốc Lưu, Lớp: [{"_id":"60bc98d5e8db5a10c07c4886","name":"59CNTT-3"},{"_id":"60bc98d5e8db5a10c07c4887","name":"59CNTT-2"}], Mật khẩu:123
+
+Thời gian: 07/13/2021, hành động: Tạo Đề thi, Mã người dùng: 60ed583f949823512046438a, Họ tên: 312 3123, dữ liệu: Mã đề thi: 123, Kythi: Năm học 2020-2021 - học kỳ I, Nội dung: fasdfdasffasfdsafdasf, Số lượng câu hỏi: 5, Giáo viên: 312 3123, Lớp: [{"_id":"60ed5ad2e3d0c535f0281214","name":"59CNTT-3"},{"_id":"60ed5ad2e3d0c535f0281215","name":"59CNTT-2"},{"_id":"60ed5ad2e3d0c535f0281216","name":"59CNTT-1"}], Mật khẩu:123
+
+Thời gian: 07/13/2021, hành động: Duyệt đề thi, Mã người dùng: 60ed57d59498235120464384, Họ tên: 312 3123, dữ liệu: Mã đề thi: 123, Kythi: Năm học 2020-2021 - học kỳ I, Nội dung: fasdfdasffasfdsafdasf, Số lượng câu hỏi: 5, Giáo viên: 312 3123, Lớp: [{"_id":"60ed5ad2e3d0c535f0281214","name":"59CNTT-3"},{"_id":"60ed5ad2e3d0c535f0281215","name":"59CNTT-2"},{"_id":"60ed5ad2e3d0c535f0281216","name":"59CNTT-1"}], Mật khẩu:123
+
+Thời gian: 07/13/2021, hành động: Tạo Đề thi, Mã người dùng: 60ed583f949823512046438a, Họ tên: 312 3123, dữ liệu: Mã đề thi: dsad, Kythi: Năm học 2020-2021 - học kỳ I, Nội dung: fdsa, Số lượng câu hỏi: 5, Giáo viên: 312 3123, Lớp: [{"_id":"60ed5f287339e14a1430322c","name":"59CNTT-3"}], Mật khẩu:123
+
+Thời gian: 07/13/2021, hành động: Duyệt đề thi, Mã người dùng: 60ed57d59498235120464384, Họ tên: 312 3123, dữ liệu: Mã đề thi: dsad, Kythi: Năm học 2020-2021 - học kỳ I, Nội dung: fdsa, Số lượng câu hỏi: 5, Giáo viên: 312 3123, Lớp: [{"_id":"60ed5f287339e14a1430322c","name":"59CNTT-3"}], Mật khẩu:123
+
+Thời gian: 07/13/2021, hành động: Duyệt đề thi, Mã người dùng: 60ed57d59498235120464384, Họ tên: 312 3123, dữ liệu: Mã đề thi: dsad, Kythi: Năm học 2020-2021 - học kỳ I, Nội dung: fdsa, Số lượng câu hỏi: 5, Giáo viên: 312 3123, Lớp: [{"_id":"60ed5f287339e14a1430322c","name":"59CNTT-3"}], Mật khẩu:123
+
+Thời gian: 07/13/2021, hành động: Tạo Đề thi, Mã người dùng: 60ed583f949823512046438a, Họ tên: 312 3123, dữ liệu: Mã đề thi: 1231, Kythi: Năm học 2020-2021 - học kỳ I, Nội dung: fd, Số lượng câu hỏi: 4, Giáo viên: 312 3123, Lớp: [{"_id":"60ed62c6948ebb396835f5a0","name":"59CNTT-3"}], Mật khẩu:123
+
+Thời gian: 07/13/2021, hành động: Duyệt đề thi, Mã người dùng: 60ed57d59498235120464384, Họ tên: 312 3123, dữ liệu: Mã đề thi: 1231, Kythi: Năm học 2020-2021 - học kỳ I, Nội dung: fd, Số lượng câu hỏi: 4, Giáo viên: 312 3123, Lớp: [{"_id":"60ed62c6948ebb396835f5a0","name":"59CNTT-3"}], Mật khẩu:123
+

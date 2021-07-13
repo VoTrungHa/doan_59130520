@@ -98,3 +98,27 @@ Thời gian: 07/07/2021, hành động: Làm bài thi, Mã người dùng: 60b5a
 
 Thời gian: 07/07/2021, hành động: Làm bài thi, Mã người dùng: 60b5ad1fb79f9f3d34fe082f, Họ tên: Tấn Tài, dữ liệu: Mã đề thi: MMT005, Kỳ thi: Năm học 2020-2021 - học kỳ I, Thời gian bắt đầu: 07-07-2021,   23:07, Thời gian kết thúc: 07-07-2021,   23:25, Giáo viên ra đề: Quốc Lưu, Lớp: 59CNTT-3
 
+Thời gian: 07/09/2021, hành động: Sửa tài khoản, Mã người dùng: 60b5aa57b79f9f3d34fe0829, Họ tên: Nguyễn Thành, dữ liệu: Tên đăng nhập: thanh@gmail.com, Mật khẩu: $2b$10$XMgvr8J81tZqc2FBSV3cW.4ekhRxXGWCMovAPF.1/H3cr0pIByRlC, Quyền: SV, Họ và tên: Nguyễn Thành, Địa chỉ: Nha Trang, Ngành: Công Nghệ Thông Tin, Lớp: 59CNTT-3, Email:thanh@gmail.com
+
+Thời gian: 07/09/2021, hành động: Sửa tài khoản, Mã người dùng: 60b5aa57b79f9f3d34fe0829, Họ tên: Nguyễn Thành, dữ liệu: Tên đăng nhập: thanh@gmail.com, Mật khẩu: $2b$10$XMgvr8J81tZqc2FBSV3cW.4ekhRxXGWCMovAPF.1/H3cr0pIByRlC, Quyền: SV, Họ và tên: Nguyễn Thành, Địa chỉ: Nha Trang, Ngành: Công Nghệ Thông Tin, Lớp: 59CNTT-3, Email:thanh@gmail.com
+
+Thời gian: 07/13/2021, hành động: Làm bài thi, Mã người dùng: 60ed581e9498235120464388, Họ tên: 312 312, dữ liệu: Mã đề thi: 123, Kỳ thi: Năm học 2020-2021 - học kỳ I, Thời gian bắt đầu: 13-07-2021, 16:05, Thời gian kết thúc: 13-07-2021, 16:25, Giáo viên ra đề: 312 3123, Lớp: 59CNTT-3
+
+Thời gian: 07/13/2021, hành động: Làm bài thi, Mã người dùng: 60ed58019498235120464386, Họ tên: ha da, dữ liệu: Mã đề thi: 123, Kỳ thi: Năm học 2020-2021 - học kỳ I, Thời gian bắt đầu: 13-07-2021, 16:05, Thời gian kết thúc: 13-07-2021, 16:25, Giáo viên ra đề: 312 3123, Lớp: 59CNTT-3
+
+Thời gian: 07/13/2021, hành động: Xem kết quả, Mã người dùng: 60ed581e9498235120464388, Họ tên: 312 312, dữ liệu: Mã đề thi: 123, Kỳ thi: Năm học 2020-2021 - học kỳ I, Thời gian bắt đầu: 13-07-2021,  16:05, Thời gian kết thúc: 13-07-2021,  16:25, Giáo viên ra đề: 312 3123, Sinh viên thực hiện: 312 312, Lớp: 59CNTT-3
+
+Thời gian: 07/13/2021, hành động: Xem kết quả, Mã người dùng: 60ed58019498235120464386, Họ tên: ha da, dữ liệu: Mã đề thi: 123, Kỳ thi: Năm học 2020-2021 - học kỳ I, Thời gian bắt đầu: 13-07-2021,  16:05, Thời gian kết thúc: 13-07-2021,  16:25, Giáo viên ra đề: 312 3123, Sinh viên thực hiện: ha da, Lớp: 59CNTT-3
+
+Thời gian: 07/13/2021, hành động: Sửa tài khoản, Mã người dùng: 60ed5c88e3d0c535f02813d7, Họ tên: Không có, dữ liệu: Tên đăng nhập: fd@gmail.com, Mật khẩu: $2b$10$rLfQ7dp9KqFVq8AtdhtD/uttV/YzywrofiXYEsSaP9sgh5LEWZlQ2, Quyền: SV, Họ và tên: Không có, Địa chỉ: Không có, Ngành: Không có, Lớp: 59CNTT-3, Email:fd@gmail.com
+
+Thời gian: 07/13/2021, hành động: Sửa tài khoản, Mã người dùng: 60ed5c88e3d0c535f02813d7, Họ tên: Không có, dữ liệu: Tên đăng nhập: fd@gmail.com, Mật khẩu: $2b$10$rLfQ7dp9KqFVq8AtdhtD/uttV/YzywrofiXYEsSaP9sgh5LEWZlQ2, Quyền: SV, Họ và tên: 312 123, Địa chỉ: Không có, Ngành: Không có, Lớp: 59CNTT-3, Email:fd@gmail.com
+
+Thời gian: 07/13/2021, hành động: Làm bài thi, Mã người dùng: 60ed58019498235120464386, Họ tên: ha da, dữ liệu: Mã đề thi: dsad, Kỳ thi: Năm học 2020-2021 - học kỳ I, Thời gian bắt đầu: 13-07-2021, 16:30, Thời gian kết thúc: 13-07-2021, 16:45, Giáo viên ra đề: 312 3123, Lớp: 59CNTT-3
+
+Thời gian: 07/13/2021, hành động: Làm bài thi, Mã người dùng: 60ed581e9498235120464388, Họ tên: 312 312, dữ liệu: Mã đề thi: dsad, Kỳ thi: Năm học 2020-2021 - học kỳ I, Thời gian bắt đầu: 13-07-2021, 16:30, Thời gian kết thúc: 13-07-2021, 16:45, Giáo viên ra đề: 312 3123, Lớp: 59CNTT-3
+
+Thời gian: 07/13/2021, hành động: Làm bài thi, Mã người dùng: 60ed5c88e3d0c535f02813d7, Họ tên: 312 123, dữ liệu: Mã đề thi: dsad, Kỳ thi: Năm học 2020-2021 - học kỳ I, Thời gian bắt đầu: 13-07-2021, 16:30, Thời gian kết thúc: 13-07-2021, 16:45, Giáo viên ra đề: 312 3123, Lớp: 59CNTT-3
+
+Thời gian: 07/13/2021, hành động: Làm bài thi, Mã người dùng: 60ed5c88e3d0c535f02813d7, Họ tên: 312 123, dữ liệu: Mã đề thi: 1231, Kỳ thi: Năm học 2020-2021 - học kỳ I, Thời gian bắt đầu: 13-07-2021, 16:50, Thời gian kết thúc: 13-07-2021, 17:30, Giáo viên ra đề: 312 3123, Lớp: 59CNTT-3
+

@@ -208,7 +208,7 @@ function MarkForText(data) {
                       theme: item.theme,
                     }).exec((err, data1) => {
                       if (err) return;
-                      var mucdo = 1;
+                      var mucdo = 3;
                       const md =
                         ((data1.soLanTraLoiDung + 1) / data1.soLanSuDung) * 100;
                       if (md >= 70) {
@@ -254,7 +254,7 @@ function MarkForText(data) {
                       theme: item.theme,
                     }).exec((err, data1) => {
                       if (err) return;
-                      var mucdo = 1;
+                      var mucdo = 3;
                       const md =
                         ((data1.soLanTraLoiDung - 1) / data1.soLanSuDung) * 100;
                       if (md >= 70) {
@@ -277,6 +277,19 @@ function MarkForText(data) {
                       ).exec((err, data) => {
                         if (err) return;
                       });
+                    });
+                  } else {
+                    Question.findOneAndUpdate(
+                      {
+                        question: item.question,
+                        theme: item.theme,
+                      },
+                      {
+                        level: 3,
+                      },
+                      { new: true }
+                    ).exec((err, data) => {
+                      if (err) return;
                     });
                   }
                 });
