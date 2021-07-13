@@ -1,25 +1,24 @@
-const Router=require('express').Router();
-const AccountController=require('../controllers/Account.Controller');
-const QuestionController=require('../controllers/Question.Controller');
-const DethiController=require('../controllers/DeThi.Controller');
-const BaiLamController =require('../controllers/BaiLai.Controller');
-const Upload=require('../share/uploadFile');  
-const Download=require('../share/download')
-const Lop=require('../controllers/lop.controller');
-const kyThi=require('../controllers/kyThi.Controller');
+const Router = require("express").Router();
+const AccountController = require("../controllers/Account.Controller");
+const QuestionController = require("../controllers/Question.Controller");
+const DethiController = require("../controllers/DeThi.Controller");
+const BaiLamController = require("../controllers/BaiLai.Controller");
+const Upload = require("../share/uploadFile");
+const Download = require("../share/download");
+const Lop = require("../controllers/lop.controller");
+const kyThi = require("../controllers/kyThi.Controller");
 const taiLieu = require("../controllers/Tailieu.Controller");
-const themeController=require('../controllers/theme.Controller')
+const themeController = require("../controllers/theme.Controller");
 var multer = require("multer");
 var storage = multer.diskStorage({
   destination: function (req, file, cb) {
     cb(null, "./api/public/uploads/");
   },
-  filename: function (req, file, cb) { 
-    cb(null, file.originalname );
+  filename: function (req, file, cb) {
+    cb(null, file.originalname);
   },
 });
 var upload = multer({ storage: storage });
-
 
 var storageIMG = multer.diskStorage({
   destination: function (req, file, cb) {
@@ -31,8 +30,7 @@ var storageIMG = multer.diskStorage({
 });
 var uploadIMG = multer({ storage: storageIMG });
 
-
-exports.InitRouterUser=(app)=>{
+exports.InitRouterUser = (app) => {
   // uploadImg
 
   Router.post(
@@ -93,6 +91,7 @@ exports.InitRouterUser=(app)=>{
   Router.put("/api/thanhvien/thaydoi/:id", AccountController.update);
   Router.get("/api/getAccountGv", AccountController.getAllAccountGV);
 
+  Router.post("/api/deleteadmin", AccountController.deleteAdmin);
   // Question
   Router.post("/api/question/create", QuestionController.createQuestion);
   Router.put("/api/question/update/:id", QuestionController.UpdateById);
@@ -138,14 +137,14 @@ exports.InitRouterUser=(app)=>{
   // ky thi
   Router.post("/api/create/kythi", kyThi.create);
   Router.get("/api/kythi", kyThi.getAll);
-// Tai liệu
-    Router.get("/api/tailieu/query", taiLieu.SearchMulti);
-    Router.post("/api/tailieu/create", taiLieu.Create);
-    Router.get("/api/tailieu", taiLieu.getAll);
-    Router.put("/api/update/tailieu/:id", taiLieu.updateById);
-    Router.get("/api/tailieu/:id", taiLieu.getDocsById);
-    Router.delete("/api/delete/tailieu/:id", taiLieu.delete);
+  // Tai liệu
+  Router.get("/api/tailieu/query", taiLieu.SearchMulti);
+  Router.post("/api/tailieu/create", taiLieu.Create);
+  Router.get("/api/tailieu", taiLieu.getAll);
+  Router.put("/api/update/tailieu/:id", taiLieu.updateById);
+  Router.get("/api/tailieu/:id", taiLieu.getDocsById);
+  Router.delete("/api/delete/tailieu/:id", taiLieu.delete);
   /// Account created By Admin
   Router.post("/api/created/sinhvien", AccountController.createAccuontAdmin);
   return app.use("/", Router);
-}
+};

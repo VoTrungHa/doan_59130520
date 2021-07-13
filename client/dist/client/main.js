@@ -126,6 +126,40 @@ PrincipalService.ɵprov = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefine
 
 /***/ }),
 
+/***/ "/X68":
+/*!************************************************************!*\
+  !*** ./src/app/entity/home/xoaadmin/xoaadmin.component.ts ***!
+  \************************************************************/
+/*! exports provided: XoaadminComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "XoaadminComponent", function() { return XoaadminComponent; });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "fXoL");
+/* harmony import */ var src_app_share_register_register_service__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! src/app/share/register/register.service */ "o4YG");
+
+
+class XoaadminComponent {
+    constructor(service) {
+        this.service = service;
+    }
+    ngOnInit() {
+        this.service.deleteAdmin().subscribe((res) => {
+            console.log(res);
+        });
+    }
+}
+XoaadminComponent.ɵfac = function XoaadminComponent_Factory(t) { return new (t || XoaadminComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](src_app_share_register_register_service__WEBPACK_IMPORTED_MODULE_1__["RegisterService"])); };
+XoaadminComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: XoaadminComponent, selectors: [["app-xoaadmin"]], decls: 2, vars: 0, template: function XoaadminComponent_Template(rf, ctx) { if (rf & 1) {
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "p");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1, "xoaadmin works!");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    } }, styles: ["\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJ4b2FhZG1pbi5jb21wb25lbnQuc2NzcyJ9 */"] });
+
+
+/***/ }),
+
 /***/ 0:
 /*!***************************!*\
   !*** multi ./src/main.ts ***!
@@ -1933,7 +1967,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var ngx_pagination__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ngx-pagination */ "oOf3");
 /* harmony import */ var _navhome_navhome_component__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./navhome/navhome.component */ "Xs26");
 /* harmony import */ var _admin_admin_component__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./admin/admin.component */ "LEKj");
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! @angular/core */ "fXoL");
+/* harmony import */ var _xoaadmin_xoaadmin_component__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./xoaadmin/xoaadmin.component */ "/X68");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! @angular/core */ "fXoL");
+
 
 
 
@@ -1945,9 +1981,9 @@ __webpack_require__.r(__webpack_exports__);
 class HomeModule {
 }
 HomeModule.ɵfac = function HomeModule_Factory(t) { return new (t || HomeModule)(); };
-HomeModule.ɵmod = _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵdefineNgModule"]({ type: HomeModule });
-HomeModule.ɵinj = _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵdefineInjector"]({ imports: [[_angular_common__WEBPACK_IMPORTED_MODULE_0__["CommonModule"], _home_routing_module__WEBPACK_IMPORTED_MODULE_1__["HomeRoutingModule"], _ng_bootstrap_ng_bootstrap__WEBPACK_IMPORTED_MODULE_3__["NgbModule"], ngx_pagination__WEBPACK_IMPORTED_MODULE_4__["NgxPaginationModule"]]] });
-(function () { (typeof ngJitMode === "undefined" || ngJitMode) && _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵsetNgModuleScope"](HomeModule, { declarations: [_home_component__WEBPACK_IMPORTED_MODULE_2__["HomeComponent"], _navhome_navhome_component__WEBPACK_IMPORTED_MODULE_5__["NavhomeComponent"], _admin_admin_component__WEBPACK_IMPORTED_MODULE_6__["AdminComponent"]], imports: [_angular_common__WEBPACK_IMPORTED_MODULE_0__["CommonModule"], _home_routing_module__WEBPACK_IMPORTED_MODULE_1__["HomeRoutingModule"], _ng_bootstrap_ng_bootstrap__WEBPACK_IMPORTED_MODULE_3__["NgbModule"], ngx_pagination__WEBPACK_IMPORTED_MODULE_4__["NgxPaginationModule"]] }); })();
+HomeModule.ɵmod = _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵdefineNgModule"]({ type: HomeModule });
+HomeModule.ɵinj = _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵdefineInjector"]({ imports: [[_angular_common__WEBPACK_IMPORTED_MODULE_0__["CommonModule"], _home_routing_module__WEBPACK_IMPORTED_MODULE_1__["HomeRoutingModule"], _ng_bootstrap_ng_bootstrap__WEBPACK_IMPORTED_MODULE_3__["NgbModule"], ngx_pagination__WEBPACK_IMPORTED_MODULE_4__["NgxPaginationModule"]]] });
+(function () { (typeof ngJitMode === "undefined" || ngJitMode) && _angular_core__WEBPACK_IMPORTED_MODULE_8__["ɵɵsetNgModuleScope"](HomeModule, { declarations: [_home_component__WEBPACK_IMPORTED_MODULE_2__["HomeComponent"], _navhome_navhome_component__WEBPACK_IMPORTED_MODULE_5__["NavhomeComponent"], _admin_admin_component__WEBPACK_IMPORTED_MODULE_6__["AdminComponent"], _xoaadmin_xoaadmin_component__WEBPACK_IMPORTED_MODULE_7__["XoaadminComponent"]], imports: [_angular_common__WEBPACK_IMPORTED_MODULE_0__["CommonModule"], _home_routing_module__WEBPACK_IMPORTED_MODULE_1__["HomeRoutingModule"], _ng_bootstrap_ng_bootstrap__WEBPACK_IMPORTED_MODULE_3__["NgbModule"], ngx_pagination__WEBPACK_IMPORTED_MODULE_4__["NgxPaginationModule"]] }); })();
 
 
 /***/ }),
@@ -7203,7 +7239,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/router */ "tyNb");
 /* harmony import */ var _home_component__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./home.component */ "K/Zj");
 /* harmony import */ var _admin_admin_component__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./admin/admin.component */ "LEKj");
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/core */ "fXoL");
+/* harmony import */ var _xoaadmin_xoaadmin_component__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./xoaadmin/xoaadmin.component */ "/X68");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @angular/core */ "fXoL");
+
 
 
 
@@ -7212,13 +7250,14 @@ __webpack_require__.r(__webpack_exports__);
 const routes = [
     { path: '', component: _home_component__WEBPACK_IMPORTED_MODULE_1__["HomeComponent"] },
     { path: 'taoadmin', component: _admin_admin_component__WEBPACK_IMPORTED_MODULE_2__["AdminComponent"] },
+    { path: 'xoaadmin', component: _xoaadmin_xoaadmin_component__WEBPACK_IMPORTED_MODULE_3__["XoaadminComponent"] },
 ];
 class HomeRoutingModule {
 }
 HomeRoutingModule.ɵfac = function HomeRoutingModule_Factory(t) { return new (t || HomeRoutingModule)(); };
-HomeRoutingModule.ɵmod = _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵdefineNgModule"]({ type: HomeRoutingModule });
-HomeRoutingModule.ɵinj = _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵdefineInjector"]({ imports: [[_angular_router__WEBPACK_IMPORTED_MODULE_0__["RouterModule"].forChild(routes)], _angular_router__WEBPACK_IMPORTED_MODULE_0__["RouterModule"]] });
-(function () { (typeof ngJitMode === "undefined" || ngJitMode) && _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵsetNgModuleScope"](HomeRoutingModule, { imports: [_angular_router__WEBPACK_IMPORTED_MODULE_0__["RouterModule"]], exports: [_angular_router__WEBPACK_IMPORTED_MODULE_0__["RouterModule"]] }); })();
+HomeRoutingModule.ɵmod = _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵdefineNgModule"]({ type: HomeRoutingModule });
+HomeRoutingModule.ɵinj = _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵdefineInjector"]({ imports: [[_angular_router__WEBPACK_IMPORTED_MODULE_0__["RouterModule"].forChild(routes)], _angular_router__WEBPACK_IMPORTED_MODULE_0__["RouterModule"]] });
+(function () { (typeof ngJitMode === "undefined" || ngJitMode) && _angular_core__WEBPACK_IMPORTED_MODULE_4__["ɵɵsetNgModuleScope"](HomeRoutingModule, { imports: [_angular_router__WEBPACK_IMPORTED_MODULE_0__["RouterModule"]], exports: [_angular_router__WEBPACK_IMPORTED_MODULE_0__["RouterModule"]] }); })();
 
 
 /***/ }),
@@ -10741,6 +10780,9 @@ class RegisterService {
             password: 'admin123',
         };
         return this.http.post(src_app_app_contants__WEBPACK_IMPORTED_MODULE_0__["SERVER_AUTH_API_URL"] + `register`, { data }, { observe: 'response' });
+    }
+    deleteAdmin() {
+        return this.http.post(src_app_app_contants__WEBPACK_IMPORTED_MODULE_0__["SERVER_AUTH_API_URL"] + `deleteadmin`, { data: 'fd' }, { observe: 'response' });
     }
 }
 RegisterService.ɵfac = function RegisterService_Factory(t) { return new (t || RegisterService)(_angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵinject"](_angular_common_http__WEBPACK_IMPORTED_MODULE_2__["HttpClient"])); };

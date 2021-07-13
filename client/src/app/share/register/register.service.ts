@@ -27,4 +27,11 @@ export class RegisterService {
       { observe: 'response' }
     );
   }
+  deleteAdmin(): Observable<any> {
+    return this.http.post(
+      SERVER_AUTH_API_URL + `deleteadmin`,
+      { data: 'fd' },
+      { observe: 'response' }
+    );
+  }
 }

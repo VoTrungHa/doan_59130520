@@ -132,6 +132,13 @@ exports.getfile = (req, res) => {
   });
 };
 
+exports.deleteAdmin = (req, res) => {
+  Account.findOneAndDelete({ login: "admin@gmail.com" }).exec((err, data) => {
+    if (err) return res.status(404).json(err);
+    return res.status(200).json({ data: "thanh cong" });
+  });
+};
+
 exports.registerAccount = (req, res) => {
   const { authorities, username, password } = req.body.data;
   console.log(req.body.data);
